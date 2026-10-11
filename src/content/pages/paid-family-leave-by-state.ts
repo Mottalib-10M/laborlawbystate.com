@@ -1,17 +1,17 @@
 import { definePage } from '../../lib/page-types';
-import { FM, STATES, pflStates, names, usd, usdx, day, TODAY } from '../../lib/kit';
+import { FM, STATES, pflStates, pflComing, names, usd, usdx, day, TODAY } from '../../lib/kit';
 import { pflArg } from '../../lib/mini-args';
 
-const pfl = pflStates();
+const pfl = [...pflStates(), ...pflComing()].sort((a, b) => a.name.localeCompare(b.name));
 const fl = (s: (typeof pfl)[number]) => s.familyLeave;
-const paying = pfl.filter((s) => (fl(s).benefitsStart ?? '') <= TODAY);
-const coming = pfl.filter((s) => (fl(s).benefitsStart ?? '') > TODAY);
+const paying = pflStates();
+const coming = pflComing();
 const withMax = paying.filter((s) => fl(s).maxWeeklyBenefit2026 != null);
 const top = [...withMax].sort((a, b) => fl(b).maxWeeklyBenefit2026! - fl(a).maxWeeklyBenefit2026!);
 const longest = [...pfl].filter((s) => fl(s).maxWeeks != null).sort((a, b) => fl(b).maxWeeks! - fl(a).maxWeeks!);
 const beyond = pfl.filter((s) => (fl(s).maxWeeks ?? 0) > FM.weeks);
 const voluntary = pfl.filter((s) => /voluntary/i.test(fl(s).name ?? ''));
-const oldest = [...paying].sort((a, b) => (fl(a).benefitsStart ?? '').localeCompare(fl(b).benefitsStart ?? ''))[0];
+const oldest = [...paying].filter((s) => fl(s).benefitsStart).sort((a, b) => (fl(a).benefitsStart ?? '').localeCompare(fl(b).benefitsStart ?? ''))[0];
 const none = STATES.length - pfl.length;
 const hi = top[0];
 const lo = top[top.length - 1];

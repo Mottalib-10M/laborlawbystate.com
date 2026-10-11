@@ -6,7 +6,7 @@ export const otFor = (s: ClientState, rate: number, hoursPerDay: number, days: n
 export function ruleText(s: ClientState): string {
   const r = s.ot; const parts: string[] = [];
   if (r.daily != null) parts.push(`after ${r.daily} hours in a day`);
-  parts.push(`after ${r.weekly ?? 40} hours in a week${r.weekly == null ? ' (federal rule)' : ''}`);
+  parts.push(`after ${Math.min(r.weekly ?? 40, 40)} hours in a week${r.weekly == null || r.weekly > 40 ? ' (federal rule)' : ''}`);
   let t = `Time and a half ${parts.join(' or ')}`;
   if (r.dailyDouble != null) t += `; double time after ${r.dailyDouble} hours in a day`;
   if (r.seventhDay) t += '; 7th consecutive day rule';

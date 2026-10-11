@@ -33,7 +33,7 @@ const rows = STATES.map((s) => {
     rate$(mwNow(s.slug)),
     r ? rate$(r.rate) : '–',
     s.minWage.tipped.tipCreditAllowed && s.minWage.tipped.cashWage != null ? rate$(s.minWage.tipped.cashWage) : s.minWage.tipped.cashWage == null ? rate$(F.tippedCash) : 'full',
-    s.overtime.dailyHours ? `${s.overtime.dailyHours} h/day, ${s.overtime.weeklyHours ?? F.otWeeklyHours} h/wk` : `${s.overtime.weeklyHours ?? F.otWeeklyHours} h/wk`,
+    s.overtime.dailyHours ? `${s.overtime.dailyHours} h/day, ${Math.min(s.overtime.weeklyHours ?? F.otWeeklyHours, F.otWeeklyHours)} h/wk` : `${Math.min(s.overtime.weeklyHours ?? F.otWeeklyHours, F.otWeeklyHours)} h/wk`,
     s.sickLeave.mandatory ? 'yes' : 'no',
     s.familyLeave.paidProgram ? 'yes' : 'no',
     s.finalPay.firedDays === 0 ? 'immediately' : s.finalPay.firedDays != null ? `${s.finalPay.firedDays} ${countsBusinessDays(s.finalPay.fired) ? 'business ' : ''}day${s.finalPay.firedDays > 1 ? 's' : ''}` : 'payday rule',

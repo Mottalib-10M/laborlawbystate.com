@@ -1,0 +1,51 @@
+{
+  "slug": "wisconsin", "name": "Wisconsin", "abbr": "WI",
+  "agency": {"name": "Wisconsin Department of Workforce Development (DWD), Equal Rights Division, Labor Standards", "url": "https://dwd.wisconsin.gov/er/laborstandards/"},
+  "minWage": {
+    "rates2026": [
+      {"from": "2026-01-01", "rate": 7.25, "area": "Statewide", "note": "Opportunity wage $5.90 for workers under 20 during their first 90 consecutive days"}
+    ],
+    "headline": 7.25,
+    "headlineArea": "Statewide",
+    "federalApplies": false,
+    "rates2027": [],
+    "smallEmployer": null,
+    "tipped": {"cashWage": 2.33, "tipCreditAllowed": true, "note": "Tips plus wage must average at least $7.25 over the pay period; tipped opportunity employees (under 20, first 90 days) $2.13"},
+    "other": "Opportunity wage: $5.90 per hour for employees under 20 for their first 90 consecutive calendar days (tipped opportunity employee $2.13). Golf caddies: $5.90 for 9 holes, $10.50 for 18 holes.",
+    "source": {"url": "https://dwd.wisconsin.gov/er/laborstandards/minimumwage.htm", "quote": "If you receive tips, your employer must pay you at least $2.33 per hour in wages. If your tips combined with the hourly wage of at least $2.33 per hour do not average at least $7.25 per hour", "accessed": "2026-10-11"}
+  },
+  "localMinWages": [],
+  "overtime": {"weeklyHours": 40, "dailyHours": null, "doubleTime": null, "seventhDay": null,
+               "exemptSalaryWeekly": null, "exemptSalaryNote": null,
+               "note": "Time and a half after 40 hours in a workweek; no daily overtime.",
+               "source": {"url": "https://dwd.wisconsin.gov/er/laborstandards/overtime.htm", "quote": "overtime wages - time and one-half the employee's regular rate of pay - must be paid for all hours worked in excess of 40 in the workweek", "accessed": "2026-10-11"}},
+  "sickLeave": {"mandatory": false, "accrual": null, "accrualPerHours": null,
+                "capHours": null, "capNote": null,
+                "employerThreshold": null, "effective": null, "note": "No state paid sick leave requirement; DWD states employers are not required to provide vacation, holiday or sick pay.",
+                "source": {"url": "https://dwd.wisconsin.gov/er/laborstandards/wages.htm", "quote": "Wisconsin employers are not required to provide fringe benefits such as vacation, holiday, or sick pay.", "accessed": "2026-10-11"}},
+  "familyLeave": {"paidProgram": false, "name": null, "benefitsStart": null,
+                  "maxWeeks": null, "replacement": null, "maxWeeklyBenefit2026": null, "medicalLeave": null,
+                  "stateUnpaidLaw": "Wisconsin Family and Medical Leave Act (unpaid): employers with 50+ permanent employees; employees with 52 consecutive weeks and 1,000 hours. Per year: up to 6 weeks for birth or adoption, 2 weeks to care for a parent, child or spouse, 2 weeks for own serious health condition. Narrower in weeks than the federal FMLA but runs concurrently and covers some different cases (e.g. parents-in-law).",
+                  "source": {"url": "https://dwd.wisconsin.gov/er/civilrights/fmla/", "quote": "An employer must permit the employee to take up to 2 weeks of leave for their own serious health condition in a calendar year, up to 2 weeks for the serious health condition of a parent, child or spouse, and up to 6 weeks for the birth or adoption of a child.", "accessed": "2026-10-11"}},
+  "finalPay": {"fired": "on the employer's regular pay schedule (next regular payday)", "firedDays": null,
+               "quit": "on the employer's regular pay schedule (next regular payday)", "quitNotice": null,
+               "ptoPayout": "policy", "ptoNote": "Depends on the employer's vacation or resignation policy; if there is a written vacation policy without a written forfeiture clause, earned unused vacation must be paid.",
+               "source": {"url": "https://dwd.wisconsin.gov/er/laborstandards/wages.htm", "quote": "If you leave employment for any reason, you must be paid in accordance with the employer's regular pay schedule.", "accessed": "2026-10-11"},
+               "ptoSource": {"url": "https://dwd.wisconsin.gov/er/laborstandards/wages.htm", "quote": "Generally, IF the employer implemented a written vacation policy AND it does not include a written forfeit policy, THEN the employer must pay the employee for any earned, unused vacation pay.", "accessed": "2026-10-11"}},
+  "breaks": {"meal": null, "mealMinutes": null, "mealAfterHours": null,
+             "rest": null, "restMinutes": null, "restPerHours": null,
+             "minorsOnly": "Under 18: a 30-minute duty-free meal period for every six consecutive hours of work. For adults, DWD only recommends a 30-minute meal break. Breaks under 30 minutes must be paid.",
+             "source": {"url": "https://dwd.wisconsin.gov/er/laborstandards/breaks.htm", "quote": "If you are 18 years old or older, your employer is not required to give you breaks or meal periods.", "accessed": "2026-10-11"}},
+  "rightToWork": true, "rightToWorkSource": null,
+  "atWill": "at-will",
+  "notes": [
+    {"text": "Short breaks (under 30 consecutive minutes) count as paid work time, and longer breaks must be paid if the employee is not relieved of duties and free to leave.", "source": {"url": "https://dwd.wisconsin.gov/er/laborstandards/breaks.htm", "quote": "If your authorized break is less than 30 consecutive minutes long, it is counted as work time and must be paid by your employer.", "accessed": "2026-10-11"}},
+    {"text": "Wisconsin's own family leave law lets an employee take up to 2 weeks a year to care for a parent (including a parent-in-law), child or spouse.", "source": {"url": "https://dwd.wisconsin.gov/er/civilrights/fmla/", "quote": "Under Wisconsin law, an employee is entitled to take up to two weeks per year to care for a parent (including parents-in-law), child, or spouse with a serious health condition.", "accessed": "2026-10-11"}}
+  ],
+  "uncertain": [
+    "rightToWork true (2015 Wisconsin Act 1, Wis. Stat. 111.04(3)) but NOT sourced: docs.legis.wisconsin.gov and legis.wisconsin.gov were unreachable (connection refused/timeout) on 2026-10-11. rightToWorkSource left null.",
+    "Final pay statute Wis. Stat. 109.03(2) could not be read (legislature site down); value from DWD FAQ.",
+    "No local minimum wages: Wisconsin preempts local minimum wage ordinances (not verified on an official page because the statutes site was down).",
+    "Paid sick leave: Milwaukee's ordinance was preempted by state law in 2011; not verified on an official page."
+  ]
+}

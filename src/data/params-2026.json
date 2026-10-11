@@ -92,6 +92,10 @@
       "url": "https://www.ecfr.gov/current/title-29/section-541.601",
       "label": "29 CFR 541.601: highly compensated employees ($107,432)"
     },
+    "cfr5413": {
+      "url": "https://www.ecfr.gov/current/title-29/section-541.3",
+      "label": "29 CFR 541.3: the white-collar exemptions do not apply to blue-collar workers or first responders"
+    },
     "cfr541100": {
       "url": "https://www.ecfr.gov/current/title-29/section-541.100",
       "label": "29 CFR 541.100: executive exemption (management as primary duty, directs two or more employees)"
@@ -119,6 +123,10 @@
     "cfr778105": {
       "url": "https://www.ecfr.gov/current/title-29/section-778.105",
       "label": "29 CFR 778.105: the workweek, a fixed period of 168 hours"
+    },
+    "cfr778106": {
+      "url": "https://www.ecfr.gov/current/title-29/section-778.106",
+      "label": "29 CFR 778.106: time of payment, overtime due on the regular payday for the period"
     },
     "cfr778109": {
       "url": "https://www.ecfr.gov/current/title-29/section-778.109",
@@ -215,6 +223,10 @@
     "fs14": {
       "url": "https://www.dol.gov/agencies/whd/fact-sheets/14-flsa-coverage",
       "label": "DOL Fact Sheet #14: Coverage Under the FLSA ($500,000 enterprise test, interstate commerce)"
+    },
+    "usc164": {
+      "url": "https://www.govinfo.gov/content/pkg/USCODE-2023-title29/html/USCODE-2023-title29-chap7-subchapII-sec164.htm",
+      "label": "29 U.S.C. 164(b), section 14(b) of the National Labor Relations Act: states may prohibit agreements requiring union membership"
     }
   }
 }

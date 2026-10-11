@@ -7,7 +7,7 @@ export interface ClientState {
   tipped: number | null; tipCredit: boolean;
   ot: OtRule; otDailyBelow: number | null; exempt: number | null;
   sick: { mandatory: boolean; perHours: number | null; cap: number | null; accrual: string | null };
-  pfl: { name: string; weeks: number | null; maxWeekly: number | null } | null;
+  pfl: { name: string; weeks: number | null; maxWeekly: number | null; from: string | null } | null;
   final: { fired: string; firedDays: number | null; firedBusiness: boolean; quit: string; quitNotice: string | null; pto: string };
   breaks: { meal: string | null; mealMinutes: number | null; mealAfterHours: number | null; rest: string | null; restMinutes: number | null; restPerHours: number | null; minorsOnly: string | null };
   agency: { name: string; url: string };

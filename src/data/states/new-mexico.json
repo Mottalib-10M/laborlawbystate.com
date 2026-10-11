@@ -1,0 +1,184 @@
+{
+ "slug": "new-mexico",
+ "name": "New Mexico",
+ "abbr": "NM",
+ "agency": {
+  "name": "New Mexico Department of Workforce Solutions, Labor Relations Division",
+  "url": "https://www.dws.nm.gov/"
+ },
+ "minWage": {
+  "rates2026": [
+   {
+    "from": "2023-01-01",
+    "rate": 12.0,
+    "area": "Statewide",
+    "note": "Unchanged throughout 2026; higher local rates apply in Santa Fe city and county and Las Cruces"
+   }
+  ],
+  "headline": 12.0,
+  "headlineArea": "Statewide",
+  "federalApplies": false,
+  "rates2027": [],
+  "smallEmployer": null,
+  "tipped": {
+   "cashWage": 3.0,
+   "tipCreditAllowed": true,
+   "note": "State tipped cash wage since January 1, 2023; higher local tipped wages in Albuquerque ($7.20), Las Cruces ($5.20), Santa Fe County ($4.62)"
+  },
+  "other": "No separate wage for students or minors.",
+  "source": {
+   "url": "https://www.dws.nm.gov/Minimum-Wage-Information",
+   "quote": "$12.00 per hour effective January 1, 2023 (previously $11.50 per hour effective January 1, 2022) $3.00 per hour for tipped employees effective January 1, 2023",
+   "accessed": "2026-10-11"
+  }
+ },
+ "localMinWages": [
+  {
+   "name": "City of Santa Fe",
+   "rate": 15.4,
+   "from": "2026-03-01",
+   "note": "Living wage for all employers in city limits ($15.00 Jan-Feb 2026). Tipped workers: $3.00 base if tips bring them to $15.40. Rises to $17.50 on January 1, 2027 (ordinance passed November 2025).",
+   "source": {
+    "url": "https://santafenm.gov/economic-development/living-wage-in-the-city-of-santa-fe",
+    "quote": "As of March 1, 2026, the Living Wage in the City of Santa Fe is $15.40 per hour , applicable to all employers within the city limits.",
+    "accessed": "2026-10-11"
+   }
+  },
+  {
+   "name": "Santa Fe County (unincorporated)",
+   "rate": 15.4,
+   "from": "2026-03-01",
+   "note": "Tipped base wage $4.62. Applies outside the City of Santa Fe, Española and Edgewood town limits.",
+   "source": {
+    "url": "https://www.santafecountynm.gov/livingwage",
+    "quote": "Current Living Wage Rates Effective March 1, 2026 Regular employees $15.40 per hour Tipped employees (base wage) $4.62 per hour",
+    "accessed": "2026-10-11"
+   }
+  },
+  {
+   "name": "Las Cruces",
+   "rate": 13.01,
+   "from": "2026-01-01",
+   "note": "Tipped wage $5.20 (from $5.06).",
+   "source": {
+    "url": "https://lascruces.gov/las-cruces-minimum-wage-to-increase-to-13-01-an-hour-on-january-1-2026/",
+    "quote": "The City of Las Cruces Minimum Wage will increase on Jan. 1, 2026, from $12.65 to $13.01 an hour.",
+    "accessed": "2026-10-11"
+   }
+  },
+  {
+   "name": "Albuquerque",
+   "rate": 12.0,
+   "from": "2026-01-01",
+   "note": "City ordinance rate is $11.85 ($10.85 with qualifying health/childcare benefits), but the state's $12.00 prevails. Tipped employees: $7.20 (60% of the 2025 city minimum), higher than the state $3.00.",
+   "source": {
+    "url": "https://www.cabq.gov/legal/albuquerque-minimum-wage-information",
+    "quote": "Effective January 1, 2026, the City of Albuquerque minimum wage is $11.85 per hour. However, the State of New Mexico's $12.00 per hour minimum wage supersedes",
+    "accessed": "2026-10-11"
+   }
+  }
+ ],
+ "overtime": {
+  "weeklyHours": 40,
+  "dailyHours": null,
+  "doubleTime": null,
+  "seventhDay": null,
+  "exemptSalaryWeekly": null,
+  "exemptSalaryNote": null,
+  "note": "Compensatory time instead of overtime pay is not allowed; employees cannot waive time and a half.",
+  "source": {
+   "url": "https://www.dws.nm.gov/en-us/Businesses/Rules-and-Regulations/Labor-Relations-FAQs/category/wages-and-work-hours/pager/31343/page/2",
+   "quote": "state law requires overtime pay at a rate of not less than one and one-half times an employee's regular rate of pay after 40 hours of work in a week of seven days",
+   "accessed": "2026-10-11"
+  }
+ },
+ "sickLeave": {
+  "mandatory": true,
+  "accrual": "1 hour for every 30 hours worked (or 64 hours front-loaded)",
+  "accrualPerHours": 30,
+  "capHours": 64,
+  "capNote": "All private employers: up to 64 hours per year (Healthy Workplaces Act).",
+  "employerThreshold": "all private employers",
+  "effective": "2022-07-01",
+  "note": "Healthy Workplaces Act of 2021.",
+  "source": {
+   "url": "https://www.dws.nm.gov/NMPaidSickLeave",
+   "quote": "The Healthy Workplaces Act of 2021 is a law requiring all private employers in New Mexico to allow employees to accrue and use a benefit called earned sick leave. The law took effect on July 1, 2022",
+   "accessed": "2026-10-11"
+  }
+ },
+ "familyLeave": {
+  "paidProgram": false,
+  "name": null,
+  "benefitsStart": null,
+  "maxWeeks": null,
+  "replacement": null,
+  "maxWeeklyBenefit2026": null,
+  "medicalLeave": null,
+  "stateUnpaidLaw": null,
+  "source": null
+ },
+ "finalPay": {
+  "fired": "within 5 days of discharge (10 days for task, piece or commission wages)",
+  "firedDays": 5,
+  "quit": "on the next regular payday",
+  "quitNotice": null,
+  "ptoPayout": "policy",
+  "ptoNote": "No statute requires holiday, sick or severance pay; vacation payout follows employer policy.",
+  "source": {
+   "url": "https://www.dws.nm.gov/en-us/Businesses/Rules-and-Regulations/Labor-Relations-FAQs",
+   "quote": "If the wages owed are a fixed and definite amount, the employer shall pay such wages to the employee within five days of discharge.",
+   "accessed": "2026-10-11"
+  },
+  "ptoSource": null
+ },
+ "breaks": {
+  "meal": null,
+  "mealMinutes": null,
+  "mealAfterHours": null,
+  "rest": null,
+  "restMinutes": null,
+  "restPerHours": null,
+  "minorsOnly": null,
+  "source": {
+   "url": "https://www.dws.nm.gov/en-us/Businesses/Rules-and-Regulations/Labor-Relations-FAQs/category/wages-and-work-hours/pager/31343/page/2",
+   "quote": "Does an employer have to give lunch breaks, coffee breaks, or rest periods? No. There is no statute that requires an employer to provide such breaks",
+   "accessed": "2026-10-11"
+  }
+ },
+ "rightToWork": false,
+ "rightToWorkSource": null,
+ "atWill": "at-will",
+ "notes": [
+  {
+   "text": "Santa Fe's citywide living wage jumps to $17.50 an hour on January 1, 2027, then follows a formula blending inflation and local rents from 2028.",
+   "source": {
+    "url": "https://santafenm.gov/economic-development/living-wage-in-the-city-of-santa-fe",
+    "quote": "January 1, 2027: $17.50 — a one-time legislative jump to set a more realistic baseline for Santa Fe's cost of living.",
+    "accessed": "2026-10-11"
+   }
+  },
+  {
+   "text": "Every private employer, regardless of size, must provide up to 64 hours of paid sick leave a year.",
+   "source": {
+    "url": "https://www.dws.nm.gov/NMPaidSickLeave",
+    "quote": "The employer could choose to grant an employee 64 hours at the beginning of the year, or they can provide one hour for every thirty hours worked",
+    "accessed": "2026-10-11"
+   }
+  },
+  {
+   "text": "No state paid family leave program exists yet: DWS coordinated a task force whose recommendations went to the Legislature in October 2022.",
+   "source": {
+    "url": "https://www.dws.nm.gov/PFML",
+    "quote": "The task force will report their recommendations to the Governor and the Legislature by October 1, 2022.",
+    "accessed": "2026-10-11"
+   }
+  }
+ ],
+ "uncertain": [
+  "dws.nm.gov / dws.state.nm.us blocked all direct access on 2026-10-11 (F5 WAF, also WebFetch and Chrome). DWS pages were read from Internet Archive copies of the official URLs captured June-September 2026 (minimum wage page 2026-06-15, FAQs 2026-06-15/16, paid sick leave 2026-06-16, PFML 2026-09-23). Re-check live.",
+  "Vacation payout: no DWS page found stating the rule; 'policy' reflects the absence of a statute (DWS FAQ says no statute requires holiday, sick or severance pay).",
+  "Bernalillo County (unincorporated) has its own minimum wage ordinance (poster dated May 21, 2026) but the rate could not be read (image file blocked); not included.",
+  "No enacted New Mexico paid family and medical leave law found as of the 2026-09-23 DWS page; 2026 legislative session not checked directly (nmlegis.gov blocked)."
+ ]
+}

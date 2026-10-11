@@ -10,7 +10,7 @@ export default (arg?: string): MiniSpec => {
     run: (v) => {
       const r = a.rows[v.s]; if (!r) return { head: ['Rule', '–'], rows: [] };
       const mt = r[0] === 'Montana';
-      return { head: ['Employment rule', mt ? 'Good cause needed after probation' : 'At will'], rows: [['Final pay', r[7]], ['Unused vacation', r[8] === 'required' ? 'paid out' : r[8] === 'policy' ? 'per written policy' : 'no state rule'], ['Right-to-work state', r[13] ? 'yes' : 'no']] };
+      return { head: ['Employment rule', mt ? 'Good cause needed after probation' : 'At will'], rows: [['Final pay', r[7]], ['Unused vacation', r[8] === 'required' ? 'paid out' : r[8] === 'policy' ? 'per written policy' : 'no state rule'], ['Right-to-work state', r[13] < 0 ? 'not confirmed here' : r[13] ? 'yes' : 'no']] };
     },
   };
 };

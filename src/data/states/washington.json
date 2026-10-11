@@ -234,6 +234,7 @@
   "exemptSalaryWeekly $1,541.70 is computed from WAC 296-128-545 (2.25 x $17.13 x 40); no L&I page stating the dollar figure could be found (L&I exemption pages return 404).",
   "Local rates other than Seattle come from L&I's 'Local Minimum Wage Rates' page, not from each city's own site (SeaTac and Bellingham city URLs tried returned nothing). 2027 local rates (other than Seattle $22.14) not collected.",
   "King County headline 20.82 is the large-employer rate; smaller employers pay $19.82 or $18.32.",
-  "PTO payout: no official page read stating the rule; ptoSource null."
+  "PTO payout: no official page read stating the rule; ptoSource null.",
+  "sickLeave.effective 2018-01-01 not stated on the L&I page read (it only cites Initiative 1433 of 2016)."
  ]
 }

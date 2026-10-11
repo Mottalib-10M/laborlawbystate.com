@@ -1,0 +1,48 @@
+{
+  "slug": "wyoming", "name": "Wyoming", "abbr": "WY",
+  "agency": {"name": "Wyoming Department of Workforce Services, Labor Standards", "url": "https://dws.wyo.gov/dws-division/labor-standards/"},
+  "minWage": {
+    "rates2026": [
+      {"from": "2026-01-01", "rate": 7.25, "area": "Statewide (federal FLSA rate)", "note": "State law sets $5.15, but most workers are covered by the federal $7.25"}
+    ],
+    "headline": 7.25,
+    "headlineArea": "Statewide (federal FLSA rate)",
+    "federalApplies": true,
+    "rates2027": [],
+    "smallEmployer": "Wyoming's own minimum wage is $5.15 per hour; it only matters for the few employers not covered by the federal FLSA. Everyone else must receive the federal $7.25.",
+    "tipped": {"cashWage": 2.13, "tipCreditAllowed": true, "note": "Tipped employee = more than $30 a month in tips; employer must make up the difference if wage plus tips fall short of the minimum wage"},
+    "other": "Youth wage: employees under 20 may be paid at least $4.25 per hour during their first 90 consecutive days (state law; the federal youth wage is also $4.25).",
+    "source": {"url": "https://dws.wyo.gov/dws-division/labor-standards/workers-and-job-seekers/faq/", "quote": "Wyoming law sets the minimum wage at $5.15 per hour, but most workers must be paid at least the federal minimum wage of $7.25 per hour.", "accessed": "2026-10-11"}
+  },
+  "localMinWages": [],
+  "overtime": {"weeklyHours": null, "dailyHours": null, "doubleTime": null, "seventhDay": null,
+               "exemptSalaryWeekly": null, "exemptSalaryNote": null,
+               "note": "No general state overtime law (only for public works and state/county employees); the federal FLSA applies.",
+               "source": {"url": "https://dws.wyo.gov/dws-division/labor-standards/workers-and-job-seekers/faq/", "quote": "Not generally under state law, except for public works projects.", "accessed": "2026-10-11"}},
+  "sickLeave": {"mandatory": false, "accrual": null, "accrualPerHours": null,
+                "capHours": null, "capNote": null,
+                "employerThreshold": null, "effective": null, "note": "No statewide paid sick leave law.",
+                "source": null},
+  "familyLeave": {"paidProgram": false, "name": null, "benefitsStart": null,
+                  "maxWeeks": null, "replacement": null, "maxWeeklyBenefit2026": null, "medicalLeave": null,
+                  "stateUnpaidLaw": null, "source": null},
+  "finalPay": {"fired": "no later than the employer's next regularly scheduled payday", "firedDays": null,
+               "quit": "no later than the employer's next regularly scheduled payday", "quitNotice": null,
+               "ptoPayout": "no-law", "ptoNote": "Wyoming law does not require employers to give vacation or to pay it out at separation; an employer that agreed to a vacation plan must honor the agreement.",
+               "source": {"url": "https://wyoleg.gov/statutes/compress/title27.pdf", "quote": "Whenever an employee quits service or is discharged, the employee shall be paid whatever wages are due him ... no later than the employer's usual practice on regularly scheduled payroll dates", "accessed": "2026-10-11"},
+               "ptoSource": {"url": "https://dws.wyo.gov/dws-division/labor-standards/workers-and-job-seekers/faq/", "quote": "Wyoming law does not require employers to give vacation or pay vacation time out when someone leaves.", "accessed": "2026-10-11"}},
+  "breaks": {"meal": null, "mealMinutes": null, "mealAfterHours": null,
+             "rest": null, "restMinutes": null, "restPerHours": null, "minorsOnly": null, "source": null},
+  "rightToWork": true,
+  "rightToWorkSource": {"url": "https://wyoleg.gov/statutes/compress/title27.pdf", "quote": "27-7-109. Right to work; membership in labor organization not required. No person is required to become or remain a member of any labor organization as a condition of employment", "accessed": "2026-10-11"},
+  "atWill": "at-will",
+  "notes": [
+    {"text": "Tips belong to the employee: they cannot be paid over in whole or in part to the employer or anyone else.", "source": {"url": "https://wyoleg.gov/statutes/compress/title27.pdf", "quote": "Tips and gratuities received by an employee or employees shall be the sole property of such employee or employees and not payable in whole or in part to the employer or any other person.", "accessed": "2026-10-11"}},
+    {"text": "Wyoming's statutory minimum wage ($5.15) is below the federal rate, so the federal $7.25 applies to almost all workers.", "source": {"url": "https://wyoleg.gov/statutes/compress/title27.pdf", "quote": "Every employer shall pay to each of his or her employees wages at a rate of not less than five dollars and fifteen cents ($5.15) per hour.", "accessed": "2026-10-11"}}
+  ],
+  "uncertain": [
+    "dws.wyo.gov is behind Cloudflare (curl blocked); its FAQ was read through WebFetch, so DWS quotes are as returned by that tool.",
+    "The Title 27 PDF (wyoleg.gov/statutes/compress/title27.pdf) has no visible edition date; final-pay wording matches the DWS FAQ ('By your employer's next regular payday').",
+    "Breaks: no adult or minor meal/rest break statute found in Title 27; minorsOnly left null."
+  ]
+}

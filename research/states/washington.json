@@ -1,63 +1,240 @@
 {
-  "slug": "washington", "name": "Washington", "abbr": "WA",
-  "agency": {"name": "Washington State Department of Labor & Industries (L&I)", "url": "https://lni.wa.gov/workers-rights/"},
+  "slug": "washington",
+  "name": "Washington",
+  "abbr": "WA",
+  "agency": {
+    "name": "Washington State Department of Labor & Industries (L&I)",
+    "url": "https://lni.wa.gov/workers-rights/"
+  },
   "minWage": {
     "rates2026": [
-      {"from": "2026-01-01", "rate": 17.13, "area": "Statewide", "note": "Workers aged 14-15 may be paid 85% of the minimum wage"}
+      {
+        "from": "2026-01-01",
+        "rate": 17.13,
+        "area": "Statewide",
+        "note": "Workers aged 14-15 may be paid 85% of the minimum wage"
+      }
     ],
     "headline": 17.13,
     "headlineArea": "Statewide",
     "federalApplies": false,
     "rates2027": [
-      {"from": "2027-01-01", "rate": 17.73, "area": "Statewide", "note": "Announced by L&I in September 2026 (poster FY27-075 [09-2026]); 14-15-year-olds $15.07"}
+      {
+        "from": "2027-01-01",
+        "rate": 17.73,
+        "area": "Statewide",
+        "note": "Announced by L&I in September 2026 (poster FY27-075 [09-2026]); 14-15-year-olds $15.07"
+      }
     ],
     "smallEmployer": null,
-    "tipped": {"cashWage": 17.13, "tipCreditAllowed": false, "note": "Tips and service charges cannot count toward the hourly minimum wage"},
+    "tipped": {
+      "cashWage": 17.13,
+      "tipCreditAllowed": false,
+      "note": "Tips and service charges cannot count toward the hourly minimum wage"
+    },
     "other": "Workers aged 14 and 15 may be paid no less than 85% of the minimum wage ($14.56 in 2026, $15.07 in 2027).",
-    "source": {"url": "https://lni.wa.gov/workers-rights/wages/minimum-wage/", "quote": "The 2026 minimum wage in the state of Washington is $17.13 per hour.", "accessed": "2026-10-11"}
+    "source": {
+      "url": "https://lni.wa.gov/workers-rights/wages/minimum-wage/",
+      "quote": "The 2026 minimum wage in the state of Washington is $17.13 per hour.",
+      "accessed": "2026-10-11"
+    }
   },
   "localMinWages": [
-    {"name": "Seattle", "rate": 21.30, "from": "2026-01-01", "note": "All employers; $22.14 in 2027 (announced by the Seattle Office of Labor Standards)", "source": {"url": "https://www.seattle.gov/laborstandards/ordinances/minimum-wage", "quote": "2026 Minimum Wage $21.30 2027 Minimum Wage $22.14", "accessed": "2026-10-11"}},
-    {"name": "SeaTac", "rate": 20.74, "from": "2026-01-01", "note": "Hospitality and transportation industry employers only", "source": {"url": "https://lni.wa.gov/workers-rights/wages/minimum-wage/local-minimum-wage-rates", "quote": "SeaTac: $20.74/hour for employers in hospitality and transportation industries.", "accessed": "2026-10-11"}},
-    {"name": "Tukwila", "rate": 21.65, "from": "2026-01-01", "note": "Employers with at least 15 employees worldwide, or over $2 million annual gross revenue in Tukwila, or large-network franchisees", "source": {"url": "https://lni.wa.gov/workers-rights/wages/minimum-wage/local-minimum-wage-rates", "quote": "Tukwila: $21.65/hour for employers who have at least 15 employees worldwide", "accessed": "2026-10-11"}},
-    {"name": "Renton", "rate": 21.57, "from": "2026-01-01", "note": "Employers with more than 500 employees; 15-500 employees: $20.57 Jan 1-Jun 30, 2026, then $21.57 from July 1, 2026; 14 or fewer not covered", "source": {"url": "https://lni.wa.gov/workers-rights/wages/minimum-wage/local-minimum-wage-rates", "quote": "Renton: $21.57/hour for employers with more than 500 employees. For employers with 15 to 500 employees, $20.57/hour from Jan.1 to June 30, 2026, and $21.57 from July1 to Dec. 31, 2026.", "accessed": "2026-10-11"}},
-    {"name": "Bellingham", "rate": 19.13, "from": "2026-01-01", "note": "", "source": {"url": "https://lni.wa.gov/workers-rights/wages/minimum-wage/local-minimum-wage-rates", "quote": "Bellingham: $19.13/hour.", "accessed": "2026-10-11"}},
-    {"name": "Everett", "rate": 20.77, "from": "2026-01-01", "note": "Employers with more than 500 employees in Washington; 15-499 employees: $18.77 Jan 1-Jun 30, 2026, then $19.77 from July 1, 2026; 14 or fewer not covered", "source": {"url": "https://lni.wa.gov/workers-rights/wages/minimum-wage/local-minimum-wage-rates", "quote": "Everett: $20.77/hour for employers with more than 500 employees in Washington. For employers with 15 to 499 employees, $18.77/hour from Jan 1 to June 30, 2026, and $19.77 from July 1 to Dec 31, 2026.", "accessed": "2026-10-11"}},
-    {"name": "King County (unincorporated areas)", "rate": 20.82, "from": "2026-01-01", "note": "More than 500 employees: $20.82; 16-499 employees, or 15 or fewer with $2M+ revenue: $19.82; 15 or fewer with under $2M revenue: $18.32", "source": {"url": "https://lni.wa.gov/workers-rights/wages/minimum-wage/local-minimum-wage-rates", "quote": "King County (unincorporated areas): $20.82/hour for employers with more than 500 employees", "accessed": "2026-10-11"}},
-    {"name": "Burien", "rate": 21.63, "from": "2026-01-01", "note": "Employers with 500+ employees; 21-499 employees: $20.63; 20 or fewer not covered", "source": {"url": "https://lni.wa.gov/workers-rights/wages/minimum-wage/local-minimum-wage-rates", "quote": "Burien: $21.63/hour for employers with 500 or more employees, and $20.63/hour for employers with 21 to 499 employees.", "accessed": "2026-10-11"}}
+    {
+      "name": "Seattle",
+      "rate": 21.3,
+      "from": "2026-01-01",
+      "note": "All employers; $22.14 in 2027 (announced by the Seattle Office of Labor Standards)",
+      "source": {
+        "url": "https://www.seattle.gov/laborstandards/ordinances/minimum-wage",
+        "quote": "2026 Minimum Wage $21.30 2027 Minimum Wage $22.14",
+        "accessed": "2026-10-11"
+      }
+    },
+    {
+      "name": "SeaTac",
+      "rate": 20.74,
+      "from": "2026-01-01",
+      "note": "Hospitality and transportation industry employers only",
+      "source": {
+        "url": "https://lni.wa.gov/workers-rights/wages/minimum-wage/local-minimum-wage-rates",
+        "quote": "SeaTac: $20.74/hour for employers in hospitality and transportation industries.",
+        "accessed": "2026-10-11"
+      }
+    },
+    {
+      "name": "Tukwila",
+      "rate": 21.65,
+      "from": "2026-01-01",
+      "note": "Employers with at least 15 employees worldwide, or over $2 million annual gross revenue in Tukwila, or large-network franchisees",
+      "source": {
+        "url": "https://lni.wa.gov/workers-rights/wages/minimum-wage/local-minimum-wage-rates",
+        "quote": "Tukwila: $21.65/hour for employers who have at least 15 employees worldwide",
+        "accessed": "2026-10-11"
+      }
+    },
+    {
+      "name": "Renton",
+      "rate": 21.57,
+      "from": "2026-01-01",
+      "note": "Employers with more than 500 employees; 15-500 employees: $20.57 Jan 1-Jun 30, 2026, then $21.57 from July 1, 2026; 14 or fewer not covered",
+      "source": {
+        "url": "https://lni.wa.gov/workers-rights/wages/minimum-wage/local-minimum-wage-rates",
+        "quote": "Renton: $21.57/hour for employers with more than 500 employees. For employers with 15 to 500 employees, $20.57/hour from Jan.1 to June 30, 2026, and $21.57 from July1 to Dec. 31, 2026.",
+        "accessed": "2026-10-11"
+      }
+    },
+    {
+      "name": "Bellingham",
+      "rate": 19.13,
+      "from": "2026-01-01",
+      "note": "",
+      "source": {
+        "url": "https://lni.wa.gov/workers-rights/wages/minimum-wage/local-minimum-wage-rates",
+        "quote": "Bellingham: $19.13/hour.",
+        "accessed": "2026-10-11"
+      }
+    },
+    {
+      "name": "Everett",
+      "rate": 20.77,
+      "from": "2026-01-01",
+      "note": "Employers with more than 500 employees in Washington; 15-499 employees: $18.77 Jan 1-Jun 30, 2026, then $19.77 from July 1, 2026; 14 or fewer not covered",
+      "source": {
+        "url": "https://lni.wa.gov/workers-rights/wages/minimum-wage/local-minimum-wage-rates",
+        "quote": "Everett: $20.77/hour for employers with more than 500 employees in Washington. For employers with 15 to 499 employees, $18.77/hour from Jan 1 to June 30, 2026, and $19.77 from July 1 to Dec 31, 2026.",
+        "accessed": "2026-10-11"
+      }
+    },
+    {
+      "name": "King County (unincorporated areas)",
+      "rate": 20.82,
+      "from": "2026-01-01",
+      "note": "More than 500 employees: $20.82; 16-499 employees, or 15 or fewer with $2M+ revenue: $19.82; 15 or fewer with under $2M revenue: $18.32",
+      "source": {
+        "url": "https://lni.wa.gov/workers-rights/wages/minimum-wage/local-minimum-wage-rates",
+        "quote": "King County (unincorporated areas): $20.82/hour for employers with more than 500 employees",
+        "accessed": "2026-10-11"
+      }
+    },
+    {
+      "name": "Burien",
+      "rate": 21.63,
+      "from": "2026-01-01",
+      "note": "Employers with 500+ employees; 21-499 employees: $20.63; 20 or fewer not covered",
+      "source": {
+        "url": "https://lni.wa.gov/workers-rights/wages/minimum-wage/local-minimum-wage-rates",
+        "quote": "Burien: $21.63/hour for employers with 500 or more employees, and $20.63/hour for employers with 21 to 499 employees.",
+        "accessed": "2026-10-11"
+      }
+    }
   ],
-  "overtime": {"weeklyHours": 40, "dailyHours": null, "doubleTime": null, "seventhDay": null,
-               "exemptSalaryWeekly": 1541.70, "exemptSalaryNote": "2026: 2.25 x state minimum wage x 40 hours, all employer sizes (computed: 2.25 x $17.13 x 40). 2027: 2.25x for employers with 50 or fewer employees, 2.5x for more than 50.",
-               "note": "Time and a half after 40 hours in a 7-day workweek; no daily overtime or double time under state law (except certain public works).",
-               "source": {"url": "https://app.leg.wa.gov/wac/default.aspx?cite=296-128-545", "quote": "Beginning January 1, 2026, and through December 31, 2026, an amount not less than 2.25 times the minimum wage prescribed in RCW 49.46.020 for a forty-hour workweek regardless of the size of the employer", "accessed": "2026-10-11"}},
-  "sickLeave": {"mandatory": true, "accrual": "1 hour for every 40 hours worked", "accrualPerHours": 40,
-                "capHours": 40, "capNote": "No annual accrual cap in the law; unused balances of 40 hours or less must be carried over to the next year. Use can start 90 calendar days after hire.",
-                "employerThreshold": "all employers", "effective": "2018-01-01", "note": "Created by Initiative 1433 (2016). Paid at normal hourly compensation.",
-                "source": {"url": "https://lni.wa.gov/workers-rights/leave/paid-sick-leave/", "quote": "You must earn at least one hour of paid sick leave for every 40 hours you work.", "accessed": "2026-10-11"}},
-  "familyLeave": {"paidProgram": true, "name": "Washington Paid Family and Medical Leave", "benefitsStart": "2020-01-01",
-                  "maxWeeks": 12, "replacement": "up to 90% of weekly pay, up to the yearly maximum", "maxWeeklyBenefit2026": 1647,
-                  "medicalLeave": "12 weeks of medical or family leave; up to 16 weeks combined with more than one qualifying event, 18 weeks with a pregnancy complication causing incapacity",
-                  "stateUnpaidLaw": null,
-                  "source": {"url": "https://paidleave.wa.gov/find-out-how-paid-leave-works/", "quote": "Maximum weekly benefit amounts : 2026 = $1,647 / week", "accessed": "2026-10-11"}},
-  "finalPay": {"fired": "at the end of the established pay period", "firedDays": null,
-               "quit": "at the end of the established pay period", "quitNotice": null,
-               "ptoPayout": "policy", "ptoNote": "No state requirement to pay out accrued vacation found; follows employer policy or contract.",
-               "source": {"url": "https://app.leg.wa.gov/rcw/default.aspx?cite=49.48.010", "quote": "When any employee shall cease to work for an employer, whether by discharge or by voluntary withdrawal, the wages due him or her ... shall be paid to him or her at the end of the established pay period", "accessed": "2026-10-11"},
-               "ptoSource": null},
-  "breaks": {"meal": "30-minute meal period starting between the 2nd and 5th hour of the shift; no more than 5 consecutive hours without one", "mealMinutes": 30, "mealAfterHours": 5,
-             "rest": "10-minute paid rest period for each 4 hours worked; no more than 3 hours without a rest period", "restMinutes": 10, "restPerHours": 4, "minorsOnly": null,
-             "source": {"url": "https://app.leg.wa.gov/wac/default.aspx?cite=296-126-092", "quote": "Employees shall be allowed a rest period of not less than ten minutes, on the employer's time, for each four hours of working time.", "accessed": "2026-10-11"}},
-  "rightToWork": false, "rightToWorkSource": null,
+  "overtime": {
+    "weeklyHours": 40,
+    "dailyHours": null,
+    "doubleTime": null,
+    "seventhDay": null,
+    "exemptSalaryWeekly": 1541.7,
+    "exemptSalaryNote": "2026: 2.25 x state minimum wage x 40 hours, all employer sizes (computed: 2.25 x $17.13 x 40). 2027: 2.25x for employers with 50 or fewer employees, 2.5x for more than 50.",
+    "note": "Time and a half after 40 hours in a 7-day workweek; no daily overtime or double time under state law (except certain public works).",
+    "source": {
+      "url": "https://app.leg.wa.gov/wac/default.aspx?cite=296-128-545",
+      "quote": "Beginning January 1, 2026, and through December 31, 2026, an amount not less than 2.25 times the minimum wage prescribed in RCW 49.46.020 for a forty-hour workweek regardless of the size of the employer",
+      "accessed": "2026-10-11"
+    }
+  },
+  "sickLeave": {
+    "mandatory": true,
+    "accrual": "1 hour for every 40 hours worked",
+    "accrualPerHours": 40,
+    "capHours": 40,
+    "capNote": "No annual accrual cap in the law; unused balances of 40 hours or less must be carried over to the next year. Use can start 90 calendar days after hire.",
+    "employerThreshold": "all employers",
+    "effective": "2018-01-01",
+    "note": "Created by Initiative 1433 (2016). Paid at normal hourly compensation.",
+    "source": {
+      "url": "https://lni.wa.gov/workers-rights/leave/paid-sick-leave/",
+      "quote": "You must earn at least one hour of paid sick leave for every 40 hours you work.",
+      "accessed": "2026-10-11"
+    }
+  },
+  "familyLeave": {
+    "paidProgram": true,
+    "name": "Washington Paid Family and Medical Leave",
+    "benefitsStart": "2020-01-01",
+    "maxWeeks": 12,
+    "replacement": "up to 90% of weekly pay, up to the yearly maximum",
+    "maxWeeklyBenefit2026": 1647,
+    "medicalLeave": "12 weeks of medical or family leave; up to 16 weeks combined with more than one qualifying event, 18 weeks with a pregnancy complication causing incapacity",
+    "stateUnpaidLaw": null,
+    "source": {
+      "url": "https://paidleave.wa.gov/find-out-how-paid-leave-works/",
+      "quote": "Maximum weekly benefit amounts : 2026 = $1,647 / week",
+      "accessed": "2026-10-11"
+    }
+  },
+  "finalPay": {
+    "fired": "at the end of the established pay period",
+    "firedDays": null,
+    "quit": "at the end of the established pay period",
+    "quitNotice": null,
+    "ptoPayout": "policy",
+    "ptoNote": "No state requirement to pay out accrued vacation found; follows employer policy or contract.",
+    "source": {
+      "url": "https://app.leg.wa.gov/rcw/default.aspx?cite=49.48.010",
+      "quote": "When any employee shall cease to work for an employer, whether by discharge or by voluntary withdrawal, the wages due him or her ... shall be paid to him or her at the end of the established pay period",
+      "accessed": "2026-10-11"
+    },
+    "ptoSource": null
+  },
+  "breaks": {
+    "meal": "30-minute meal period starting between the 2nd and 5th hour of the shift; no more than 5 consecutive hours without one",
+    "mealMinutes": 30,
+    "mealAfterHours": 5,
+    "rest": "10-minute paid rest period for each 4 hours worked; no more than 3 hours without a rest period",
+    "restMinutes": 10,
+    "restPerHours": 4,
+    "minorsOnly": null,
+    "source": {
+      "url": "https://app.leg.wa.gov/wac/default.aspx?cite=296-126-092",
+      "quote": "Employees shall be allowed a rest period of not less than ten minutes, on the employer's time, for each four hours of working time.",
+      "accessed": "2026-10-11"
+    }
+  },
+  "rightToWork": false,
+  "rightToWorkSource": null,
   "atWill": "at-will",
   "notes": [
-    {"text": "Since January 1, 2026, Paid Family and Medical Leave job protection covers employees of companies with 25 or more workers in Washington after 180 days of employment.", "source": {"url": "https://paidleave.wa.gov/find-out-how-paid-leave-works/", "quote": "Starting January 1, 2026, if you work for a company that employs 25 or more people in Washington, and you have worked there for at least 180 days (6 months), your job is likely protected.", "accessed": "2026-10-11"}},
-    {"text": "2026 Paid Leave premium: 1.13% of gross wages up to the Social Security cap ($184,500); employers with 50+ employees pay up to 28.57%, employees 71.43%.", "source": {"url": "https://paidleave.wa.gov/estimate-your-paid-leave-payments/", "quote": "As of Jan. 1, 2026 , the premium rate is 1.13% of each employee's gross wages, not including tips, up to the 2026 Social Security cap ($184,500).", "accessed": "2026-10-11"}},
-    {"text": "Employers must pay all tips and service charges to employees and cannot use them toward the minimum wage.", "source": {"url": "https://lni.wa.gov/workers-rights/wages/minimum-wage/", "quote": "Businesses may not use tips and service charges paid to an employee as part of an employee's hourly minimum wage.", "accessed": "2026-10-11"}}
+    {
+      "text": "Since January 1, 2026, Paid Family and Medical Leave job protection covers employees of companies with 25 or more workers in Washington after 180 days of employment.",
+      "source": {
+        "url": "https://paidleave.wa.gov/find-out-how-paid-leave-works/",
+        "quote": "Starting January 1, 2026, if you work for a company that employs 25 or more people in Washington, and you have worked there for at least 180 days (6 months), your job is likely protected.",
+        "accessed": "2026-10-11"
+      }
+    },
+    {
+      "text": "2026 Paid Leave premium: 1.13% of gross wages up to the Social Security cap ($184,500); employers with 50+ employees pay up to 28.57%, employees 71.43%.",
+      "source": {
+        "url": "https://paidleave.wa.gov/estimate-your-paid-leave-payments/",
+        "quote": "As of Jan. 1, 2026 , the premium rate is 1.13% of each employee's gross wages, not including tips, up to the 2026 Social Security cap ($184,500).",
+        "accessed": "2026-10-11"
+      }
+    },
+    {
+      "text": "Employers must pay all tips and service charges to employees and cannot use them toward the minimum wage.",
+      "source": {
+        "url": "https://lni.wa.gov/workers-rights/wages/minimum-wage/",
+        "quote": "Businesses may not use tips and service charges paid to an employee as part of an employee's hourly minimum wage.",
+        "accessed": "2026-10-11"
+      }
+    }
   ],
   "uncertain": [
     "exemptSalaryWeekly $1,541.70 is computed from WAC 296-128-545 (2.25 x $17.13 x 40); no L&I page stating the dollar figure could be found (L&I exemption pages return 404).",
     "Local rates other than Seattle come from L&I's 'Local Minimum Wage Rates' page, not from each city's own site (SeaTac and Bellingham city URLs tried returned nothing). 2027 local rates (other than Seattle $22.14) not collected.",
     "King County headline 20.82 is the large-employer rate; smaller employers pay $19.82 or $18.32.",
-    "PTO payout: no official page read stating the rule; ptoSource null."
+    "PTO payout: no official page read stating the rule; ptoSource null.",
+    "sickLeave.effective 2018-01-01 not stated on the L&I page read (it only cites Initiative 1433 of 2016)."
   ]
 }

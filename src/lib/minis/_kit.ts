@@ -15,7 +15,7 @@ export function parseArg<T>(arg: string | undefined, fallback: T): T {
   if (!arg) return fallback;
   try { return JSON.parse(arg) as T; } catch { return fallback; }
 }
-/** Compact row per state passed by pages: [name, minimum wage now, tipped cash or null, tip credit allowed (0/1), sick per-hours or null, sick cap or null, pfl weeks or null, final pay text when fired, pto rule, meal min, meal after h, rest min, rest per h, right to work (0/1), exempt weekly or null, firedDays or null, 2027 rate or null, January rate]. */
+/** Compact row per state passed by pages: [name, minimum wage now, tipped cash or null, tip credit allowed (0/1), sick per-hours or null, sick cap or null, pfl weeks or null, final pay text when fired, pto rule, meal min, meal after h, rest min, rest per h, right to work (1 yes, 0 no, -1 not confirmed), exempt weekly or null, firedDays or null, 2027 rate or null, January rate]. */
 export type Row = [string, number, number | null, number, number | null, number | null, number | null, string, string, number | null, number | null, number | null, number | null, number, number | null, number | null, number | null, number];
 export const opts = (rows: Row[]) => rows.map((r, i) => ({ value: String(i), label: r[0] }));
 export const pick = (rows: Row[], name: string) => Math.max(0, rows.findIndex((r) => r[0] === name));

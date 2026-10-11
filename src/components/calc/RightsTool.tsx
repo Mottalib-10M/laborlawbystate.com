@@ -36,7 +36,7 @@ export default function RightsTool({ states, state, lockState = false, methodHre
     [`Breaks owed in a ${hpd}-hour shift`, br.meals || br.rests ? [br.meals ? `${br.mealMinutes} min meal` : '', br.rests ? `${br.rests} x ${br.restMinutes / br.rests} min paid rest` : ''].filter(Boolean).join(', ') : S.breaks.minorsOnly ? 'None for adults (minors only)' : 'None required for adults'],
     ['Final paycheck if fired', S.final.fired],
     ['Unused vacation at the end', ptoText(S.final.pto)],
-    ['Paid family leave', S.pfl ? `${S.pfl.name}${S.pfl.weeks ? `, up to ${S.pfl.weeks} weeks` : ''}` : 'No state program'],
+    ['Paid family leave', S.pfl ? `${S.pfl.name}${S.pfl.from ? ` (benefits from ${S.pfl.from})` : ''}${S.pfl.weeks ? `, up to ${S.pfl.weeks} weeks` : ''}` : 'No state program'],
   ];
   const p = idPrefix;
   return (

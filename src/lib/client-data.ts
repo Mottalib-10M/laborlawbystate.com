@@ -14,7 +14,7 @@ export function clientStates(): ClientState[] {
       tipped: s.minWage.tipped.cashWage, tipCredit: s.minWage.tipped.tipCreditAllowed,
       ot: otRule(s.slug), otDailyBelow: s.slug === 'nevada' ? 1.5 * mwNow(s.slug) : null, exempt: s.overtime.exemptSalaryWeekly,
       sick: { mandatory: s.sickLeave.mandatory, perHours: s.sickLeave.accrualPerHours, cap: s.sickLeave.capHours, accrual: s.sickLeave.accrual },
-      pfl: s.familyLeave.paidProgram ? { name: s.familyLeave.name ?? 'Paid family leave', weeks: s.familyLeave.maxWeeks ?? null, maxWeekly: s.familyLeave.maxWeeklyBenefit2026 ?? null } : null,
+      pfl: s.familyLeave.paidProgram ? { name: s.familyLeave.name ?? 'Paid family leave', weeks: s.familyLeave.maxWeeks ?? null, maxWeekly: s.familyLeave.maxWeeklyBenefit2026 ?? null, from: (s.familyLeave.benefitsStart ?? '') > TODAY ? s.familyLeave.benefitsStart! : null } : null,
       final: { fired: s.finalPay.fired, firedDays: s.finalPay.firedDays, firedBusiness: countsBusinessDays(s.finalPay.fired), quit: s.finalPay.quit, quitNotice: s.finalPay.quitNotice, pto: s.finalPay.ptoPayout },
       breaks: { meal: s.breaks.meal, mealMinutes: s.breaks.mealMinutes, mealAfterHours: s.breaks.mealAfterHours, rest: s.breaks.rest, restMinutes: s.breaks.restMinutes, restPerHours: s.breaks.restPerHours, minorsOnly: s.breaks.minorsOnly },
       agency: s.agency,

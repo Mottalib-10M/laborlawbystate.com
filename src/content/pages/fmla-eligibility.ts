@@ -1,8 +1,8 @@
 import { definePage } from '../../lib/page-types';
-import { FM, STATES, pflStates, hoursCheck, names, num, TODAY } from '../../lib/kit';
+import { FM, STATES, pflStates, pflComing, hoursCheck, names, num } from '../../lib/kit';
 
-const pfl = pflStates();
-const paying = pfl.filter((s) => (s.familyLeave.benefitsStart ?? '') <= TODAY);
+const paying = pflStates();
+const pfl = [...paying, ...pflComing()];
 const weeklyNeed = FM.hours / 52;
 const short24 = hoursCheck(24);
 const rows = [16, 20, 24, 25, 30, 40].map((h) => {

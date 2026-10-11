@@ -106,7 +106,11 @@
   }
  },
  "rightToWork": true,
- "rightToWorkSource": null,
+ "rightToWorkSource": {
+  "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/PDF/BySection/Chapter_95/GS_95-78.pdf",
+  "quote": "the right of persons to work shall not be denied or abridged on account of membership or nonmembership in any labor union or labor organization",
+  "accessed": "2026-10-11"
+ },
  "atWill": "at-will",
  "notes": [
   {
@@ -126,5 +130,8 @@
    }
   }
  ],
- "uncertain": []
+ "uncertain": [
+  "ncleg.gov blocked direct access (Cloudflare) on 2026-10-11; G.S. 95-78 read from the Internet Archive copy of the official PDF captured 2026-05-18.",
+  "Seasonal amusement/recreation 45-hour overtime rule taken from the dol.gov state table (cross-check source), not from an NCDOL page."
+ ]
 }

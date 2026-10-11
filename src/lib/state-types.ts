@@ -39,7 +39,7 @@ export interface StateData {
     meal: string | null; mealMinutes: number | null; mealAfterHours: number | null;
     rest: string | null; restMinutes: number | null; restPerHours: number | null; minorsOnly: string | null; source: Source | null;
   };
-  rightToWork: boolean; rightToWorkSource: Source | null;
+  rightToWork: boolean; rightToWorkSource: Source | null; rightToWorkUnknown?: boolean;
   atWill: string;
   notes: Array<{ text: string; source: Source }>;
   uncertain: string[];

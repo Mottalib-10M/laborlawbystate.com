@@ -76,7 +76,7 @@
  "finalPay": {
   "fired": "on the day of discharge (employee may request payment be sent; penalty wages if not received within 7 days of the written request)",
   "firedDays": 0,
-  "quit": "no state deadline (pay by the next regular payday is customary)",
+  "quit": "no state statute sets a deadline for workers who quit (federal law sets none either)",
   "quitNotice": null,
   "ptoPayout": "no-law",
   "ptoNote": "No Missouri statute requires payout of accrued vacation; follows employer policy or contract.",

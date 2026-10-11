@@ -1,0 +1,149 @@
+{
+  "slug": "nevada",
+  "name": "Nevada",
+  "abbr": "NV",
+  "agency": {
+    "name": "Nevada Office of the Labor Commissioner",
+    "url": "https://labor.nv.gov/"
+  },
+  "minWage": {
+    "rates2026": [
+      {
+        "from": "2025-07-01",
+        "rate": 12.0,
+        "area": "Statewide (all employees, regardless of health benefits)",
+        "note": "2026 annual bulletin (posted June 29, 2026) keeps $12.00 from July 1, 2026"
+      }
+    ],
+    "headline": 12.0,
+    "headlineArea": "Statewide",
+    "federalApplies": false,
+    "rates2027": [],
+    "smallEmployer": null,
+    "tipped": {
+      "cashWage": 12.0,
+      "tipCreditAllowed": false,
+      "note": "Tips may not be credited toward the minimum wage (NRS 608.160)"
+    },
+    "other": "Two-tier (health-benefits) minimum wage eliminated as of July 1, 2024 (Ballot Question 2, 2022).",
+    "source": {
+      "url": "https://labor.nv.gov/uploadedFiles/labornvgov/content/Employer/26.06.29%20-%202026%20Minimum%20Wage%20Bulletin.pdf",
+      "quote": "Effective Date Minimum Wage July 1, 2026 $12.00 ... APPLIES TO ALL EMPLOYEES REGARDLESS OF OFFERED EMPLOYER HEALTH BENEFITS.",
+      "accessed": "2026-10-11"
+    }
+  },
+  "localMinWages": [],
+  "overtime": {
+    "weeklyHours": 40,
+    "dailyHours": 8,
+    "doubleTime": null,
+    "seventhDay": null,
+    "exemptSalaryWeekly": null,
+    "exemptSalaryNote": null,
+    "note": "Daily overtime (over 8 hours in a 24-hour period) applies only to employees earning less than 1.5 times the minimum wage ($18.00/hour from July 1, 2026); a mutually agreed 4x10 schedule is excepted. Everyone non-exempt gets overtime after 40 hours/week.",
+    "source": {
+      "url": "https://labor.nv.gov/uploadedFiles/labornvgov/content/Employer/26.06.29%20Annual%20Bulletin%20-%20Daily%20Overtime.pdf",
+      "quote": "EFFECTIVE JULY 1, 2026, EMPLOYEES WHO EARN LESS THAN $18.00 PER HOUR ARE ELIGIBLE FOR OVERTIME AT ONE AND A HALF (1.5) TIMES ... OVER 8 HOURS OF WORK IN A 24-HOUR PERIOD",
+      "accessed": "2026-10-11"
+    }
+  },
+  "sickLeave": {
+    "mandatory": true,
+    "accrual": "0.01923 hours of paid leave per hour worked (about 1 hour per 52 hours, i.e. roughly 40 hours a year full-time); usable for any reason",
+    "accrualPerHours": 52,
+    "capHours": 40,
+    "capNote": "Private employers with 50+ employees in Nevada; carryover may be capped at 40 hours per benefit year (employer may also limit use to 40 hours per year). Not paid out at separation unless policy says so.",
+    "employerThreshold": "50 or more employees in Nevada (new employers exempt for first 2 years)",
+    "effective": "2020-01-01",
+    "note": "General paid leave (not limited to sickness) under NRS 608.0197.",
+    "source": {
+      "url": "https://www.leg.state.nv.us/NRS/NRS-608.html",
+      "quote": "An employee is entitled to at least 0.01923 hours of paid leave for each hour of work performed.",
+      "accessed": "2026-10-11"
+    }
+  },
+  "familyLeave": {
+    "paidProgram": false,
+    "name": null,
+    "benefitsStart": null,
+    "maxWeeks": null,
+    "replacement": null,
+    "maxWeeklyBenefit2026": null,
+    "medicalLeave": null,
+    "stateUnpaidLaw": null,
+    "source": null
+  },
+  "finalPay": {
+    "fired": "immediately",
+    "firedDays": 0,
+    "quit": "by the next regular payday or within 7 days of quitting, whichever is earlier",
+    "quitNotice": null,
+    "ptoPayout": "policy",
+    "ptoNote": "No statute requires payout of vacation or paid leave at separation; follows employer policy.",
+    "source": {
+      "url": "https://www.leg.state.nv.us/NRS/NRS-608.html",
+      "quote": "Whenever an employer discharges an employee, the wages and compensation earned and unpaid at the time of such discharge shall become due and payable immediately.",
+      "accessed": "2026-10-11"
+    },
+    "ptoSource": null
+  },
+  "breaks": {
+    "meal": "30-minute meal period for a continuous 8-hour period",
+    "mealMinutes": 30,
+    "mealAfterHours": 8,
+    "rest": "Paid 10-minute rest period per 4 hours worked or major fraction thereof (none if under 3.5 hours a day); not required where only one person is employed",
+    "restMinutes": 10,
+    "restPerHours": 4,
+    "minorsOnly": null,
+    "source": {
+      "url": "https://www.leg.state.nv.us/NRS/NRS-608.html",
+      "quote": "The duration of the rest periods shall be based on the total hours worked daily at the rate of 10 minutes for each 4 hours or major fraction thereof.",
+      "accessed": "2026-10-11"
+    }
+  },
+  "rightToWork": true,
+  "rightToWorkSource": {
+    "url": "https://www.leg.state.nv.us/NRS/NRS-613.html",
+    "quote": "No person shall be denied the opportunity to obtain or retain employment because of nonmembership in a labor organization",
+    "accessed": "2026-10-11"
+  },
+  "atWill": "at-will",
+  "notes": [
+    {
+      "text": "Nevada gives private-sector workers at employers with 50+ employees paid leave they can use for any reason, without having to give a reason.",
+      "source": {
+        "url": "https://www.leg.state.nv.us/NRS/NRS-608.html",
+        "quote": "every employer in private employment shall provide paid leave to each employee of the employer",
+        "accessed": "2026-10-11"
+      }
+    },
+    {
+      "text": "Lower-paid workers (under $18.00/hour in 2026) earn overtime after 8 hours in a 24-hour period, not just after 40 hours a week.",
+      "source": {
+        "url": "https://labor.nv.gov/uploadedFiles/labornvgov/content/Employer/26.06.29%20Annual%20Bulletin%20-%20Daily%20Overtime.pdf",
+        "quote": "EMPLOYEES WHO EARN LESS THAN $18.00 PER HOUR ARE ELIGIBLE FOR OVERTIME",
+        "accessed": "2026-10-11"
+      }
+    },
+    {
+      "text": "Employers cannot count tips toward the minimum wage: tipped workers get the full $12.00 plus their tips.",
+      "source": {
+        "url": "https://www.leg.state.nv.us/NRS/NRS-608.html",
+        "quote": "Apply as a credit toward the payment of the statutory minimum hourly wage established by any law of this State any tips or gratuities",
+        "accessed": "2026-10-11"
+      }
+    },
+    {
+      "text": "Nevada's paid leave law (SB 312) took effect January 1, 2020.",
+      "source": {
+        "url": "https://labor.nv.gov/uploadedFiles/labornvgov/content/Employer/SB%20312%20Paid%20Leave%20English.pdf",
+        "quote": "Paid Leave Effective January 1, 2020 – Nevada Revised Statutes (NRS) § 608",
+        "accessed": "2026-10-11"
+      }
+    }
+  ],
+  "uncertain": [
+    "labor.nv.gov and leg.state.nv.us rejected all direct requests on 2026-10-11 (WAF/Cloudflare, also via WebFetch and Chrome). Sources were read from Internet Archive copies of the official URLs: Labor Commissioner 2026 bulletins (posted 2026-06-29), NRS chapter 608 snapshot of 2026-10-06, NRS 613 snapshot of 2025-12-21, SB 312 paid leave bulletin (2019 copy). Re-check on the live sites.",
+    "accrualPerHours 52 is an approximation of 0.01923 h/h (1/52 = 0.01923)."
+  ]
+}

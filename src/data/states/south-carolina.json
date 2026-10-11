@@ -1,0 +1,124 @@
+{
+ "slug": "south-carolina",
+ "name": "South Carolina",
+ "abbr": "SC",
+ "agency": {
+  "name": "South Carolina Department of Labor, Licensing and Regulation",
+  "url": "https://llr.sc.gov/"
+ },
+ "minWage": {
+  "rates2026": [
+   {
+    "from": "2009-07-24",
+    "rate": 7.25,
+    "area": "Statewide (federal minimum)",
+    "note": "No state minimum wage law; federal FLSA rate applies"
+   }
+  ],
+  "headline": 7.25,
+  "headlineArea": "Statewide (federal minimum)",
+  "federalApplies": true,
+  "rates2027": [],
+  "smallEmployer": "No state minimum wage law: the federal $7.25 applies to employers covered by the FLSA.",
+  "tipped": {
+   "cashWage": 2.13,
+   "tipCreditAllowed": true,
+   "note": "Federal FLSA rules ($2.13 cash wage, tipped = more than $30/month)."
+  },
+  "other": null,
+  "source": {
+   "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+   "quote": "No state minimum wage. Employers subject to the Fair Labor Standards Act must pay the current federal minimum wage of $7.25 per hour.",
+   "accessed": "2026-10-11"
+  }
+ },
+ "localMinWages": [],
+ "overtime": {
+  "weeklyHours": null,
+  "dailyHours": null,
+  "doubleTime": null,
+  "seventhDay": null,
+  "exemptSalaryWeekly": null,
+  "exemptSalaryNote": null,
+  "note": "No state overtime law; federal FLSA applies.",
+  "source": null
+ },
+ "sickLeave": {
+  "mandatory": false,
+  "accrual": null,
+  "accrualPerHours": null,
+  "capHours": null,
+  "capNote": null,
+  "employerThreshold": null,
+  "effective": null,
+  "note": "No statewide paid sick leave law for private employers.",
+  "source": null
+ },
+ "familyLeave": {
+  "paidProgram": false,
+  "name": null,
+  "benefitsStart": null,
+  "maxWeeks": null,
+  "replacement": null,
+  "maxWeeklyBenefit2026": null,
+  "medicalLeave": null,
+  "stateUnpaidLaw": null,
+  "source": null
+ },
+ "finalPay": {
+  "fired": "within 48 hours of separation or by the next regular payday, which may not exceed 30 days",
+  "firedDays": null,
+  "quit": "same rule (applies to separation for any reason)",
+  "quitNotice": null,
+  "ptoPayout": "policy",
+  "ptoNote": "Vacation, holiday and sick pay count as wages only when due under the employer's policy or employment contract.",
+  "source": {
+   "url": "https://www.scstatehouse.gov/code/t41c010.php",
+   "quote": "the employer shall pay all wages due to the employee within forty-eight hours of the time of separation or the next regular payday which may not exceed thirty days.",
+   "accessed": "2026-10-11"
+  },
+  "ptoSource": {
+   "url": "https://www.scstatehouse.gov/code/t41c010.php",
+   "quote": "includes vacation, holiday, and sick leave payments which are due to an employee under any employer policy or employment contract.",
+   "accessed": "2026-10-11"
+  }
+ },
+ "breaks": {
+  "meal": null,
+  "mealMinutes": null,
+  "mealAfterHours": null,
+  "rest": null,
+  "restMinutes": null,
+  "restPerHours": null,
+  "minorsOnly": null,
+  "source": null
+ },
+ "rightToWork": true,
+ "rightToWorkSource": {
+  "url": "https://www.scstatehouse.gov/code/t41c007.php",
+  "quote": "the right of persons to work must not be denied or abridged because of membership or nonmembership in a labor union or labor organization.",
+  "accessed": "2026-10-11"
+ },
+ "atWill": "at-will",
+ "notes": [
+  {
+   "text": "Employers who fail to pay wages due can owe three times the unpaid wages plus attorney's fees in a civil action.",
+   "source": {
+    "url": "https://www.scstatehouse.gov/code/t41c010.php",
+    "quote": "the employee may recover in a civil action an amount equal to three times the full amount of the unpaid wages, plus costs and reasonable attorney's fees",
+    "accessed": "2026-10-11"
+   }
+  },
+  {
+   "text": "Employers must tell each employee in writing at hiring the normal hours, wages, time and place of payment and deductions; changes need 7 days' written notice.",
+   "source": {
+    "url": "https://www.scstatehouse.gov/code/t41c010.php",
+    "quote": "Any changes in these terms must be made in writing at least seven calendar days before they become effective.",
+    "accessed": "2026-10-11"
+   }
+  }
+ ],
+ "uncertain": [
+  "The SC LLR labor pages could not be reached (old URLs 404, site timed out); 'no state minimum wage' relies on the dol.gov state table (cross-check source, updated 2026-07-01). No SC meal/rest break law: SC has no entry in the dol.gov meal-period table."
+ ]
+}

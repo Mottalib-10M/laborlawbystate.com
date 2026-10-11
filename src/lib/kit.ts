@@ -71,7 +71,9 @@ export const exemptTest = (slug: string, weekly: number) => salaryTest(weekly, F
 export const fmlaCheck = (x: Parameters<typeof fmla>[1]) => fmla(FM, x);
 export const hoursCheck = (h: number, weeks = 52) => schedule({ acaWeekly: ACA.fullTimeWeekly, acaMonthly: ACA.fullTimeMonthly, fmlaHours: FM.hours, otWeekly: F.otWeeklyHours }, h, weeks);
 export const sickYear = (slug: string, hoursPerWeek: number, weeks = 52) => { const s = sd(slug).sickLeave; return sickAccrual(hoursPerWeek, weeks, s.mandatory ? s.accrualPerHours : null, s.capHours); };
-export const pflStates = () => STATES.filter((s) => s.familyLeave.paidProgram);
+/** Paid family leave programs already paying benefits on the check date (Maryland and Virginia start later). */
+export const pflStates = () => STATES.filter((s) => s.familyLeave.paidProgram && !((s.familyLeave.benefitsStart ?? '') > TODAY));
+export const pflComing = () => STATES.filter((s) => s.familyLeave.paidProgram && (s.familyLeave.benefitsStart ?? '') > TODAY);
 export const sickStates = () => STATES.filter((s) => s.sickLeave.mandatory);
 export const breakShift = (slug: string, h: number) => breaksForShift(sd(slug).breaks, h);
 export const finalPayDate = (slug: string, lastDay: string) => { const f = sd(slug).finalPay; return f.firedDays == null ? null : countsBusinessDays(f.fired) ? addBusinessDays(lastDay, f.firedDays) : addDays(lastDay, f.firedDays); };
@@ -85,5 +87,5 @@ export const rate$ = (n: number) => usd(n, 2);
 /** "Alabama, Alaska and Arizona" from slugs. */
 export const names = (xs: StateData[]) => listOf(xs.map((s) => s.name));
 
-export const KIT = { STATES, sd, st, states, P, F, FM, ACA, TODAY, mwNow, mwState, mwOn, mw2026, mwMidYear, mwJan, mw2027, mwRaise, fullTimeAt, tippedCash, locals, atFederal, highest, otRule, otCalc, exemptLevel, exemptTest, fmlaCheck, hoursCheck, sickYear, pflStates, sickStates, breakShift, finalPayDate, rtwStates, garnish, sev, usd, usdx, pct, num, day, listOf, rate$, names };
+export const KIT = { STATES, sd, st, states, P, F, FM, ACA, TODAY, mwNow, mwState, mwOn, mw2026, mwMidYear, mwJan, mw2027, mwRaise, fullTimeAt, tippedCash, locals, atFederal, highest, otRule, otCalc, exemptLevel, exemptTest, fmlaCheck, hoursCheck, sickYear, pflStates, sickStates, breakShift, finalPayDate, rtwStates, garnish, sev, pflComing, usd, usdx, pct, num, day, listOf, rate$, names };
 export type Kit = typeof KIT;

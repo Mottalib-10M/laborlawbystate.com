@@ -70,9 +70,9 @@
   "source": null
  },
  "finalPay": {
-  "fired": "no state law (pay by the next regular payday is customary)",
+  "fired": "no state statute sets a deadline (federal law sets none either)",
   "firedDays": null,
-  "quit": "no state law (pay by the next regular payday is customary)",
+  "quit": "no state statute sets a deadline (federal law sets none either)",
   "quitNotice": null,
   "ptoPayout": "no-law",
   "ptoNote": "No state statute on vacation payout; follows employer policy or contract.",

@@ -31,7 +31,7 @@ for f in sorted(glob.glob(os.path.join(SRC, '*.json'))):
     fp = d['finalPay']  # a missing rule means no state statute was found: say so, never print "null"
     if not fp.get('fired'): fp['fired'] = 'no state statute sets a deadline (federal law sets none either)'
     if not fp.get('quit'): fp['quit'] = 'no state statute sets a deadline (federal law sets none either)'
-    if d.get('rightToWork') is None: d['rightToWork'] = False; d.setdefault('uncertain', []).append('rightToWork unverified: shown as no right-to-work law until confirmed')
+    if d.get('rightToWork') is None: d['rightToWork'] = False; d['rightToWorkUnknown'] = True  # never asserted on the page
     m = d['minWage']
     if d['slug'] != slug: errs.append('slug differs from file name')
     if not m.get('rates2026'): errs.append('no rates2026')

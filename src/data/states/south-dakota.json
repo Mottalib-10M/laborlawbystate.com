@@ -1,0 +1,130 @@
+{
+ "slug": "south-dakota",
+ "name": "South Dakota",
+ "abbr": "SD",
+ "agency": {
+  "name": "South Dakota Department of Labor and Regulation, Division of Labor and Management",
+  "url": "https://dlr.sd.gov/"
+ },
+ "minWage": {
+  "rates2026": [
+   {
+    "from": "2026-01-01",
+    "rate": 11.85,
+    "area": "Statewide",
+    "note": "Indexed annually to CPI, rounded up to the nearest 5 cents"
+   }
+  ],
+  "headline": 11.85,
+  "headlineArea": "Statewide",
+  "federalApplies": false,
+  "rates2027": [],
+  "smallEmployer": null,
+  "tipped": {
+   "cashWage": 5.925,
+   "tipCreditAllowed": true,
+   "note": "Half the minimum wage; employer must ensure tips bring pay to $11.85. Tipped = more than $35/month (dol.gov table)."
+  },
+  "other": "Training wage allowed under SDCL 60-11-4.1.",
+  "source": {
+   "url": "https://dlr.sd.gov/employment_laws/minimum_wage.aspx",
+   "quote": "The minimum wage for non-tipped employees in South Dakota is $11.85/hour . (Effective Jan. 1, 2026.)",
+   "accessed": "2026-10-11"
+  }
+ },
+ "localMinWages": [],
+ "overtime": {
+  "weeklyHours": null,
+  "dailyHours": null,
+  "doubleTime": null,
+  "seventhDay": null,
+  "exemptSalaryWeekly": null,
+  "exemptSalaryNote": null,
+  "note": "No state overtime law; federal FLSA applies.",
+  "source": {
+   "url": "https://dlr.sd.gov/employment_laws/comp_time_overtime.aspx",
+   "quote": "South Dakota has no labor laws concerning compensatory (comp) time or overtime.",
+   "accessed": "2026-10-11"
+  }
+ },
+ "sickLeave": {
+  "mandatory": false,
+  "accrual": null,
+  "accrualPerHours": null,
+  "capHours": null,
+  "capNote": null,
+  "employerThreshold": null,
+  "effective": null,
+  "note": "No statewide paid sick leave law for private employers.",
+  "source": null
+ },
+ "familyLeave": {
+  "paidProgram": false,
+  "name": null,
+  "benefitsStart": null,
+  "maxWeeks": null,
+  "replacement": null,
+  "maxWeeklyBenefit2026": null,
+  "medicalLeave": null,
+  "stateUnpaidLaw": null,
+  "source": null
+ },
+ "finalPay": {
+  "fired": "by the next regular payday (or when the employee returns employer property, if later)",
+  "firedDays": null,
+  "quit": "by the next regular payday (or when the employee returns employer property, if later)",
+  "quitNotice": null,
+  "ptoPayout": null,
+  "ptoNote": null,
+  "source": {
+   "url": "https://dlr.sd.gov/employment_laws/termination.aspx",
+   "quote": "Whether an employee quits or is fired, the law requires that all wages and compensation be paid not later than the next regular stated pay day",
+   "accessed": "2026-10-11"
+  },
+  "ptoSource": null
+ },
+ "breaks": {
+  "meal": null,
+  "mealMinutes": null,
+  "mealAfterHours": null,
+  "rest": null,
+  "restMinutes": null,
+  "restPerHours": null,
+  "minorsOnly": null,
+  "source": {
+   "url": "https://dlr.sd.gov/employment_laws/work_breaks.aspx",
+   "quote": "South Dakota does not have a law requiring an employer to provide rest breaks and meal periods.",
+   "accessed": "2026-10-11"
+  }
+ },
+ "rightToWork": true,
+ "rightToWorkSource": {
+  "url": "https://sdlegislature.gov/Statutes/60-8-3",
+  "quote": "The right of any person to work may not be denied or abridged on account of membership or nonmembership in any labor union or labor organization.",
+  "accessed": "2026-10-11"
+ },
+ "atWill": "at-will",
+ "notes": [
+  {
+   "text": "South Dakota's minimum wage is adjusted every year to the cost of living and can never decrease; the increase is rounded up to the nearest 5 cents.",
+   "source": {
+    "url": "https://dlr.sd.gov/employment_laws/minimum_wage.aspx",
+    "quote": "The amount of the increase will be rounded up to the nearest 5 cents. The minimum wage cannot decrease.",
+    "accessed": "2026-10-11"
+   }
+  },
+  {
+   "text": "Tipped workers' cash wage is half the minimum ($5.925 in 2026), higher than the federal $2.13.",
+   "source": {
+    "url": "https://dlr.sd.gov/employment_laws/minimum_wage.aspx",
+    "quote": "The minimum wage for tipped employees in South Dakota is $5.925 /hour . (Effective Jan. 1, 2026.)",
+    "accessed": "2026-10-11"
+   }
+  }
+ ],
+ "uncertain": [
+  "2027 rate not yet announced on dlr.sd.gov as of 2026-10-11 (usually announced in the autumn).",
+  "Vacation/PTO payout at separation: no statement found on DLR pages read; left null.",
+  "RTW statute read via sdlegislature.gov API (api/Statutes/60-8-3.html); source URL given is the public statute page."
+ ]
+}

@@ -1,41 +1,137 @@
 {
-  "slug": "north-carolina", "name": "North Carolina", "abbr": "NC",
-  "agency": {"name": "North Carolina Department of Labor, Wage and Hour Bureau", "url": "https://www.labor.nc.gov/"},
+  "slug": "north-carolina",
+  "name": "North Carolina",
+  "abbr": "NC",
+  "agency": {
+    "name": "North Carolina Department of Labor, Wage and Hour Bureau",
+    "url": "https://www.labor.nc.gov/"
+  },
   "minWage": {
-    "rates2026": [ {"from": "2009-07-24", "rate": 7.25, "area": "Statewide", "note": "Unchanged throughout 2026; equals the federal minimum"} ],
+    "rates2026": [
+      {
+        "from": "2009-07-24",
+        "rate": 7.25,
+        "area": "Statewide",
+        "note": "Unchanged throughout 2026; equals the federal minimum"
+      }
+    ],
     "headline": 7.25,
     "headlineArea": "Statewide",
     "federalApplies": false,
     "rates2027": [],
     "smallEmployer": null,
-    "tipped": {"cashWage": 2.13, "tipCreditAllowed": true, "note": "Tips must bring the employee to at least $7.25; employees must be notified in advance and keep all tips"},
+    "tipped": {
+      "cashWage": 2.13,
+      "tipCreditAllowed": true,
+      "note": "Tips must bring the employee to at least $7.25; employees must be notified in advance and keep all tips"
+    },
     "other": "Agricultural and domestic employees are subject to the federal minimum wage.",
-    "source": {"url": "https://www.labor.nc.gov/workplace-rights/employee-rights-regarding-time-worked-and-wages-earned/minimum-wage-nc", "quote": "The minimum wage in North Carolina is currently $7.25 an hour.", "accessed": "2026-10-11"}
+    "source": {
+      "url": "https://www.labor.nc.gov/workplace-rights/employee-rights-regarding-time-worked-and-wages-earned/minimum-wage-nc",
+      "quote": "The minimum wage in North Carolina is currently $7.25 an hour.",
+      "accessed": "2026-10-11"
+    }
   },
   "localMinWages": [],
-  "overtime": {"weeklyHours": 40, "dailyHours": null, "doubleTime": null, "seventhDay": null,
-    "exemptSalaryWeekly": null, "exemptSalaryNote": null,
+  "overtime": {
+    "weeklyHours": 40,
+    "dailyHours": null,
+    "doubleTime": null,
+    "seventhDay": null,
+    "exemptSalaryWeekly": null,
+    "exemptSalaryNote": null,
     "note": "Seasonal amusement/recreation businesses: overtime after 45 hours (per dol.gov table).",
-    "source": {"url": "https://www.labor.nc.gov/workplace-rights/employee-rights-regarding-time-worked-and-wages-earned/overtime-pay-salary-and-comp", "quote": "time and one-half overtime pay based on an employee's regular rate of pay for all hours worked in excess of 40 in a workweek unless the employee is exempt", "accessed": "2026-10-11"}},
-  "sickLeave": {"mandatory": false, "accrual": null, "accrualPerHours": null, "capHours": null, "capNote": null,
-    "employerThreshold": null, "effective": null, "note": "No state paid sick leave requirement; sick leave is a promised wage benefit only if the employer offers it.",
-    "source": {"url": "https://www.labor.nc.gov/workplace-rights/employee-rights-regarding-time-worked-and-wages-earned/promised-wages-including-wage-benefits", "quote": "an employer is not required by law to give mandatory wage benefits such as vacation pay, sick leave, jury duty pay, and holiday pay", "accessed": "2026-10-11"}},
-  "familyLeave": {"paidProgram": false, "name": null, "benefitsStart": null, "maxWeeks": null, "replacement": null,
-    "maxWeeklyBenefit2026": null, "medicalLeave": null, "stateUnpaidLaw": null, "source": null},
-  "finalPay": {"fired": "on or before the next regular payday", "firedDays": null,
-    "quit": "on or before the next regular payday", "quitNotice": null,
-    "ptoPayout": "policy", "ptoNote": "Earned vacation must be paid at separation unless the employer has a written forfeiture clause notified to employees.",
-    "source": {"url": "https://www.labor.nc.gov/workplace-rights/employee-rights-regarding-time-worked-and-wages-earned/payment-final-wages", "quote": "Employees whose employment is discontinued for any reason shall be paid all wages due on or before the next regular payday", "accessed": "2026-10-11"},
-    "ptoSource": {"url": "https://www.labor.nc.gov/workplace-rights/employee-rights-regarding-time-worked-and-wages-earned/promised-wages-including-wage-benefits", "quote": "Earned vacation pay, commissions, and bonuses cannot be forfeited unless the employer has a written forfeiture clause in its vacation, commission, or bonus policy", "accessed": "2026-10-11"}},
-  "breaks": {"meal": null, "mealMinutes": null, "mealAfterHours": null, "rest": null, "restMinutes": null, "restPerHours": null,
+    "source": {
+      "url": "https://www.labor.nc.gov/workplace-rights/employee-rights-regarding-time-worked-and-wages-earned/overtime-pay-salary-and-comp",
+      "quote": "time and one-half overtime pay based on an employee's regular rate of pay for all hours worked in excess of 40 in a workweek unless the employee is exempt",
+      "accessed": "2026-10-11"
+    }
+  },
+  "sickLeave": {
+    "mandatory": false,
+    "accrual": null,
+    "accrualPerHours": null,
+    "capHours": null,
+    "capNote": null,
+    "employerThreshold": null,
+    "effective": null,
+    "note": "No state paid sick leave requirement; sick leave is a promised wage benefit only if the employer offers it.",
+    "source": {
+      "url": "https://www.labor.nc.gov/workplace-rights/employee-rights-regarding-time-worked-and-wages-earned/promised-wages-including-wage-benefits",
+      "quote": "an employer is not required by law to give mandatory wage benefits such as vacation pay, sick leave, jury duty pay, and holiday pay",
+      "accessed": "2026-10-11"
+    }
+  },
+  "familyLeave": {
+    "paidProgram": false,
+    "name": null,
+    "benefitsStart": null,
+    "maxWeeks": null,
+    "replacement": null,
+    "maxWeeklyBenefit2026": null,
+    "medicalLeave": null,
+    "stateUnpaidLaw": null,
+    "source": null
+  },
+  "finalPay": {
+    "fired": "on or before the next regular payday",
+    "firedDays": null,
+    "quit": "on or before the next regular payday",
+    "quitNotice": null,
+    "ptoPayout": "policy",
+    "ptoNote": "Earned vacation must be paid at separation unless the employer has a written forfeiture clause notified to employees.",
+    "source": {
+      "url": "https://www.labor.nc.gov/workplace-rights/employee-rights-regarding-time-worked-and-wages-earned/payment-final-wages",
+      "quote": "Employees whose employment is discontinued for any reason shall be paid all wages due on or before the next regular payday",
+      "accessed": "2026-10-11"
+    },
+    "ptoSource": {
+      "url": "https://www.labor.nc.gov/workplace-rights/employee-rights-regarding-time-worked-and-wages-earned/promised-wages-including-wage-benefits",
+      "quote": "Earned vacation pay, commissions, and bonuses cannot be forfeited unless the employer has a written forfeiture clause in its vacation, commission, or bonus policy",
+      "accessed": "2026-10-11"
+    }
+  },
+  "breaks": {
+    "meal": null,
+    "mealMinutes": null,
+    "mealAfterHours": null,
+    "rest": null,
+    "restMinutes": null,
+    "restPerHours": null,
     "minorsOnly": "Under 16: at least a 30-minute break after 5 hours of work",
-    "source": {"url": "https://www.labor.nc.gov/workplace-rights/employee-rights-regarding-time-worked-and-wages-earned/what-know-about-breaks", "quote": "does not require mandatory rest breaks or meal breaks for employees 16 years of age or older. The WHA requires breaks only for youths under 16", "accessed": "2026-10-11"}},
+    "source": {
+      "url": "https://www.labor.nc.gov/workplace-rights/employee-rights-regarding-time-worked-and-wages-earned/what-know-about-breaks",
+      "quote": "does not require mandatory rest breaks or meal breaks for employees 16 years of age or older. The WHA requires breaks only for youths under 16",
+      "accessed": "2026-10-11"
+    }
+  },
   "rightToWork": true,
-  "rightToWorkSource": null,
+  "rightToWorkSource": {
+    "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/PDF/BySection/Chapter_95/GS_95-78.pdf",
+    "quote": "the right of persons to work shall not be denied or abridged on account of membership or nonmembership in any labor union or labor organization",
+    "accessed": "2026-10-11"
+  },
   "atWill": "at-will",
   "notes": [
-    {"text": "Employers must grant parents of school-age children 4 hours of (unpaid) leave per year to attend or be involved at the child's school.", "source": {"url": "https://www.labor.nc.gov/workplace-rights/employee-rights-regarding-time-worked-and-wages-earned/parental-leave", "quote": "employers shall grant four hours per year leave to any employee who is a parent, guardian, or person standing in loco parentis of a school-aged child", "accessed": "2026-10-11"}},
-    {"text": "Any break shorter than 30 minutes (such as a 15-minute rest break) generally must be paid.", "source": {"url": "https://www.labor.nc.gov/workplace-rights/employee-rights-regarding-time-worked-and-wages-earned/what-know-about-breaks", "quote": "Generally, breaks of less than 30 minutes, such as a 15-minute rest break, have to be paid by the employer.", "accessed": "2026-10-11"}}
+    {
+      "text": "Employers must grant parents of school-age children 4 hours of (unpaid) leave per year to attend or be involved at the child's school.",
+      "source": {
+        "url": "https://www.labor.nc.gov/workplace-rights/employee-rights-regarding-time-worked-and-wages-earned/parental-leave",
+        "quote": "employers shall grant four hours per year leave to any employee who is a parent, guardian, or person standing in loco parentis of a school-aged child",
+        "accessed": "2026-10-11"
+      }
+    },
+    {
+      "text": "Any break shorter than 30 minutes (such as a 15-minute rest break) generally must be paid.",
+      "source": {
+        "url": "https://www.labor.nc.gov/workplace-rights/employee-rights-regarding-time-worked-and-wages-earned/what-know-about-breaks",
+        "quote": "Generally, breaks of less than 30 minutes, such as a 15-minute rest break, have to be paid by the employer.",
+        "accessed": "2026-10-11"
+      }
+    }
   ],
-  "uncertain": []
+  "uncertain": [
+    "ncleg.gov blocked direct access (Cloudflare) on 2026-10-11; G.S. 95-78 read from the Internet Archive copy of the official PDF captured 2026-05-18.",
+    "Seasonal amusement/recreation 45-hour overtime rule taken from the dol.gov state table (cross-check source), not from an NCDOL page."
+  ]
 }

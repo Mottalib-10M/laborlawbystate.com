@@ -36,7 +36,7 @@ export default function FmlaTool({ states, state, lockState = false, methodHref 
     [`${F.months} months with this employer`, r.tenure ? 'Met' : `${r.monthsShort} more months`],
     [`${F.hours.toLocaleString('en-US')} hours in the last 12 months`, r.hours ? 'Met' : `${r.hoursShort.toLocaleString('en-US')} hours short`],
     ['Leave left in the 12-month period', `${r.left} of ${r.entitlement} workweeks`],
-    [`Paid leave program in ${S.name}`, S.pfl ? `${S.pfl.name}${S.pfl.weeks ? `, up to ${S.pfl.weeks} weeks` : ''}${S.pfl.maxWeekly ? `, max ${usd(S.pfl.maxWeekly)}/week` : ''}` : 'None: FMLA leave is unpaid unless you use PTO'],
+    [`Paid leave program in ${S.name}`, S.pfl ? `${S.pfl.name}${S.pfl.from ? ` (benefits from ${S.pfl.from})` : ''}${S.pfl.weeks ? `, up to ${S.pfl.weeks} weeks` : ''}${S.pfl.maxWeekly ? `, max ${usd(S.pfl.maxWeekly)}/week` : ''}` : 'None: FMLA leave is unpaid unless you use PTO'],
   ];
   const p = idPrefix;
   return (
