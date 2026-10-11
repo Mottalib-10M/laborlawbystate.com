@@ -27,8 +27,15 @@ export function Rows({ rows }: { rows: Array<[string, string]> }) {
 export function Result({ label, value, sub, children, methodHref, note }: { label: string; value: string; sub?: string; children?: ReactNode; methodHref: string; note: string }) {
   const [copied, setCopied] = useState(false);
   const copy = () => { navigator.clipboard?.writeText(window.location.href).then(() => { setCopied(true); setTimeout(() => setCopied(false), 1500); }); };
+  // Téléphone : barre collée en bas de l'écran tant que les champs sont visibles, avec le chiffre clé ;
+  // elle reprend sa place juste au-dessus du résultat détaillé (RECETTE §5, règle du 2026-10-11).
   return (
-    <div aria-live="polite" className="mt-6 rounded-xl bg-accent-50 p-4 sm:p-5">
+    <>
+    <div aria-hidden="true" className="sticky bottom-0 z-10 -mx-4 flex items-baseline justify-between gap-3 border-t border-accent-200 bg-accent-50 px-4 py-2.5 shadow-[0_-4px_12px_rgba(0,0,0,0.06)] sm:-mx-6 sm:px-6 lg:hidden">
+      <span className="text-xs font-medium uppercase tracking-wide text-navy-600">Result</span>
+      <span className="tabular-nums truncate text-xl font-bold text-navy-900">{value}</span>
+    </div>
+    <div data-resultat aria-live="polite" className="rounded-xl bg-accent-50 p-4 sm:p-5">
       <p className="text-sm font-medium text-navy-700">{label}</p>
       <p className="tabular-nums mt-1 text-4xl font-bold text-navy-900">{value}</p>
       {sub && <p className="mt-1 text-sm text-navy-700">{sub}</p>}
@@ -39,6 +46,7 @@ export function Result({ label, value, sub, children, methodHref, note }: { labe
         <button type="button" onClick={() => window.print()} className="rounded-lg border border-navy-300 bg-white px-3 py-1.5 font-medium text-navy-800 hover:bg-navy-50">Print</button>
       </div>
     </div>
+    </>
   );
 }
 

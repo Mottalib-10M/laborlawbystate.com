@@ -9,18 +9,22 @@ import { STATES_INDEX as X } from '../../content/states-index';
 import { helpers } from '../../lib/helpers';
 import { stateArg } from '../../lib/mini-args';
 import MiniSim from '../../components/calc/MiniSim';
+import { t } from '../../i18n/ui';
+import { displayDate } from '../../lib/format';
+import { LAST_UPDATED, LANG_TAGS as __LT } from '../../data/site-config';
 const lang = 'en';
 const path = route('states', lang);
 const h = helpers();
 const has = (id: string) => ROUTES.some((r) => r.id === id);
 ---
-<PageLayout title={X.title} description={X.description} lang={lang} faqs={X.faqs} jsonLd={[faqSchema(X.faqs, lang), webPageSchema({ name: X.h1, description: X.description, path, lang }), breadcrumbSchema([{ name: 'Home', path: route('home', lang) }, { name: 'All 51 states', path }])]} breadcrumbs={[{ label: 'All 51 states' }]}>
+<PageLayout title={X.title} description={X.description} lang={lang} faqs={X.faqs} jsonLd={[faqSchema(X.faqs, lang), webPageSchema({ name: X.h1, description: X.description, path, lang }), breadcrumbSchema([{ name: 'Home', path: route('home', lang) }, { name: 'All 51 states', path }])]} breadcrumbs={[{ label: 'All 51 states' }]} dateInHeader>
   <header class="mb-6">
     <h1 class="font-serif text-3xl font-bold text-navy-900 md:text-4xl">{X.h1}</h1>
     <p class="mt-3 text-lg text-navy-700">{X.intro}</p>
+    <p class="mt-3 text-sm text-navy-600">{t(lang).updatedOn} <time datetime={LAST_UPDATED}>{displayDate(LAST_UPDATED, __LT[lang])}</time></p>
   </header>
+  <MiniSim client:load kind="stateCompare" arg={JSON.stringify(stateArg())} href={route('home', lang)} lead />
   <p class="mb-6 text-navy-800">{X.resume}</p>
-  <MiniSim client:load kind="stateCompare" arg={JSON.stringify(stateArg())} href={route('home', lang)} />
   <ul data-sommaire class="grid grid-cols-1 gap-x-6 gap-y-2 border-y border-navy-200 py-4 sm:grid-cols-2 lg:grid-cols-3">
     {STATES.map((s) => (
       <li class="py-1">{has(stateId(s.slug)) ? <a class="font-semibold text-accent-700 hover:underline" href={route(stateId(s.slug), lang)}>{s.name}</a> : <span class="font-semibold text-navy-900">{s.name}</span>}

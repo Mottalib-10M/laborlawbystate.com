@@ -41,12 +41,13 @@ export default function FmlaTool({ states, state, lockState = false, methodHref 
   const p = idPrefix;
   return (
     <div className="rechner rounded-xl border border-navy-200 bg-white p-4 sm:p-6">
+      <div className="grid gap-6 lg:grid-cols-2 lg:items-start">
       <form className="grid gap-x-5 gap-y-4 sm:grid-cols-2" onSubmit={(e) => e.preventDefault()}>
         {lockState ? <LockedField label="State" value={S.name} /> : <SelectField id={`${p}-st`} label="State where you work" value={slug} onChange={setSlug} options={stateOptions(states)} />}
         <Toggle id={`${p}-pub`} label="Public agency or school?" value={pub} onChange={(v) => setPub(v as '0' | '1')} options={[{ value: '0', label: 'No' }, { value: '1', label: 'Yes' }]} />
         <NumberField id={`${p}-e`} label={`Employees within ${F.radiusMiles} miles`} value={site} onChange={setSite} max={1000000} help="Of your employer, counted around your worksite." />
         <NumberField id={`${p}-m`} label="Months with this employer" value={months} onChange={setMonths} unit="months" max={600} help="Need not be in a row (breaks under 7 years count)." />
-        <NumberField id={`${p}-hrs`} label="Hours worked in the last 12 months" value={hours} onChange={setHours} unit="h" max={8784} help="Hours actually worked; paid leave does not count." />
+        <NumberField id={`${p}-hrs`} label="Hours worked in the last 12 months" value={hours} onChange={setHours} unit="h" max={8784} help="Hours actually worked; paid leave does not count." className="lg:col-span-2" />
         <NumberField id={`${p}-u`} label="FMLA weeks already used" value={used} onChange={setUsed} unit="weeks" max={52} decimals={1} />
         <Toggle id={`${p}-mc`} label="Caring for an injured servicemember?" value={care} onChange={(v) => setCare(v as '0' | '1')} options={[{ value: '0', label: 'No' }, { value: '1', label: 'Yes' }]} />
       </form>
@@ -54,6 +55,7 @@ export default function FmlaTool({ states, state, lockState = false, methodHref 
         note="Tests of 29 CFR 825.110. The employer counts the 12-month period one of four ways (calendar year, fixed year, from first use, or rolling back).">
         <Rows rows={rows} />
       </Result>
+      </div>
     </div>
   );
 }

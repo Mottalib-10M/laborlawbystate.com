@@ -34,6 +34,7 @@ export default function OvertimeTool({ states, state, lockState = false, methodH
   const p = idPrefix;
   return (
     <div className="rechner rounded-xl border border-navy-200 bg-white p-4 sm:p-6">
+      <div className="grid gap-6 lg:grid-cols-2 lg:items-start">
       <form className="grid gap-x-5 gap-y-4 sm:grid-cols-2" onSubmit={(e) => e.preventDefault()}>
         {lockState ? <LockedField label="State" value={S.name} /> : <SelectField id={`${p}-st`} label="State where you work" value={slug} onChange={setSlug} options={stateOptions(states)} />}
         <NumberField id={`${p}-rate`} label="Regular hourly rate" value={rate} onChange={setRate} unit="$" max={500} decimals={2} help="Include shift differentials and nondiscretionary bonuses if you have them." />
@@ -44,6 +45,7 @@ export default function OvertimeTool({ states, state, lockState = false, methodH
         note="For non-exempt employees. The same hours are used every day; exemptions, industry rules and employer-size limits are not modeled.">
         <Rows rows={rows} />
       </Result>
+      </div>
     </div>
   );
 }

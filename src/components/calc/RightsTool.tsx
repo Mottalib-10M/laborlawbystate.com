@@ -41,6 +41,7 @@ export default function RightsTool({ states, state, lockState = false, methodHre
   const p = idPrefix;
   return (
     <div className="rechner rounded-xl border border-navy-200 bg-white p-4 sm:p-6">
+      <div className="grid gap-6 lg:grid-cols-2 lg:items-start">
       <form className="grid gap-x-5 gap-y-4 sm:grid-cols-2" onSubmit={(e) => e.preventDefault()}>
         {lockState ? <LockedField label="State" value={S.name} /> : <SelectField id={`${p}-st`} label="State where you work" value={slug} onChange={(v) => { setSlug(v); const n = states.find((x) => x.slug === v); if (n) setRate(n.mw); }} options={stateOptions(states)} />}
         <NumberField id={`${p}-rate`} label="Your hourly pay" value={rate} onChange={setRate} unit="$" max={500} decimals={2} help="Before taxes, without tips." />
@@ -51,6 +52,7 @@ export default function RightsTool({ states, state, lockState = false, methodHre
         note={`${weekHours} hours a week at ${usd2(rate)}. ${ot.basis === 'federal' ? 'The federal 40-hour rule gives more here.' : 'State rule applied.'} Minimum wage, overtime and leave rules have exceptions by employer size and industry.`}>
         <Rows rows={rows} />
       </Result>
+      </div>
     </div>
   );
 }
