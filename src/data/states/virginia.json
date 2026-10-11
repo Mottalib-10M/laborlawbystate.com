@@ -1,0 +1,154 @@
+{
+ "slug": "virginia",
+ "name": "Virginia",
+ "abbr": "VA",
+ "agency": {
+  "name": "Virginia Department of Labor and Industry (DOLI), Labor and Employment Law Division",
+  "url": "https://doli.virginia.gov/programs/labor-law/"
+ },
+ "minWage": {
+  "rates2026": [
+   {
+    "from": "2026-01-01",
+    "rate": 12.77,
+    "area": "Statewide",
+    "note": "Training wage: employees in an approved on-the-job training program (up to 90 days) may be paid 75% of the Virginia minimum wage or the federal minimum, whichever is greater"
+   }
+  ],
+  "headline": 12.77,
+  "headlineArea": "Statewide",
+  "federalApplies": false,
+  "rates2027": [
+   {
+    "from": "2027-01-01",
+    "rate": 13.75,
+    "area": "Statewide",
+    "note": "Enacted by 2026 Acts cc. 350 and 351; then $15.00 from January 1, 2028 and CPI indexing from January 1, 2029"
+   }
+  ],
+  "smallEmployer": null,
+  "tipped": {
+   "cashWage": 2.13,
+   "tipCreditAllowed": true,
+   "note": "Employer may count tips toward the minimum wage (tipped employee = more than $30 a month in tips); cash wage $2.13 per the U.S. DOL state tipped table (max tip credit $10.64)"
+  },
+  "other": "Training wage: 75% of the state minimum wage (or federal minimum if higher) for up to 90 days in an approved training program. Excluded from the state act: farm workers, under-16s, full-time students under 18, and others (Va. Code 40.1-28.9).",
+  "source": {
+   "url": "https://law.lis.virginia.gov/vacode/title40.1/chapter3/section40.1-28.10/",
+   "quote": "From January 1, 2026, until January 1, 2027, every employer shall pay to each of its employees wages at a rate not less than the greater of (i) $12.77 per hour or (ii) the federal minimum wage.",
+   "accessed": "2026-10-11"
+  }
+ },
+ "localMinWages": [],
+ "overtime": {
+  "weeklyHours": 40,
+  "dailyHours": null,
+  "doubleTime": null,
+  "seventhDay": null,
+  "exemptSalaryWeekly": null,
+  "exemptSalaryNote": null,
+  "note": "Virginia enforces the federal FLSA overtime rules (time and a half after 40 hours a week) through state law, with state-court remedies.",
+  "source": {
+   "url": "https://law.lis.virginia.gov/vacode/title40.1/chapter3/section40.1-29.2/",
+   "quote": "Any employer that violates the overtime pay requirements of the federal Fair Labor Standards Act of 1938 ... shall be liable to the employee for the applicable remedies",
+   "accessed": "2026-10-11"
+  }
+ },
+ "sickLeave": {
+  "mandatory": false,
+  "accrual": "1 hour for every 30 hours worked (home health workers only in 2026)",
+  "accrualPerHours": 30,
+  "capHours": 40,
+  "capNote": "Today: only home health workers (consumer-directed Medicaid services) averaging 20+ hours a week, 40 hours a year. From July 1, 2027: all employees of employers with 50+ employees, 25+ from January 1, 2028, all employers from January 1, 2029 (1 hour per 30 worked, up to 40 hours a year).",
+  "employerThreshold": "2026: home health workers only; 2027-07-01: 50+ employees; 2028-01-01: 25+; 2029-01-01: all employers",
+  "effective": "2027-07-01",
+  "note": "General paid sick leave enacted in 2026 (2026 Acts cc. 1128, 1129), effective July 1, 2027.",
+  "source": {
+   "url": "https://law.lis.virginia.gov/vacode/title40.1/chapter3/section40.1-33.6:1/",
+   "quote": "(i) beginning July 1, 2027, \"employer\" means an employer of at least 50 employees; (ii) beginning January 1, 2028, ... at least 25 employees; and (iii) beginning January 1, 2029, ... at least one employee",
+   "accessed": "2026-10-11"
+  }
+ },
+ "familyLeave": {
+  "paidProgram": true,
+  "name": "Virginia Paid Family and Medical Leave Insurance Program",
+  "benefitsStart": "2028-12-01",
+  "maxWeeks": 12,
+  "replacement": "80% of average weekly wages in the base period, minimum $100/week, maximum 100% of the state average weekly net earnings",
+  "maxWeeklyBenefit2026": null,
+  "medicalLeave": "included in the same program (12 weeks per benefit year in total)",
+  "stateUnpaidLaw": null,
+  "source": {
+   "url": "https://law.lis.virginia.gov/vacode/title60.2/chapter8/section60.2-801/",
+   "quote": "By April 1, 2028, the Commission shall begin collecting contributions as provided in this chapter. By December 1, 2028, the Commission shall begin receiving claims and paying family and medical leave benefits",
+   "accessed": "2026-10-11"
+  }
+ },
+ "finalPay": {
+  "fired": "by the next regular payday (the date the wages would have been paid)",
+  "firedDays": null,
+  "quit": "by the next regular payday",
+  "quitNotice": null,
+  "ptoPayout": "no-law",
+  "ptoNote": "No Virginia statute requires payout of accrued vacation; follows employer policy or contract.",
+  "source": {
+   "url": "https://law.lis.virginia.gov/vacode/title40.1/chapter3/section40.1-29/",
+   "quote": "Upon termination of employment an employee shall be paid all wages due him for work performed prior thereto; such payment shall be made on or before the date on which he would have been paid",
+   "accessed": "2026-10-11"
+  },
+  "ptoSource": null
+ },
+ "breaks": {
+  "meal": null,
+  "mealMinutes": null,
+  "mealAfterHours": null,
+  "rest": null,
+  "restMinutes": null,
+  "restPerHours": null,
+  "minorsOnly": "Children under 16: at least a 30-minute lunch period after five hours of continuous work.",
+  "source": {
+   "url": "https://law.lis.virginia.gov/vacode/title40.1/chapter5/section40.1-80.1/",
+   "quote": "No child shall be employed or permitted to work for more than five hours continuously without an interval of at least 30 minutes for a lunch period",
+   "accessed": "2026-10-11"
+  }
+ },
+ "rightToWork": true,
+ "rightToWorkSource": {
+  "url": "https://law.lis.virginia.gov/vacode/title40.1/chapter4/section40.1-58/",
+  "quote": "the right of persons to work shall not be denied or abridged on account of membership or nonmembership in any labor union or labor organization",
+  "accessed": "2026-10-11"
+ },
+ "atWill": "at-will",
+ "notes": [
+  {
+   "text": "The minimum wage rises to $13.75 on January 1, 2027 and $15.00 on January 1, 2028, then is indexed to inflation from 2029 (2026 legislation).",
+   "source": {
+    "url": "https://law.lis.virginia.gov/vacode/title40.1/chapter3/section40.1-28.10/",
+    "quote": "From January 1, 2028, until January 1, 2029, every employer shall pay to each of its employees wages at a rate not less than the greater of (i) $15.00 per hour",
+    "accessed": "2026-10-11"
+   }
+  },
+  {
+   "text": "A state paid family and medical leave program was created in 2026: contributions start April 1, 2028 and benefits (up to 12 weeks, 80% of wages) from December 1, 2028.",
+   "source": {
+    "url": "https://law.lis.virginia.gov/vacode/title60.2/chapter8/section60.2-804/",
+    "quote": "A covered individual's weekly benefit amount shall be 80 percent of such covered individual's average weekly wages during the base period",
+    "accessed": "2026-10-11"
+   }
+  },
+  {
+   "text": "Paid sick leave extends to most workers from July 1, 2027 (employers with 50+ employees first, all employers by 2029).",
+   "source": {
+    "url": "https://law.lis.virginia.gov/vacode/title40.1/chapter3/section40.1-33.6:2/",
+    "quote": "All employees shall accrue a minimum of one hour of paid sick leave for every 30 hours worked.",
+    "accessed": "2026-10-11"
+   }
+  }
+ ],
+ "uncertain": [
+  "DOLI's minimum wage page (doli.virginia.gov/labor-law/minimum-wage/) is outdated (still shows the 2021 $9.50 notice); all rates come from the Code of Virginia (law.lis.virginia.gov, version dated 10/10/2026), cross-checked with the U.S. DOL tipped table ($12.77 / $2.13).",
+  "Tipped cash wage $2.13 comes from the U.S. DOL table; the Virginia statute only says wages are deemed increased by tips, without stating a minimum cash wage.",
+  "PFML maximum weekly benefit for 2028 not yet set (adjusted by September 30 each year); maxWeeklyBenefit2026 null because benefits are not payable in 2026.",
+  "familyLeave.paidProgram set to true although benefits only start 2028-12-01 (enacted program, not yet paying)."
+ ]
+}

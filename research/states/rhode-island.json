@@ -1,0 +1,153 @@
+{
+  "slug": "rhode-island",
+  "name": "Rhode Island",
+  "abbr": "RI",
+  "agency": {
+    "name": "Rhode Island Department of Labor and Training, Labor Standards Unit",
+    "url": "https://dlt.ri.gov/"
+  },
+  "minWage": {
+    "rates2026": [
+      {
+        "from": "2026-01-01",
+        "rate": 16.0,
+        "area": "Statewide",
+        "note": ""
+      }
+    ],
+    "headline": 16.0,
+    "headlineArea": "Statewide",
+    "federalApplies": false,
+    "rates2027": [
+      {
+        "from": "2027-01-01",
+        "rate": 17.0,
+        "area": "Statewide",
+        "note": "set by statute (RIGL 28-12-3), listed on the DLT minimum wage page"
+      }
+    ],
+    "smallEmployer": null,
+    "tipped": {
+      "cashWage": 3.89,
+      "tipCreditAllowed": true,
+      "note": "Maximum tip credit $12.11; cash wage plus tips must reach $16.00."
+    },
+    "other": "Full-time students under 19 at nonprofit/religious/library/community organizations: 90% ($14.40); 14-15-year-olds working 24 h/week or less: 75% ($12.00).",
+    "source": {
+      "url": "https://dlt.ri.gov/regulation-and-safety/labor-standards/minimum-wage",
+      "quote": "Commencing January 1, 2027: $17.00 per hour * Commencing January 1, 2026: $16.00 per hour",
+      "accessed": "2026-10-11"
+    }
+  },
+  "localMinWages": [],
+  "overtime": {
+    "weeklyHours": 40,
+    "dailyHours": null,
+    "doubleTime": null,
+    "seventhDay": null,
+    "exemptSalaryWeekly": null,
+    "exemptSalaryNote": null,
+    "note": "Separate rule: time and one-half for work on Sundays and holidays (with exceptions); retail Sunday/holiday premium hours are excluded from weekly overtime.",
+    "source": {
+      "url": "https://dlt.ri.gov/regulation-and-safety/labor-standards/labor-standards-faq",
+      "quote": "If you work more than 40 hours in a week, you must be paid one and one-half times your regular rate of pay for any additional hours worked after the standard 40 hours.",
+      "accessed": "2026-10-11"
+    }
+  },
+  "sickLeave": {
+    "mandatory": true,
+    "accrual": "1 hour for every 35 hours worked",
+    "accrualPerHours": 35,
+    "capHours": 40,
+    "capNote": "Up to 40 hours per year; paid at employers with 18+ employees, unpaid but protected at 17 or fewer.",
+    "employerThreshold": "all employers (paid at 18+ employees)",
+    "effective": "2018-07-01",
+    "note": "Healthy and Safe Families and Workplaces Act (RIGL 28-57).",
+    "source": {
+      "url": "https://dlt.ri.gov/sites/g/files/xkgbur571/files/2025-08/Sick%20%26%20Safe%20Leave%20Factsheet%20-%20Rev.%208.%202025.pdf",
+      "quote": "they are entitled to earn at least one hour of sick/safe leave for every 35 hours worked ... Full-time employees may earn and use up to 40 hours per year.",
+      "accessed": "2026-10-11"
+    }
+  },
+  "familyLeave": {
+    "paidProgram": true,
+    "name": "Rhode Island Temporary Caregiver Insurance (TCI)",
+    "benefitsStart": null,
+    "maxWeeks": 8,
+    "replacement": "Weekly benefit rate based on base-period wages; minimum $148, plus a dependency allowance (greater of $20 or 7% of the rate per dependent, up to 5)",
+    "maxWeeklyBenefit2026": 1150.0,
+    "medicalLeave": "Temporary Disability Insurance (TDI): up to 30 weeks for the worker's own non-work illness or injury (TCI weeks reduce TDI weeks).",
+    "stateUnpaidLaw": "RI Parental and Family Medical Leave Act: 13 consecutive weeks of unpaid job-protected leave (employers with 50+ employees, 12 months of service).",
+    "source": {
+      "url": "https://dlt.ri.gov/individuals/temporary-disability-caregiver-insurance/claimants/tditci-frequently-asked-questions",
+      "quote": "For claims with a Benefit Year beginning date of 7/1/26 or later, $1,150.00 is the maximum benefit rate, and the minimum benefit rate is $148.",
+      "accessed": "2026-10-11"
+    }
+  },
+  "finalPay": {
+    "fired": "by the next regular payday (within 24 hours if the business is liquidated, merged, sold or moved out of state)",
+    "firedDays": null,
+    "quit": "by the next regular payday",
+    "quitNotice": null,
+    "ptoPayout": "required",
+    "ptoNote": "Accrued vacation must be paid at separation once the employee has completed at least 1 year of service.",
+    "source": {
+      "url": "https://dlt.ri.gov/sites/g/files/xkgbur571/files/2024-12/LS%20Wage%20and%20Workplace%20Laws%20Guide_Rev_Dec2024.pdf",
+      "quote": "Whenever an employee is separated from the payroll, the unpaid wages or compensation of such employee shall become due on the next regular payday",
+      "accessed": "2026-10-11"
+    },
+    "ptoSource": {
+      "url": "https://dlt.ri.gov/regulation-and-safety/labor-standards/labor-standards-faq",
+      "quote": "they are required to pay out any remaining accrued vacation pay upon separation if you work for them for at least one year.",
+      "accessed": "2026-10-11"
+    }
+  },
+  "breaks": {
+    "meal": "20-minute mealtime for a 6-hour shift, 30 minutes for an 8-hour shift (unpaid); not required in licensed health care facilities or where fewer than 3 employees are on site",
+    "mealMinutes": 20,
+    "mealAfterHours": 6,
+    "rest": null,
+    "restMinutes": null,
+    "restPerHours": null,
+    "minorsOnly": null,
+    "source": {
+      "url": "https://dlt.ri.gov/regulation-and-safety/labor-standards/labor-standards-faq",
+      "quote": "Employees must be given a twenty-minute mealtime for a six-hour shift, and a thirty-minute mealtime for an eight-hour shift.",
+      "accessed": "2026-10-11"
+    }
+  },
+  "rightToWork": false,
+  "rightToWorkSource": null,
+  "atWill": "at-will",
+  "notes": [
+    {
+      "text": "Rhode Island requires time-and-a-half for work on Sundays and holidays in most businesses, on top of weekly overtime rules.",
+      "source": {
+        "url": "https://dlt.ri.gov/regulation-and-safety/labor-standards/labor-standards-faq",
+        "quote": "Employees must be paid at least one and one-half times your normal rate of pay for any work performed on Sundays and holidays.",
+        "accessed": "2026-10-11"
+      }
+    },
+    {
+      "text": "Since January 1, 2026, bone marrow donors can use one week of TCI and organ donors thirty business days.",
+      "source": {
+        "url": "https://dlt.ri.gov/individuals/temporary-disability-caregiver-insurance/claimants/tditci-frequently-asked-questions",
+        "quote": "Effective 1/1/26: bone marrow donors can access one week of TCI, and organ donors can access thirty business days of TCI.",
+        "accessed": "2026-10-11"
+      }
+    },
+    {
+      "text": "Minimum wage rises to $17.00 on January 1, 2027.",
+      "source": {
+        "url": "https://dlt.ri.gov/regulation-and-safety/labor-standards/minimum-wage",
+        "quote": "Commencing January 1, 2027: $17.00 per hour",
+        "accessed": "2026-10-11"
+      }
+    }
+  ],
+  "uncertain": [
+    "dlt.ri.gov blocks curl and WebFetch (HTTP 403); all DLT pages and PDFs were read through a text-rendering proxy (r.jina.ai). Quotes are verbatim from the official pages.",
+    "TCI date benefits first became payable not stated on pages read (left null; program enacted July 11, 2013 per DLT).",
+    "TCI weekly benefit formula (share of high-quarter wages) not stated on pages read; maximum $1,150 applies to benefit years beginning on or after 2026-07-01 (earlier 2026 claims had a lower cap, not verified)."
+  ]
+}

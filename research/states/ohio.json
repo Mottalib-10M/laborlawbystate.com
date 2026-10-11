@@ -1,0 +1,149 @@
+{
+  "slug": "ohio",
+  "name": "Ohio",
+  "abbr": "OH",
+  "agency": {
+    "name": "Ohio Department of Commerce, Division of Industrial Compliance, Bureau of Wage and Hour Administration",
+    "url": "https://com.ohio.gov/divisions-and-programs/industrial-compliance/wage-and-hour"
+  },
+  "minWage": {
+    "rates2026": [
+      {
+        "from": "2026-01-01",
+        "rate": 11.0,
+        "area": "Employers with annual gross receipts above $405,000",
+        "note": "Indexed each January 1 to CPI-W (Ohio Constitution Art. II, Sec. 34a)"
+      },
+      {
+        "from": "2026-01-01",
+        "rate": 7.25,
+        "area": "Employers with annual gross receipts of $405,000 or less, and 14-15-year-old workers",
+        "note": "Tied to the federal minimum wage"
+      }
+    ],
+    "headline": 11.0,
+    "headlineArea": "Employers with annual gross receipts above $405,000",
+    "federalApplies": false,
+    "rates2027": [
+      {
+        "from": "2027-01-01",
+        "rate": 11.4,
+        "area": "Employers with annual gross receipts above $419,000",
+        "note": "officially announced on 2026-09-30 by the Ohio Department of Commerce (+3.5%)"
+      },
+      {
+        "from": "2027-01-01",
+        "rate": 7.25,
+        "area": "Employers with annual gross receipts of $419,000 or less, and 14-15-year-old workers",
+        "note": "announced 2026-09-30; tied to federal minimum"
+      }
+    ],
+    "smallEmployer": "Businesses with annual gross receipts of $405,000 or less (2026; $419,000 from 2027-01-01) and 14-15-year-olds: $7.25 (federal rate).",
+    "tipped": {
+      "cashWage": 5.5,
+      "tipCreditAllowed": true,
+      "note": "2026 tipped rate for covered employers; rises to $5.70 on 2027-01-01. Tipped employee = more than $30/month in tips (dol.gov table)."
+    },
+    "other": "14- and 15-year-old workers: $7.25.",
+    "source": {
+      "url": "https://com.ohio.gov/about-us/media-center/news/ohio-minimum-wage-to-increase-in-2027",
+      "quote": "$11.40 per hour for non-tipped employees and $5.70 per hour for tipped employees, represents a 3.5% increase from the current 2026 rates of $11 for non-tipped employees and $5.50 for tipped employees",
+      "accessed": "2026-10-11"
+    }
+  },
+  "localMinWages": [],
+  "overtime": {
+    "weeklyHours": 40,
+    "dailyHours": null,
+    "doubleTime": null,
+    "seventhDay": null,
+    "exemptSalaryWeekly": null,
+    "exemptSalaryNote": null,
+    "note": "Ohio overtime follows FLSA sections 7 and 13 (same exemptions).",
+    "source": {
+      "url": "https://codes.ohio.gov/ohio-revised-code/section-4111.03",
+      "quote": "an employer shall pay an employee for overtime at a wage rate of one and one-half times the employee's wage rate for hours worked in excess of forty hours in one workweek",
+      "accessed": "2026-10-11"
+    }
+  },
+  "sickLeave": {
+    "mandatory": false,
+    "accrual": null,
+    "accrualPerHours": null,
+    "capHours": null,
+    "capNote": null,
+    "employerThreshold": null,
+    "effective": null,
+    "note": "No statewide paid sick leave law for private employers.",
+    "source": null
+  },
+  "familyLeave": {
+    "paidProgram": false,
+    "name": null,
+    "benefitsStart": null,
+    "maxWeeks": null,
+    "replacement": null,
+    "maxWeeklyBenefit2026": null,
+    "medicalLeave": null,
+    "stateUnpaidLaw": null,
+    "source": null
+  },
+  "finalPay": {
+    "fired": "no special final-pay rule: wages are due on the regular semi-monthly schedule (by the 1st of the month for wages earned through the 15th of the prior month, and by the 15th for the rest of the prior month)",
+    "firedDays": null,
+    "quit": "same as fired: regular semi-monthly schedule",
+    "quitNotice": null,
+    "ptoPayout": "policy",
+    "ptoNote": "No statute requires payout; vacation pay is a fringe benefit owed only under the employer's agreement/policy.",
+    "source": {
+      "url": "https://codes.ohio.gov/ohio-revised-code/section-4113.15",
+      "quote": "on or before the first day of each month, pay all its employees the wages earned by them during the first half of the preceding month ending with the fifteenth day thereof",
+      "accessed": "2026-10-11"
+    },
+    "ptoSource": {
+      "url": "https://codes.ohio.gov/ohio-revised-code/section-4113.15",
+      "quote": "\"Fringe benefits\" includes but is not limited to health, welfare, or retirement benefits ... or vacation, separation, or holiday pay.",
+      "accessed": "2026-10-11"
+    }
+  },
+  "breaks": {
+    "meal": null,
+    "mealMinutes": null,
+    "mealAfterHours": null,
+    "rest": null,
+    "restMinutes": null,
+    "restPerHours": null,
+    "minorsOnly": "Minors (under 18): a rest period of at least 30 minutes after more than 5 consecutive hours.",
+    "source": {
+      "url": "https://codes.ohio.gov/ohio-revised-code/section-4109.07",
+      "quote": "No employer shall employ a minor more than five consecutive hours without allowing the minor a rest period of at least thirty minutes.",
+      "accessed": "2026-10-11"
+    }
+  },
+  "rightToWork": false,
+  "rightToWorkSource": null,
+  "atWill": "at-will",
+  "notes": [
+    {
+      "text": "Ohio's minimum wage rises to $11.40 (tipped $5.70) on January 1, 2027, and the gross-receipts threshold for coverage rises from $405,000 to $419,000.",
+      "source": {
+        "url": "https://com.ohio.gov/about-us/media-center/news/ohio-minimum-wage-to-increase-in-2027",
+        "quote": "Effective Jan. 1, 2027, the Ohio minimum wage will apply to businesses with annual gross receipts of more than $419,000, which is an increase from the current $405,000 threshold.",
+        "accessed": "2026-10-11"
+      }
+    },
+    {
+      "text": "Ohio's minimum wage is written into the state constitution (amendment approved by voters in November 2006) and is indexed every January 1 to the CPI-W for the 12 months ending in August.",
+      "source": {
+        "url": "https://com.ohio.gov/about-us/media-center/news/ohio-minimum-wage-to-increase-in-2027",
+        "quote": "The change reflects the mandate of the Constitutional Amendment (II-34a), passed by Ohio voters in November 2006",
+        "accessed": "2026-10-11"
+      }
+    }
+  ],
+  "uncertain": [
+    "codes.ohio.gov pages (4111.03, 4113.15, 4109.07) were read through a text-rendering proxy (r.jina.ai) because the site timed out on direct curl/WebFetch; quotes are verbatim from the official pages.",
+    "Ohio has no specific final-paycheck statute; the semi-monthly payment rule of ORC 4113.15(A) is reported as the deadline.",
+    "The com.ohio.gov minimum wage poster page could not be rendered (script-driven); 2026 rates taken from the official 2026-09-30 Commerce press release and cross-checked on dol.gov (updated 2026-07-01: $11.00 / tipped $5.50)."
+  ]
+}

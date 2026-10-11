@@ -1,0 +1,66 @@
+{
+  "slug": "florida",
+  "name": "Florida",
+  "abbr": "FL",
+  "agency": {"name": "FloridaCommerce (formerly Department of Economic Opportunity) — minimum wage notices; no state wage-and-hour enforcement agency (complaints go to court or U.S. DOL)", "url": "https://www.floridajobs.org/"},
+  "minWage": {
+    "rates2026": [
+      {"from": "2025-09-30", "rate": 14.00, "area": "Statewide", "note": "In force January 1 to September 29, 2026"},
+      {"from": "2026-09-30", "rate": 15.00, "area": "Statewide", "note": "Final $1 step of Amendment 2 (2020); inflation indexing resumes September 30, 2027"}
+    ],
+    "headline": 15.00,
+    "headlineArea": "Statewide",
+    "federalApplies": false,
+    "rates2027": [],
+    "smallEmployer": null,
+    "tipped": {"cashWage": 11.98, "tipCreditAllowed": true, "note": "Tip credit frozen at the 2003 FLSA amount of $3.02: $10.98 cash wage until Sept 29, 2026, $11.98 from Sept 30, 2026."},
+    "other": "Employer, employee and wage definitions follow the federal FLSA. From September 30, 2027 the rate is adjusted each year for inflation (CPI-W, South Region).",
+    "source": {"url": "https://www.flsenate.gov/Laws/Constitution", "quote": "Effective September 30th, 2021, the existing state Minimum Wage shall increase to $10.00 per hour, and then increase each September 30th thereafter by $1.00 per hour, until the Minimum Wage reaches $15.00 per hour on September 30th, 2026.", "accessed": "2026-10-11"}
+  },
+  "localMinWages": [],
+  "overtime": {
+    "weeklyHours": null, "dailyHours": null, "doubleTime": null, "seventhDay": null,
+    "exemptSalaryWeekly": null, "exemptSalaryNote": null,
+    "note": "No general state overtime law for private employers; the federal FLSA (time and a half over 40 hours a week) applies.",
+    "source": {"url": "https://www.dol.gov/agencies/whd/minimum-wage/state", "quote": "Florida: Basic Minimum Rate (per hour): $14.00 (no premium pay after designated hours listed; USDOL table updated July 1, 2026)", "accessed": "2026-10-11"}
+  },
+  "sickLeave": {
+    "mandatory": false, "accrual": null, "accrualPerHours": null, "capHours": null,
+    "capNote": "No state paid sick leave law, and cities/counties are barred from requiring employment benefits not required by state or federal law.",
+    "employerThreshold": null, "effective": null, "note": "Local paid sick leave ordinances are preempted (Fla. Stat. 218.077).",
+    "source": {"url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0200-0299/0218/Sections/0218.077.html", "quote": "political subdivision may not establish, mandate, maintain, or otherwise require an employer ... to provide employment benefits not otherwise required by state or federal law.", "accessed": "2026-10-11"}
+  },
+  "familyLeave": {
+    "paidProgram": false, "name": null, "benefitsStart": null, "maxWeeks": null, "replacement": null,
+    "maxWeeklyBenefit2026": null, "medicalLeave": null, "stateUnpaidLaw": null,
+    "source": null
+  },
+  "finalPay": {
+    "fired": "no state law: by the next regular payday under general practice / employer policy",
+    "firedDays": null,
+    "quit": "no state law: by the next regular payday under general practice / employer policy",
+    "quitNotice": null,
+    "ptoPayout": "no-law",
+    "ptoNote": "No state statute; accrued vacation payout depends on the employer's policy or contract.",
+    "source": null,
+    "ptoSource": null
+  },
+  "breaks": {
+    "meal": null, "mealMinutes": null, "mealAfterHours": null, "rest": null, "restMinutes": null, "restPerHours": null,
+    "minorsOnly": "Minors 15 and younger: 30-minute meal period after 4 continuous hours; minors 16-17 working 8+ hours a day: 30-minute meal period after 4 continuous hours.",
+    "source": {"url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0400-0499/0450/Sections/0450.081.html", "quote": "Minors 15 years of age or younger may not be employed ... for more than 4 hours continuously without an interval of at least 30 minutes for a meal period", "accessed": "2026-10-11"}
+  },
+  "rightToWork": true,
+  "rightToWorkSource": {"url": "https://www.flsenate.gov/Laws/Constitution", "quote": "SECTION 6. Right to work. — The right of persons to work shall not be denied or abridged on account of membership or non-membership in any labor union or labor organization.", "accessed": "2026-10-11"},
+  "atWill": "at-will",
+  "notes": [
+    {"text": "Florida's minimum wage reached $15.00 on September 30, 2026, the last of the $1 yearly steps voted in 2020 (Amendment 2); from September 30, 2027 it will rise with inflation each year.", "source": {"url": "https://www.flsenate.gov/Laws/Constitution", "quote": "On September 30th of 2027 and on each following September 30th, the state Agency for Workforce Innovation shall calculate an adjusted Minimum Wage rate by increasing the current Minimum Wage rate by the rate of inflation", "accessed": "2026-10-11"}},
+    {"text": "Cities and counties cannot set their own private-sector minimum wage or mandate benefits such as paid sick leave; local living-wage rules only reach the local government's own workforce and certain contractors.", "source": {"url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0200-0299/0218/Sections/0218.077.html", "quote": "political subdivision may not establish, mandate, maintain, or otherwise require an employer to pay a minimum wage, other than a state or federal minimum wage", "accessed": "2026-10-11"}},
+    {"text": "The minimum wage is in the state constitution (Article X, Section 24), and the right to work is in the Declaration of Rights (Article I, Section 6).", "source": {"url": "https://www.flsenate.gov/Laws/Constitution", "quote": "Employers shall pay Employees Wages no less than the Minimum Wage for all hours worked in Florida.", "accessed": "2026-10-11"}}
+  ],
+  "uncertain": [
+    "FloridaCommerce site (floridajobs.org / floridacommerce.gov) was unreachable (404/403/timeout), so the official 2026 rate notice could not be read; $15.00 is from the constitutional schedule and $11.98 tipped is derived ($15.00 minus the $3.02 tip credit shown in the USDOL tipped table effective July 1, 2026).",
+    "finalPay: Florida has no final paycheck statute; no official page confirming this was read.",
+    "overtime: absence of a state overtime law inferred from the USDOL table (no premium pay listed for Florida)."
+  ]
+}

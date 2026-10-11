@@ -25,7 +25,8 @@
     "supportPctNoFamily": 60,
     "supportArrearsExtra": 5,
     "warnDays": 60,
-    "warnEmployees": 100
+    "warnEmployees": 100,
+    "enterpriseSales": 500000
   },
   "fmla": {
     "weeks": 12,
@@ -90,6 +91,38 @@
     "cfr541601": {
       "url": "https://www.ecfr.gov/current/title-29/section-541.601",
       "label": "29 CFR 541.601: highly compensated employees ($107,432)"
+    },
+    "cfr541100": {
+      "url": "https://www.ecfr.gov/current/title-29/section-541.100",
+      "label": "29 CFR 541.100: executive exemption (management as primary duty, directs two or more employees)"
+    },
+    "cfr541200": {
+      "url": "https://www.ecfr.gov/current/title-29/section-541.200",
+      "label": "29 CFR 541.200: administrative exemption (discretion and independent judgment on matters of significance)"
+    },
+    "cfr541300": {
+      "url": "https://www.ecfr.gov/current/title-29/section-541.300",
+      "label": "29 CFR 541.300: professional exemption (advanced knowledge or creative talent)"
+    },
+    "cfr541400": {
+      "url": "https://www.ecfr.gov/current/title-29/section-541.400",
+      "label": "29 CFR 541.400: computer employees ($684 a week salary or $27.63 an hour)"
+    },
+    "cfr541602": {
+      "url": "https://www.ecfr.gov/current/title-29/section-541.602",
+      "label": "29 CFR 541.602: salary basis (predetermined amount, full salary for any week with work)"
+    },
+    "cfr541700": {
+      "url": "https://www.ecfr.gov/current/title-29/section-541.700",
+      "label": "29 CFR 541.700: primary duty"
+    },
+    "cfr778105": {
+      "url": "https://www.ecfr.gov/current/title-29/section-778.105",
+      "label": "29 CFR 778.105: the workweek, a fixed period of 168 hours"
+    },
+    "cfr778109": {
+      "url": "https://www.ecfr.gov/current/title-29/section-778.109",
+      "label": "29 CFR 778.109: the regular rate is an hourly rate (total pay divided by hours worked)"
     },
     "dolFmla": {
       "url": "https://www.dol.gov/agencies/whd/fmla",
@@ -178,6 +211,10 @@
     "cfr825305": {
       "url": "https://www.ecfr.gov/current/title-29/section-825.305",
       "label": "29 CFR 825.305: certification, 15 calendar days to return it"
+    },
+    "fs14": {
+      "url": "https://www.dol.gov/agencies/whd/fact-sheets/14-flsa-coverage",
+      "label": "DOL Fact Sheet #14: Coverage Under the FLSA ($500,000 enterprise test, interstate commerce)"
     }
   }
 }

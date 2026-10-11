@@ -1,0 +1,5 @@
+{
+  "_why": "Editorial cleanup (2026-10-11): agency label without em dash; final pay worded as what the sources support (no Florida statute), without an unsourced 'general practice'.",
+  "agency": {"name": "FloridaCommerce (publishes the minimum wage notice; Florida has no state wage and hour agency)", "url": "https://www.floridajobs.org/"},
+  "finalPay": {"fired": "no Florida statute sets a deadline (federal law sets none either); the employer's regular payday and policy apply", "quit": "no Florida statute sets a deadline; the employer's regular payday and policy apply"}
+}

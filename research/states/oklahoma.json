@@ -1,0 +1,134 @@
+{
+  "slug": "oklahoma",
+  "name": "Oklahoma",
+  "abbr": "OK",
+  "agency": {
+    "name": "Oklahoma Department of Labor, Wage and Hour Unit",
+    "url": "https://oklahoma.gov/labor.html"
+  },
+  "minWage": {
+    "rates2026": [
+      {
+        "from": "2009-07-24",
+        "rate": 7.25,
+        "area": "Employers with 10+ full-time employees or gross sales over $100,000",
+        "note": "State law adopts the federal minimum wage; unchanged throughout 2026"
+      }
+    ],
+    "headline": 7.25,
+    "headlineArea": "Statewide (covered employers)",
+    "federalApplies": false,
+    "rates2027": [],
+    "smallEmployer": "Employers with fewer than 10 full-time employees and gross sales of $100,000 or less are outside the state act (dol.gov lists a $2.00 state rate for them); FLSA still applies where it covers the employer.",
+    "tipped": {
+      "cashWage": 2.13,
+      "tipCreditAllowed": true,
+      "note": "State law requires at least the federal cash wage under 29 C.F.R. 531.50(a)(1) ($2.13)."
+    },
+    "other": "Many categories excluded from the state act (e.g. part-time under 25 h/week, students, farm workers); the state act does not apply to employment covered by the FLSA.",
+    "source": {
+      "url": "https://oklahoma.gov/labor/workplace-rights/wage-hour/faqs---wage-and-hour.html",
+      "quote": "The federal and state minimum wage of $7.25 per hour has been in effect since July 24, 2000.",
+      "accessed": "2026-10-11"
+    }
+  },
+  "localMinWages": [],
+  "overtime": {
+    "weeklyHours": null,
+    "dailyHours": null,
+    "doubleTime": null,
+    "seventhDay": null,
+    "exemptSalaryWeekly": null,
+    "exemptSalaryNote": null,
+    "note": "No state overtime law; overtime is governed by the federal FLSA.",
+    "source": {
+      "url": "https://oklahoma.gov/labor/workplace-rights/wage-hour/faqs---wage-and-hour.html",
+      "quote": "If the company is required to comply with Federal wage and hour laws, time and one half should be paid to non-exempt employees for all hours worked over 40 in the work week.",
+      "accessed": "2026-10-11"
+    }
+  },
+  "sickLeave": {
+    "mandatory": false,
+    "accrual": null,
+    "accrualPerHours": null,
+    "capHours": null,
+    "capNote": null,
+    "employerThreshold": null,
+    "effective": null,
+    "note": "No statewide paid sick leave law for private employers.",
+    "source": null
+  },
+  "familyLeave": {
+    "paidProgram": false,
+    "name": null,
+    "benefitsStart": null,
+    "maxWeeks": null,
+    "replacement": null,
+    "maxWeeklyBenefit2026": null,
+    "medicalLeave": null,
+    "stateUnpaidLaw": null,
+    "source": null
+  },
+  "finalPay": {
+    "fired": "by the next regular payday",
+    "firedDays": null,
+    "quit": "by the next regular payday",
+    "quitNotice": null,
+    "ptoPayout": "policy",
+    "ptoNote": "Vacation pay counts as wages only when agreed or provided in an established employer policy.",
+    "source": {
+      "url": "https://oklahoma.gov/labor/workplace-rights/wage-hour/faqs---wage-and-hour.html",
+      "quote": "An employer may wait until the next regularly designated payday regardless of whether you quit or were fired.",
+      "accessed": "2026-10-11"
+    },
+    "ptoSource": {
+      "url": "https://www.oscn.net/applications/oscn/DeliverDocument.asp?CiteID=77474",
+      "quote": "\"Wages\" means compensation ... including salaries, commissions, holiday and vacation pay ... agreed upon between the employer and the employee ... or provided by the employer to his or her employees in an established policy",
+      "accessed": "2026-10-11"
+    }
+  },
+  "breaks": {
+    "meal": null,
+    "mealMinutes": null,
+    "mealAfterHours": null,
+    "rest": null,
+    "restMinutes": null,
+    "restPerHours": null,
+    "minorsOnly": "14- and 15-year-olds must receive break and lunch periods under Oklahoma child labor law.",
+    "source": {
+      "url": "https://oklahoma.gov/labor/workplace-rights/wage-hour/faqs---wage-and-hour.html",
+      "quote": "Neither federal nor state law requires employers to provide breaks to employees that are 16 or older. Oklahoma Child Labor Laws require mandatory break and lunch periods for 14 and 15-year-old workers.",
+      "accessed": "2026-10-11"
+    }
+  },
+  "rightToWork": true,
+  "rightToWorkSource": {
+    "url": "https://www.oscn.net/applications/oscn/DeliverDocument.asp?CiteID=435621",
+    "quote": "B. No person shall be required, as a condition of employment or continuation of employment, to: 1. Resign or refrain from voluntary membership in ... a labor organization",
+    "accessed": "2026-10-11"
+  },
+  "atWill": "at-will",
+  "notes": [
+    {
+      "text": "Oklahoma's minimum wage law only covers employers with at least 10 full-time employees or more than $100,000 in annual gross sales, and does not apply where the federal FLSA already applies.",
+      "source": {
+        "url": "https://oklahoma.gov/labor/workplace-rights/wage-hour/faqs---wage-and-hour.html",
+        "quote": "an Oklahoma employer must comply with state minimum wage laws if the company has at least 10 full-time employees or equivalent and/or grosses more than $100,000.00 annually",
+        "accessed": "2026-10-11"
+      }
+    },
+    {
+      "text": "Employers must set regular paydays within 11 days after the end of each pay period, with 3 extra days allowed to issue payment.",
+      "source": {
+        "url": "https://oklahoma.gov/labor/workplace-rights/wage-hour/faqs---wage-and-hour.html",
+        "quote": "Employers are required to establish regular pay dates within eleven (11) days after the end of each pay period. They are also allowed an additional three (3) days after the scheduled payday to issue payment.",
+        "accessed": "2026-10-11"
+      }
+    }
+  ],
+  "uncertain": [
+    "The ODOL FAQ says $7.25 has been in effect 'since July 24, 2000' (apparently a typo for 2009, the federal increase date); 'from' set to 2009-07-24.",
+    "dol.gov tipped table footnote still mentions a 50% tip credit for non-FLSA employers; the current statute (40 O.S. 197.16) requires the federal cash wage ($2.13), used here.",
+    "OSCN statute pages were read through a text-rendering proxy (r.jina.ai); quotes are verbatim."
+  ]
+}

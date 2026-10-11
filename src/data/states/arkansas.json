@@ -80,7 +80,7 @@
  "finalPay": {
   "fired": "by the next regular payday (if not paid within 7 days of that payday, the employer owes double the wages due)",
   "firedDays": null,
-  "quit": null,
+  "quit": "no state statute sets a deadline (federal law sets none either)",
   "quitNotice": null,
   "ptoPayout": "policy",
   "ptoNote": "vacation pay is owed at separation only if the company policy provides it",
@@ -109,7 +109,7 @@
    "accessed": "2026-10-11"
   }
  },
- "rightToWork": null,
+ "rightToWork": false,
  "rightToWorkSource": null,
  "atWill": "at-will",
  "notes": [
@@ -141,6 +141,7 @@
  "uncertain": [
   "rightToWork: Arkansas is generally known as a right-to-work state (Constitution Amendment 34), but the official constitution/statute text could not be retrieved today (SOS PDF link broken, legislature/Lexis code portal not fetchable, WebSearch quota exhausted). Set to null pending verification.",
   "finalPay.quit: the official FAQ only addresses employees terminated by the employer (next regular payday); no official page read today states the rule for employees who quit. Ark. Code 11-4-405 text not retrievable.",
-  "rates2027: no official announcement of a 2027 change found on the agency page (rate unchanged since 2021); no indexed statute adjustment exists to my knowledge, but no official 2027 statement was read."
+  "rates2027: no official announcement of a 2027 change found on the agency page (rate unchanged since 2021); no indexed statute adjustment exists to my knowledge, but no official 2027 statement was read.",
+  "rightToWork unverified: shown as no right-to-work law until confirmed"
  ]
 }

@@ -1,0 +1,176 @@
+{
+  "slug": "oregon",
+  "name": "Oregon",
+  "abbr": "OR",
+  "agency": {
+    "name": "Oregon Bureau of Labor and Industries (BOLI)",
+    "url": "https://www.oregon.gov/boli/"
+  },
+  "minWage": {
+    "rates2026": [
+      {
+        "from": "2025-07-01",
+        "rate": 16.3,
+        "area": "Portland metro (urban growth boundary)",
+        "note": "In force Jan 1 - Jun 30, 2026"
+      },
+      {
+        "from": "2025-07-01",
+        "rate": 15.05,
+        "area": "Standard (most counties)",
+        "note": "In force Jan 1 - Jun 30, 2026"
+      },
+      {
+        "from": "2025-07-01",
+        "rate": 14.05,
+        "area": "Non-urban counties",
+        "note": "In force Jan 1 - Jun 30, 2026"
+      },
+      {
+        "from": "2026-07-01",
+        "rate": 16.8,
+        "area": "Portland metro (urban growth boundary)",
+        "note": "July 1, 2026 - June 30, 2027"
+      },
+      {
+        "from": "2026-07-01",
+        "rate": 15.55,
+        "area": "Standard (most counties)",
+        "note": "July 1, 2026 - June 30, 2027"
+      },
+      {
+        "from": "2026-07-01",
+        "rate": 14.55,
+        "area": "Non-urban counties",
+        "note": "Baker, Coos, Crook, Curry, Douglas, Gilliam, Grant, Harney, Jefferson, Klamath, Lake, Malheur, Morrow, Sherman, Umatilla, Union, Wallowa, Wheeler; July 1, 2026 - June 30, 2027"
+      }
+    ],
+    "headline": 15.55,
+    "headlineArea": "Standard (most counties)",
+    "federalApplies": false,
+    "rates2027": [],
+    "smallEmployer": null,
+    "tipped": {
+      "cashWage": 15.55,
+      "tipCreditAllowed": false,
+      "note": "Tip credits are illegal: tipped workers get the full regional minimum ($16.80 Portland metro, $15.55 standard, $14.55 non-urban)."
+    },
+    "other": "Minors get the same minimum wage as adults. Rates adjust every July 1 to CPI (Portland = standard + $1.25; non-urban = standard - $1.00).",
+    "source": {
+      "url": "https://www.oregon.gov/boli/workers/pages/minimum-wage.aspx",
+      "quote": "For July 1, 2026, through June 30, 2027, those rates are: $16.80 per hour - Portland metro ... $15.55 per hour - Standard $14.55 per hour - Non-urban",
+      "accessed": "2026-10-11"
+    }
+  },
+  "localMinWages": [],
+  "overtime": {
+    "weeklyHours": 40,
+    "dailyHours": null,
+    "doubleTime": null,
+    "seventhDay": null,
+    "exemptSalaryWeekly": null,
+    "exemptSalaryNote": "Oregon's salary test is tied to the regional minimum wage and stays below the federal $684/week.",
+    "note": "",
+    "source": {
+      "url": "https://www.oregon.gov/boli/workers/Pages/your-rights-at-work.aspx",
+      "quote": "If you work more than 40 hours in one week, you must receive overtime pay of 1.5 times your regular pay rate.",
+      "accessed": "2026-10-11"
+    }
+  },
+  "sickLeave": {
+    "mandatory": true,
+    "accrual": "1 hour for every 30 hours worked (or 40 hours front-loaded)",
+    "accrualPerHours": 30,
+    "capHours": 40,
+    "capNote": "Up to 40 hours per year; paid if the employer has 10+ Oregon employees (6+ with a Portland location), otherwise protected but unpaid. Usable after 90 days of employment.",
+    "employerThreshold": "all employers (paid at 10+ employees, 6+ in Portland)",
+    "effective": null,
+    "note": "",
+    "source": {
+      "url": "https://www.oregon.gov/boli/workers/Pages/sick-time.aspx",
+      "quote": "Employees earn at least 1 hour of protected sick time for every 30 hours of work, up to 40 hours per year.",
+      "accessed": "2026-10-11"
+    }
+  },
+  "familyLeave": {
+    "paidProgram": true,
+    "name": "Paid Leave Oregon",
+    "benefitsStart": null,
+    "maxWeeks": 12,
+    "replacement": "Sliding scale based on base-year wages and the state average weekly wage (SAWW): up to 100% of wages for lower earners, capped at 120% of SAWW",
+    "maxWeeklyBenefit2026": null,
+    "medicalLeave": "Included in the same 12 weeks (own serious health condition); up to 2 extra weeks for pregnancy-related limitations (14 total).",
+    "stateUnpaidLaw": "Oregon Family Leave Act (OFLA), employers with 25+ employees: unpaid job-protected leave for pregnancy disability (up to 12 extra weeks), sick child leave and bereavement leave.",
+    "source": {
+      "url": "https://paidleave.oregon.gov/",
+      "quote": "Employees can take up to 12 weeks paid leave in a 52-week period ... If pregnant, in some situations, an employee may be able to take up to 2 more weeks for a total of 14 weeks.",
+      "accessed": "2026-10-11"
+    }
+  },
+  "finalPay": {
+    "fired": "by the end of the next business day",
+    "firedDays": 1,
+    "quit": "with 48+ hours' notice: on the last day of work; with less notice: within 5 business days or the next regular payday, whichever comes first",
+    "quitNotice": "48 hours (excluding weekends and holidays)",
+    "ptoPayout": "policy",
+    "ptoNote": "Vacation pay is not required; an established policy or agreement to pay out accrued vacation must be honored.",
+    "source": {
+      "url": "https://www.oregon.gov/boli/workers/Pages/paychecks.aspx",
+      "quote": "If you are let go or fired, your final paycheck is due by the end of the next business day.",
+      "accessed": "2026-10-11"
+    },
+    "ptoSource": {
+      "url": "https://www.oregon.gov/boli/workers/Pages/holiday-and-vacation-pay.aspx",
+      "quote": "Your employer is required to honor any established policy or agreement relating to the payment of benefits such as accrued vacation or severance pay upon termination.",
+      "accessed": "2026-10-11"
+    }
+  },
+  "breaks": {
+    "meal": "30-minute unpaid meal period for work periods of 6 hours or more (relieved of all duties)",
+    "mealMinutes": 30,
+    "mealAfterHours": 6,
+    "rest": "Paid 10-minute rest break for each 4-hour segment (two per 8-hour shift)",
+    "restMinutes": 10,
+    "restPerHours": 4,
+    "minorsOnly": null,
+    "source": {
+      "url": "https://www.oregon.gov/boli/workers/Pages/meals-and-breaks.aspx",
+      "quote": "For each 8-hour work period you get these breaks free from work responsibilities: Two 10 minute paid rest breaks One 30 minute unpaid meal break",
+      "accessed": "2026-10-11"
+    }
+  },
+  "rightToWork": false,
+  "rightToWorkSource": null,
+  "atWill": "at-will",
+  "notes": [
+    {
+      "text": "Oregon has three regional minimum wages (Portland metro, standard, non-urban) that change every July 1; inside the Portland urban growth boundary the Portland rate applies.",
+      "source": {
+        "url": "https://www.oregon.gov/boli/workers/pages/minimum-wage.aspx",
+        "quote": "If your work location is within the urban growth boundary , you must be paid at least the \"Portland Metro\" rate.",
+        "accessed": "2026-10-11"
+      }
+    },
+    {
+      "text": "Tip credits are illegal in Oregon: tips cannot be counted toward the minimum wage.",
+      "source": {
+        "url": "https://www.oregon.gov/boli/workers/pages/minimum-wage.aspx",
+        "quote": "Tips are separate and cannot be counted as wages. Tip credits are illegal in Oregon.",
+        "accessed": "2026-10-11"
+      }
+    },
+    {
+      "text": "A late final paycheck can cost the employer penalty wages of 8 times the regular rate per day, for up to 30 days.",
+      "source": {
+        "url": "https://www.oregon.gov/boli/workers/Pages/paychecks.aspx",
+        "quote": "a penalty wage equal to eight times the employee's regular rate of wage for each day that final wages go unpaid up to 30 days",
+        "accessed": "2026-10-11"
+      }
+    }
+  ],
+  "uncertain": [
+    "Jan-Jun 2026 rates ($16.30 / $15.05 / $14.05, effective 2025-07-01) taken from BOLI's minimum wage schedule page: 'July 1, 2025 $15.05 $16.30 $14.05' (columns Standard, Portland Metro, Nonurban).",
+    "Paid Leave Oregon: date benefits first became payable not stated on pages read (left null). No explicit 2026 maximum weekly benefit is published on the pages read; the official benefits calculator uses SAWW = $1,410.13 and caps at 1.2 x SAWW (implied max $1,692.16/week), period of validity not stated.",
+    "Sick time effective date (law in force since 2016) not confirmed on a page read; left null."
+  ]
+}

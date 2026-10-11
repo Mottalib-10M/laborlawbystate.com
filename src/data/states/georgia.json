@@ -1,0 +1,149 @@
+{
+ "slug": "georgia",
+ "name": "Georgia",
+ "abbr": "GA",
+ "agency": {
+  "name": "Georgia Department of Labor",
+  "url": "https://dol.georgia.gov/"
+ },
+ "minWage": {
+  "rates2026": [
+   {
+    "from": "2026-01-01",
+    "rate": 7.25,
+    "area": "Statewide (federal minimum wage)",
+    "note": "state law (O.C.G.A. 34-4-3) sets $5.15, below the federal rate; the federal $7.25 applies to nearly all workers"
+   }
+  ],
+  "headline": 7.25,
+  "headlineArea": "Statewide (federal minimum wage)",
+  "federalApplies": true,
+  "rates2027": [],
+  "smallEmployer": null,
+  "tipped": {
+   "cashWage": 2.13,
+   "tipCreditAllowed": true,
+   "note": "federal tipped cash wage; Georgia's state minimum wage law does not apply to tipped employees"
+  },
+  "other": "Georgia's own minimum wage is $5.15/hour (O.C.G.A. 34-4-3), but with limited exceptions the federal $7.25 applies.",
+  "source": {
+   "url": "https://dol.georgia.gov/minimum-wage",
+   "quote": "Georgia's minimum wage is $5.15 per hour, however, with some limited exceptions, the federal minimum wage rate applies.",
+   "accessed": "2026-10-11"
+  }
+ },
+ "tippedSource": {
+  "url": "https://dol.georgia.gov/faqs-individuals/individuals-faqs-fair-labor-standards-act",
+  "quote": "An employer of a tipped employee is only required to pay $2.13 an hour in direct wages, if that amount plus the tips received equals at least the federal minimum wage",
+  "accessed": "2026-10-11"
+ },
+ "localMinWages": [],
+ "overtime": {
+  "weeklyHours": null,
+  "dailyHours": null,
+  "doubleTime": null,
+  "seventhDay": null,
+  "exemptSalaryWeekly": null,
+  "exemptSalaryNote": "no state salary threshold; federal FLSA rules apply",
+  "note": "No state overtime law; the federal FLSA (time and a half after 40 hours a week) applies.",
+  "source": {
+   "url": "https://dol.georgia.gov/faqs-individuals/individuals-faqs-fair-labor-standards-act",
+   "quote": "Unless specifically exempted, employees must receive overtime pay for hours worked in excess of 40 in a workweek at a rate of 1 and 1/2 their regular rates of pay.",
+   "accessed": "2026-10-11"
+  }
+ },
+ "sickLeave": {
+  "mandatory": false,
+  "accrual": null,
+  "accrualPerHours": null,
+  "capHours": null,
+  "capNote": "No paid sick leave mandate.",
+  "employerThreshold": null,
+  "effective": null,
+  "note": "",
+  "source": {
+   "url": "https://dol.georgia.gov/faqs-individuals/individuals-faqs-fair-labor-standards-act",
+   "quote": "Neither federal nor state law requires that an employer provide vacation, sick, or personal leave.",
+   "accessed": "2026-10-11"
+  }
+ },
+ "familyLeave": {
+  "paidProgram": false,
+  "name": null,
+  "benefitsStart": null,
+  "maxWeeks": null,
+  "replacement": null,
+  "maxWeeklyBenefit2026": null,
+  "medicalLeave": null,
+  "stateUnpaidLaw": null,
+  "source": {
+   "url": "https://dol.georgia.gov/faqs-individuals/individuals-faqs-fair-labor-standards-act",
+   "quote": "Neither federal nor state law requires that an employer provide vacation, sick, or personal leave.",
+   "accessed": "2026-10-11"
+  }
+ },
+ "finalPay": {
+  "fired": "no state statute sets a deadline (federal law sets none either)",
+  "firedDays": null,
+  "quit": "no state statute sets a deadline (federal law sets none either)",
+  "quitNotice": null,
+  "ptoPayout": "no-law",
+  "ptoNote": "No law requires vacation leave, so payout of unused vacation depends on the employer's policy or contract.",
+  "source": {
+   "url": "https://dol.georgia.gov/faqs-individuals/individuals-faqs-laws-and-regulations",
+   "quote": "The practical alternative is to file a claim for wages against the employer in the small claims court (Magistrate Court) in the county where the employer is located.",
+   "accessed": "2026-10-11"
+  },
+  "ptoSource": {
+   "url": "https://dol.georgia.gov/faqs-individuals/individuals-faqs-fair-labor-standards-act",
+   "quote": "Neither federal nor state law requires that an employer provide vacation, sick, or personal leave.",
+   "accessed": "2026-10-11"
+  }
+ },
+ "breaks": {
+  "meal": null,
+  "mealMinutes": null,
+  "mealAfterHours": null,
+  "rest": null,
+  "restMinutes": null,
+  "restPerHours": null,
+  "minorsOnly": null,
+  "source": {
+   "url": "https://dol.georgia.gov/breaks-and-meals",
+   "quote": "Neither the Fair Labor Standards Act (FLSA) nor Georgia law require breaks or meal periods be given to workers.",
+   "accessed": "2026-10-11"
+  }
+ },
+ "rightToWork": true,
+ "rightToWorkSource": {
+  "url": "https://dol.georgia.gov/faqs-individuals/individuals-faqs-laws-and-regulations",
+  "quote": "Georgia is a \"Right-to-Work\" state. This means that workers may not be required to join a union or make payments to a union as a condition of employment.",
+  "accessed": "2026-10-11"
+ },
+ "atWill": "at-will",
+ "notes": [
+  {
+   "text": "Georgia's statutory minimum wage is still $5.15 an hour, below the federal $7.25; in practice the federal rate applies to almost all jobs.",
+   "source": {
+    "url": "https://dol.georgia.gov/minimum-wage",
+    "quote": "Georgia's minimum wage is $5.15 per hour, however, with some limited exceptions, the federal minimum wage rate applies.",
+    "accessed": "2026-10-11"
+   }
+  },
+  {
+   "text": "Georgia is both a right-to-work state (no forced union membership or dues) and an at-will state; the state labor department notes that right-to-work only protects against firing for refusing to join a union.",
+   "source": {
+    "url": "https://dol.georgia.gov/faqs-individuals/individuals-faqs-laws-and-regulations",
+    "quote": "This protects a worker who is not hired, or is fired, due to refusal or unwillingness to join a union only.",
+    "accessed": "2026-10-11"
+   }
+  }
+ ],
+ "uncertain": [
+  "Right-to-work source is the Georgia DOL FAQ, not the statute itself (O.C.G.A. 34-6-20 et seq.); Georgia's code is not hosted on a state site reachable by curl and WebSearch quota was exhausted.",
+  "Final pay: no Georgia final-paycheck deadline statute found on official pages; GDOL only points to small claims court. fired/quit left null (believed: no state law).",
+  "Georgia 'kin care' law (O.C.G.A. 34-1-10: employers with 25+ employees that offer paid sick leave must allow up to 5 days/year for immediate family care) not verified on an official page, so not included in sickLeave.",
+  "localMinWages empty: Georgia preempts local private-sector minimum wages (O.C.G.A. 34-4-3.1) — preemption not verified on an official page; no city private-sector rate exists to our knowledge.",
+  "Extra key 'tippedSource' added to hold the tipped-wage source."
+ ]
+}

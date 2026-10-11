@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 import SelectField from '../ui/SelectField';
 import Toggle from '../ui/Toggle';
 import { readParams, str, updateURL } from '../../lib/url-state';
-import { addDays, weekday } from '../../lib/engine/dates';
+import { addDays, addBusinessDays, weekday } from '../../lib/engine/dates';
 import { day } from '../../lib/fmt';
 import { Result, Rows, LockedField } from './parts';
 import { ptoText, stateOptions } from './shared';
@@ -24,7 +24,7 @@ export default function FinalPayTool({ states, state, lockState = false, methodH
   useEffect(() => { updateURL({ st: lockState ? undefined : slug, how, last }); }, [slug, how, last]);
   const S = states.find((s) => s.slug === slug) ?? def;
   const rule = how === 'fired' ? S.final.fired : S.final.quit;
-  const fixed = how === 'fired' && S.final.firedDays != null ? addDays(last, S.final.firedDays) : null;
+  const fixed = how === 'fired' && S.final.firedDays != null ? (S.final.firedBusiness ? addBusinessDays(last, S.final.firedDays) : addDays(last, S.final.firedDays)) : null;
   const rows: Array<[string, string]> = [
     ['Rule in ' + S.name, rule],
     ...(how === 'quit' && S.final.quitNotice ? [['If you gave notice', S.final.quitNotice] as [string, string]] : []),
@@ -43,7 +43,7 @@ export default function FinalPayTool({ states, state, lockState = false, methodH
           <span className="mt-1 text-xs text-navy-500">The deadline counts from this day.</span>
         </div>
       </form>
-      <Result label={how === 'fired' ? 'Final pay due when let go' : 'Final pay due when you quit'} value={fixed ? day(fixed) : rule.length < 40 ? rule : 'See the rule below'} sub={fixed ? `${weekday(fixed)}, ${S.final.firedDays === 0 ? 'the same day' : `${S.final.firedDays} calendar days after ${day(last)}`}` : 'Deadline tied to your payday or to notice; see the rule.'} methodHref={methodHref}
+      <Result label={how === 'fired' ? 'Final pay due when let go' : 'Final pay due when you quit'} value={fixed ? day(fixed) : rule.length < 40 ? rule : 'See the rule below'} sub={fixed ? `${weekday(fixed)}, ${S.final.firedDays === 0 ? 'the same day' : `${S.final.firedDays} ${S.final.firedBusiness ? 'business' : 'calendar'} day${S.final.firedDays > 1 ? 's' : ''} after ${day(last)}`}` : 'Deadline tied to your payday or to notice; see the rule.'} methodHref={methodHref}
         note="General rule for private employers. Some states set different deadlines for layoffs, strikes or particular industries.">
         <Rows rows={rows} />
       </Result>

@@ -16,6 +16,7 @@ import { PAGES } from '../lib/pages';
 import { STATES, F, FM, ACA, mwNow, mw2027, rate$, usd, day } from '../lib/kit';
 import { faqSchema, organizationSchema, websiteSchema, webPageSchema, webApplicationSchema } from '../lib/seo';
 import { LAST_UPDATED } from '../data/site-config';
+import { countsBusinessDays } from '../lib/engine/dates';
 const lang = 'en';
 const x = HOME;
 const path = route('home', lang);
@@ -35,7 +36,7 @@ const rows = STATES.map((s) => {
     s.overtime.dailyHours ? `${s.overtime.dailyHours} h/day, ${s.overtime.weeklyHours ?? F.otWeeklyHours} h/wk` : `${s.overtime.weeklyHours ?? F.otWeeklyHours} h/wk`,
     s.sickLeave.mandatory ? 'yes' : 'no',
     s.familyLeave.paidProgram ? 'yes' : 'no',
-    s.finalPay.firedDays === 0 ? 'immediately' : s.finalPay.firedDays != null ? `${s.finalPay.firedDays} days` : 'payday rule',
+    s.finalPay.firedDays === 0 ? 'immediately' : s.finalPay.firedDays != null ? `${s.finalPay.firedDays} ${countsBusinessDays(s.finalPay.fired) ? 'business ' : ''}day${s.finalPay.firedDays > 1 ? 's' : ''}` : 'payday rule',
   ];
 });
 const fed: Array<[string, string, string]> = [

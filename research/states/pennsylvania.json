@@ -1,0 +1,128 @@
+{
+  "slug": "pennsylvania",
+  "name": "Pennsylvania",
+  "abbr": "PA",
+  "agency": {
+    "name": "Pennsylvania Department of Labor & Industry, Bureau of Labor Law Compliance",
+    "url": "https://www.pa.gov/agencies/dli"
+  },
+  "minWage": {
+    "rates2026": [
+      {
+        "from": "2009-07-24",
+        "rate": 7.25,
+        "area": "Statewide",
+        "note": "Unchanged throughout 2026"
+      }
+    ],
+    "headline": 7.25,
+    "headlineArea": "Statewide",
+    "federalApplies": false,
+    "rates2027": [],
+    "smallEmployer": null,
+    "tipped": {
+      "cashWage": 2.83,
+      "tipCreditAllowed": true,
+      "note": "Tipped employee = customarily receives more than $135/month in tips; tip-credited workers may spend no more than 20% of weekly hours on non-tip-generating duties."
+    },
+    "other": "Sub-minimum rates only with special certificates (students, learners, workers with disabilities).",
+    "source": {
+      "url": "https://www.pa.gov/agencies/dli/resources/compliance-laws-and-regulations/labor-management-relations/pennsylvania-s-minimum-wage-act",
+      "quote": "Employees being paid less than $7.25/hour Tipped workers making less than $2.83/hour",
+      "accessed": "2026-10-11"
+    }
+  },
+  "localMinWages": [],
+  "overtime": {
+    "weeklyHours": 40,
+    "dailyHours": null,
+    "doubleTime": null,
+    "seventhDay": null,
+    "exemptSalaryWeekly": null,
+    "exemptSalaryNote": "PA L&I applies the federal salary level of $684/week for the EAP exemption.",
+    "note": "Hospitals/care facilities may use the FLSA 8-and-80 system.",
+    "source": {
+      "url": "https://www.pa.gov/agencies/dli/resources/compliance-laws-and-regulations/labor-management-relations/pennsylvania-s-minimum-wage-act/wage-faqs",
+      "quote": "The Department follows the U.S. Department of Labor's longstanding duties tests ... as well as the current salary level of $684 per week",
+      "accessed": "2026-10-11"
+    }
+  },
+  "sickLeave": {
+    "mandatory": false,
+    "accrual": null,
+    "accrualPerHours": null,
+    "capHours": null,
+    "capNote": null,
+    "employerThreshold": null,
+    "effective": null,
+    "note": "No statewide paid sick leave law; Philadelphia and Pittsburgh have their own local ordinances (not verified here).",
+    "source": null
+  },
+  "familyLeave": {
+    "paidProgram": false,
+    "name": null,
+    "benefitsStart": null,
+    "maxWeeks": null,
+    "replacement": null,
+    "maxWeeklyBenefit2026": null,
+    "medicalLeave": null,
+    "stateUnpaidLaw": null,
+    "source": null
+  },
+  "finalPay": {
+    "fired": "by the next regular payday",
+    "firedDays": null,
+    "quit": "by the next regular payday",
+    "quitNotice": null,
+    "ptoPayout": "policy",
+    "ptoNote": "Vacation, sick and severance pay are owed only under the employer's policy or contract.",
+    "source": {
+      "url": "https://www.pa.gov/agencies/dli/resources/compliance-laws-and-regulations/labor-management-relations/pennsylvania-s-minimum-wage-act/wage-faqs",
+      "quote": "If you quit your job, are laid off, or are fired, your employer must pay you all monies you earned by the next scheduled pay day.",
+      "accessed": "2026-10-11"
+    },
+    "ptoSource": {
+      "url": "https://www.pa.gov/agencies/dli/resources/compliance-laws-and-regulations/labor-management-relations/pennsylvania-s-minimum-wage-act/wage-faqs",
+      "quote": "an employer only has to pay these benefits if the employer has a policy to pay such benefits or a contract with you to pay these benefits",
+      "accessed": "2026-10-11"
+    }
+  },
+  "breaks": {
+    "meal": null,
+    "mealMinutes": null,
+    "mealAfterHours": null,
+    "rest": null,
+    "restMinutes": null,
+    "restPerHours": null,
+    "minorsOnly": "Minors aged 14-17: a break of at least 30 minutes after 5 consecutive hours. Breaks under 20 minutes that an employer chooses to give must be paid.",
+    "source": {
+      "url": "https://www.pa.gov/agencies/dli/resources/compliance-laws-and-regulations/labor-management-relations/pennsylvania-s-minimum-wage-act/wage-faqs",
+      "quote": "Pennsylvania employers are required to provide break periods of at least 30 minutes for minors ages 14 through 17 who work five or more consecutive hours. Employers are not required to give breaks for employees 18 and over.",
+      "accessed": "2026-10-11"
+    }
+  },
+  "rightToWork": false,
+  "rightToWorkSource": null,
+  "atWill": "at-will",
+  "notes": [
+    {
+      "text": "Employers may not deduct credit card or other payment processing fees from employees' tips (rule in effect since August 5, 2022).",
+      "source": {
+        "url": "https://www.pa.gov/agencies/dli/resources/compliance-laws-and-regulations/labor-management-relations/labor-law/overtime-and-tipped-worker-rules-in-pa",
+        "quote": "Employers are prohibited from deducting any credit card or other payment processing fees from employees' tips.",
+        "accessed": "2026-10-11"
+      }
+    },
+    {
+      "text": "A tip credit can only be taken for workers who receive at least $135 a month in tips, stricter than the federal $30 threshold.",
+      "source": {
+        "url": "https://www.pa.gov/agencies/dli/resources/compliance-laws-and-regulations/labor-management-relations/labor-law/overtime-and-tipped-worker-rules-in-pa",
+        "quote": "For an employer to take a tip credit for an employee's base hourly wage, the employee must earn at least $135 in tips per month.",
+        "accessed": "2026-10-11"
+      }
+    }
+  ],
+  "uncertain": [
+    "Local paid sick leave ordinances (Philadelphia, Pittsburgh) exist but their city pages could not be loaded; not included."
+  ]
+}

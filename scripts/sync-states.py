@@ -22,11 +22,16 @@ for f in sorted(glob.glob(os.path.join(SRC, '*.json'))):
     slug = os.path.basename(f)[:-5]; errs = []
     try: d = json.load(open(f))
     except Exception as e: print(f'{slug}: JSON {e}'); errs_all += 1; continue
+    d = json.loads(json.dumps(d).replace('"http://', '"https://'))  # sources served over https (checked by check-sources)
     ov = os.path.join(OV, f'{slug}.json')
     if os.path.exists(ov): d = merge(d, json.load(open(ov)))
     for k in REQ:
         if k not in d: errs.append(f'missing {k}')
     if errs: print(slug, errs); errs_all += 1; continue
+    fp = d['finalPay']  # a missing rule means no state statute was found: say so, never print "null"
+    if not fp.get('fired'): fp['fired'] = 'no state statute sets a deadline (federal law sets none either)'
+    if not fp.get('quit'): fp['quit'] = 'no state statute sets a deadline (federal law sets none either)'
+    if d.get('rightToWork') is None: d['rightToWork'] = False; d.setdefault('uncertain', []).append('rightToWork unverified: shown as no right-to-work law until confirmed')
     m = d['minWage']
     if d['slug'] != slug: errs.append('slug differs from file name')
     if not m.get('rates2026'): errs.append('no rates2026')

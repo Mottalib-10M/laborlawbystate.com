@@ -1,0 +1,134 @@
+{
+  "slug": "west-virginia",
+  "name": "West Virginia",
+  "abbr": "WV",
+  "agency": {
+    "name": "West Virginia Division of Labor, Wage and Hour Section",
+    "url": "https://labor.wv.gov/"
+  },
+  "minWage": {
+    "rates2026": [
+      {
+        "from": "2026-01-01",
+        "rate": 8.75,
+        "area": "Employers with 6 or more employees at one location",
+        "note": "Rate unchanged since January 1, 2016; also applies to state agencies"
+      }
+    ],
+    "headline": 8.75,
+    "headlineArea": "Employers with 6 or more employees at one location",
+    "federalApplies": false,
+    "rates2027": [],
+    "smallEmployer": "The state minimum wage law covers only employers with six or more employees in one separate, distinct and permanent location; smaller employers are subject only to the federal $7.25 if covered by the FLSA.",
+    "tipped": {
+      "cashWage": 2.62,
+      "tipCreditAllowed": true,
+      "note": "Tip credit of 70% of the minimum wage ($6.13); cash wage $2.62 per the U.S. DOL tipped table"
+    },
+    "other": "Training wage: $6.40 per hour for new employees under 20, for up to 90 days.",
+    "source": {
+      "url": "https://code.wvlegislature.gov/21-5C-2/",
+      "quote": "After December 31, 2015, every employer shall pay to each of his or her employees wages at a rate not less than $8.75 per hour.",
+      "accessed": "2026-10-11"
+    }
+  },
+  "localMinWages": [],
+  "overtime": {
+    "weeklyHours": 40,
+    "dailyHours": null,
+    "doubleTime": null,
+    "seventhDay": null,
+    "exemptSalaryWeekly": null,
+    "exemptSalaryNote": null,
+    "note": "Time and a half after 40 hours a week. For the overtime rule, employers are excluded if 80% of their employees are covered by the federal overtime law (FLSA then applies).",
+    "source": {
+      "url": "https://code.wvlegislature.gov/21-5C-3/",
+      "quote": "no employer shall employ any of his employees for a workweek longer than forty hours, unless such employee receives compensation ... not less than one and one-half times the regular rate",
+      "accessed": "2026-10-11"
+    }
+  },
+  "sickLeave": {
+    "mandatory": false,
+    "accrual": null,
+    "accrualPerHours": null,
+    "capHours": null,
+    "capNote": null,
+    "employerThreshold": null,
+    "effective": null,
+    "note": "No statewide paid sick leave law for private employers.",
+    "source": null
+  },
+  "familyLeave": {
+    "paidProgram": false,
+    "name": null,
+    "benefitsStart": null,
+    "maxWeeks": null,
+    "replacement": null,
+    "maxWeeklyBenefit2026": null,
+    "medicalLeave": null,
+    "stateUnpaidLaw": null,
+    "source": null
+  },
+  "finalPay": {
+    "fired": "on or before the next regular payday",
+    "firedDays": null,
+    "quit": "on or before the next regular payday",
+    "quitNotice": null,
+    "ptoPayout": "policy",
+    "ptoNote": "Accrued fringe benefits (such as vacation) capable of calculation count as wages, but are calculated according to the employer-employee agreement; benefits payable later or on conditions under the agreement follow that agreement.",
+    "source": {
+      "url": "https://code.wvlegislature.gov/21-5-4/",
+      "quote": "the person, firm or corporation shall pay the employee's wages due for work that the employee performed prior to the separation of employment on or before the next regular payday",
+      "accessed": "2026-10-11"
+    },
+    "ptoSource": {
+      "url": "https://code.wvlegislature.gov/21-5-1/",
+      "quote": "the term \"wages\" shall also include then accrued fringe benefits capable of calculation and payable directly to an employee",
+      "accessed": "2026-10-11"
+    }
+  },
+  "breaks": {
+    "meal": "at least 20 minutes for meal breaks in a workday of 6 or more hours, when employees are not otherwise given breaks or allowed to eat while working",
+    "mealMinutes": 20,
+    "mealAfterHours": 6,
+    "rest": null,
+    "restMinutes": null,
+    "restPerHours": null,
+    "minorsOnly": null,
+    "source": {
+      "url": "https://code.wvlegislature.gov/21-3-10a/",
+      "quote": "During the course of a workday of six or more hours, all employers shall make available for each of their employees, at least twenty minutes for meal breaks",
+      "accessed": "2026-10-11"
+    }
+  },
+  "rightToWork": true,
+  "rightToWorkSource": {
+    "url": "https://code.wvlegislature.gov/21-5G-2/",
+    "quote": "A person may not be required, as a condition or continuation of employment, to: (1) Become or remain a member of a labor organization",
+    "accessed": "2026-10-11"
+  },
+  "atWill": "at-will",
+  "notes": [
+    {
+      "text": "The state minimum wage ($8.75) applies only where an employer has six or more employees at one location.",
+      "source": {
+        "url": "https://code.wvlegislature.gov/21-5C-1/",
+        "quote": "who employs during any calendar week six or more employees as herein defined in any one separate, distinct, and permanent location or business establishment",
+        "accessed": "2026-10-11"
+      }
+    },
+    {
+      "text": "Fired and resigning employees have the same deadline: wages are due by the next regular payday.",
+      "source": {
+        "url": "https://code.wvlegislature.gov/21-5-4/",
+        "quote": "Whenever a person, firm, or corporation discharges an employee, or whenever an employee quits or resigns from employment ... on or before the next regular payday",
+        "accessed": "2026-10-11"
+      }
+    }
+  ],
+  "uncertain": [
+    "Tipped cash wage $2.62 from the U.S. DOL tipped table; the statute gives a 70% credit (30% of $8.75 = $2.625).",
+    "rightToWork true: statute 21-5G is on the official code site; the 2020 WV Supreme Court decision upholding it was not read on an official page.",
+    "labor.wv.gov pages were not read (values come from the WV Code)."
+  ]
+}

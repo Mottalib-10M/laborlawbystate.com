@@ -1,0 +1,134 @@
+{
+ "slug": "new-hampshire",
+ "name": "New Hampshire",
+ "abbr": "NH",
+ "agency": {
+  "name": "New Hampshire Department of Labor, Inspection Division (Wage and Hour)",
+  "url": "https://www.dol.nh.gov/"
+ },
+ "minWage": {
+  "rates2026": [
+   {
+    "from": "2011-08-21",
+    "rate": 7.25,
+    "area": "Statewide",
+    "note": "State law sets the minimum at the federal rate; unchanged throughout 2026"
+   }
+  ],
+  "headline": 7.25,
+  "headlineArea": "Statewide",
+  "federalApplies": true,
+  "rates2027": [],
+  "smallEmployer": null,
+  "tipped": {
+   "cashWage": 3.27,
+   "tipCreditAllowed": true,
+   "note": "Base rate of at least 45% of the applicable minimum wage (45% x $7.25 = $3.2625, i.e. $3.27) for tipped employees of restaurants, hotels, motels, inns or cabins receiving more than $30/month in tips"
+  },
+  "other": "No separate state rate: New Hampshire law ties its minimum to the federal minimum wage ($7.25). Exclusions include household, domestic and farm labor, outside sales, summer camps for minors, newspaper carriers, non-professional ski patrol and golf caddies.",
+  "source": {
+   "url": "https://www.dol.nh.gov/inspections/wage-and-hour/minimum-wage",
+   "quote": "no person, firm or corporation shall employ any employee at an hourly rate lower than that set forth in the federal minimum wage law, which is $7.25.",
+   "accessed": "2026-10-11"
+  }
+ },
+ "localMinWages": [],
+ "overtime": {
+  "weeklyHours": 40,
+  "dailyHours": null,
+  "doubleTime": null,
+  "seventhDay": null,
+  "exemptSalaryWeekly": null,
+  "exemptSalaryNote": null,
+  "note": "State overtime rule applies except to employees of FLSA-covered employers (who get FLSA overtime) and seasonal employees of employers operating less than six months.",
+  "source": {
+   "url": "https://www.dol.nh.gov/inspections/wage-and-hour/minimum-wage",
+   "quote": "employees shall be paid at the rate of time and one half for all time worked in excess of 40 hours in any week.",
+   "accessed": "2026-10-11"
+  }
+ },
+ "sickLeave": {
+  "mandatory": false,
+  "accrual": null,
+  "accrualPerHours": null,
+  "capHours": null,
+  "capNote": null,
+  "employerThreshold": null,
+  "effective": null,
+  "note": "No state paid sick leave law for private employers.",
+  "source": null
+ },
+ "familyLeave": {
+  "paidProgram": true,
+  "name": "New Hampshire Paid Family and Medical Leave (NH PFML) - voluntary plan",
+  "benefitsStart": "2023-01-01",
+  "maxWeeks": 6,
+  "replacement": "60% of average weekly wage (up to the Social Security wage cap)",
+  "maxWeeklyBenefit2026": null,
+  "medicalLeave": "Included (paid family and medical leave in a single voluntary policy; employer group plans may offer 12 weeks)",
+  "stateUnpaidLaw": null,
+  "source": {
+   "url": "https://www.paidfamilymedicalleave.nh.gov/",
+   "quote": "NH PFML is a voluntary insurance plan that provides NH workers with 60% wage replacement (up to the Social Security wage cap) for up to 6 weeks per year",
+   "accessed": "2026-10-11"
+  }
+ },
+ "finalPay": {
+  "fired": "within 72 hours of termination",
+  "firedDays": 3,
+  "quit": "by the next regular payday",
+  "quitNotice": "within 72 hours if the employee gave one pay period's notice",
+  "ptoPayout": "policy",
+  "ptoNote": "Follows the employer's written fringe-benefit policy, which employers must give employees in writing at hire.",
+  "source": {
+   "url": "https://www.dol.nh.gov/resource-center/frequently-asked-questions/wages-and-work-hours-faqs",
+   "quote": "If an employee quits or resigns, the wages are due by the next regular payday, except if the employee gives one pay notice to quit the employer shall pay all wages due within 72 hours. If fired, the wages are due within 72 hours",
+   "accessed": "2026-10-11"
+  },
+  "ptoSource": {
+   "url": "https://www.dol.nh.gov/resource-center/frequently-asked-questions/wages-and-work-hours-faqs",
+   "quote": "employers must provide, in writing, an employee's rate of pay at the time of hire and upon any changes, as well as all policies pertaining to any fringe benefits",
+   "accessed": "2026-10-11"
+  }
+ },
+ "breaks": {
+  "meal": "30-minute lunch or eating period after 5 consecutive hours; if not possible, the employee must be paid while eating and working",
+  "mealMinutes": 30,
+  "mealAfterHours": 5,
+  "rest": null,
+  "restMinutes": null,
+  "restPerHours": null,
+  "minorsOnly": null,
+  "source": {
+   "url": "https://www.dol.nh.gov/resource-center/frequently-asked-questions/wages-and-work-hours-faqs",
+   "quote": "An employer cannot require that an employee work more than five consecutive hours without granting a thirty minute lunch or eating period.",
+   "accessed": "2026-10-11"
+  }
+ },
+ "rightToWork": false,
+ "rightToWorkSource": null,
+ "atWill": "at-will",
+ "notes": [
+  {
+   "text": "New Hampshire runs the nation's first voluntary paid family and medical leave plan: 60% wage replacement for up to 6 weeks, bought by employers or individually by workers (individual plan capped at $5 a week).",
+   "source": {
+    "url": "https://www.paidfamilymedicalleave.nh.gov/",
+    "quote": "Per state law, the cost for NH PFML individual plan insurance will be no more than $5 per week.",
+    "accessed": "2026-10-11"
+   }
+  },
+  {
+   "text": "An employee called in to work must be paid for at least 2 hours.",
+   "source": {
+    "url": "https://www.dol.nh.gov/resource-center/frequently-asked-questions/wages-and-work-hours-faqs",
+    "quote": "An employee who reports to work at the employer's request must be paid for a minimum of 2 hours",
+    "accessed": "2026-10-11"
+   }
+  }
+ ],
+ "uncertain": [
+  "firedDays set to 3 to represent the 72-hour deadline (law counts hours, not days).",
+  "No official NHDOL page found stating the vacation payout rule explicitly; 'policy' inferred from the written fringe-benefit policy requirement (RSA 275:49). NH statutes site (gc.nh.gov) was blocked and could not be read.",
+  "Tipped cash wage $3.27 is computed from the official 45% rule; the page does not print the dollar figure. Bills to change the tipped percentage were under discussion in the House (Sept-Oct 2026) but nothing enacted was found."
+ ]
+}

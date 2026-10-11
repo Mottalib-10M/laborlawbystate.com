@@ -9,7 +9,7 @@ import { schedule } from '../src/lib/engine/hours';
 import { sickAccrual, weeksToEarn } from '../src/lib/engine/leave';
 import { breaksForShift } from '../src/lib/engine/breaks';
 import { garnishCap, severance } from '../src/lib/engine/money';
-import { addDays } from '../src/lib/engine/dates';
+import { addDays, addBusinessDays, countsBusinessDays } from '../src/lib/engine/dates';
 
 const CA = { weekly: 40, daily: 8, dailyDouble: 12, seventhDay: true };
 describe('minimum wage', () => {
@@ -62,4 +62,6 @@ describe('leave, breaks, money, dates', () => {
   it('CCPA: $250 a week, only $32.50 above the floor', () => expect(garnishCap(250, P.federal.minWage, 30, 25).max).toBeCloseTo(32.5, 6));
   it('severance: 2 weeks per year for 6 years at $1,000 a week', () => expect(severance(1000, 6, 2).amount).toBe(12000));
   it('adds calendar days across months', () => expect(addDays('2026-01-30', 3)).toBe('2026-02-02'));
+  it('next business day after a Friday is Monday', () => expect(addBusinessDays('2026-10-09', 1)).toBe('2026-10-12'));
+  it('recognizes business-day rules', () => { expect(countsBusinessDays('by the next business day')).toBe(true); expect(countsBusinessDays('within 6 days')).toBe(false); });
 });

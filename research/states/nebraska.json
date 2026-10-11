@@ -1,0 +1,56 @@
+{
+  "slug": "nebraska", "name": "Nebraska", "abbr": "NE",
+  "agency": {"name": "Nebraska Department of Labor, Labor Standards", "url": "https://dol.nebraska.gov/LaborStandards"},
+  "minWage": {
+    "rates2026": [
+      {"from": "2026-01-01", "rate": 15.00, "area": "Employers with 4 or more employees", "note": ""},
+      {"from": "2026-07-18", "rate": 13.50, "area": "Youth minimum wage, ages 14-15 (optional)", "note": "New in July 2026; NDOL wage sheet says July 17, 2026, the minimum wage chart says July 18, 2026"},
+      {"from": "2026-07-18", "rate": 13.50, "area": "Training wage, new employees aged 16-19, first 90 days (not seasonal/migrant)", "note": "Subject to Neb. Rev. Stat. 48-1203.01"}
+    ],
+    "headline": 15.00,
+    "headlineArea": "Employers with 4 or more employees",
+    "federalApplies": false,
+    "rates2027": [
+      {"from": "2027-01-01", "rate": 15.26, "area": "General minimum wage", "note": "Per NDOL minimum wage chart updated 2026-07-31 (then $15.53 in 2028, $15.80 in 2029, $16.08 in 2030)"},
+      {"from": "2027-01-01", "rate": 13.70, "area": "Training wage, ages 16-19, first 90 days", "note": "Per NDOL chart updated 2026-07-31"},
+      {"from": "2027-01-01", "rate": 13.50, "area": "Youth minimum wage, ages 14-15", "note": "Stays $13.50 until 2030 ($13.70)"}
+    ],
+    "smallEmployer": "State minimum wage applies to employers of four or more persons; smaller employers fall under the federal FLSA only if covered by it.",
+    "tipped": {"cashWage": 2.13, "tipCreditAllowed": true, "note": "Cash wage plus tips must reach the applicable minimum wage"},
+    "other": "Student learners in bona fide vocational training: at least 75% of the minimum wage. From July 2026: optional youth wage ($13.50, ages 14-15) and 90-day training wage ($13.50, ages 16-19).",
+    "source": {"url": "https://dol.nebraska.gov/webdocs/getfile/18bc2309-85ed-4957-b072-e899caeaca99", "quote": "July 18, 2026 $15.00* $13.50 January 1, 2027 $15.26 $13.50 ... *Unchanged from January 1, 2026.", "accessed": "2026-10-11"}
+  },
+  "localMinWages": [],
+  "overtime": {"weeklyHours": null, "dailyHours": null, "doubleTime": null, "seventhDay": null,
+    "exemptSalaryWeekly": null, "exemptSalaryNote": null,
+    "note": "No state overtime requirement: overtime is claimable under state law only if agreed; otherwise federal FLSA (over 40 hours/week) applies.",
+    "source": {"url": "https://dol.nebraska.gov/webdocs/getfile/1dd2714b-6c66-4a3c-b79c-cb2462ace6fd", "quote": "Overtime wages can be claimed under the Nebraska Wage Payment and Collection Act only if those overtime wages were previously agreed to by the employer and employee.", "accessed": "2026-10-11"}},
+  "sickLeave": {"mandatory": true, "accrual": "1 hour for every 30 hours worked (after 80 hours of consecutive employment)", "accrualPerHours": 30,
+    "capHours": 56, "capNote": "20+ employees: 56 h/year; 11-19 employees: 40 h/year; employers with fewer than 11 employees are not covered. Unlimited carryover but use can be capped at 40/56 h; no payout at separation unless combined PTO.",
+    "employerThreshold": "11 or more employees", "effective": "2025-10-01",
+    "note": "Nebraska Healthy Families and Workplaces Act (2024 ballot initiative), as amended in 2025 to exempt employers with fewer than 11 employees. Excludes under-16s and seasonal/temporary agricultural workers.",
+    "source": {"url": "https://dol.nebraska.gov/LaborStandards/PaidSickTime/PSTFAQs", "quote": "The Nebraska Healthy Families and Workplaces Act applies to employers with 11 or more employees.", "accessed": "2026-10-11"}},
+  "familyLeave": {"paidProgram": false, "name": null, "benefitsStart": null, "maxWeeks": null, "replacement": null,
+    "maxWeeklyBenefit2026": null, "medicalLeave": null, "stateUnpaidLaw": null, "source": null},
+  "finalPay": {"fired": "next regular payday or within two weeks of termination, whichever is sooner", "firedDays": null,
+    "quit": "next regular payday or within two weeks, whichever is sooner", "quitNotice": null,
+    "ptoPayout": "required", "ptoNote": "Earned but unused vacation/PTO must be paid at separation (vacation itself is optional). Sick time under the HFWA is not paid out unless combined into PTO.",
+    "source": {"url": "https://dol.nebraska.gov/webdocs/getfile/1dd2714b-6c66-4a3c-b79c-cb2462ace6fd", "quote": "Nebraska law requires that final wages be paid on the next regular pay day or within two weeks of the termination, whichever is sooner.", "accessed": "2026-10-11"},
+    "ptoSource": {"url": "https://dol.nebraska.gov/webdocs/Resources/Items/Wages.pdf", "quote": "Earned but unused vacation / PTO time is due to the employee upon separation of employment.", "accessed": "2026-10-11"}},
+  "breaks": {"meal": "30 consecutive minutes per 8-hour shift, only in mechanical establishments, workshops and assembling plants", "mealMinutes": 30, "mealAfterHours": 8,
+    "rest": null, "restMinutes": null, "restPerHours": null, "minorsOnly": null,
+    "source": {"url": "https://dol.nebraska.gov/webdocs/Resources/Items/Wages.pdf", "quote": "Only mechanical establishments, workshops, and assembling plants are required to provide a 30 consecutive minute meal break in each 8-hour shift to employees.", "accessed": "2026-10-11"}},
+  "rightToWork": true,
+  "rightToWorkSource": {"url": "https://nebraskalegislature.gov/laws/articles.php?article=XV-13", "quote": "No person shall be denied employment because of membership in or affiliation with, or resignation or expulsion from a labor organization or because of refusal to join", "accessed": "2026-10-11"},
+  "atWill": "at-will",
+  "notes": [
+    {"text": "From July 2026, employers may pay 14- and 15-year-olds a youth minimum wage of $13.50, and new hires aged 16-19 a training wage for their first 90 days.", "source": {"url": "https://dol.nebraska.gov/webdocs/getfile/18bc2309-85ed-4957-b072-e899caeaca99", "quote": "Beginning July 18, 2026, an employer may pay a youth minimum wage of $13.50 per hour to employees who are 14 or 15 years of age.", "accessed": "2026-10-11"}},
+    {"text": "The minimum wage rises to $15.26 on January 1, 2027, then $15.53 (2028), $15.80 (2029) and $16.08 (2030), per NDOL's updated chart.", "source": {"url": "https://dol.nebraska.gov/webdocs/getfile/18bc2309-85ed-4957-b072-e899caeaca99", "quote": "January 1, 2027 $15.26 $13.50 January 1, 2028 $15.53 $13.50 January 1, 2029 $15.80", "accessed": "2026-10-11"}},
+    {"text": "Paid sick time (voter-approved in 2024) took effect October 1, 2025, but only for employers with 11 or more employees.", "source": {"url": "https://dol.nebraska.gov/LaborStandards/PaidSickTime/PSTFAQs", "quote": "Nebraska Healthy Families and Workplaces Act takes effect October 1, 2025.", "accessed": "2026-10-11"}}
+  ],
+  "uncertain": [
+    "dol.nebraska.gov and nebraskalegislature.gov refused all connections on 2026-10-11 (curl, WebFetch and Chrome). All Nebraska sources were read from Internet Archive (web.archive.org) copies of the official NDOL/Legislature URLs, captured in 2026 (Paid Sick Time FAQ snapshot 2026-08-31, revised Oct 31, 2025; minimum wage chart updated 7/31/2026; Wages sheet version 7/17/2026). Re-check on the live site.",
+    "Youth/training wage start date: NDOL minimum wage chart says July 18, 2026; NDOL Wages sheet says July 17, 2026.",
+    "The 2026 bill that set the $15.26 (2027) rate and youth/training wages was not identified by number; values taken from NDOL's chart. The NDOL FAQ PDF used for final pay still showed the 2025 rate ($13.50), so it is an older document; final-pay rule confirmed by the 7/17/2026 Wages sheet."
+  ]
+}

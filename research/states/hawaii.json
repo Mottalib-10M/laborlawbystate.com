@@ -1,0 +1,57 @@
+{
+  "slug": "hawaii", "name": "Hawaii", "abbr": "HI",
+  "agency": {"name": "Hawaii Department of Labor and Industrial Relations, Wage Standards Division", "url": "https://labor.hawaii.gov/wsd/"},
+  "minWage": {
+    "rates2026": [
+      {"from": "2026-01-01", "rate": 16.00, "area": "Statewide", "note": "next step: $18.00 on 2028-01-01"}
+    ],
+    "headline": 16.00,
+    "headlineArea": "Statewide",
+    "federalApplies": false,
+    "rates2027": [],
+    "smallEmployer": null,
+    "tipped": {"cashWage": 14.75, "tipCreditAllowed": true, "note": "maximum tip credit $1.25 (2026-2027), only if wages + tips are at least $7.00 above the minimum wage ($23.00/hour); tip credit rises to $1.50 on 2028-01-01"},
+    "other": null,
+    "source": {"url": "https://labor.hawaii.gov/wsd/minimum-wage/", "quote": "$14.00 per hour beginning January 1, 2024; $16.00 per hour beginning January 1, 2026; and $18.00 per hour beginning January 1, 2028.", "accessed": "2026-10-11"}
+  },
+  "tippedSource": {"url": "https://labor.hawaii.gov/wsd/files/2022/06/Tip_Credit_Notice_with_exhibits_June2022.pdf", "quote": "$16.00 + $7.00 tips = $23.00 per hour $1.25 $14.75 January 1, 2026 to December 31, 2027", "accessed": "2026-10-11"},
+  "localMinWages": [],
+  "overtime": {"weeklyHours": 40, "dailyHours": null, "doubleTime": null, "seventhDay": null,
+               "exemptSalaryWeekly": null,
+               "exemptSalaryNote": "Hawaii exempts anyone guaranteed $4,000 or more per month (about $923/week) regardless of duties, plus bona fide executive/administrative/supervisory/professional employees under HAR 12-20-2 to 12-20-5; the federal $684/week test still applies where FLSA covers the employer",
+               "note": "Daily overtime (after 8 hours) applies only on State or county public works construction projects (HRS 104-2(c)).",
+               "source": {"url": "https://labor.hawaii.gov/wsd/wage-and-hour-faqs/", "quote": "Overtime is paid when an employee works more than 40 hours in a workweek. Hours worked in excess of 8 hours a day is not considered overtime, except when work is performed on a State or county public works", "accessed": "2026-10-11"}},
+  "sickLeave": {"mandatory": false, "accrual": null, "accrualPerHours": null, "capHours": null,
+                "capNote": "No paid sick leave mandate; employers that offer it must publish the policy in writing (HRS 388-7(3)). Under the Hawaii Family Leave Law, employers with 100+ employees that provide sick leave must let employees use up to 10 days of it for family leave.",
+                "employerThreshold": null, "effective": null, "note": "",
+                "source": {"url": "https://labor.hawaii.gov/wsd/vacation-and-sick-leave/", "quote": "In Hawaii, paid vacation and sick leave is not required by law.", "accessed": "2026-10-11"}},
+  "familyLeave": {"paidProgram": false, "name": null, "benefitsStart": null,
+                  "maxWeeks": null, "replacement": null,
+                  "maxWeeklyBenefit2026": null,
+                  "medicalLeave": "Temporary Disability Insurance (TDI): employer-provided wage replacement for an employee's own non-work illness or injury, from the 8th day of disability, up to 26 weeks, at 58% of average weekly wages up to a maximum set annually by DLIR",
+                  "stateUnpaidLaw": "Hawaii Family Leave Law (HRS ch. 398): up to 4 weeks of unpaid, job-protected family leave per year for employees with 6 consecutive months of service, at employers with 100+ employees in Hawaii (no minimum-hours requirement, unlike FMLA)",
+                  "source": {"url": "https://labor.hawaii.gov/wsd/hawaii-family-leave/", "quote": "The law applies to an employer who employs one hundred or more employees ... the employee may substitute other paid leaves, such as vacation, for any part of the four-week period of family leave.", "accessed": "2026-10-11"},
+                  "medicalSource": {"url": "https://labor.hawaii.gov/dcd/home/about-tdi/", "quote": "entitled to disability benefits, from the eighth day of disability for a maximum of 26 weeks, at 58% of the employee's average weekly wages up to the maximum weekly benefit amount annually set by this Division", "accessed": "2026-10-11"}},
+  "finalPay": {"fired": "at the time of discharge or no later than the next working day", "firedDays": 1,
+               "quit": "by the next regular payday; immediately at quitting if the employee gave at least one pay period's notice", "quitNotice": "one pay period",
+               "ptoPayout": "policy", "ptoNote": "No law requires paid vacation or its payout; the employer's written policy (which must be made available to employees) governs.",
+               "source": {"url": "https://labor.hawaii.gov/wsd/unpaid-wages/", "quote": "whenever an employer discharges an employee, the employer is required to pay all earned wages in full at the time of discharge, or not later than the next working day.", "accessed": "2026-10-11"},
+               "ptoSource": {"url": "https://labor.hawaii.gov/wsd/vacation-and-sick-leave/", "quote": "The employer's policy determines the criteria to earn and use these benefits.", "accessed": "2026-10-11"}},
+  "breaks": {"meal": null, "mealMinutes": null, "mealAfterHours": null,
+             "rest": null, "restMinutes": null, "restPerHours": null,
+             "minorsOnly": "Minors aged 14-15: a 30-minute rest or meal period after 5 consecutive hours of work (HRS 390-2(c)(3)). Rest breaks of 5-20 minutes, when given, are paid time.",
+             "source": {"url": "https://labor.hawaii.gov/wsd/breaks-meal-rest/", "quote": "There is no law that requires rest or meal breaks for other employees.", "accessed": "2026-10-11"}},
+  "rightToWork": false, "rightToWorkSource": null,
+  "atWill": "at-will",
+  "notes": [
+    {"text": "Hawaii's minimum wage rose from $14.00 to $16.00 on January 1, 2026 and is scheduled to reach $18.00 on January 1, 2028 (no 2027 increase).", "source": {"url": "https://labor.hawaii.gov/wsd/minimum-wage/", "quote": "$16.00 per hour beginning January 1, 2026; and $18.00 per hour beginning January 1, 2028.", "accessed": "2026-10-11"}},
+    {"text": "Tip credit is allowed only when the worker's wages plus tips are at least $7.00 an hour above the minimum wage, an unusual condition among tip-credit states.", "source": {"url": "https://labor.hawaii.gov/wsd/files/2022/06/Tip_Credit_Notice_with_exhibits_June2022.pdf", "quote": "The combined amount the employee receives from the employer and in tips must be at least $7.00 more than the applicable minimum wage.", "accessed": "2026-10-11"}},
+    {"text": "Wages must be paid at least twice a month and within seven days after the end of each pay period (HRS 388-2).", "source": {"url": "https://labor.hawaii.gov/wsd/unpaid-wages/", "quote": "every employer is required to pay wages to all employees at least twice during each calendar month", "accessed": "2026-10-11"}}
+  ],
+  "uncertain": [
+    "Tip credit schedule ($1.25 for 2026-2027) comes from the DLIR June 2022 Tip Credit Notice; cross-checked with the dol.gov tipped table (updated 2026-07-01: tip credit $1.25, cash wage $14.75). Statute HRS 387-2 on capitol.hawaii.gov was blocked by Cloudflare.",
+    "TDI maximum weekly benefit for 2026 not verified (DCD page gives formula only), so maxWeeklyBenefit2026 is null.",
+    "firedDays = 1 represents 'no later than the next working day' (working day, not calendar day).",
+    "Extra keys 'tippedSource' and familyLeave.'medicalSource' added to hold the separate sources."
+  ]
+}

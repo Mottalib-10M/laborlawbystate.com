@@ -1,0 +1,134 @@
+{
+  "slug": "tennessee",
+  "name": "Tennessee",
+  "abbr": "TN",
+  "agency": {
+    "name": "Tennessee Department of Labor and Workforce Development, Labor Standards Unit",
+    "url": "https://www.tn.gov/workforce.html"
+  },
+  "minWage": {
+    "rates2026": [
+      {
+        "from": "2009-07-24",
+        "rate": 7.25,
+        "area": "Statewide (federal minimum)",
+        "note": "No state minimum wage law; federal FLSA rate applies"
+      }
+    ],
+    "headline": 7.25,
+    "headlineArea": "Statewide (federal minimum)",
+    "federalApplies": true,
+    "rates2027": [],
+    "smallEmployer": "No state minimum wage law: the federal $7.25 applies to employers covered by the FLSA; minimum wage questions are referred to the U.S. DOL.",
+    "tipped": {
+      "cashWage": 2.13,
+      "tipCreditAllowed": true,
+      "note": "Federal FLSA rules ($2.13 cash wage, tipped = more than $30/month)."
+    },
+    "other": null,
+    "source": {
+      "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+      "quote": "No state minimum wage law. Employers subject to the Fair Labor Standards Act must pay the current Federal minimum wage of $7.25 per hour.",
+      "accessed": "2026-10-11"
+    }
+  },
+  "localMinWages": [],
+  "overtime": {
+    "weeklyHours": null,
+    "dailyHours": null,
+    "doubleTime": null,
+    "seventhDay": null,
+    "exemptSalaryWeekly": null,
+    "exemptSalaryNote": null,
+    "note": "No state overtime law; the state refers overtime questions to the U.S. Department of Labor.",
+    "source": {
+      "url": "https://www.tn.gov/workforce/employees/labor-laws/labor-laws-redirect/referrals.html",
+      "quote": "U.S. Department of Labor (USDOL) Regulates overtime, 1099 employees, Family Medical Leave Act (FMLA), minimum wage",
+      "accessed": "2026-10-11"
+    }
+  },
+  "sickLeave": {
+    "mandatory": false,
+    "accrual": null,
+    "accrualPerHours": null,
+    "capHours": null,
+    "capNote": null,
+    "employerThreshold": null,
+    "effective": null,
+    "note": "No statewide paid sick leave law for private employers.",
+    "source": null
+  },
+  "familyLeave": {
+    "paidProgram": false,
+    "name": null,
+    "benefitsStart": null,
+    "maxWeeks": null,
+    "replacement": null,
+    "maxWeeklyBenefit2026": null,
+    "medicalLeave": null,
+    "stateUnpaidLaw": null,
+    "source": null
+  },
+  "finalPay": {
+    "fired": "by the next regular payday or within 21 days of separation, whichever is later",
+    "firedDays": null,
+    "quit": "by the next regular payday or within 21 days, whichever is later",
+    "quitNotice": null,
+    "ptoPayout": "policy",
+    "ptoNote": "Unused PTO/vacation is paid out only if the employer's policy or labor agreement requires it.",
+    "source": {
+      "url": "https://www.tn.gov/workforce/employees/labor-laws/labor-laws-redirect/wages-breaks.html",
+      "quote": "no later than the next regular pay day following the date of dismissal or voluntary leaving, or twenty-one (21) days following the date of discharge or voluntary leaving, whichever occurs last.",
+      "accessed": "2026-10-11"
+    },
+    "ptoSource": {
+      "url": "https://www.tn.gov/workforce/employees/labor-laws/labor-laws-redirect/wages-breaks.html",
+      "quote": "No. Unless the employer's policy or its labor agreement specifically requires compensation of unused fringe benefits to an employee upon his or her separation of employment.",
+      "accessed": "2026-10-11"
+    }
+  },
+  "breaks": {
+    "meal": "30-minute unpaid meal or rest period when scheduled 6 consecutive hours (not before or during the first hour); exception where the work naturally allows ample rest",
+    "mealMinutes": 30,
+    "mealAfterHours": 6,
+    "rest": null,
+    "restMinutes": null,
+    "restPerHours": null,
+    "minorsOnly": null,
+    "source": {
+      "url": "https://www.tn.gov/workforce/employees/labor-laws/labor-laws-redirect/wages-breaks.html",
+      "quote": "employees must be provided a thirty (30) minute unpaid meal or rest period if scheduled six (6) consecutive hours",
+      "accessed": "2026-10-11"
+    }
+  },
+  "rightToWork": true,
+  "rightToWorkSource": {
+    "url": "https://www.capitol.tn.gov/Bills/111/Bill/SJR0648.pdf",
+    "quote": "It is unlawful for any person ... to deny or attempt to deny employment to any person by reason of the person's membership in ... or refusal to join or affiliate with any labor union or employee organization.",
+    "accessed": "2026-10-11"
+  },
+  "atWill": "at-will",
+  "notes": [
+    {
+      "text": "Final wages can be paid as late as 21 days after separation if the next regular payday comes sooner - the later of the two dates applies.",
+      "source": {
+        "url": "https://www.tn.gov/workforce/employees/labor-laws/labor-laws-redirect/wages-breaks.html",
+        "quote": "the employer is required to pay all wages or compensation due on the regular payday following the date of separation or 21 days thereafter, whichever occurs last.",
+        "accessed": "2026-10-11"
+      }
+    },
+    {
+      "text": "Right to work is written into the Tennessee Constitution (Article XI), in addition to the statute (Tenn. Code Ann. 50-1-201).",
+      "source": {
+        "url": "https://www.capitol.tn.gov/Bills/111/Bill/SJR0648.pdf",
+        "quote": "A RESOLUTION to propose an amendment to Article XI, of the Constitution of Tennessee, relative to the right to work.",
+        "accessed": "2026-10-11"
+      }
+    }
+  ],
+  "uncertain": [
+    "tn.gov blocks curl (403); pages read through a text-rendering proxy (r.jina.ai), quotes verbatim.",
+    "Right-to-work source is the text of SJR 648 (2022 constitutional amendment proposal); voter ratification in Nov 2022 was not confirmed on an official page read today. The statutory right of association (TCA 50-1-201 to -204) is cited on tn.gov's Employee Rights page.",
+    "'No state minimum wage law' sourced to the dol.gov table (cross-check) plus tn.gov's referral of minimum wage questions to the U.S. DOL."
+  ]
+}

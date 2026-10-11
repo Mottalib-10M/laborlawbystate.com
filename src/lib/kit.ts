@@ -16,7 +16,7 @@ import { sickAccrual } from './engine/leave';
 import { breaksForShift } from './engine/breaks';
 import { garnishCap, severance } from './engine/money';
 import { salaryTest } from './engine/exempt';
-import { addDays } from './engine/dates';
+import { addDays, addBusinessDays, countsBusinessDays } from './engine/dates';
 import { usd, usdx, pct, num, day, listOf } from './fmt';
 
 const mods = import.meta.glob<{ default: StateData }>('../data/states/*.json', { eager: true });
@@ -74,7 +74,7 @@ export const sickYear = (slug: string, hoursPerWeek: number, weeks = 52) => { co
 export const pflStates = () => STATES.filter((s) => s.familyLeave.paidProgram);
 export const sickStates = () => STATES.filter((s) => s.sickLeave.mandatory);
 export const breakShift = (slug: string, h: number) => breaksForShift(sd(slug).breaks, h);
-export const finalPayDate = (slug: string, lastDay: string) => { const d = sd(slug).finalPay.firedDays; return d == null ? null : addDays(lastDay, d); };
+export const finalPayDate = (slug: string, lastDay: string) => { const f = sd(slug).finalPay; return f.firedDays == null ? null : countsBusinessDays(f.fired) ? addBusinessDays(lastDay, f.firedDays) : addDays(lastDay, f.firedDays); };
 export const rtwStates = () => STATES.filter((s) => s.rightToWork);
 export const garnish = (weekly: number) => garnishCap(weekly, F.minWage, F.garnishMultiple, F.garnishPct);
 export const sev = severance;
