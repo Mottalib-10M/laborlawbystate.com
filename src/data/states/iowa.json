@@ -1,0 +1,145 @@
+{
+ "slug": "iowa",
+ "name": "Iowa",
+ "abbr": "IA",
+ "agency": {
+  "name": "Iowa Department of Inspections, Appeals, and Licensing (DIAL) - Wage and Child Labor Unit",
+  "url": "https://dial.iowa.gov/hearings/wage-and-child-labor/wages"
+ },
+ "minWage": {
+  "rates2026": [
+   {
+    "from": "2008-01-01",
+    "rate": 7.25,
+    "area": "Statewide",
+    "note": "Iowa Code 91D.1: $7.25 or the federal minimum, whichever is greater."
+   }
+  ],
+  "headline": 7.25,
+  "headlineArea": "Statewide",
+  "federalApplies": false,
+  "rates2027": [],
+  "smallEmployer": "The state minimum wage does not apply to most enterprises grossing under $300,000 a year (except laundries, construction, hospitals, schools and certain others); such employers may still be covered by the federal FLSA.",
+  "tipped": {
+   "cashWage": 4.35,
+   "tipCreditAllowed": true,
+   "note": "Employees receiving more than $30/month in tips: tip credit up to 40% of the minimum wage ($2.90); employer makes up any shortfall to $7.25."
+  },
+  "other": "New-hire wage: an employer may pay $6.35/hour until the employee completes 90 calendar days of employment (Iowa Code 91D.1(1)(d)); federal law may require $7.25 for FLSA-covered employers.",
+  "source": {
+   "url": "https://www.legis.iowa.gov/docs/code/91D.1.pdf",
+   "quote": "The state hourly wage shall be at least $6.20 as of April 1, 2007, and $7.25 as of January 1, 2008.",
+   "accessed": "2026-10-11"
+  }
+ },
+ "localMinWages": [],
+ "overtime": {
+  "weeklyHours": null,
+  "dailyHours": null,
+  "doubleTime": null,
+  "seventhDay": null,
+  "exemptSalaryWeekly": null,
+  "exemptSalaryNote": "No state overtime law; federal FLSA (40 h/week, $684/week exemption threshold) applies.",
+  "note": "DIAL refers all overtime claims to the U.S. Department of Labor.",
+  "source": {
+   "url": "https://dial.iowa.gov/hearings/wage-and-child-labor/wages",
+   "quote": "If you believe you are owed overtime pay, contact the U.S. Department of Labor, Wage and Hour Office.",
+   "accessed": "2026-10-11"
+  }
+ },
+ "sickLeave": {
+  "mandatory": false,
+  "accrual": null,
+  "accrualPerHours": null,
+  "capHours": null,
+  "capNote": null,
+  "employerThreshold": null,
+  "effective": null,
+  "note": "Iowa law does not require sick, vacation or holiday pay; employers must follow their own policies.",
+  "source": {
+   "url": "https://dial.iowa.gov/hearings/wage-and-child-labor/wages",
+   "quote": "Iowa Law does not require employers to provide sick time, vacation pay or holiday pay.",
+   "accessed": "2026-10-11"
+  }
+ },
+ "familyLeave": {
+  "paidProgram": false,
+  "name": null,
+  "benefitsStart": null,
+  "maxWeeks": null,
+  "replacement": null,
+  "maxWeeklyBenefit2026": null,
+  "medicalLeave": null,
+  "stateUnpaidLaw": null,
+  "source": null
+ },
+ "finalPay": {
+  "fired": "by the next regularly scheduled payday",
+  "firedDays": null,
+  "quit": "by the next regularly scheduled payday",
+  "quitNotice": null,
+  "ptoPayout": "policy",
+  "ptoNote": "Unused vacation is paid only if the employer has a contract, policy or procedure to pay it to departing employees.",
+  "source": {
+   "url": "https://dial.iowa.gov/i-need/claims/how-do-i-wage-claim/wage-claims-faq",
+   "quote": "If you leave employment for any reason, you are to be paid on the next regularly scheduled payday.",
+   "accessed": "2026-10-11"
+  },
+  "ptoSource": {
+   "url": "https://dial.iowa.gov/i-need/claims/how-do-i-wage-claim/wage-claims-faq",
+   "quote": "Only if the employer has a contract, policy or procedure to pay vacation to departing employees.",
+   "accessed": "2026-10-11"
+  }
+ },
+ "breaks": {
+  "meal": null,
+  "mealMinutes": null,
+  "mealAfterHours": null,
+  "rest": null,
+  "restMinutes": null,
+  "restPerHours": null,
+  "minorsOnly": "Minors under 16 must get a 30-minute break if they work 5 hours or more in a day. All employees must be allowed toilet breaks when needed.",
+  "source": {
+   "url": "https://dial.iowa.gov/hearings/wage-and-child-labor/wages",
+   "quote": "Iowa has no laws mandating meal breaks for adults. ... Minors younger than 16 must be given a 30-minute break if they are employed five hours or more in a day.",
+   "accessed": "2026-10-11"
+  }
+ },
+ "rightToWork": true,
+ "rightToWorkSource": {
+  "url": "https://www.legis.iowa.gov/docs/code/731.4.pdf",
+  "quote": "It shall be unlawful for any person ... as a prerequisite to or a condition of employment to require any person to pay dues ... to any labor union",
+  "accessed": "2026-10-11"
+ },
+ "atWill": "at-will",
+ "notes": [
+  {
+   "text": "Iowa's tip credit is capped at 40% of the minimum wage, so tipped workers get at least $4.35/hour in cash, double the federal $2.13.",
+   "source": {
+    "url": "https://dial.iowa.gov/hearings/wage-and-child-labor/wages",
+    "quote": "If you make $30 per month or more in tips, the employer may pay as little as $4.35 per hour.",
+    "accessed": "2026-10-11"
+   }
+  },
+  {
+   "text": "Iowa allows a lower $6.35 wage during an employee's first 90 calendar days with an employer.",
+   "source": {
+    "url": "https://www.legis.iowa.gov/docs/code/91D.1.pdf",
+    "quote": "An employer shall pay an employee who has not completed ninety calendar days of employment ... at least ... $6.35 as of January 1, 2008.",
+    "accessed": "2026-10-11"
+   }
+  },
+  {
+   "text": "An employer must get the employee's written consent before mailing a paycheck.",
+   "source": {
+    "url": "https://dial.iowa.gov/i-need/claims/how-do-i-wage-claim/wage-claims-faq",
+    "quote": "An employer must obtain an employee's written consent before a paycheck is sent via the mail.",
+    "accessed": "2026-10-11"
+   }
+  }
+ ],
+ "uncertain": [
+  "Local minimum wages: Iowa preempted local minimum-wage ordinances in 2017; the preemption statute was not read today, so localMinWages is empty without a cited source.",
+  "Small-employer exemption ($300,000) and the $6.35 90-day wage are state-law only; FLSA-covered employers must still pay $7.25."
+ ]
+}

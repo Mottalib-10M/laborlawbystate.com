@@ -1,0 +1,46 @@
+{
+  "slug": "kansas", "name": "Kansas", "abbr": "KS",
+  "agency": {"name": "Kansas Department of Labor (Labor Standards)", "url": "https://www.dol.ks.gov/"},
+  "minWage": {
+    "rates2026": [ {"from": "2010-01-01", "rate": 7.25, "area": "Statewide", "note": "K.S.A. 44-1203; the state law applies only to employers and employees not covered by the federal FLSA (which also requires $7.25)."} ],
+    "headline": 7.25,
+    "headlineArea": "Statewide",
+    "federalApplies": false,
+    "rates2027": [],
+    "smallEmployer": "The Kansas minimum wage law excludes any employer subject to the federal FLSA; it covers only employers outside the FLSA, at the same $7.25.",
+    "tipped": {"cashWage": 2.13, "tipCreditAllowed": true, "note": "Employer pays at least $2.13/hour and makes up the difference if wage plus tips is below $7.25."},
+    "other": "The state law excludes, among others, agricultural and domestic workers and persons 18 or younger employed occasionally or part-time (K.S.A. 44-1202).",
+    "source": {"url": "https://www.ksrevisor.gov/statutes/chapters/ch44/044_012_0003.html", "quote": "on and after January 1, 2010, employee wages shall be paid at a rate of not less than $7.25 an hour. ... the employer shall pay a minimum wage of at least $2.13 an hour.", "accessed": "2026-10-11"}
+  },
+  "localMinWages": [],
+  "overtime": {"weeklyHours": 46, "dailyHours": null, "doubleTime": null, "seventhDay": null,
+               "exemptSalaryWeekly": null, "exemptSalaryNote": "No state salary threshold above the federal $684/week.",
+               "note": "Kansas state overtime starts after 46 hours a week and applies only to employees NOT covered by FLSA overtime; FLSA-covered employees get overtime after 40 hours under federal law.",
+               "source": {"url": "https://www.ksrevisor.gov/statutes/chapters/ch44/044_012_0004.html", "quote": "no employer shall employ any employee for a workweek longer than 46 hours, unless such employee receives compensation for employment in excess of 46 hours in a workweek at a rate of not less than 1 1/2 times", "accessed": "2026-10-11"}},
+  "sickLeave": {"mandatory": false, "accrual": null, "accrualPerHours": null, "capHours": null, "capNote": null,
+                "employerThreshold": null, "effective": null, "note": "No state paid sick leave law; cities and counties are barred from requiring paid or unpaid leave beyond state or federal law (K.S.A. 12-16,130).",
+                "source": {"url": "https://www.ksrevisor.gov/statutes/chapters/ch12/012_016_0130.html", "quote": "No city, county or local government unit shall enact or administer any ordinance ... which requires an employer to: (1) Provide to such employer's employees any leave from work", "accessed": "2026-10-11"}},
+  "familyLeave": {"paidProgram": false, "name": null, "benefitsStart": null, "maxWeeks": null, "replacement": null,
+                  "maxWeeklyBenefit2026": null, "medicalLeave": null, "stateUnpaidLaw": null, "source": null},
+  "finalPay": {"fired": "by the next regular payday", "firedDays": null, "quit": "by the next regular payday", "quitNotice": null,
+               "ptoPayout": "policy", "ptoNote": "No statute requires payout of accrued vacation; it follows the employer's policy or contract.",
+               "source": {"url": "https://www.ksrevisor.gov/statutes/chapters/ch44/044_003_0015.html", "quote": "Whenever an employer discharges an employee or whenever an employee quits or resigns, the employer shall pay the employee's earned wages not later than the next regular payday", "accessed": "2026-10-11"},
+               "ptoSource": null},
+  "breaks": {"meal": null, "mealMinutes": null, "mealAfterHours": null, "rest": null, "restMinutes": null, "restPerHours": null, "minorsOnly": null,
+             "source": {"url": "https://www.dol.gov/agencies/whd/state/meal-breaks", "quote": "Kansas is not listed in the USDOL table of states with meal period requirements for adult private-sector employees.", "accessed": "2026-10-11"}},
+  "rightToWork": true,
+  "rightToWorkSource": {"url": "https://www.ksrevisor.gov/statutes/chapters/ch44/044_008_0031.html", "quote": "Any person who is aggrieved by any violation of the provisions of section 12 of article 15 of the constitution of the state of Kansas shall have a cause of action", "accessed": "2026-10-11"},
+  "atWill": "at-will",
+  "notes": [
+    {"text": "Kansas state overtime kicks in only after 46 hours a week (not 40), and only for workers outside the federal FLSA.", "source": {"url": "https://www.ksrevisor.gov/statutes/chapters/ch44/044_012_0004.html", "quote": "in excess of 46 hours in a workweek at a rate of not less than 1 1/2 times the hourly wage rate", "accessed": "2026-10-11"}},
+    {"text": "Cities and counties cannot set a higher minimum wage or require paid leave (K.S.A. 12-16,130, 2013).", "source": {"url": "https://www.ksrevisor.gov/statutes/chapters/ch12/012_016_0130.html", "quote": "pay compensation or wages at any rate higher than the minimum wage unless the payment of higher compensation or wages is required by state or federal law", "accessed": "2026-10-11"}},
+    {"text": "An employer that willfully withholds final wages owes a penalty of 1% of unpaid wages per day after the eighth day, up to 100% of the wages.", "source": {"url": "https://www.ksrevisor.gov/statutes/chapters/ch44/044_003_0015.html", "quote": "a penalty in the fixed amount of 1% of the unpaid wages for each day ... after the eighth day ... or in an amount equal to 100% of the unpaid wages, whichever is less.", "accessed": "2026-10-11"}}
+  ],
+  "uncertain": [
+    "Kansas Department of Labor website (dol.ks.gov) returned HTTP 403 to curl and WebFetch; all values taken from statutes on ksrevisor.gov.",
+    "overtime.weeklyHours set to 46 (state threshold, non-FLSA employees only); FLSA-covered employees get overtime after 40 under federal law.",
+    "Vacation payout: no KDOL page or regulation (K.A.R. 49-20-1) could be read; 'policy' reflects that the statute (K.S.A. 44-313/44-315) does not mandate payout. ptoSource null.",
+    "Breaks: no Kansas page read; based on the USDOL meal-period table (dated Jan 1, 2023) that does not list Kansas.",
+    "Right to work: Kansas Constitution art. 15 §12 page not read directly; cited via K.S.A. 44-831, which enforces it."
+  ]
+}

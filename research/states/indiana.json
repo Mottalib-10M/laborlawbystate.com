@@ -1,0 +1,43 @@
+{
+  "slug": "indiana", "name": "Indiana", "abbr": "IN",
+  "agency": {"name": "Indiana Department of Labor (Wage and Hour Division)", "url": "https://www.in.gov/dol/wage-and-hour/wage-and-hour-home/"},
+  "minWage": {
+    "rates2026": [ {"from": "2009-07-24", "rate": 7.25, "area": "Statewide", "note": "Indiana Minimum Wage Law matches the federal $7.25; applies to employers of 2 or more employees not covered by the federal FLSA."} ],
+    "headline": 7.25,
+    "headlineArea": "Statewide",
+    "federalApplies": false,
+    "rates2027": [],
+    "smallEmployer": "The state law applies to employers of 2 or more employees (USDOL state table); most employers are covered by the federal FLSA at the same $7.25.",
+    "tipped": {"cashWage": 2.13, "tipCreditAllowed": true, "note": "Tipped employees must receive at least $2.13/hour if the employer claims a tip credit; the employer makes up any shortfall to $7.25."},
+    "other": "Training wage: $4.25/hour for employees under 20 during their first 90 consecutive calendar days with the employer.",
+    "source": {"url": "https://www.in.gov/dol/files/updated-pdfs-4-7-2026/Indiana2009MinimumWage.pdf", "quote": "Indiana Minimum Wage Law $7.25 per hour ... employers must pay tipped employees at least $2.13 per hour if the employer claims a tip credit.", "accessed": "2026-10-11"}
+  },
+  "localMinWages": [],
+  "overtime": {"weeklyHours": 40, "dailyHours": null, "doubleTime": null, "seventhDay": null,
+               "exemptSalaryWeekly": null, "exemptSalaryNote": "No state salary threshold above the federal $684/week.",
+               "note": "State overtime rule (1.5x after 40 hours/week) covers employers not subject to the FLSA; exceptions listed in Indiana Code 22-2-2-3.",
+               "source": {"url": "https://www.in.gov/dol/files/updated-pdfs-4-7-2026/Indiana2009MinimumWage.pdf", "quote": "to pay employees 1 ½ times their regular rate of pay (\"Overtime compensation\") when employees work more than forty (40) hours during a work week.", "accessed": "2026-10-11"}},
+  "sickLeave": {"mandatory": false, "accrual": null, "accrualPerHours": null, "capHours": null, "capNote": null,
+                "employerThreshold": null, "effective": null, "note": "No Indiana law requires private employers to provide paid sick leave.", "source": null},
+  "familyLeave": {"paidProgram": false, "name": null, "benefitsStart": null, "maxWeeks": null, "replacement": null,
+                  "maxWeeklyBenefit2026": null, "medicalLeave": null, "stateUnpaidLaw": null, "source": null},
+  "finalPay": {"fired": "by the next regularly scheduled payday", "firedDays": null, "quit": "by the next regularly scheduled payday", "quitNotice": null,
+               "ptoPayout": "policy", "ptoNote": "IDOL treats accrued vacation as compensation owed pro rata at separation, unless a company policy or contract sets conditions that are not met.",
+               "source": {"url": "https://faqs.in.gov/hc/en-us/articles/115005044367-I-have-a-wage-issue-where-do-I-go", "quote": "Final wages must be paid on or before the next regularly scheduled payday on which the employee would have been normally paid had the employee remained employed.", "accessed": "2026-10-11"},
+               "ptoSource": {"url": "https://faqs.in.gov/hc/en-us/articles/115005216848-When-I-leave-my-employment-is-my-former-employer-required-to-pay-me-for-any-accrued-vacation-time", "quote": "Accrued vacation pay is considered a form of compensation. ... If there is a company policy or employment contract stipulating that certain conditions must be met ... these conditions must be met", "accessed": "2026-10-11"}},
+  "breaks": {"meal": null, "mealMinutes": null, "mealAfterHours": null, "rest": null, "restMinutes": null, "restPerHours": null,
+             "minorsOnly": "Workers under 18 scheduled for at least 6 consecutive hours must get 1 or 2 rest breaks totaling at least 30 minutes.",
+             "source": {"url": "https://faqs.in.gov/hc/en-us/articles/115005044387-Is-there-any-information-regarding-Indiana-lunch-or-breaks-laws", "quote": "In general, Indiana law does not require employers to provide adult employees lunch breaks or other breaks.", "accessed": "2026-10-11"}},
+  "rightToWork": true,
+  "rightToWorkSource": {"url": "https://www.in.gov/dol/right-to-work", "quote": "no employer, labor organization or any person may require an individual to become or remain a member of a labor organization, or pay dues, fees or assessments", "accessed": "2026-10-11"},
+  "atWill": "at-will",
+  "notes": [
+    {"text": "An employer that fails to pay wages on time owes the wages plus attorney fees and court costs; if the failure was not in good faith, a court orders liquidated damages of two times the wages due.", "source": {"url": "https://www.in.gov/dol/wage-and-hour/wage-and-hour-home/", "quote": "the court shall order that the employee be paid an amount equal to two times the amount of wages due the employee as liquidated damages.", "accessed": "2026-10-11"}},
+    {"text": "Indiana allows a $4.25 training wage for workers under 20 during their first 90 days with an employer.", "source": {"url": "https://www.in.gov/dol/files/updated-pdfs-4-7-2026/Indiana2009MinimumWage.pdf", "quote": "Indiana employers may pay $4.25 per hour to employees under 20 years of age for the first 90 consecutive calendar days", "accessed": "2026-10-11"}}
+  ],
+  "uncertain": [
+    "Paid sick leave: no state law exists to my knowledge, but no official page explicitly saying so was read (Indiana Code site iga.in.gov is JavaScript-only, IC 22-2-16 local-mandate preemption not read); source left null.",
+    "Final pay statute (IC 22-2-5 / 22-2-9) not read directly; value from the official IN.gov / IDOL FAQ.",
+    "The IDOL vacation FAQ says 'Yes' accrued vacation is owed but subject to policy conditions; coded as 'policy'."
+  ]
+}

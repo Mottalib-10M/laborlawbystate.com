@@ -4,7 +4,7 @@ import { STATES, F, atFederal, pflStates, sickStates, highest, mwNow, rate$, nam
 const fed = atFederal(), top = highest(1)[0];
 export const STATES_INDEX = {
   title: 'State Labor Laws 2026: All 50 States and DC Compared',
-  description: `State labor laws for 2026 in all 50 states and DC: minimum wage from ${rate$(F.minWage)} to ${rate$(mwNow(top.slug))}, overtime, paid sick leave, family leave, final pay and breaks.`,
+  description: `State labor laws for 2026 in all 50 states and DC: minimum wage from ${rate$(F.minWage)} to ${rate$(mwNow(top.slug))}, overtime, paid sick leave, family leave, final pay and work breaks.`,
   h1: 'State labor laws: all 50 states and the District of Columbia',
   intro: 'One page per jurisdiction, each with its 2026 minimum wage, overtime rule, leave laws, final paycheck deadline and break rules.',
   resume: `This index opens the 51 state pages of the site. Each one brings together the rules a private-sector employee meets in that state in 2026: the minimum wage in force and its dated changes, the tipped cash wage, the overtime thresholds and the salary test for exempt jobs, paid sick leave, paid family leave, the deadline for the last paycheck and whether unused vacation is paid, the meal and rest breaks owed to adults, and the right-to-work status. ${fed.length} states still rely on the federal ${rate$(F.minWage)}; ${sickStates().length} jurisdictions require paid sick leave and ${pflStates().length} run a paid family leave program. Use the comparison tool to set two states side by side, then open the state where you work to see every rule with the link to the agency that publishes it.`,

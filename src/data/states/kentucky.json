@@ -1,0 +1,144 @@
+{
+ "slug": "kentucky",
+ "name": "Kentucky",
+ "abbr": "KY",
+ "agency": {
+  "name": "Kentucky Education and Labor Cabinet - Office of Workplace Standards (Wage and Hour)",
+  "url": "https://elc.ky.gov/"
+ },
+ "minWage": {
+  "rates2026": [
+   {
+    "from": "2009-07-01",
+    "rate": 7.25,
+    "area": "Statewide",
+    "note": "KRS 337.275; the state rate automatically rises to match any federal increase."
+   }
+  ],
+  "headline": 7.25,
+  "headlineArea": "Statewide",
+  "federalApplies": false,
+  "rates2027": [],
+  "smallEmployer": null,
+  "tipped": {
+   "cashWage": 2.13,
+   "tipCreditAllowed": true,
+   "note": "Employees receiving more than $30/month in tips: employer may pay the federal tipped cash wage ($2.13) if wage plus tips reach $7.25; tips belong to the employee (tip pooling among employees allowed)."
+  },
+  "other": null,
+  "source": {
+   "url": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=32064",
+   "quote": "not less than seven dollars and twenty-five cents ($7.25) an hour beginning July 1, 2009.",
+   "accessed": "2026-10-11"
+  }
+ },
+ "localMinWages": [],
+ "overtime": {
+  "weeklyHours": 40,
+  "dailyHours": null,
+  "doubleTime": null,
+  "seventhDay": "Time and a half for hours worked on the 7th day when an employee is permitted to work all 7 days of a workweek and more than 40 hours that week (KRS 337.050).",
+  "exemptSalaryWeekly": null,
+  "exemptSalaryNote": "No state salary threshold above the federal $684/week.",
+  "note": "KRS 337.285 excludes retail store and restaurant/hotel/motel employees from STATE overtime; such workers remain covered by FLSA overtime if their employer is covered.",
+  "source": {
+   "url": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=54508",
+   "quote": "No employer shall employ any of his or her employees for a work week longer than forty (40) hours, unless such employee receives compensation ... not less than one and one-half (1-1/2) times",
+   "accessed": "2026-10-11"
+  }
+ },
+ "sickLeave": {
+  "mandatory": false,
+  "accrual": null,
+  "accrualPerHours": null,
+  "capHours": null,
+  "capNote": null,
+  "employerThreshold": null,
+  "effective": null,
+  "note": "No Kentucky law requires private employers to provide paid sick leave.",
+  "source": null
+ },
+ "familyLeave": {
+  "paidProgram": false,
+  "name": null,
+  "benefitsStart": null,
+  "maxWeeks": null,
+  "replacement": null,
+  "maxWeeklyBenefit2026": null,
+  "medicalLeave": null,
+  "stateUnpaidLaw": null,
+  "source": null
+ },
+ "finalPay": {
+  "fired": "by the next normal pay period or within 14 days of separation, whichever is later",
+  "firedDays": null,
+  "quit": "by the next normal pay period or within 14 days of separation, whichever is later",
+  "quitNotice": null,
+  "ptoPayout": "policy",
+  "ptoNote": "Kentucky counts 'vested vacation pay' as wages, so vacation that is vested under the employer's policy or agreement must be paid with final wages.",
+  "source": {
+   "url": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=32050",
+   "quote": "not later than the next normal pay period following the date of dismissal or voluntary leaving or fourteen (14) days following such date ... whichever last occurs.",
+   "accessed": "2026-10-11"
+  },
+  "ptoSource": {
+   "url": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=56806",
+   "quote": "\"Wages\" includes any compensation due to an employee by reason of his or her employment, including salaries, commissions, vested vacation pay",
+   "accessed": "2026-10-11"
+  }
+ },
+ "breaks": {
+  "meal": "A reasonable lunch period, as close to mid-shift as possible, starting no sooner than 3 hours and no later than 5 hours after the shift begins",
+  "mealMinutes": null,
+  "mealAfterHours": 5,
+  "rest": "Paid rest period of at least 10 minutes for each 4 hours worked, in addition to the lunch period",
+  "restMinutes": 10,
+  "restPerHours": 4,
+  "minorsOnly": null,
+  "source": {
+   "url": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=49845",
+   "quote": "No employer shall require any employee to work without a rest period of at least ten (10) minutes during each four (4) hours worked ... No reduction in compensation shall be made",
+   "accessed": "2026-10-11"
+  }
+ },
+ "rightToWork": true,
+ "rightToWorkSource": {
+  "url": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=52423",
+  "quote": "no employee shall be required, as a condition of employment or continuation of employment, to: 1. Become or remain a member of a labor organization; 2. Pay any dues",
+  "accessed": "2026-10-11"
+ },
+ "atWill": "at-will",
+ "notes": [
+  {
+   "text": "Kentucky is one of the few states requiring paid 10-minute rest breaks for every 4 hours worked, plus a lunch period between the 3rd and 5th hour of the shift.",
+   "source": {
+    "url": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=32077",
+    "quote": "In no case shall an employee be required to take a lunch period sooner than three (3) hours after his work shift commences, nor more than five (5) hours",
+    "accessed": "2026-10-11"
+   }
+  },
+  {
+   "text": "Seventh-day overtime: an employee permitted to work all seven days of a workweek (and more than 40 hours) earns time and a half for the seventh day.",
+   "source": {
+    "url": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=32049",
+    "quote": "Any employer who permits any employee to work seven (7) days in any one (1) workweek shall pay him at the rate of time and a half for the time worked on the seventh day.",
+    "accessed": "2026-10-11"
+   }
+  },
+  {
+   "text": "Kentucky became a right-to-work state in January 2017.",
+   "source": {
+    "url": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=52423",
+    "quote": "Amended 2017 Ky. Acts ch. 1, sec. 1, effective January 9, 2017.",
+    "accessed": "2026-10-11"
+   }
+  }
+ ],
+ "uncertain": [
+  "Education and Labor Cabinet website (elc.ky.gov, formerly labor.ky.gov) returned HTTP 403 to curl and WebFetch; all values come from the KRS on apps.legislature.ky.gov (database updated 10/10/2026).",
+  "Paid sick leave: no state law to my knowledge, but no official page saying so was read; source null.",
+  "Local minimum wages: Louisville and Lexington ordinances were invalidated (2016 Kentucky Supreme Court); not re-verified on an official page today, localMinWages left empty.",
+  "Vacation payout coded 'policy': KRS 337.010 includes 'vested vacation pay' in wages, so whether vacation is owed depends on whether the employer's policy makes it vested.",
+  "Lunch period length is not set by statute ('reasonable period'); USDOL table describes it as 'ordinarily 1/2 hour', so mealMinutes left null."
+ ]
+}
