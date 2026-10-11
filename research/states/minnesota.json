@@ -1,0 +1,57 @@
+{
+  "slug": "minnesota", "name": "Minnesota", "abbr": "MN",
+  "agency": {"name": "Minnesota Department of Labor and Industry (Labor Standards)", "url": "https://www.dli.mn.gov/"},
+  "minWage": {
+    "rates2026": [
+      {"from": "2026-01-01", "rate": 11.41, "area": "Statewide, all employers", "note": "Single rate for all employer sizes, indexed to inflation each January 1 (capped at 5%)"}
+    ],
+    "headline": 11.41,
+    "headlineArea": "Statewide, all employers",
+    "federalApplies": false,
+    "rates2027": [
+      {"from": "2027-01-01", "rate": 11.87, "area": "Statewide, all employers", "note": "Announced by the Minnesota Department of Labor and Industry; 90-day training wage (under 20) rises to $9.68"}
+    ],
+    "smallEmployer": null,
+    "tipped": {"cashWage": 11.41, "tipCreditAllowed": false, "note": "No tip credit in Minnesota: tipped workers get the full minimum wage plus tips"},
+    "other": "90-day training wage for workers under 20: $9.31 in 2026.",
+    "source": {"url": "https://www.dli.mn.gov/business/employment-practices/minimum-wage-minnesota", "quote": "Effective Jan. 1, 2027 , Minnesota’s minimum-wage rate will be adjusted for inflation to $11.87 an hour for all employers in the state.", "accessed": "2026-10-11"}
+  },
+  "localMinWages": [
+    {"name": "Minneapolis", "rate": 16.37, "from": "2026-01-01", "note": "All employers regardless of size or employee age; rises to $17.02 on January 1, 2027 (inflation, capped at 5%).", "source": {"url": "https://minimumwage.minneapolismn.gov/", "quote": "In 2026, the Minneapolis Minimum Wage is $16.37 . On January 1, 2027 , it will increase to $17.02.", "accessed": "2026-10-11"}},
+    {"name": "Saint Paul (macro 10,001+ and large 101-10,000 employees)", "rate": 16.37, "from": "2026-01-01", "note": "Small businesses (6-100): $16.37 from July 1, 2026 ($15.00 before). Micro (5 or fewer): $14.25 from July 1, 2026 ($13.25 before), $15.00 on July 1, 2027. 2027 rate for larger employers announced September 1 but not given in page text.", "source": {"url": "https://www.stpaul.gov/departments/human-rights-equal-economic-opportunity/labor-standards-enforcement-and-education/minimum-wage", "quote": "Large Businesses (101-10,000 employees) ... January 1, 2026 $16.37* ... Small Businesses (6-100 employees) ... July 1, 2026 $16.37*", "accessed": "2026-10-11"}}
+  ],
+  "overtime": {"weeklyHours": 48, "dailyHours": null, "doubleTime": null, "seventhDay": null,
+               "exemptSalaryWeekly": null, "exemptSalaryNote": null,
+               "note": "State law: overtime after 48 hours a week; the federal FLSA (after 40 hours) applies to most employers covered by it.",
+               "source": {"url": "https://www.dli.mn.gov/overtime", "quote": "The Minnesota Fair Labor Standards Act requires employers to pay overtime for all hours worked over 48 per workweek", "accessed": "2026-10-11"}},
+  "sickLeave": {"mandatory": true, "accrual": "1 hour for every 30 hours worked", "accrualPerHours": 30,
+                "capHours": 48, "capNote": "At least 48 hours accrued per year; carryover required with a total balance cap of at least 80 hours (employers may allow more).",
+                "employerThreshold": "all employers (employees expected to work 80+ hours a year in Minnesota)", "effective": "2024-01-01",
+                "note": "Earned Sick and Safe Time (ESST). New ESST rules effective July 6, 2026.",
+                "source": {"url": "https://dli.mn.gov/business/employment-practices/faqs-earned-sick-and-safe-time-esst", "quote": "Employers must allow each employee to accrue up to at least 48 hours a year, carried over from year to year, until an 80-hour maximum accrual is reached.", "accessed": "2026-10-11"}},
+  "familyLeave": {"paidProgram": true, "name": "Minnesota Paid Leave", "benefitsStart": "2026-01-01",
+                  "maxWeeks": 20, "replacement": "90% of wages up to 50% of the state average weekly wage, plus 66% of wages between 50% and 100% of it, plus 55% above; max weekly benefit = state average weekly wage",
+                  "maxWeeklyBenefit2026": null, "medicalLeave": "Up to 12 weeks medical leave and 12 weeks family leave, 20 weeks combined per benefit year",
+                  "stateUnpaidLaw": "Pregnancy and Parental Leave: up to 12 weeks unpaid, any employer size, no service requirement",
+                  "source": {"url": "https://mn.gov/deed/assets/paid-leave-other-programs_tcm1045-716671.pdf", "quote": "Start date Jan. 1, 2026 ... 12 weeks of Medical Leave, 12 weeks of Family Leave, 20 weeks combined", "accessed": "2026-10-11"}},
+  "finalPay": {"fired": "within 24 hours of the employee's demand", "firedDays": null, "quit": "next payday more than five days after quitting, and within 20 days of separation at the latest", "quitNotice": null,
+               "ptoPayout": "policy", "ptoNote": "Company policy determines whether vacation, sick leave and severance are owed; benefits due must be paid within 30 days.",
+               "source": {"url": "https://www.dli.mn.gov/business/employment-practices/employment-termination", "quote": "A terminated employee's paycheck must be paid within 24 hours of the employee's demand for wages ... wages must be paid within 20 days of separation", "accessed": "2026-10-11"},
+               "ptoSource": {"url": "https://www.dli.mn.gov/business/employment-practices/employment-termination", "quote": "Company policy can determine when any benefits are due, such as vacation, sick leave and severance packages.", "accessed": "2026-10-11"}},
+  "breaks": {"meal": "At least 30 minutes when working six or more consecutive hours (since January 1, 2026)", "mealMinutes": 30, "mealAfterHours": 6,
+             "rest": "At least 15 minutes (or longer if needed to reach the nearest restroom) within each four consecutive hours", "restMinutes": 15, "restPerHours": 4, "minorsOnly": null,
+             "source": {"url": "https://www.dli.mn.gov/breaks", "quote": "2026 : At least 30 minutes 2026 : When working six or more consecutive hours", "accessed": "2026-10-11"}},
+  "rightToWork": false, "rightToWorkSource": null,
+  "atWill": "at-will",
+  "notes": [
+    {"text": "Since January 1, 2026, breaks are stronger: a paid 15-minute rest break every 4 hours and a 30-minute meal break for shifts of 6+ hours (previously 'adequate time' and meals only at 8 hours).", "source": {"url": "https://www.dli.mn.gov/breaks", "quote": "The Minnesota Legislature passed updates to the state’s meal and rest break laws during the 2025 legislative session. These changes are in effect as of Jan. 1, 2026.", "accessed": "2026-10-11"}},
+    {"text": "Minnesota Paid Leave started paying benefits on January 1, 2026 (up to 20 weeks a year combined), run by DEED.", "source": {"url": "https://mn.gov/deed/assets/paid-leave-other-programs_tcm1045-716671.pdf", "quote": "Start date Jan. 1, 2026", "accessed": "2026-10-11"}},
+    {"text": "No tip credit: tipped workers must receive the full state (or city) minimum wage before tips.", "source": {"url": "https://www.dli.mn.gov/business/employment-practices/minimum-wage-minnesota", "quote": "No employer may take a tip credit against minimum wages in Minnesota.", "accessed": "2026-10-11"}}
+  ],
+  "uncertain": [
+    "Paid Leave 2026 maximum weekly benefit (= state average weekly wage) not verified: mn.gov/deed/paidleave pages redirect to a human-verification wall (curl, WebFetch and Chrome). Benefit formula taken from Minn. Stat. 268B.04 subd. 3 (revisor.mn.gov).",
+    "Overtime: weeklyHours set to 48 (Minnesota's own threshold), not 40; FLSA's 40 hours applies to FLSA-covered employers.",
+    "Saint Paul 2027 rate for employers with 101+ employees was announced September 1, 2026 in a chart that is not in the page text; not recorded.",
+    "rightToWork false (no Minnesota right-to-work law); no statute page read to source the absence."
+  ]
+}

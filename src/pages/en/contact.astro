@@ -1,0 +1,27 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+import LegalIdentity from '../../components/LegalIdentity.astro';
+import { AUTHOR_NAME, CONTACT_EMAIL, LAST_UPDATED, REVIEW_CYCLE_MONTHS, SITE_NAMES } from '../../data/site-config';
+import { route } from '../../i18n/routes';
+import { contactPageSchema } from '../../lib/seo';
+const lang = 'en';
+const description = 'Write to us when a state raises its minimum wage or changes a leave law, when a rule here differs from your state agency, or to embed the worker rights calculator on your site.';
+---
+<PageLayout title={`Contact ${SITE_NAMES[lang]}: rule changes, errors, embedding`} description={description} lang={lang} noindex={true} jsonLd={[contactPageSchema({ name: 'Contact', description, path: route('contact', lang), lang })]} breadcrumbs={[{ label: 'Contact' }]} showAuthor={false}>
+  <div class="prose prose-slate max-w-none prose-headings:font-serif">
+    <h1>Contact</h1>
+    <p>One mailbox, read on working days: <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>.</p>
+    <h2>A law changed in your state or city</h2>
+    <p>Send the official page or the bill as signed, and the page of this site that it affects. City ordinances move fastest; a new rate posted on a city website is enough for us to check and update the state page.</p>
+    <h2>Your agency says something different</h2>
+    <p>Tell us the state, the rule and where the agency wrote it. Differences often come from an exception the site describes only briefly: a small-employer rate, an industry wage order, agricultural or domestic work, or a public employer.</p>
+    <h2>Embedding a calculator</h2>
+    <p>Worker centers, unions, libraries, schools and local newsrooms can place the worker rights or overtime calculator on their pages for free: the code is on the <a href={route('widget', lang)}>embed page</a>.</p>
+    <h2>What we cannot do</h2>
+    <p>We cannot advise you on your own dispute, contact your employer or file a claim. Your state labor agency takes wage claims at no cost, and legal aid organizations and employment lawyers can review your facts.</p>
+    <h2>Response time</h2><p>Usually within five working days, corrections first. Every rule is re-read at least every {REVIEW_CYCLE_MONTHS} months.</p>
+    <h2>Publisher</h2>
+    <LegalIdentity lang={lang} />
+    <p>Content owner: {AUTHOR_NAME}. See the <a href={route('terms', lang)}>legal notice</a>. Updated: {LAST_UPDATED}.</p>
+  </div>
+</PageLayout>

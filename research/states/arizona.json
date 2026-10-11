@@ -1,0 +1,47 @@
+{
+  "slug": "arizona", "name": "Arizona", "abbr": "AZ",
+  "agency": {"name": "Industrial Commission of Arizona, Labor Department", "url": "https://www.azica.gov/labor-department"},
+  "minWage": {
+    "rates2026": [ {"from": "2026-01-01", "rate": 15.15, "area": "Statewide", "note": "annual cost-of-living adjustment under A.R.S. 23-363(B)"} ],
+    "headline": 15.15,
+    "headlineArea": "Statewide",
+    "federalApplies": false,
+    "rates2027": [ {"from": "2027-01-01", "rate": 15.65, "area": "Statewide", "note": "officially announced on the Industrial Commission of Arizona 2027 minimum wage poster (published September 2026)"} ],
+    "smallEmployer": "The Act does not apply to small businesses grossing under $500,000 a year that are also exempt from the federal minimum wage.",
+    "tipped": {"cashWage": 12.15, "tipCreditAllowed": true, "note": "Maximum tip credit $3.00 per hour below the state minimum wage (A.R.S. 23-363(C)); Flagstaff allows no tip credit."},
+    "other": null,
+    "source": {"url": "https://www.azica.gov/sites/default/files/2025-09/2026%20THE%20FAIR%20WAGES%20AND%20HEALTHY%20FAMILIES%20ACT_1.pdf", "quote": "Effective January 1, 2026, Arizona's Minimum Wage Is: $15.15 per hour", "accessed": "2026-10-11"}
+  },
+  "localMinWages": [
+    {"name": "Flagstaff", "rate": 18.35, "from": "2026-01-01", "note": "No tip credit: all employees must receive the full minimum wage. Rises to $18.95 on January 1, 2027.", "source": {"url": "https://www.flagstaff.az.gov/3520/Minimum-Wage", "quote": "Effective January 1, 2026 Flagstaff's minimum wage is $18.35 per hour . All employees are required to make the full minimum wage, regardless of whether or not they regularly earn tips.", "accessed": "2026-10-11"}},
+    {"name": "Tucson", "rate": 15.45, "from": "2026-01-01", "note": "Applies within Tucson city limits; tip credit of up to $3.00 allowed. Adjusted each year by CPI.", "source": {"url": "https://www.tucsonaz.gov/Departments/Business-Services-Department/Tucson-Minimum-Wage-Act", "quote": "The current City of Tucson minimum wage is $15.45 per hour, effective from January 1, 2026 through December 31, 2026.", "accessed": "2026-10-11"}}
+  ],
+  "overtime": {"weeklyHours": null, "dailyHours": null, "doubleTime": null, "seventhDay": null,
+               "exemptSalaryWeekly": null, "exemptSalaryNote": "No state overtime law for private employers; federal FLSA applies.",
+               "note": "Arizona's wage statutes (A.R.S. 23-350 to 23-363) set minimum wage and payment timing but no private-sector overtime rule.",
+               "source": {"url": "https://www.dol.gov/agencies/whd/minimum-wage/state", "quote": "Arizona - Rate: $15.15 per hour (no state overtime entry; USDOL table updated July 1, 2026)", "accessed": "2026-10-11"}},
+  "sickLeave": {"mandatory": true, "accrual": "1 hour for every 30 hours worked", "accrualPerHours": 30,
+                "capHours": 40, "capNote": "15 or more employees: up to 40 h/year; fewer than 15 employees: up to 24 h/year (unless the employer sets a higher limit).",
+                "employerThreshold": "all employers", "effective": "2017-07-01", "note": "Earned paid sick time under the Fair Wages and Healthy Families Act (Proposition 206, 2016).",
+                "source": {"url": "https://www.azleg.gov/ars/23/00372.htm", "quote": "Employees of an employer with 15 or more employees shall accrue a minimum of one hour of earned paid sick time for every 30 hours worked, but ... not ... more than 40 hours", "accessed": "2026-10-11"}},
+  "familyLeave": {"paidProgram": false, "name": null, "benefitsStart": null,
+                  "maxWeeks": null, "replacement": null,
+                  "maxWeeklyBenefit2026": null, "medicalLeave": null,
+                  "stateUnpaidLaw": null, "source": null},
+  "finalPay": {"fired": "within 7 working days or by the end of the next regular pay period, whichever is sooner", "firedDays": null, "quit": "no later than the regular payday for the pay period in which the termination occurred", "quitNotice": null,
+               "ptoPayout": "policy", "ptoNote": "No statute requires payout of accrued vacation; it is owed only where the employer's policy or contract creates a reasonable expectation of payment (wages = compensation the employee has a reasonable expectation to be paid).",
+               "source": {"url": "https://www.azleg.gov/ars/23/00353.htm", "quote": "When an employee is discharged from the service of an employer, he shall be paid wages due him within seven working days or the end of the next regular pay period, whichever is sooner.", "accessed": "2026-10-11"},
+               "ptoSource": {"url": "https://www.azleg.gov/ars/23/00350.htm", "quote": "\"Wages\" means nondiscretionary compensation due an employee in return for labor or services rendered by an employee for which the employee has a reasonable expectation to be paid", "accessed": "2026-10-11"}},
+  "breaks": {"meal": null, "mealMinutes": null, "mealAfterHours": null,
+             "rest": null, "restMinutes": null, "restPerHours": null, "minorsOnly": null,
+             "source": {"url": "https://www.dol.gov/agencies/whd/state/meal-breaks", "quote": "Arizona: no entry in the USDOL table of state meal period requirements", "accessed": "2026-10-11"}},
+  "rightToWork": true,
+  "rightToWorkSource": {"url": "https://www.azleg.gov/ars/23/01302.htm", "quote": "No person shall be denied the opportunity to obtain or retain employment because of nonmembership in a labor organization", "accessed": "2026-10-11"},
+  "atWill": "at-will",
+  "notes": [
+    {"text": "Flagstaff has the highest minimum wage in Arizona ($18.35 in 2026, $18.95 in 2027) and bans the tip credit, so servers earn the full rate before tips.", "source": {"url": "https://www.flagstaff.az.gov/3520/Minimum-Wage", "quote": "Effective January 1, 2027 Flagstaff's minimum wage will be $18.95 per hour .", "accessed": "2026-10-11"}},
+    {"text": "The statewide minimum wage rises to $15.65 on January 1, 2027, following the annual CPI adjustment written into Arizona law by voters.", "source": {"url": "https://www.azica.gov/sites/default/files/2026-09/2027%20THE%20FAIR%20WAGES%20AND%20HEALTHY%20FAMILIES%20ACT_1.pdf", "quote": "Effective January 1, 2027, Arizona's Minimum Wage Is: $15.65 per hour", "accessed": "2026-10-11"}},
+    {"text": "Tipped workers can be paid at most $3.00 an hour below the minimum wage, one of the smallest tip credits in the country.", "source": {"url": "https://www.azleg.gov/ars/23/00363.htm", "quote": "the employer may pay a wage up to $3.00 per hour less than the minimum wage", "accessed": "2026-10-11"}}
+  ],
+  "uncertain": ["azica.gov blocks automated fetches (HTTP 403); its pages and posters were read in a real browser session. No state overtime or meal/rest break law exists; those 'none' values rely on the USDOL tables and the absence of a provision in A.R.S. Title 23 wage statutes."]
+}

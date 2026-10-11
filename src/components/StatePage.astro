@@ -1,0 +1,96 @@
+---
+/**
+ * A state page: prose of src/content/states/<slug>.ts + official facts of src/data/states/<slug>.json.
+ * Order: key figures, folded answer block, the worker calculator locked on the state, the prose written for this
+ * state, then the rules generated from the data (minimum wage schedule, local rates, overtime, leave, final pay,
+ * breaks), marked data-chrome: identical in form on every state page (RECETTE §6.4). Every rule links its source.
+ */
+import PageLayout from '../layouts/PageLayout.astro';
+import MiniSim from './calc/MiniSim';
+import Clamp from './Clamp.astro';
+import Tool from './Tool.astro';
+import { route, ROUTES } from '../i18n/routes';
+import { label } from '../i18n/nav';
+import { t } from '../i18n/ui';
+import { pageById, statePageById } from '../lib/pages';
+import { helpers, SOURCES, table } from '../lib/helpers';
+import { stateId } from '../lib/topics';
+import { stateRef } from '../data/states';
+import { sd, F, FM, mwNow, mw2026, mw2027, rate$, usd, day, TODAY } from '../lib/kit';
+import { articleSchema, faqSchema, breadcrumbSchema, webPageSchema, webApplicationSchema } from '../lib/seo';
+import { AUTHOR_NAME, LAST_UPDATED } from '../data/site-config';
+import type { StatePageDef } from '../lib/page-types';
+import type { Source } from '../lib/state-types';
+interface Props { def: StatePageDef }
+const { def } = Astro.props;
+const lang = 'en';
+const ui = t(lang);
+const S = sd(def.slug);
+const id = stateId(def.slug);
+const path = route(id, lang);
+const h1 = `${S.name} labor laws: minimum wage, overtime, leave, final pay and breaks`;
+const jsonLd = [articleSchema({ title: h1, description: def.description, path, lang }), webPageSchema({ name: h1, description: def.description, path, lang }), webApplicationSchema({ name: h1, description: def.description, path, lang }), breadcrumbSchema([{ name: ui.breadcrumbHome, path: route('home', lang) }, { name: 'All 51 states', path: route('states', lang) }, { name: S.name, path }])];
+if (def.faqs.length) jsonLd.push(faqSchema(def.faqs, lang));
+const card = (rid: string) => pageById(rid)?.card ?? (statePageById(rid) ? `Minimum wage, overtime, leave, final pay and breaks in ${stateRef(rid.slice(6)).name}` : '');
+const related = def.related.filter((r) => ROUTES.some((x) => x.id === r)).map((r) => ({ href: route(r, lang), name: label(r), description: card(r) }));
+const parts = def.body(helpers()).split(/<!--mini:([A-Za-z0-9_-]+)(?:\|([A-Za-z0-9+/=]+))?-->/);
+const decode = (b?: string) => (b ? Buffer.from(b, 'base64').toString('utf8') : undefined);
+const methodHref = route('method', lang);
+const toolHref = ROUTES.some((r) => r.id === 'minimum-wage-by-state') ? route('minimum-wage-by-state', lang) : route('home', lang);
+const a = (s: Source | null | undefined, text = 'source') => (s ? `<a href="${s.url}" target="_blank" rel="nofollow noopener noreferrer">${text}</a>` : '');
+const o = S.overtime, sl = S.sickLeave, fl = S.familyLeave, fp = S.finalPay, br = S.breaks, m = S.minWage;
+const r27 = mw2027(def.slug);
+const otText = [o.dailyHours ? `after ${o.dailyHours} hours in a day` : '', `after ${o.weeklyHours ?? F.otWeeklyHours} hours in a week`].filter(Boolean).join(' or ');
+const figures: Array<[string, string, string]> = [
+  ['Minimum wage now', `${rate$(mwNow(def.slug))}/h`, m.federalApplies ? 'federal floor applies' : (m.headlineArea && m.rates2026.length > 1 ? m.headlineArea : 'statewide')],
+  [r27 ? `From ${day(r27.from)}` : 'Next change', r27 ? `${rate$(r27.rate)}/h` : 'none announced', r27 ? 'announced rate' : `checked ${day(TODAY)}`],
+  ['Tipped cash wage', m.tipped.cashWage != null ? (m.tipped.tipCreditAllowed ? `${rate$(m.tipped.cashWage)}/h` : 'full minimum') : rate$(F.tippedCash), m.tipped.tipCreditAllowed ? 'tips must make up the rest' : 'no tip credit'],
+  ['Overtime', o.dailyHours ? `${o.dailyHours} h/day or ${o.weeklyHours ?? F.otWeeklyHours} h/week` : `${o.weeklyHours ?? F.otWeeklyHours} h/week`, o.weeklyHours == null ? 'federal FLSA rule' : 'state law'],
+  ['Paid sick leave', sl.mandatory ? (sl.accrualPerHours ? `1 h per ${sl.accrualPerHours} h` : 'required') : 'no state law', sl.mandatory && sl.capHours ? `cap ${sl.capHours} h a year` : sl.mandatory ? '' : 'employer policy'],
+  ['Paid family leave', fl.paidProgram ? (fl.maxWeeks ? `${fl.maxWeeks} weeks` : 'yes') : 'no program', fl.paidProgram ? (fl.name ?? '') : 'FMLA is unpaid'],
+];
+const rateRows = [...mw2026(def.slug), ...m.rates2027].map((r) => [day(r.from), r.area, rate$(r.rate), r.note ?? '']);
+const localRows = S.localMinWages.map((l) => [l.name, rate$(l.rate), day(l.from), a(l.source, 'ordinance page')]);
+const sources = [
+  { name: `${S.agency.name}`, url: S.agency.url },
+  ...[m.source, o.source, sl.source, fl.source, fp.source, fp.ptoSource, br.source, S.rightToWorkSource].filter((x): x is Source => !!x).map((x) => ({ name: `${S.name}: ${x.url.replace(/^https:\/\/(www\.)?/, '').split('/')[0]} (read ${day(x.accessed)})`, url: x.url })),
+  ...['dolStateMw', 'fs23', 'fs28'].map((k) => ({ name: SOURCES[k].label, url: SOURCES[k].url })),
+].filter((x, i, arr) => arr.findIndex((y) => y.url === x.url) === i);
+---
+<PageLayout title={def.title} description={def.description} lang={lang} jsonLd={jsonLd} faqs={def.faqs} related={related} sources={sources} breadcrumbs={[{ label: 'All 51 states', href: route('states', lang) }, { label: S.name }]}>
+  <article>
+    <header class="mb-5">
+      <p class="text-sm font-semibold uppercase tracking-wide text-accent-700">{S.abbr} · state labor law, 2026</p>
+      <h1 class="mt-1 font-serif text-3xl font-bold text-navy-900 md:text-4xl">{h1}</h1>
+      <p class="mt-3 text-lg text-navy-700">{def.intro}</p>
+      <p class="mt-3 text-sm text-navy-600">{S.name} and federal rules checked on official sources on <time datetime={LAST_UPDATED}>{day(LAST_UPDATED)}</time> · {ui.reviewedBy} <a href={route('about', lang)} class="underline hover:text-navy-900">{AUTHOR_NAME}</a> · <a href={methodHref} class="underline hover:text-navy-900">{label('method')}</a></p>
+    </header>
+    <dl data-chrome class="mb-6 grid grid-cols-2 gap-px overflow-hidden rounded-lg border border-navy-200 bg-navy-200 lg:grid-cols-3">
+      {figures.map(([k, v, n]) => <div class="bg-white p-3"><dt class="text-xs font-medium text-navy-600">{k}</dt><dd class="tabular-nums mt-0.5 text-lg font-bold text-navy-900">{v}</dd><dd class="text-xs text-navy-600">{n}</dd></div>)}
+    </dl>
+    <Clamp text={def.resume} lang={lang} id={`clamp-${def.slug}`} class="mb-5" />
+    <div data-outil class="mb-10"><Tool kind="rights" state={def.slug} lock={true} idPrefix={`s${S.abbr.toLowerCase()}`} /></div>
+    <div class="prose prose-slate max-w-none prose-headings:font-serif">
+      {parts.map((p, i) => i % 3 === 0 ? <Fragment set:html={p ?? ''} /> : i % 3 === 1 ? <MiniSim client:load kind={p} arg={decode(parts[i + 1])} href={toolHref} /> : null)}
+    </div>
+    <section data-chrome id="rules" class="prose prose-slate mt-10 max-w-none prose-headings:font-serif">
+      <h2>{S.name} employment rules at a glance, 2026</h2>
+      <h3>Minimum wage schedule</h3>
+      <Fragment set:html={table(['From', 'Who it covers', 'Rate', 'Note'], rateRows, `${S.name} minimum wage rows for 2026 and any announced 2027 rate. ${m.smallEmployer ?? ''}`, ['l', 'l', 'r', 'l'])} />
+      <p>{m.federalApplies ? `${S.name} has no state rate above the federal floor, so employers covered by the Fair Labor Standards Act pay at least ${rate$(F.minWage)} an hour.` : `Workers covered by both laws get the higher rate.`} {m.other ?? ''} <Fragment set:html={a(m.source, `Read the ${S.name} rule`)} />.</p>
+      {localRows.length > 0 && <><h3>Cities and counties with their own minimum wage</h3><Fragment set:html={table(['Place', 'Rate', 'Since', 'Source'], localRows, `Local ordinances in ${S.name}; the local rate applies to work done inside the city or county.`, ['l', 'r', 'l', 'l'])} /></>}
+      <h3>Overtime</h3>
+      <p>Time and a half {otText}{o.doubleTime ? `; ${o.doubleTime}` : ''}{o.seventhDay ? `; ${o.seventhDay}` : ''}. {o.exemptSalaryWeekly ? `Salaried white-collar employees must earn at least ${usd(o.exemptSalaryWeekly, 2)} a week to be exempt under state law (${o.exemptSalaryNote ?? '2026'}), above the federal ${usd(F.exemptWeekly)}.` : `The salary test for exempt employees is the federal ${usd(F.exemptWeekly)} a week.`} {o.note ?? ''} <Fragment set:html={a(o.source)} /></p>
+      <h3>Sick leave and family leave</h3>
+      <p>{sl.mandatory ? `Paid sick leave: ${sl.accrual ?? 'required'}${sl.capNote ? ` (${sl.capNote})` : ''}${sl.employerThreshold ? `, ${sl.employerThreshold}` : ''}.` : `${S.name} has no statewide paid sick leave law for private employers; leave depends on the employer's policy or a city ordinance.`} {sl.note ?? ''} <Fragment set:html={a(sl.source)} /></p>
+      <p>{fl.paidProgram ? `${fl.name}: ${fl.maxWeeks ? `up to ${fl.maxWeeks} weeks` : 'paid leave'}${fl.benefitsStart ? `, benefits payable since ${day(fl.benefitsStart)}` : ''}${fl.replacement ? `, ${fl.replacement}` : ''}${fl.maxWeeklyBenefit2026 ? `, maximum ${usd(fl.maxWeeklyBenefit2026, 2)} a week in 2026` : ''}.` : `No state paid family leave insurance: the federal FMLA gives eligible workers up to ${FM.weeks} weeks of unpaid, job-protected leave.`} {fl.stateUnpaidLaw ?? ''} <Fragment set:html={a(fl.source)} /></p>
+      <h3>Final paycheck and unused vacation</h3>
+      <p>Fired or laid off: {fp.fired}. Quitting: {fp.quit}{fp.quitNotice ? `; with notice: ${fp.quitNotice}` : ''}. Vacation: {fp.ptoNote ?? (fp.ptoPayout === 'required' ? 'accrued vacation must be paid' : 'follows the employer policy')}. <Fragment set:html={a(fp.source)} /> <Fragment set:html={a(fp.ptoSource, 'vacation rule')} /></p>
+      <h3>Meal and rest breaks</h3>
+      <p>{br.meal ? `Meal: ${br.meal}.` : 'No meal break is required for adults by state law.'} {br.rest ? `Rest: ${br.rest}.` : 'No paid rest break is required for adults.'} {br.minorsOnly ?? ''} <Fragment set:html={a(br.source)} /></p>
+      <h3>Unions and dismissal</h3>
+      <p>{S.rightToWork ? `${S.name} is a right-to-work state: a union contract cannot require you to pay dues or fees to keep your job.` : `${S.name} has no right-to-work law, so a union contract may require a fee from the workers it covers.`} {S.atWill === 'at-will' ? `Employment is at will: either side may end it at any time, except for an illegal reason such as discrimination or retaliation, or against a contract.` : S.atWill} <Fragment set:html={a(S.rightToWorkSource)} /></p>
+      {S.notes.length > 0 && <><h3>Also worth knowing in {S.name}</h3><ul>{S.notes.map((n) => <li>{n.text} <Fragment set:html={a(n.source)} /></li>)}</ul></>}
+    </section>
+  </article>
+</PageLayout>

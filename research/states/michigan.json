@@ -1,0 +1,154 @@
+{
+  "slug": "michigan",
+  "name": "Michigan",
+  "abbr": "MI",
+  "agency": {
+    "name": "Michigan Department of Labor and Economic Opportunity (LEO), Wage and Hour Division",
+    "url": "https://www.michigan.gov/leo/bureaus-agencies/ber/wage-and-hour"
+  },
+  "minWage": {
+    "rates2026": [
+      {
+        "from": "2026-01-01",
+        "rate": 13.73,
+        "area": "Statewide (employers with 2+ employees aged 16+)",
+        "note": "Raised from $12.48 under the Improved Workforce Opportunity Wage Act schedule"
+      }
+    ],
+    "headline": 13.73,
+    "headlineArea": "Statewide",
+    "federalApplies": false,
+    "rates2027": [
+      {
+        "from": "2027-01-01",
+        "rate": 15.0,
+        "area": "Statewide",
+        "note": "Set in the statutory schedule published in the LEO FAQ; tipped $6.30 (42%), minors $12.75"
+      }
+    ],
+    "smallEmployer": "The state act covers employers with 2 or more employees aged 16 and older.",
+    "tipped": {
+      "cashWage": 5.49,
+      "tipCreditAllowed": true,
+      "note": "40% of the minimum wage in 2026, provided the employee receives at least $8.24/hour in tips; rises to 42% in 2027, 44% in 2028 and continues upward"
+    },
+    "other": "Minors 16-17: 85% of minimum ($11.67 in 2026). Training wage $4.25/hour for new hires under 20 during their first 90 days.",
+    "source": {
+      "url": "https://www.michigan.gov/leo/news/2025/12/08/michigans-minimum-wage-set-to-increase-on-jan-1-2026",
+      "quote": "On Jan. 1, 2026, Michigan's minimum wage rate will increase from $12.48 to $13.73 per hour as set by Michigan's Improved Workforce Opportunity Wage Act",
+      "accessed": "2026-10-11"
+    }
+  },
+  "localMinWages": [],
+  "overtime": {
+    "weeklyHours": 40,
+    "dailyHours": null,
+    "doubleTime": null,
+    "seventhDay": null,
+    "exemptSalaryWeekly": null,
+    "exemptSalaryNote": "Michigan uses the federal $684/week salary level for the white-collar exemptions.",
+    "note": "Time and a half after 40 hours in a 7-day workweek.",
+    "source": {
+      "url": "https://www.michigan.gov/leo/bureaus-agencies/ber/wage-and-hour/frequently-asked-questions/wage-and-hour/minimum-wage-and-overtime-faq",
+      "quote": "nonexempt employees should be paid 1-1/2 times their regular rate of pay for hours worked over 40 in a 7-day workweek.",
+      "accessed": "2026-10-11"
+    }
+  },
+  "sickLeave": {
+    "mandatory": true,
+    "accrual": "1 hour for every 30 hours worked",
+    "accrualPerHours": 30,
+    "capHours": 72,
+    "capNote": "Employers with 11+ employees: use may be capped at 72 hours a year. Small businesses (10 or fewer employees): use may be capped at 40 hours a year; accrual started October 1, 2025.",
+    "employerThreshold": "all employers",
+    "effective": "2025-02-21",
+    "note": "Earned Sick Time Act (ESTA), effective February 21, 2025 for employers with 11+ employees and October 1, 2025 for small businesses.",
+    "source": {
+      "url": "https://www.michigan.gov/leo/-/media/Project/Websites/leo/Documents/WAGE-HOUR/LEO-ESTA-FAQ-English.pdf",
+      "quote": "All other employees shall accrue a minimum of one hour of paid earned sick time for every 30 hours worked but shall not be entitled to use more than 72 hours of paid earned sick time per year",
+      "accessed": "2026-10-11"
+    }
+  },
+  "familyLeave": {
+    "paidProgram": false,
+    "name": null,
+    "benefitsStart": null,
+    "maxWeeks": null,
+    "replacement": null,
+    "maxWeeklyBenefit2026": null,
+    "medicalLeave": null,
+    "stateUnpaidLaw": null,
+    "source": null
+  },
+  "finalPay": {
+    "fired": "on the regular scheduled payday for the pay period in which the discharge occurs",
+    "firedDays": null,
+    "quit": "on the regular scheduled payday for the pay period in which the employee quits",
+    "quitNotice": null,
+    "ptoPayout": "policy",
+    "ptoNote": "Vacation is a fringe benefit paid out only if the written contract or policy provides for it.",
+    "source": {
+      "url": "https://www.michigan.gov/leo/bureaus-agencies/ber/wage-and-hour/payment-of-wages-and-fringe-benefits-act-public-act-390-of-1978",
+      "quote": "Requires that an employee receive wages earned on the regular scheduled payday for the period in which the employee quits or is discharged.",
+      "accessed": "2026-10-11"
+    },
+    "ptoSource": {
+      "url": "https://www.michigan.gov/leo/bureaus-agencies/ber/wage-and-hour/frequently-asked-questions/wage-and-hour/fringe-benefits",
+      "quote": "The employer is required to pay fringe benefits in accordance with written contract or written policy",
+      "accessed": "2026-10-11"
+    }
+  },
+  "breaks": {
+    "meal": null,
+    "mealMinutes": null,
+    "mealAfterHours": null,
+    "rest": null,
+    "restMinutes": null,
+    "restPerHours": null,
+    "minorsOnly": "Employees under 18 may not work more than 5 hours without a documented 30-minute uninterrupted break.",
+    "source": {
+      "url": "https://www.michigan.gov/leo/bureaus-agencies/ber/wage-and-hour/frequently-asked-questions/wage-and-hour/breaks-meal-and-rest-periods",
+      "quote": "Employees under the age of 18 may not work more than five hours without a documented 30-minute uninterrupted break.",
+      "accessed": "2026-10-11"
+    }
+  },
+  "rightToWork": false,
+  "rightToWorkSource": {
+    "url": "https://www.michigan.gov/leo/-/media/Project/Websites/leo/Documents/BER20/MERC-Annual-Report---2024-12272024.pdf",
+    "quote": "Most notable were the immediate repeal of “right to work” for private sector employers, labor unions, and employees who come under the jurisdiction of the LMA",
+    "accessed": "2026-10-11"
+  },
+  "atWill": "at-will",
+  "notes": [
+    {
+      "text": "Minimum wage reaches $15.00 on January 1, 2027; the tipped wage rises from 40% of the minimum in 2026 to 42% in 2027 and keeps rising in later years.",
+      "source": {
+        "url": "https://www.michigan.gov/leo/bureaus-agencies/ber/wage-and-hour/frequently-asked-questions/wage-and-hour/minimum-wage-and-overtime-faq",
+        "quote": "beginning January 1, 2026, it shall be 40% of the minimum hourly wage rate; beginning January 1,2027, it shall be 42%",
+        "accessed": "2026-10-11"
+      }
+    },
+    {
+      "text": "Earned Sick Time Act: small businesses (10 or fewer employees) had to start accruals on October 1, 2025.",
+      "source": {
+        "url": "https://www.michigan.gov/leo/-/media/Project/Websites/leo/Documents/WAGE-HOUR/LEO-ESTA-FAQ-English.pdf",
+        "quote": "For a small business, October 1, 2025, or upon commencement of the employee’s employment, whichever is later.",
+        "accessed": "2026-10-11"
+      }
+    },
+    {
+      "text": "Michigan is no longer a right-to-work state: the private-sector right-to-work law was repealed (effective 2024).",
+      "source": {
+        "url": "https://www.michigan.gov/leo/-/media/Project/Websites/leo/Documents/BER20/MERC-Annual-Report---2024-12272024.pdf",
+        "quote": "Most notable were the immediate repeal of “right to work” for private sector employers, labor unions, and employees who come under the jurisdiction of the LMA",
+        "accessed": "2026-10-11"
+      }
+    }
+  ],
+  "uncertain": [
+    "michigan.gov and legislature.mi.gov block curl/WebFetch (403 / WAF); pages read in Chrome. Statutes (MCL 408.934, 408.475) not read directly.",
+    "Right-to-work repeal sourced from the Michigan Employment Relations Commission 2024 annual report (michigan.gov); exact effective date (February 2024) not quoted from an official page.",
+    "Michigan's LEO ESTA page says 'House Bill 4002 amends the existing Earned Sick Time Act'; the values above follow the LEO ESTA FAQ as published. Later amendments, if any, not checked.",
+    "Tipped percentage schedule after 2028 not recorded (FAQ text truncated)."
+  ]
+}

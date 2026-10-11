@@ -1,0 +1,28 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+import { AUTHOR_NAME, CONTACT_EMAIL, LAST_UPDATED, REVIEW_CYCLE_MONTHS, SITE_NAMES } from '../../data/site-config';
+import { route } from '../../i18n/routes';
+const lang = 'en';
+---
+<PageLayout title={`Editorial policy of ${SITE_NAMES[lang]}: sources, dates, fixes`} description="Which statutes and labor agency pages the minimum wage, overtime, leave, final pay and break rules come from, which sources never supply a rule here, and how a reported error gets fixed." lang={lang} noindex={true} breadcrumbs={[{ label: 'Editorial policy' }]} showAuthor={false}>
+  <div class="prose prose-slate max-w-none prose-headings:font-serif">
+    <h1>Editorial and corrections policy</h1>
+    <p>A worker who reads the wrong deadline for a final paycheck may wait too long to file a claim; one who reads last year's minimum wage may not notice an underpayment. This page says where each rule comes from and what happens when one is wrong.</p>
+    <h2>Who is responsible</h2><p>Content and calculations: {AUTHOR_NAME}, <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>.</p>
+    <h2>Sources that supply rules and figures</h2>
+    <ul>
+      <li>the labor department or wage and hour division of each state, and the agencies that run paid family leave programs;</li>
+      <li>state statutes and administrative codes on the legislature's own site;</li>
+      <li>city and county pages for local minimum wage ordinances;</li>
+      <li>the U.S. Department of Labor (Wage and Hour Division fact sheets and state tables) and the Code of Federal Regulations on eCFR for federal rules;</li>
+      <li>the IRS for the Affordable Care Act definition of a full-time employee.</li>
+    </ul>
+    <h2>Sources that never supply a rule</h2>
+    <p>Payroll vendors, HR software blogs, law firm newsletters, wage aggregators and news stories can alert us to a change. They never provide a figure here: we go to the official page, quote it in the state's data file with its address and the date we read it, and when the two disagree the official page wins. When a state has announced a change but not yet put it in force, the page gives the date and the calculators keep the current rule.</p>
+    <h2>Review cycle</h2><p>Every rule is re-read at least every {REVIEW_CYCLE_MONTHS} months and around each known date of change: January 1, July 1, September 30 for Florida, and the autumn announcements of inflation-indexed rates.</p>
+    <h2>Corrections</h2>
+    <ol><li>We check the report against the official page.</li><li>We correct the state file and add or adjust a test.</li><li>The page shows its new check date.</li></ol>
+    <h2>Independence</h2><p>No law firm, payroll company or lead seller pays to appear here, and no form asks for your name or employer. If that ever changed, it would be written next to the link concerned.</p>
+    <p>See also the <a href={route('method', lang)}>method page</a>. Policy version: {LAST_UPDATED}.</p>
+  </div>
+</PageLayout>

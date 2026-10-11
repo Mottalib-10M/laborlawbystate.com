@@ -1,0 +1,137 @@
+{
+ "slug": "utah",
+ "name": "Utah",
+ "abbr": "UT",
+ "agency": {
+  "name": "Utah Labor Commission, Utah Antidiscrimination and Labor Division (UALD)",
+  "url": "https://laborcommission.utah.gov/divisions/utah-antidiscrimination-and-labor-uald/wage-claim/"
+ },
+ "minWage": {
+  "rates2026": [
+   {
+    "from": "2026-01-01",
+    "rate": 7.25,
+    "area": "Statewide",
+    "note": "Set by Labor Commission rule; by statute it may not exceed the federal minimum wage"
+   }
+  ],
+  "headline": 7.25,
+  "headlineArea": "Statewide",
+  "federalApplies": true,
+  "rates2027": [],
+  "smallEmployer": "The Utah Minimum Wage Act does not apply to employees already covered by the federal FLSA; the state rate equals the federal $7.25.",
+  "tipped": {
+   "cashWage": 2.13,
+   "tipCreditAllowed": true,
+   "note": "Adults and minors; tips plus base wage must equal at least $7.25"
+  },
+  "other": "Training wage for workers under 18: $4.25 per hour during the first 90 days of employment, then $7.25.",
+  "source": {
+   "url": "https://laborcommission.utah.gov/divisions/utah-antidiscrimination-and-labor-uald/wage-claim/",
+   "quote": "The minimum wage in Utah is $7.25 per hour.",
+   "accessed": "2026-10-11"
+  }
+ },
+ "localMinWages": [],
+ "overtime": {
+  "weeklyHours": null,
+  "dailyHours": null,
+  "doubleTime": null,
+  "seventhDay": null,
+  "exemptSalaryWeekly": null,
+  "exemptSalaryNote": null,
+  "note": "Utah has no overtime law; overtime falls under the federal FLSA (time and a half after 40 hours a week), enforced by the U.S. Department of Labor.",
+  "source": {
+   "url": "https://laborcommission.utah.gov/divisions/utah-antidiscrimination-and-labor-uald/wage-claim/",
+   "quote": "There is no Utah overtime law (page directs overtime claims to the U.S. Department of Labor, Fair Labor Standards Act)",
+   "accessed": "2026-10-11"
+  }
+ },
+ "sickLeave": {
+  "mandatory": false,
+  "accrual": null,
+  "accrualPerHours": null,
+  "capHours": null,
+  "capNote": null,
+  "employerThreshold": null,
+  "effective": null,
+  "note": "No statewide paid sick leave requirement.",
+  "source": {
+   "url": "https://laborcommission.utah.gov/divisions/utah-antidiscrimination-and-labor-uald/wage-claim/",
+   "quote": "In general, Utah labor law does not require an employer to provide benefits to its employees.",
+   "accessed": "2026-10-11"
+  }
+ },
+ "familyLeave": {
+  "paidProgram": false,
+  "name": null,
+  "benefitsStart": null,
+  "maxWeeks": null,
+  "replacement": null,
+  "maxWeeklyBenefit2026": null,
+  "medicalLeave": null,
+  "stateUnpaidLaw": null,
+  "source": null
+ },
+ "finalPay": {
+  "fired": "within 24 hours of separation (wages due immediately)",
+  "firedDays": 1,
+  "quit": "on the next regular payday (if no written contract for a definite period)",
+  "quitNotice": null,
+  "ptoPayout": "policy",
+  "ptoNote": "No law requires paid leave; if an employer establishes a policy or practice it must follow it.",
+  "source": {
+   "url": "https://le.utah.gov/xcode/Title34/Chapter28/C34-28-S5_2018050820180508.html",
+   "quote": "the employer shall pay the wages to the employee within 24 hours of the time of separation at the specified place of payment",
+   "accessed": "2026-10-11"
+  },
+  "ptoSource": {
+   "url": "https://laborcommission.utah.gov/divisions/utah-antidiscrimination-and-labor-uald/wage-claim/",
+   "quote": "If an employer does establish a policy or practice of providing benefits they are expected to abide by the policy or practice in a non-discriminatory manner.",
+   "accessed": "2026-10-11"
+  }
+ },
+ "breaks": {
+  "meal": null,
+  "mealMinutes": null,
+  "mealAfterHours": null,
+  "rest": null,
+  "restMinutes": null,
+  "restPerHours": null,
+  "minorsOnly": "Under 18: a 30-minute lunch within the first five hours, and a 10-minute break for each four hours worked (no more than three consecutive hours without a 10-minute break).",
+  "source": {
+   "url": "https://laborcommission.utah.gov/divisions/utah-antidiscrimination-and-labor-uald/wage-claim/",
+   "quote": "Employers must provide at least a 30-minute lunch within the first five hours of a minor employee's workday.",
+   "accessed": "2026-10-11"
+  }
+ },
+ "rightToWork": true,
+ "rightToWorkSource": {
+  "url": "https://le.utah.gov/xcode/Title34/Chapter34/C34-34-S4_1800010118000101.html",
+  "quote": "whereby membership in such labor union, labor organization or any other type of association is made a condition of employment ... declared illegal",
+  "accessed": "2026-10-11"
+ },
+ "atWill": "at-will",
+ "notes": [
+  {
+   "text": "Cities, towns and counties may not set a minimum wage above the federal minimum wage, including for their contractors.",
+   "source": {
+    "url": "https://le.utah.gov/xcode/Title34/Chapter40/C34-40-S106_1800010118000101.html",
+    "quote": "A city, town, or county may not establish, mandate, or require a minimum wage that exceeds the federal minimum wage",
+    "accessed": "2026-10-11"
+   }
+  },
+  {
+   "text": "A fired employee who is not paid within 24 hours can send a written demand; wages then keep running at the daily rate until paid, up to 60 days.",
+   "source": {
+    "url": "https://le.utah.gov/xcode/Title34/Chapter28/C34-28-S5_2018050820180508.html",
+    "quote": "the wages of the employee shall continue from the date of demand until paid, but in no event to exceed 60 days",
+    "accessed": "2026-10-11"
+   }
+  }
+ ],
+ "uncertain": [
+  "laborcommission.utah.gov returns 403 to curl; its content was read through WebFetch (summarizing tool), so quotes from that page are as returned by WebFetch. The overtime quote is a paraphrase of that page (no verbatim sentence returned).",
+  "firedDays set to 1 to represent the 24-hour deadline."
+ ]
+}

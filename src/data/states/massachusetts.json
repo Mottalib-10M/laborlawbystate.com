@@ -1,0 +1,149 @@
+{
+ "slug": "massachusetts",
+ "name": "Massachusetts",
+ "abbr": "MA",
+ "agency": {
+  "name": "Massachusetts Attorney General's Office, Fair Labor Division",
+  "url": "https://www.mass.gov/orgs/fair-labor-division"
+ },
+ "minWage": {
+  "rates2026": [
+   {
+    "from": "2026-01-01",
+    "rate": 15.0,
+    "area": "Statewide",
+    "note": "Unchanged since January 1, 2023; no scheduled increases"
+   }
+  ],
+  "headline": 15.0,
+  "headlineArea": "Statewide",
+  "federalApplies": false,
+  "rates2027": [],
+  "smallEmployer": null,
+  "tipped": {
+   "cashWage": 6.75,
+   "tipCreditAllowed": true,
+   "note": "Service rate for workers who serve customers and receive more than $20 a month in tips; tips must bring pay to $15.00"
+  },
+  "other": "Most agricultural workers: $8.00 per hour.",
+  "source": {
+   "url": "https://www.mass.gov/info-details/massachusetts-law-about-minimum-wage",
+   "quote": "Effective January 1, 2023, the minimum wage is $15.00 per hour and the service rate is $6.75 (applied to workers who provide services to customers and who make more than $20 a month in tips).",
+   "accessed": "2026-10-11"
+  }
+ },
+ "localMinWages": [],
+ "overtime": {
+  "weeklyHours": 40,
+  "dailyHours": null,
+  "doubleTime": null,
+  "seventhDay": null,
+  "exemptSalaryWeekly": null,
+  "exemptSalaryNote": null,
+  "note": "Time and a half after 40 hours a week.",
+  "source": {
+   "url": "https://www.mass.gov/guides/pay-and-recordkeeping",
+   "quote": "Overtime pay is at least 1.5 × the regular rate of pay for each hour over 40 hours.",
+   "accessed": "2026-10-11"
+  }
+ },
+ "sickLeave": {
+  "mandatory": true,
+  "accrual": "1 hour for every 30 hours worked",
+  "accrualPerHours": 30,
+  "capHours": 40,
+  "capNote": "Earn and use up to 40 hours a year; paid for employers with 11 or more employees, unpaid (job-protected) for smaller employers.",
+  "employerThreshold": "all employers (paid if 11 or more employees)",
+  "effective": "2015-07-01",
+  "note": "Massachusetts Earned Sick Time law (M.G.L. c. 149, s. 148C).",
+  "source": {
+   "url": "https://www.mass.gov/info-details/earned-sick-time",
+   "quote": "Employers with 11 or more employees must provide paid sick time. Employers with fewer than 11 employees must provide earned sick time, but it does not need to be paid.",
+   "accessed": "2026-10-11"
+  }
+ },
+ "familyLeave": {
+  "paidProgram": true,
+  "name": "Massachusetts Paid Family and Medical Leave (PFML)",
+  "benefitsStart": "2021-01-01",
+  "maxWeeks": 26,
+  "replacement": "80% of the part of individual average weekly wage up to 50% of the state average weekly wage, plus 50% of the part above, up to the maximum",
+  "maxWeeklyBenefit2026": 1230.39,
+  "medicalLeave": "Up to 20 weeks medical leave, 12 weeks family leave (26 for a covered service member), 26 weeks combined per benefit year",
+  "stateUnpaidLaw": null,
+  "source": {
+   "url": "https://www.mass.gov/info-details/important-guidance-on-benefit-calculations-and-application-ownership",
+   "quote": "For 2026, the state average weekly wage is $1,922.48 and the maximum weekly benefit rate is $1,230.39. For 2027, the maximum weekly benefit rate is $1,284.61.",
+   "accessed": "2026-10-11"
+  }
+ },
+ "finalPay": {
+  "fired": "in full on the last day of work",
+  "firedDays": 0,
+  "quit": "on the next regular payday (or the first Saturday after quitting if there is no regular payday)",
+  "quitNotice": null,
+  "ptoPayout": "required",
+  "ptoNote": "Earned vacation pay counts as wages and must be paid at separation (same day if fired).",
+  "source": {
+   "url": "https://www.mass.gov/info-details/massachusetts-law-about-employment-termination",
+   "quote": "In most circumstances, if you are fired you should be paid in full on your last day. If you leave your job voluntarily, you must be paid on the next regular payday.",
+   "accessed": "2026-10-11"
+  },
+  "ptoSource": {
+   "url": "https://www.mass.gov/guides/pay-and-recordkeeping",
+   "quote": "Workers have a right to their wages, including tips, earned vacation pay, promised holiday pay, and earned commissions",
+   "accessed": "2026-10-11"
+  }
+ },
+ "breaks": {
+  "meal": "At least 30 minutes if working more than 6 hours in a calendar day",
+  "mealMinutes": 30,
+  "mealAfterHours": 6,
+  "rest": null,
+  "restMinutes": null,
+  "restPerHours": null,
+  "minorsOnly": null,
+  "source": {
+   "url": "https://www.mass.gov/guides/breaks-and-time-off",
+   "quote": "Workers have a right to at least a 30-minute meal break if they work more than six hours during a calendar day.",
+   "accessed": "2026-10-11"
+  }
+ },
+ "rightToWork": false,
+ "rightToWorkSource": null,
+ "atWill": "at-will",
+ "notes": [
+  {
+   "text": "PFML maximum weekly benefit rises from $1,230.39 (2026) to $1,284.61 (2027).",
+   "source": {
+    "url": "https://www.mass.gov/info-details/paid-family-and-medical-leave-pfml-overview-and-benefits",
+    "quote": "In 2026, the maximum weekly benefit is $1,230.39. In 2027, the maximum weekly benefit is $1,284.61.",
+    "accessed": "2026-10-11"
+   }
+  },
+  {
+   "text": "Fired employees must be paid in full on their last day, including accrued vacation; Massachusetts treats earned vacation as wages.",
+   "source": {
+    "url": "https://www.mass.gov/guides/pay-and-recordkeeping",
+    "quote": "Workers have a right to their wages, including tips, earned vacation pay, promised holiday pay",
+    "accessed": "2026-10-11"
+   }
+  },
+  {
+   "text": "The $15.00 minimum wage has not changed since 2023; any increase now needs the legislature or a ballot question.",
+   "source": {
+    "url": "https://www.mass.gov/info-details/massachusetts-law-about-minimum-wage",
+    "quote": "Further increases must be approved either by the legislature or by the people via a ballot question.",
+    "accessed": "2026-10-11"
+   }
+  }
+ ],
+ "uncertain": [
+  "mass.gov blocks curl and WebFetch (HTTP 403) and malegislature.gov timed out; pages were read in Chrome. Statute texts (c.149 s.148, s.100; c.151 s.1A) were not read directly.",
+  "Earned sick time effective date (2015-07-01) comes from the Google snippet of 940 CMR 33.00 on mass.gov ('Employees shall begin to accrue earned sick time beginning on July 1, 2015'); PDF not opened.",
+  "PFML benefitsStart 2021-01-01 applies to bonding, own health and military leave; family-care leave started July 1, 2021 (mass.gov press release of Dec 30, 2020).",
+  "stateUnpaidLaw: Massachusetts Parental Leave Act (8 weeks, employers with 6+ employees) not verified on an official page, left null.",
+  "Not checked whether a 2026 ballot question on the minimum wage or tipped wage is pending (search quota exhausted).",
+  "rightToWork false (no Massachusetts right-to-work law); no statute page read to source the absence."
+ ]
+}

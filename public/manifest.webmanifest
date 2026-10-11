@@ -1,0 +1,21 @@
+{
+ "name": "State Labor Law Guide",
+ "short_name": "Labor Law Guide",
+ "description": "Labor laws of the 50 states and DC in 2026: minimum wage, overtime, FMLA, paid sick and family leave, final paycheck and breaks, with calculators.",
+ "start_url": "/en/",
+ "display": "standalone",
+ "background_color": "#ffffff",
+ "theme_color": "#A31F34",
+ "icons": [
+  {
+   "src": "/icon-192.png",
+   "sizes": "192x192",
+   "type": "image/png"
+  },
+  {
+   "src": "/icon-512.png",
+   "sizes": "512x512",
+   "type": "image/png"
+  }
+ ]
+}

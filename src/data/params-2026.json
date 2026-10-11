@@ -1,0 +1,183 @@
+{
+  "_readme": "Federal parameters of the site (RECETTE §4). State figures live in src/data/states/<slug>.json, one file per state, each value with its official source. Every value here was read on the cited page on retrieved_at.",
+  "year": 2026,
+  "retrieved_at": "2026-10-11",
+  "valid_from": "2026-01-01",
+  "valid_to": "2026-12-31",
+  "federal": {
+    "minWage": 7.25,
+    "minWageSince": "2009-07-24",
+    "tippedCash": 2.13,
+    "tipCredit": 5.12,
+    "youthWage": 4.25,
+    "youthDays": 90,
+    "youthAgeUnder": 20,
+    "otMultiplier": 1.5,
+    "otWeeklyHours": 40,
+    "exemptWeekly": 684,
+    "exemptBiweekly": 1368,
+    "exemptMonthly": 2964,
+    "hceAnnual": 107432,
+    "computerHourly": 27.63,
+    "garnishPct": 25,
+    "garnishMultiple": 30,
+    "supportPctWithFamily": 50,
+    "supportPctNoFamily": 60,
+    "supportArrearsExtra": 5,
+    "warnDays": 60,
+    "warnEmployees": 100
+  },
+  "fmla": {
+    "weeks": 12,
+    "militaryCaregiverWeeks": 26,
+    "employerEmployees": 50,
+    "employerWorkweeks": 20,
+    "worksiteEmployees": 50,
+    "radiusMiles": 75,
+    "hours": 1250,
+    "months": 12,
+    "breakInServiceYears": 7
+  },
+  "aca": {
+    "fullTimeWeekly": 30,
+    "fullTimeMonthly": 130
+  },
+  "sources": {
+    "dolMinWage": {
+      "url": "https://www.dol.gov/agencies/whd/minimum-wage",
+      "label": "U.S. Department of Labor, Wage and Hour Division: the federal minimum wage ($7.25 an hour)"
+    },
+    "dolStateMw": {
+      "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+      "label": "U.S. Department of Labor: State Minimum Wage Laws (table updated July 1, 2026)"
+    },
+    "dolTipped": {
+      "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+      "label": "U.S. Department of Labor: Minimum Wages for Tipped Employees by state (updated July 1, 2026)"
+    },
+    "fs15": {
+      "url": "https://www.dol.gov/agencies/whd/fact-sheets/15-tipped-employees-flsa",
+      "label": "DOL Fact Sheet #15: Tipped Employees Under the FLSA"
+    },
+    "cfr53150": {
+      "url": "https://www.ecfr.gov/current/title-29/section-531.50",
+      "label": "29 CFR 531.50: tipped employees, $2.13 cash wage and tip credit"
+    },
+    "fs32": {
+      "url": "https://www.dol.gov/agencies/whd/fact-sheets/32-youth-minimum-wage",
+      "label": "DOL Fact Sheet #32: Youth Minimum Wage under the FLSA"
+    },
+    "fs23": {
+      "url": "https://www.dol.gov/agencies/whd/fact-sheets/23-flsa-overtime-pay",
+      "label": "DOL Fact Sheet #23: Overtime Pay Requirements of the FLSA"
+    },
+    "cfr778107": {
+      "url": "https://www.ecfr.gov/current/title-29/section-778.107",
+      "label": "29 CFR 778.107: general standard for overtime pay (one and one-half times the regular rate)"
+    },
+    "dolOvertime": {
+      "url": "https://www.dol.gov/agencies/whd/overtime",
+      "label": "U.S. Department of Labor: Overtime Pay"
+    },
+    "fs17a": {
+      "url": "https://www.dol.gov/agencies/whd/fact-sheets/17a-overtime",
+      "label": "DOL Fact Sheet #17A: Exemption for Executive, Administrative, Professional, Computer and Outside Sales Employees"
+    },
+    "cfr541600": {
+      "url": "https://www.ecfr.gov/current/title-29/section-541.600",
+      "label": "29 CFR 541.600: amount of salary required ($684 per week)"
+    },
+    "cfr541601": {
+      "url": "https://www.ecfr.gov/current/title-29/section-541.601",
+      "label": "29 CFR 541.601: highly compensated employees ($107,432)"
+    },
+    "dolFmla": {
+      "url": "https://www.dol.gov/agencies/whd/fmla",
+      "label": "U.S. Department of Labor: Family and Medical Leave Act"
+    },
+    "fs28": {
+      "url": "https://www.dol.gov/agencies/whd/fact-sheets/28-fmla",
+      "label": "DOL Fact Sheet #28: The Family and Medical Leave Act (revised March 2025)"
+    },
+    "cfr825110": {
+      "url": "https://www.ecfr.gov/current/title-29/section-825.110",
+      "label": "29 CFR 825.110: eligible employee (12 months, 1,250 hours, 50 employees within 75 miles)"
+    },
+    "cfr825200": {
+      "url": "https://www.ecfr.gov/current/title-29/section-825.200",
+      "label": "29 CFR 825.200: amount of leave (12 workweeks in a 12-month period)"
+    },
+    "irsFullTime": {
+      "url": "https://www.irs.gov/affordable-care-act/employers/identifying-full-time-employees",
+      "label": "IRS: Identifying full-time employees (30 hours a week or 130 hours a month)"
+    },
+    "dolFullTime": {
+      "url": "https://www.dol.gov/general/topic/workhours/full-time",
+      "label": "U.S. Department of Labor: Full-Time Employment"
+    },
+    "dolPartTime": {
+      "url": "https://www.dol.gov/general/topic/workhours/parttimeemployment",
+      "label": "U.S. Department of Labor: Part-Time Employment"
+    },
+    "dolBreaks": {
+      "url": "https://www.dol.gov/general/topic/workhours/breaks",
+      "label": "U.S. Department of Labor: Breaks and Meal Periods"
+    },
+    "dolMeal": {
+      "url": "https://www.dol.gov/agencies/whd/state/meal-breaks",
+      "label": "U.S. Department of Labor: Minimum Meal Period Requirements Under State Law"
+    },
+    "dolRest": {
+      "url": "https://www.dol.gov/agencies/whd/state/rest-periods",
+      "label": "U.S. Department of Labor: Minimum Paid Rest Period Requirements Under State Law"
+    },
+    "dolLastPay": {
+      "url": "https://www.dol.gov/general/topic/wages/lastpaycheck",
+      "label": "U.S. Department of Labor: Last Paycheck"
+    },
+    "fs30": {
+      "url": "https://www.dol.gov/agencies/whd/fact-sheets/30-cppa",
+      "label": "DOL Fact Sheet #30: Wage Garnishment Protections of the Consumer Credit Protection Act"
+    },
+    "cfr6391": {
+      "url": "https://www.ecfr.gov/current/title-20/section-639.1",
+      "label": "20 CFR 639.1: WARN Act, notice 60 calendar days before plant closings and mass layoffs"
+    },
+    "cfr6393": {
+      "url": "https://www.ecfr.gov/current/title-20/section-639.3",
+      "label": "20 CFR 639.3: WARN Act definitions (employers with 100 or more employees)"
+    },
+    "dolSeverance": {
+      "url": "https://www.dol.gov/general/topic/wages/severancepay",
+      "label": "U.S. Department of Labor: Severance Pay"
+    },
+    "dolVacation": {
+      "url": "https://www.dol.gov/general/topic/workhours/vacation_leave",
+      "label": "U.S. Department of Labor: Vacation Leave"
+    },
+    "dolSickLeave": {
+      "url": "https://www.dol.gov/general/topic/workhours/sickleave",
+      "label": "U.S. Department of Labor: Sick Leave"
+    },
+    "cfr825115": {
+      "url": "https://www.ecfr.gov/current/title-29/section-825.115",
+      "label": "29 CFR 825.115: continuing treatment, incapacity of more than three consecutive full calendar days"
+    },
+    "cfr825120": {
+      "url": "https://www.ecfr.gov/current/title-29/section-825.120",
+      "label": "29 CFR 825.120: leave for pregnancy or birth, bonding within 12 months"
+    },
+    "cfr825201": {
+      "url": "https://www.ecfr.gov/current/title-29/section-825.201",
+      "label": "29 CFR 825.201: leave to care for a parent, spouses with the same employer"
+    },
+    "cfr825300": {
+      "url": "https://www.ecfr.gov/current/title-29/section-825.300",
+      "label": "29 CFR 825.300: employer notice requirements, eligibility notice within five business days"
+    },
+    "cfr825305": {
+      "url": "https://www.ecfr.gov/current/title-29/section-825.305",
+      "label": "29 CFR 825.305: certification, 15 calendar days to return it"
+    }
+  }
+}

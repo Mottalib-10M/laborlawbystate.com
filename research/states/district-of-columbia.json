@@ -1,0 +1,76 @@
+{
+  "slug": "district-of-columbia",
+  "name": "District of Columbia",
+  "abbr": "DC",
+  "agency": {"name": "DC Department of Employment Services (DOES), Office of Wage-Hour", "url": "https://does.dc.gov/service/office-wage-hour-compliance"},
+  "minWage": {
+    "rates2026": [
+      {"from": "2025-07-01", "rate": 17.95, "area": "District-wide, all employers", "note": "In force January 1 to June 30, 2026"},
+      {"from": "2026-07-01", "rate": 18.40, "area": "District-wide, all employers", "note": "CPI adjustment (+2.4%), regardless of employer size; in force until June 30, 2027"}
+    ],
+    "headline": 18.40,
+    "headlineArea": "District-wide, all employers",
+    "federalApplies": false,
+    "rates2027": [],
+    "smallEmployer": null,
+    "tipped": {"cashWage": 10.30, "tipCreditAllowed": true, "note": "Base tipped wage rose from $10.00 to $10.30 on July 1, 2026 (56% of the full minimum wage under D.C. Code 32-1003(f)(6A)); employer must make up any shortfall to $18.40."},
+    "other": "The minimum wage is indexed to Washington-area CPI every July 1 (D.C. Code 32-1003(a)(6)). The DC Living Wage (government contractors) equals $18.40 from July 1, 2026 ($17.95 Jan 1-Jun 30, 2026). Security officers in office buildings have a separate higher rate notice.",
+    "source": {"url": "https://does.dc.gov/sites/default/files/dc/sites/does/publication/attachments/2026%20Minimum%20Wage%20Increase%20Noticevf%20-%20Clean%20updated_1.pdf", "quote": "Beginning July 1, 2026, the minimum wage in the District of Columbia will increase from $17.95 per hour to $18.40 per hour for all workers, regardless of size of employer.", "accessed": "2026-10-11"}
+  },
+  "localMinWages": [],
+  "overtime": {
+    "weeklyHours": 40, "dailyHours": null, "doubleTime": null, "seventhDay": null,
+    "exemptSalaryWeekly": null, "exemptSalaryNote": null,
+    "note": "Time and a half over 40 hours in a workweek.",
+    "source": {"url": "https://code.dccouncil.gov/us/dc/council/code/sections/32-1003", "quote": "No employer shall employ any employee for a workweek that is longer than 40 hours, unless the employee receives compensation for employment in excess of 40 hours at a rate not less than 1 1/2 times the regular rate", "accessed": "2026-10-11"}
+  },
+  "sickLeave": {
+    "mandatory": true,
+    "accrual": "1 hour per 37 hours worked (100+ employees); 1 per 43 (25-99); 1 per 87 (24 or fewer)",
+    "accrualPerHours": 43,
+    "capHours": 40,
+    "capNote": "100+ employees: up to 7 days/year; 25-99: up to 5 days (about 40 h for a full-time worker); 24 or fewer: up to 3 days. Use allowed after 90 days of service.",
+    "employerThreshold": "all employers (tiered by size)",
+    "effective": "2008-11-13",
+    "note": "Accrued Sick and Safe Leave Act; covers safe leave for victims of stalking, domestic violence or sexual abuse.",
+    "source": {"url": "https://code.dccouncil.gov/us/dc/council/code/sections/32-531.02", "quote": "An employer with at least 25, but not more than 99, employees shall provide for each employee not less than one hour of paid leave for every 43 hours worked, not to exceed 5 days per calendar year.", "accessed": "2026-10-11"}
+  },
+  "familyLeave": {
+    "paidProgram": true,
+    "name": "DC Paid Family Leave (DC PFL)",
+    "benefitsStart": "2020-07-01",
+    "maxWeeks": 12,
+    "replacement": "Sliding scale wage replacement up to 90%, capped at the maximum weekly benefit; fully employer-funded, no employee deductions",
+    "maxWeeklyBenefit2026": 1100,
+    "medicalLeave": "Since October 1, 2026: Medical leave 10 weeks (was 12), Family leave 6 weeks (was 12), Parental leave 12 weeks, Prenatal leave 2 weeks. Maximum weekly benefit $1,190 before Oct 1, 2026, $1,100 from Oct 1, 2026.",
+    "stateUnpaidLaw": "DC Family and Medical Leave Act: job-protected leave for employers with 20+ employees (broader than federal FMLA)",
+    "source": {"url": "https://dcpaidfamilyleave.dc.gov/program-updates/", "quote": "Medical Leave 12 weeks 10 weeks Family Leave 12 weeks 6 weeks Weekly Benefit Maximum $1,190 $1,100 ... Parental Leave Remains 12 weeks.", "accessed": "2026-10-11"}
+  },
+  "finalPay": {
+    "fired": "by the working day following discharge (4 days if the employee handled employer money)",
+    "firedDays": 1,
+    "quit": "by the next regular payday or within 7 days of quitting, whichever is earlier",
+    "quitNotice": null,
+    "ptoPayout": "policy",
+    "ptoNote": "No statute expressly requires vacation payout; 'wages' include remuneration promised under the employment contract or policy, so payout follows the employer's written policy or agreement.",
+    "source": {"url": "https://code.dccouncil.gov/us/dc/council/code/sections/32-1303", "quote": "Whenever an employer discharges an employee, the employer shall pay the employee's wages earned not later than the working day following such discharge", "accessed": "2026-10-11"},
+    "ptoSource": {"url": "https://code.dccouncil.gov/us/dc/council/code/sections/32-1301", "quote": "The term \"wages\" includes a: (A) Bonus; (B) Commission; (C) Fringe benefits paid in cash; (D) Overtime premium; and (E) Other remuneration promised or owed: (i) Pursuant to a contract for employment", "accessed": "2026-10-11"}
+  },
+  "breaks": {"meal": null, "mealMinutes": null, "mealAfterHours": null, "rest": null, "restMinutes": null, "restPerHours": null, "minorsOnly": null, "source": null},
+  "rightToWork": false,
+  "rightToWorkSource": null,
+  "atWill": "at-will",
+  "notes": [
+    {"text": "DC Paid Family Leave was cut on October 1, 2026 by the FY2027 Budget Support Act: medical leave from 12 to 10 weeks, family leave from 12 to 6 weeks, and the maximum weekly benefit from $1,190 to $1,100.", "source": {"url": "https://dcpaidfamilyleave.dc.gov/program-updates/", "quote": "These updates take effect October 1, 2026, and affect the number of weeks available under Medical Leave and Family Leave.", "accessed": "2026-10-11"}},
+    {"text": "The tipped minimum wage is now pegged at 56% of the full minimum wage ($10.30 since July 1, 2026), after Initiative 82's phase-out schedule was amended.", "source": {"url": "https://code.dccouncil.gov/us/dc/council/code/sections/32-1003", "quote": "as of July 1, 2026, the tipped minimum wage shall be 56% of the minimum wage provided in subsection (a) of this section, with tips on top", "accessed": "2026-10-11"}},
+    {"text": "DC bans non-compete clauses for most employees: from January 1, 2026 the ban covers workers earning less than $162,164 (medical specialists under $270,274).", "source": {"url": "https://does.dc.gov/service/office-wage-hour-compliance", "quote": "As of January 1, 2026, the restriction on non-compete clauses applies to employees earning less than $162,164 and to medical specialists earning less than $270,274.", "accessed": "2026-10-11"}}
+  ],
+  "uncertain": [
+    "familyLeave.maxWeeks: 12 = parental leave maximum (unchanged); the overall annual combined cap across leave types after the Oct 1, 2026 change was not stated on the page read.",
+    "familyLeave.stateUnpaidLaw (DC FMLA, 20+ employees) and familyLeave.benefitsStart (2020-07-01) were not re-verified on a page read today.",
+    "finalPay.ptoPayout: no explicit DC statute on vacation payout found; 'policy' inferred from the wage definition.",
+    "sickLeave.effective (2008-11-13) not re-verified today; accrualPerHours/capHours shown for the 25-99 employee tier.",
+    "breaks: DC has no adult meal/rest break statute as far as checked; no official page confirming the absence was read.",
+    "rightToWork: DC has no right-to-work law; no official source page cited."
+  ]
+}

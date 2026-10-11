@@ -1,0 +1,46 @@
+{
+  "slug": "mississippi", "name": "Mississippi", "abbr": "MS",
+  "agency": {"name": "No state wage-and-hour agency; U.S. Department of Labor, Wage and Hour Division enforces federal law", "url": "https://www.dol.gov/agencies/whd"},
+  "minWage": {
+    "rates2026": [
+      {"from": "2026-01-01", "rate": 7.25, "area": "Statewide (federal minimum)", "note": "No state minimum wage law; the federal FLSA rate applies to covered employers"}
+    ],
+    "headline": 7.25,
+    "headlineArea": "Statewide (federal minimum)",
+    "federalApplies": true,
+    "rates2027": [],
+    "smallEmployer": "No state minimum wage law: employers not covered by the FLSA have no minimum wage obligation under state law.",
+    "tipped": {"cashWage": 2.13, "tipCreditAllowed": true, "note": "Federal tipped cash wage (FLSA); tips must bring pay to $7.25"},
+    "other": "Federal minimum wage applies (no state law).",
+    "source": {"url": "https://www.dol.gov/agencies/whd/minimum-wage/state", "quote": "No state minimum wage law. Employers subject to the Fair Labor Standards Act must pay the current Federal minimum wage of $7.25 per hour.", "accessed": "2026-10-11"}
+  },
+  "localMinWages": [],
+  "overtime": {"weeklyHours": null, "dailyHours": null, "doubleTime": null, "seventhDay": null,
+               "exemptSalaryWeekly": null, "exemptSalaryNote": null,
+               "note": "No state overtime law; federal FLSA overtime (after 40 hours a week) applies to covered employers.",
+               "source": {"url": "https://www.dol.gov/agencies/whd/minimum-wage/state", "quote": "No state minimum wage law. Employers subject to the Fair Labor Standards Act must pay the current Federal minimum wage of $7.25 per hour.", "accessed": "2026-10-11"}},
+  "sickLeave": {"mandatory": false, "accrual": null, "accrualPerHours": null,
+                "capHours": null, "capNote": null,
+                "employerThreshold": null, "effective": null, "note": "No statewide paid sick leave law for private employers.",
+                "source": null},
+  "familyLeave": {"paidProgram": false, "name": null, "benefitsStart": null,
+                  "maxWeeks": null, "replacement": null, "maxWeeklyBenefit2026": null, "medicalLeave": null,
+                  "stateUnpaidLaw": null, "source": null},
+  "finalPay": {"fired": "no state law (pay by the next regular payday is customary)", "firedDays": null,
+               "quit": "no state law (pay by the next regular payday is customary)", "quitNotice": null,
+               "ptoPayout": "no-law", "ptoNote": "No state statute on vacation payout; follows employer policy or contract.",
+               "source": null, "ptoSource": null},
+  "breaks": {"meal": null, "mealMinutes": null, "mealAfterHours": null,
+             "rest": null, "restMinutes": null, "restPerHours": null, "minorsOnly": null, "source": null},
+  "rightToWork": true,
+  "rightToWorkSource": {"url": "https://www.sos.ms.gov/content/documents/ed_pubs/pubs/Mississippi_Constitution.pdf", "quote": "SECTION 198A. Right to work; labor unions. ... the right of a person or persons to work shall not be denied or abridged on account of membership or nonmembership in any labor union", "accessed": "2026-10-11"},
+  "atWill": "at-will",
+  "notes": [
+    {"text": "Mississippi is one of the few states with no state minimum wage law: the federal $7.25 applies to employers covered by the FLSA.", "source": {"url": "https://www.dol.gov/agencies/whd/minimum-wage/state", "quote": "No state minimum wage law. Employers subject to the Fair Labor Standards Act must pay the current Federal minimum wage of $7.25 per hour.", "accessed": "2026-10-11"}},
+    {"text": "Right to work is written into the Mississippi Constitution (Section 198A).", "source": {"url": "https://www.sos.ms.gov/content/documents/ed_pubs/pubs/Mississippi_Constitution.pdf", "quote": "SECTION 198A. Right to work; labor unions.", "accessed": "2026-10-11"}}
+  ],
+  "uncertain": [
+    "Mississippi has no state labor department page for wages; minimum-wage/overtime absence sourced only from the U.S. DOL state table.",
+    "Absence of state final-pay, vacation-payout, break, sick-leave and family-leave laws not confirmed on an official Mississippi page (sources null). Child-labor break rules for minors not checked."
+  ]
+}

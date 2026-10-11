@@ -1,0 +1,46 @@
+{
+  "slug": "arkansas", "name": "Arkansas", "abbr": "AR",
+  "agency": {"name": "Arkansas Department of Labor and Licensing, Labor Standards Division", "url": "https://labor.arkansas.gov/labor/labor-standards/"},
+  "minWage": {
+    "rates2026": [ {"from": "2021-01-01", "rate": 11.00, "area": "Statewide (employers with 4 or more employees)", "note": "unchanged since January 1, 2021"} ],
+    "headline": 11.00,
+    "headlineArea": "Statewide",
+    "federalApplies": false,
+    "rates2027": [],
+    "smallEmployer": "The Arkansas Minimum Wage Act covers employers with 4 or more employees; smaller employers are subject only to the federal FLSA ($7.25) if covered by it.",
+    "tipped": {"cashWage": 2.63, "tipCreditAllowed": true, "note": "tips must bring the employee up to $11.00; employer makes up any shortfall"},
+    "other": "Employers may apply to the Labor Standards Division for a reduced minimum wage for students (application form on the agency page).",
+    "source": {"url": "https://labor.arkansas.gov/labor/labor-standards/minimum-wage-and-overtime/", "quote": "Effective January 1, 2021, the minimum wage in Arkansas is $11.00 per hour. The Arkansas Minimum Wage Act covers employers with 4 or more employees.", "accessed": "2026-10-11"}
+  },
+  "localMinWages": [],
+  "overtime": {"weeklyHours": 40, "dailyHours": null, "doubleTime": null, "seventhDay": null,
+               "exemptSalaryWeekly": null, "exemptSalaryNote": "no state salary level above the federal $684/week",
+               "note": "time and a half after 40 hours actually worked in a workweek; no daily overtime",
+               "source": {"url": "https://labor.arkansas.gov/labor/labor-standards/minimum-wage-and-overtime/", "quote": "an employer has to pay overtime (one and one-half times the regular rate of pay) to non-exempt employees for all hours actually worked in excess of 40 hours in a workweek", "accessed": "2026-10-11"}},
+  "sickLeave": {"mandatory": false, "accrual": null, "accrualPerHours": null, "capHours": null, "capNote": null,
+                "employerThreshold": null, "effective": null, "note": "No state paid sick leave law for private employers; sick pay is owed only if company policy provides it.",
+                "source": {"url": "https://labor.arkansas.gov/labor/labor-standards/wage-claims/", "quote": "If you are filing a wage claim because you believe you are due vacation pay, sick pay, holiday pay ... you must provide us a copy of the company policy", "accessed": "2026-10-11"}},
+  "familyLeave": {"paidProgram": false, "name": null, "benefitsStart": null, "maxWeeks": null, "replacement": null,
+                  "maxWeeklyBenefit2026": null, "medicalLeave": null, "stateUnpaidLaw": null,
+                  "source": {"url": "https://labor.arkansas.gov/resources/faqs/", "quote": "The federal Family and Medical Leave Act provides certain employees with up to 12 weeks of unpaid, job-protected leave per year", "accessed": "2026-10-11"}},
+  "finalPay": {"fired": "by the next regular payday (if not paid within 7 days of that payday, the employer owes double the wages due)", "firedDays": null,
+               "quit": null, "quitNotice": null,
+               "ptoPayout": "policy", "ptoNote": "vacation pay is owed at separation only if the company policy provides it",
+               "source": {"url": "https://labor.arkansas.gov/resources/faqs/", "quote": "If a company or corporation terminates the employee, the employee's wages are due by the next regular payday. If the employer fails to make payment within 7 days of the next regular payday then the employer shall owe the employee double the wages due.", "accessed": "2026-10-11"},
+               "ptoSource": {"url": "https://labor.arkansas.gov/labor/labor-standards/wage-claims/", "quote": "If you are filing a wage claim because you believe you are due vacation pay ... you must provide us a copy of the company policy that states you will be paid", "accessed": "2026-10-11"}},
+  "breaks": {"meal": null, "mealMinutes": null, "mealAfterHours": null, "rest": null, "restMinutes": null, "restPerHours": null,
+             "minorsOnly": "Rest breaks are required only for children under 16 employed in the entertainment industry.",
+             "source": {"url": "https://labor.arkansas.gov/resources/faqs/", "quote": "Neither state nor federal wage and hour laws require an employer to provide a break or a meal period. (State law does require rest breaks for children under the age of 16 employed in the entertainment industry.)", "accessed": "2026-10-11"}},
+  "rightToWork": null, "rightToWorkSource": null,
+  "atWill": "at-will",
+  "notes": [
+    {"text": "The state minimum wage law applies only to employers with 4 or more employees; when both state and federal law apply, the higher rate ($11.00) must be paid.", "source": {"url": "https://labor.arkansas.gov/labor/labor-standards/minimum-wage-and-overtime/", "quote": "Employers covered by the federal Fair Labor Standards Act (FLSA) are also covered by the Arkansas law if they have 4 or more employees. An employer covered by both laws must pay the highest minimum wage.", "accessed": "2026-10-11"}},
+    {"text": "An employer that pays final wages more than 7 days after the next regular payday owes the worker double the wages due.", "source": {"url": "https://labor.arkansas.gov/resources/faqs/", "quote": "If the employer fails to make payment within 7 days of the next regular payday then the employer shall owe the employee double the wages due.", "accessed": "2026-10-11"}},
+    {"text": "The Labor Standards Division handles wage claims of $2,000 or less, and only for workers earning $50,000 a year or less; larger claims go to court (Small Claims Court possible without an attorney).", "source": {"url": "https://labor.arkansas.gov/labor/labor-standards/wage-claims/", "quote": "You are not eligible to file a wage claim if : *the amount in dispute is more than $2000; or *you make more than $50,000 per year.", "accessed": "2026-10-11"}}
+  ],
+  "uncertain": [
+    "rightToWork: Arkansas is generally known as a right-to-work state (Constitution Amendment 34), but the official constitution/statute text could not be retrieved today (SOS PDF link broken, legislature/Lexis code portal not fetchable, WebSearch quota exhausted). Set to null pending verification.",
+    "finalPay.quit: the official FAQ only addresses employees terminated by the employer (next regular payday); no official page read today states the rule for employees who quit. Ark. Code 11-4-405 text not retrievable.",
+    "rates2027: no official announcement of a 2027 change found on the agency page (rate unchanged since 2021); no indexed statute adjustment exists to my knowledge, but no official 2027 statement was read."
+  ]
+}

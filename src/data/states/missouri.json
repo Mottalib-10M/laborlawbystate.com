@@ -1,0 +1,135 @@
+{
+ "slug": "missouri",
+ "name": "Missouri",
+ "abbr": "MO",
+ "agency": {
+  "name": "Missouri Department of Labor and Industrial Relations, Division of Labor Standards",
+  "url": "https://labor.mo.gov/DLS"
+ },
+ "minWage": {
+  "rates2026": [
+   {
+    "from": "2026-01-01",
+    "rate": 15.0,
+    "area": "Statewide",
+    "note": "Retail or service businesses with annual gross sales under $500,000 are exempt from the state minimum wage (RSMo 290.500)"
+   }
+  ],
+  "headline": 15.0,
+  "headlineArea": "Statewide",
+  "federalApplies": false,
+  "rates2027": [],
+  "smallEmployer": "Retail or service businesses with annual gross sales under $500,000 are not covered by the state law (federal $7.25 may apply under the FLSA).",
+  "tipped": {
+   "cashWage": 7.5,
+   "tipCreditAllowed": true,
+   "note": "50% of the state minimum wage; tips must bring total pay to $15.00"
+  },
+  "other": "2025 law HB 567 ended the annual cost-of-living indexing: the rate stays at $15.00 after 2026 unless the law changes.",
+  "source": {
+   "url": "https://revisor.mo.gov/main/OneSection.aspx?section=290.502",
+   "quote": "the minimum wage established by this subsection shall be increased by $1.25 per hour, to $15.00 per hour, effective January 1, 2026.",
+   "accessed": "2026-10-11"
+  }
+ },
+ "localMinWages": [],
+ "overtime": {
+  "weeklyHours": 40,
+  "dailyHours": null,
+  "doubleTime": null,
+  "seventhDay": null,
+  "exemptSalaryWeekly": null,
+  "exemptSalaryNote": null,
+  "note": "Time and a half after 40 hours in a workweek.",
+  "source": {
+   "url": "https://revisor.mo.gov/main/OneSection.aspx?section=290.505",
+   "quote": "No employer shall employ any of his employees for a workweek longer than forty hours unless such employee receives compensation ... not less than one and one-half times the regular rate",
+   "accessed": "2026-10-11"
+  }
+ },
+ "sickLeave": {
+  "mandatory": false,
+  "accrual": null,
+  "accrualPerHours": null,
+  "capHours": null,
+  "capNote": "Proposition A (2024) required paid sick leave from May 1, 2025, but HB 567 repealed it effective August 28, 2025.",
+  "employerThreshold": null,
+  "effective": null,
+  "note": "No statewide paid sick leave requirement since 2025-08-28.",
+  "source": {
+   "url": "https://revisor.mo.gov/main/OneSection.aspx?section=290.600",
+   "quote": "290.600. (Repealed L. 2025 H.B. 567, et al.)",
+   "accessed": "2026-10-11"
+  }
+ },
+ "familyLeave": {
+  "paidProgram": false,
+  "name": null,
+  "benefitsStart": null,
+  "maxWeeks": null,
+  "replacement": null,
+  "maxWeeklyBenefit2026": null,
+  "medicalLeave": null,
+  "stateUnpaidLaw": null,
+  "source": null
+ },
+ "finalPay": {
+  "fired": "on the day of discharge (employee may request payment be sent; penalty wages if not received within 7 days of the written request)",
+  "firedDays": 0,
+  "quit": "no state deadline (pay by the next regular payday is customary)",
+  "quitNotice": null,
+  "ptoPayout": "no-law",
+  "ptoNote": "No Missouri statute requires payout of accrued vacation; follows employer policy or contract.",
+  "source": {
+   "url": "https://revisor.mo.gov/main/OneSection.aspx?section=290.110",
+   "quote": "the unpaid wages of the servant or employee then earned at the contract rate ... shall be and become due and payable on the day of the discharge",
+   "accessed": "2026-10-11"
+  },
+  "ptoSource": null
+ },
+ "breaks": {
+  "meal": null,
+  "mealMinutes": null,
+  "mealAfterHours": null,
+  "rest": null,
+  "restMinutes": null,
+  "restPerHours": null,
+  "minorsOnly": null,
+  "source": null
+ },
+ "rightToWork": false,
+ "rightToWorkSource": null,
+ "atWill": "at-will",
+ "notes": [
+  {
+   "text": "Paid sick leave approved by voters in Proposition A (November 2024) was repealed by HB 567, effective August 28, 2025.",
+   "source": {
+    "url": "https://revisor.mo.gov/main/OneSection.aspx?section=290.600",
+    "quote": "290.600. (Repealed L. 2025 H.B. 567, et al.)",
+    "accessed": "2026-10-11"
+   }
+  },
+  {
+   "text": "Since August 28, 2025, the state minimum wage also applies to public employers (state, cities, counties, school districts).",
+   "source": {
+    "url": "https://revisor.mo.gov/main/OneSection.aspx?section=290.502",
+    "quote": "Beginning on August 28, 2025, the provisions of this section shall apply to a public employer with respect to its employees.",
+    "accessed": "2026-10-11"
+   }
+  },
+  {
+   "text": "Service letter: a corporation with 7+ employees must, on written request by certified mail from an employee with 90+ days of service, issue a letter stating the nature of service and the true cause of departure within 45 days.",
+   "source": {
+    "url": "https://revisor.mo.gov/main/OneSection.aspx?section=290.140",
+    "quote": "it shall be the duty of the superintendent or manager of said corporation to issue to such employee, within forty-five days after the receipt of such request, a letter",
+    "accessed": "2026-10-11"
+   }
+  }
+ ],
+ "uncertain": [
+  "labor.mo.gov returns HTTP 403 (Incapsula) to both curl and WebFetch; all values come from the Revised Statutes of Missouri (revisor.mo.gov), cross-checked with the U.S. DOL tipped table (Missouri $15.00 / $7.50, effective July 1, 2026).",
+  "Could not check whether a 2026 ballot initiative seeks to restore paid sick leave or wage indexing (web search quota exhausted).",
+  "Breaks: no Missouri statute on adult meal/rest breaks found; child-labor break rules for minors not verified, so minorsOnly left null.",
+  "rightToWork false: Missouri's 2017 right-to-work law was rejected by referendum (Proposition A, 2018); no official statute page read to source this."
+ ]
+}

@@ -1,0 +1,57 @@
+{
+  "slug": "colorado", "name": "Colorado", "abbr": "CO",
+  "agency": {"name": "Colorado Department of Labor and Employment, Division of Labor Standards and Statistics (DLSS)", "url": "https://cdle.colorado.gov/dlss"},
+  "minWage": {
+    "rates2026": [ {"from": "2026-01-01", "rate": 15.16, "area": "Statewide (where no higher local minimum applies)", "note": "adjusted each January 1 for inflation (CPI-U) under the state constitution"} ],
+    "headline": 15.16,
+    "headlineArea": "Statewide",
+    "federalApplies": false,
+    "rates2027": [ {"from": "2027-01-01", "rate": 15.71, "area": "Statewide (where no higher local minimum applies)", "note": "officially announced by CDLE on August 13, 2026; tipped cash wage $12.69"} ],
+    "smallEmployer": null,
+    "tipped": {"cashWage": 12.14, "tipCreditAllowed": true, "note": "state rate with tip credit in 2026 (tip credit $3.02); higher local tipped rates apply in Denver, Boulder, Boulder County and Edgewater"},
+    "other": "Most unemancipated minors may be paid 15% below the Colorado minimum wage.",
+    "source": {"url": "https://cdle.colorado.gov/sites/cdle/files/info_%231_2026_comps_%26_paycalc_orders_12.18.25.pdf", "quote": "must receive the Colorado minimum wage: $15.16 per hour in 2026. Most minors (but not \"emancipated\" minors) can be paid 15% below the full Colorado minimum wage.", "accessed": "2026-10-11"}
+  },
+  "localMinWages": [
+    {"name": "Denver (City and County)", "rate": 19.29, "from": "2026-01-01", "note": "tipped food and beverage workers $16.27 with $3.02 in documented tips; $19.84 from 2027-01-01 (announced)", "source": {"url": "https://denvergov.org/Government/Agencies-Departments-Offices/Agencies-Departments-Offices-Directory/Auditors-Office/Denver-Labor/Citywide-Minimum-Wage/", "quote": "Denver's local minimum wage is: $19.29 from January 1, 2026 – December 31, 2026. $19.84 from January 1, 2027 – December 31, 2027.", "accessed": "2026-10-11"}},
+    {"name": "City of Boulder", "rate": 16.82, "from": "2026-01-01", "note": "tipped $13.80 (CDLE table); $18.17 from 2027-01-01 under Ordinance 8664", "source": {"url": "https://bouldercolorado.gov/local-minimum-wage", "quote": "Beginning January 1, 2026: $16.82 per hour; Beginning January 1, 2027: $18.17 per hour", "accessed": "2026-10-11"}},
+    {"name": "Boulder County (unincorporated areas only)", "rate": 16.82, "from": "2026-01-01", "note": "tipped $13.80; increase limited to +1.5% for 2026 after the Nov. 20, 2025 amendment; 2027 rate CPI-adjusted, not yet published (county estimates $17.32)", "source": {"url": "https://bouldercounty.gov/departments/commissioners/local-minimum-wage/", "quote": "Starting on Jan. 1, 2026, the local minimum wage in unincorporated Boulder County is $16.82/hour .", "accessed": "2026-10-11"}},
+    {"name": "City of Edgewater", "rate": 18.17, "from": "2026-01-01", "note": "tipped $13.50 per CDLE table; CDLE lists $19.84 for 2027 (tipped TBD)", "source": {"url": "https://cdle.colorado.gov/dlss", "quote": "City of Edgewater $19.84 TBD $18.17 $13.50* $16.52 $13.50 (columns: 2027, 2027 w/ tip credit, 2026, 2026 w/ tip credit, 2025, 2025 w/ tip credit)", "accessed": "2026-10-11"}}
+  ],
+  "overtime": {"weeklyHours": 40, "dailyHours": 12, "doubleTime": null, "seventhDay": null,
+               "exemptSalaryWeekly": 1111.23, "exemptSalaryNote": "$57,784 per year in 2026 for executive/administrative/professional exemptions (COMPS Order), = $1,111.23/week",
+               "note": "time and a half after 40 hours per week, 12 hours per day, or 12 consecutive hours, whichever pays more",
+               "source": {"url": "https://cdle.colorado.gov/sites/cdle/files/info_%231_2026_comps_%26_paycalc_orders_12.18.25.pdf", "quote": "for hours past (A) 40 per week, (B) 12 per day, or (C) any 12 consecutive hours — whichever results in higher pay. ... Exempt Salary : $45,000 $50,000 $55,000 $56,485 $57,784 [2022-2026]", "accessed": "2026-10-11"}},
+  "sickLeave": {"mandatory": true, "accrual": "1 hour for every 30 hours worked", "accrualPerHours": 30,
+                "capHours": 48, "capNote": "up to 48 hours per benefit year, all employers regardless of size; separate public health emergency leave (not currently in effect)",
+                "employerThreshold": "all employers", "effective": null, "note": "Healthy Families and Workplaces Act (HFWA)",
+                "source": {"url": "https://cdle.colorado.gov/sites/cdle/files/info_%236_hfwa_summary_%26_overview_07.19.23.pdf", "quote": "Accrued leave — one hour per 30 hours worked, up to 48 per benefit year ... All employers must provide HFWA leave to all employees in Colorado – regardless of the employer's size", "accessed": "2026-10-11"}},
+  "familyLeave": {"paidProgram": true, "name": "Colorado Paid Family and Medical Leave Insurance (FAMLI)", "benefitsStart": "2024-01-01",
+                  "maxWeeks": 12, "replacement": "90% of the first $804.46 of average weekly wage (half the state AWW of $1,608.91) plus 50% of the rest, up to the maximum",
+                  "maxWeeklyBenefit2026": 1448.02, "medicalLeave": "included in FAMLI (medical leave within the same 12 weeks; up to 16 weeks with pregnancy or childbirth complications)",
+                  "stateUnpaidLaw": null,
+                  "source": {"url": "https://famli.colorado.gov/individuals-and-families/how-famli-works/premium-and-benefits-calculator", "quote": "the first $804.46 of an individual's average weekly wage will be replaced at a rate of 90%, and the rest will be replaced at 50%, up to the maximum benefit amount of $1,448.02", "accessed": "2026-10-11"}},
+  "finalPay": {"fired": "immediately (if payroll unit is closed: within 6 hours of the start of its next regular workday, or 24 hours if off-site)", "firedDays": 0,
+               "quit": "by the next regular payday", "quitNotice": null,
+               "ptoPayout": "required", "ptoNote": "earned, unused vacation must be paid at separation for any reason; forfeiture policies are void",
+               "source": {"url": "https://cdle.colorado.gov/sites/cdle/files/info_%233a_timing_of_wage_payments%2C_%26_required_record-keeping_1.9.2026.pdf", "quote": "When an employer fires or lays off an employee, the employer must immediately pay all wages owed. ... When an employee quits or resigns, the employer must pay all wages owed to the employee by or on the next regular payday", "accessed": "2026-10-11"},
+               "ptoSource": {"url": "https://cdle.colorado.gov/sites/cdle/files/info_%233e_payment_of_earned_vacation_upon_separation_of_employment_05.29.24.pdf", "quote": "unused vacation must be paid when employees separate from employment, whether they are fired with or without cause, resign with or without notice", "accessed": "2026-10-11"}},
+  "breaks": {"meal": "uninterrupted, duty-free 30-minute meal period for shifts over 5 consecutive hours (paid on-duty meal if relief is impractical)", "mealMinutes": 30, "mealAfterHours": 5,
+             "rest": "paid 10-minute rest period for each 4 hours worked or major fraction", "restMinutes": 10, "restPerHours": 4, "minorsOnly": null,
+             "source": {"url": "https://cdle.colorado.gov/sites/cdle/files/info_%234_meal_and_rest_periods_09.15.25.pdf", "quote": "For shifts of over 5 consecutive hours, all employees are entitled to uninterrupted, duty-free meal periods of at least 30 minutes ... paid 10-minute rest periods for each 4 hours of work, or major fraction of that time", "accessed": "2026-10-11"}},
+  "rightToWork": false, "rightToWorkSource": null,
+  "atWill": "at-will",
+  "notes": [
+    {"text": "Colorado has daily overtime: time and a half after 12 hours in a day or 12 consecutive hours, not just after 40 hours a week.", "source": {"url": "https://cdle.colorado.gov/sites/cdle/files/info_%231_2026_comps_%26_paycalc_orders_12.18.25.pdf", "quote": "for hours past (A) 40 per week, (B) 12 per day, or (C) any 12 consecutive hours — whichever results in higher pay", "accessed": "2026-10-11"}},
+    {"text": "The 2027 state minimum wage will be $15.71 ($12.69 for tipped workers), announced August 13, 2026; Denver's will be $19.84.", "source": {"url": "https://cdle.colorado.gov/press-releases/press-release-colorado-minimum-wage-will-increase-to-1571/hour-in-2027", "quote": "Colorado's minimum wage will increase to $15.71 per hour in 2027, and $12.69 for tipped workers ... Denver recently announced its 2027 local minimum wage will be $19.84", "accessed": "2026-10-11"}},
+    {"text": "FAMLI premiums are 0.88% of wages in 2026, split 50/50 between employer and employee by default; CDLE announced a lower 0.86% rate for 2027.", "source": {"url": "https://famli.colorado.gov/individuals-and-families/how-famli-works/premium-and-benefits-calculator", "quote": "The premiums in 2026 are set to 0.88% of the employee's wage, with 0.44% paid by the employer and 0.44% paid by the employee.", "accessed": "2026-10-11"}},
+    {"text": "Unused earned vacation must always be paid out at separation; any policy forfeiting it is void.", "source": {"url": "https://cdle.colorado.gov/sites/cdle/files/info_%233e_payment_of_earned_vacation_upon_separation_of_employment_05.29.24.pdf", "quote": "any agreement that forfeits earned compensation is void and unenforceable", "accessed": "2026-10-11"}}
+  ],
+  "uncertain": [
+    "Edgewater: the city site (edgewaterco.gov) returned 403 to curl and WebFetch; 2026 rate $18.17 / tipped $13.50* and 2027 $19.84 taken from the CDLE DLSS minimum-wage table (official state page).",
+    "familyLeave.maxWeeklyBenefit2026: $1,448.02 applies from July 1, 2026 (FAQ: 'capped at $1,448 per week as of July 1, 2026'); the January-June 2026 cap was not shown on pages read today.",
+    "familyLeave.benefitsStart 2024-01-01: not stated verbatim on pages read today (FAQ examples date leave from 2024); based on program launch.",
+    "sickLeave.effective: HFWA effective dates (2021 for 16+ employees, 2022 for all) not confirmed on a page read today; left null.",
+    "overtime.exemptSalaryWeekly: computed as $57,784 / 52; Colorado sets the threshold annually."
+  ]
+}

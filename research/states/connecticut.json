@@ -1,0 +1,52 @@
+{
+  "slug": "connecticut", "name": "Connecticut", "abbr": "CT",
+  "agency": {"name": "Connecticut Department of Labor, Wage and Workplace Standards Division", "url": "https://portal.ct.gov/dol/divisions/wage-and-workplace-standards"},
+  "minWage": {
+    "rates2026": [ {"from": "2026-01-01", "rate": 16.94, "area": "Statewide", "note": "indexed annually to the employment cost index (CGS 31-58)"} ],
+    "headline": 16.94,
+    "headlineArea": "Statewide",
+    "federalApplies": false,
+    "rates2027": [],
+    "smallEmployer": null,
+    "tipped": {"cashWage": 6.38, "tipCreditAllowed": true, "note": "waitpersons in restaurants and hotels; bartenders $8.23 plus gratuities (2026)"},
+    "other": "Learners, beginners and minors may be paid not less than 85% of the minimum fair wage for a limited initial period under CGS 31-58 (not separately verified for 2026 amounts).",
+    "source": {"url": "https://portal.ct.gov/dol/-/media/dol/2022-new-design-system/divisions/wage-and-workplace-standards/dol-75_adminposter_2026.pdf", "quote": "Minimum wage is annually indexed each year, effective Jan 1. $16.94 per hour effective 1-1-2026 through 12-31-2026 (CGS Sec. 31-58)", "accessed": "2026-10-11"}
+  },
+  "localMinWages": [],
+  "overtime": {"weeklyHours": 40, "dailyHours": null, "doubleTime": null, "seventhDay": "Restaurant and hotel wage order: premium rate for all time worked on the seventh consecutive day (DOL-79)",
+               "exemptSalaryWeekly": null, "exemptSalaryNote": "no state salary threshold above the federal $684/week verified",
+               "note": "time and a half after 40 hours in a workweek",
+               "source": {"url": "https://www.cga.ct.gov/current/pub/chap_558.htm#sec_31-76c", "quote": "No employer ... shall employ any of his employees for a workweek longer than forty hours, unless such employee receives remuneration ... at a rate not less than one and one-half times the regular rate", "accessed": "2026-10-11"}},
+  "sickLeave": {"mandatory": true, "accrual": "1 hour for every 30 hours worked", "accrualPerHours": 30,
+                "capHours": 40, "capNote": "accrues up to 40 hours per year; up to 40 unused hours carry over but use capped at 40 h/year; usable from day 120 of employment",
+                "employerThreshold": "employers with 11+ employees in CT from 2026-01-01 (25+ in 2025); all employers (1+) from 2027-01-01",
+                "effective": "2026-01-01", "note": "2024 expansion (Public Act 24-8) phased in: covers all employees, not only service workers",
+                "source": {"url": "https://www.cga.ct.gov/current/pub/chap_557.htm#sec_31-57s", "quote": "January 1, 2026, for an employee of an employer that employs eleven or more individuals in the state ... at a rate of one hour of paid sick leave for each thirty hours worked ... up to a maximum of forty hours per year", "accessed": "2026-10-11"}},
+  "familyLeave": {"paidProgram": true, "name": "CT Paid Leave", "benefitsStart": "2022-01-01",
+                  "maxWeeks": 12, "replacement": "95% of base weekly earnings up to 40 x the state minimum wage, plus 60% of earnings above that, capped at 60 x the minimum wage",
+                  "maxWeeklyBenefit2026": 1016.40, "medicalLeave": "covered within the same 12 weeks (own serious health condition); +2 weeks for incapacity during pregnancy",
+                  "stateUnpaidLaw": "Connecticut FMLA (CGS 31-51kk to 31-51qq): 12 weeks of job-protected leave per 12 months, employers with 1 or more employees",
+                  "source": {"url": "https://www.cga.ct.gov/current/pub/chap_557.htm", "quote": "ninety-five per cent of the covered employee's base weekly earnings up to an amount equal to forty times the minimum fair wage ... shall not exceed an amount equal to sixty times the minimum fair wage", "accessed": "2026-10-11"}},
+  "finalPay": {"fired": "by the next business day after discharge", "firedDays": 1, "quit": "by the next regular payday", "quitNotice": null,
+               "ptoPayout": "policy", "ptoNote": "accrued vacation/fringe benefits must be paid at termination only if employer policy or a collective bargaining agreement provides for it",
+               "source": {"url": "https://www.cga.ct.gov/current/pub/chap_558.htm#sec_31-71c", "quote": "Whenever an employer discharges an employee, the employer shall pay the employee's wages in full not later than the business day next succeeding the date of such discharge.", "accessed": "2026-10-11"},
+               "ptoSource": {"url": "https://www.cga.ct.gov/current/pub/chap_558.htm#sec_31-76k", "quote": "If an employer policy or collective bargaining agreement provides for the payment of accrued fringe benefits upon termination, including ... paid vacations ... such employee shall be compensated", "accessed": "2026-10-11"}},
+  "breaks": {"meal": "30 consecutive minutes for 7.5 or more consecutive hours, after the first 2 hours and before the last 2 hours", "mealMinutes": 30, "mealAfterHours": 7.5,
+             "rest": null, "restMinutes": null, "restPerHours": null, "minorsOnly": null,
+             "source": {"url": "https://www.cga.ct.gov/current/pub/chap_557.htm#sec_31-51ii", "quote": "No person shall be required to work for seven and one-half or more consecutive hours without a period of at least thirty consecutive minutes for a meal.", "accessed": "2026-10-11"}},
+  "rightToWork": false, "rightToWorkSource": null,
+  "atWill": "at-will",
+  "notes": [
+    {"text": "The minimum wage is indexed to the federal employment cost index: the Labor Commissioner announces the next year's rate every October 15, effective January 1.", "source": {"url": "https://www.cga.ct.gov/current/pub/chap_558.htm#sec_31-58", "quote": "On October 15, 2023, and on each October fifteenth thereafter, the Labor Commissioner shall announce the adjustment in the minimum fair wage", "accessed": "2026-10-11"}},
+    {"text": "Paid sick leave expands to every employer with at least one employee on January 1, 2027, and may also be used for a mental health wellness day.", "source": {"url": "https://www.cga.ct.gov/current/pub/chap_557.htm#sec_31-57r", "quote": "on and after January 1, 2027, employs one or more individuals in the state", "accessed": "2026-10-11"}},
+    {"text": "Restaurant waitpersons may be paid a cash wage of $6.38 and bartenders $8.23 per hour plus tips in 2026.", "source": {"url": "https://portal.ct.gov/dol/-/media/dol/2022-new-design-system/divisions/wage-and-workplace-standards/dol-79_revised_restaurant_final2026.pdf", "quote": "Waitpersons shall be paid $6.38 per hour plus gratuities on 1-1-26 and bartenders shall be paid $8.23 per hour plus gratuities on 1-1-26.", "accessed": "2026-10-11"}}
+  ],
+  "uncertain": [
+    "rates2027: the 2027 rate is announced on October 15, 2026 (after today); not yet published, left empty.",
+    "familyLeave.maxWeeklyBenefit2026 = 60 x $16.94 = $1,016.40, computed from the statutory formula; ctpaidleave.org benefit pages render via JavaScript and the published 2026 figure could not be read.",
+    "familyLeave source quotes the CT General Statutes chapter 557 (Sec. 31-49g); program weeks also confirmed on ctpaidleave.org/how-ct-paid-leave-works ('up to 12 weeks of benefits in a 12-month period').",
+    "minWage.other: youth/learner rate (85%) taken from statutory history, current subdivision text not fully read.",
+    "rightToWork: Connecticut has no right-to-work statute; no official page states this explicitly, so source left null.",
+    "Meal period: Labor Commissioner exemptions apply (public safety, single-employee positions, fewer than 5 employees on a shift)."
+  ]
+}

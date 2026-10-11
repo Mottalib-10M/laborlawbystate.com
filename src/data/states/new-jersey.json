@@ -1,0 +1,193 @@
+{
+ "slug": "new-jersey",
+ "name": "New Jersey",
+ "abbr": "NJ",
+ "agency": {
+  "name": "New Jersey Department of Labor and Workforce Development, Division of Wage and Hour Compliance",
+  "url": "https://www.nj.gov/labor/wageandhour/"
+ },
+ "minWage": {
+  "rates2026": [
+   {
+    "from": "2026-01-01",
+    "rate": 15.92,
+    "area": "Most employers",
+    "note": ""
+   },
+   {
+    "from": "2026-01-01",
+    "rate": 15.23,
+    "area": "Seasonal and small employers (fewer than 6 employees)",
+    "note": ""
+   },
+   {
+    "from": "2026-01-01",
+    "rate": 14.2,
+    "area": "Agricultural employers",
+    "note": ""
+   },
+   {
+    "from": "2026-01-01",
+    "rate": 18.92,
+    "area": "Long-term care facility direct care staff",
+    "note": ""
+   }
+  ],
+  "headline": 15.92,
+  "headlineArea": "Most employers",
+  "federalApplies": false,
+  "rates2027": [
+   {
+    "from": "2027-01-01",
+    "rate": 16.48,
+    "area": "Most employers",
+    "note": "Public notice filed September 23, 2026 (CPI-W +3.52%)"
+   },
+   {
+    "from": "2027-01-01",
+    "rate": 16.25,
+    "area": "Seasonal and small employers (fewer than 6 employees)",
+    "note": "Statutory catch-up rate, per the September 23, 2026 notice"
+   },
+   {
+    "from": "2027-01-01",
+    "rate": 15.0,
+    "area": "Agricultural employers",
+    "note": "Per NJDOL minimum wage flier MW-571 (9/26)"
+   },
+   {
+    "from": "2027-01-01",
+    "rate": 19.48,
+    "area": "Long-term care facility direct care staff",
+    "note": "Per NJDOL minimum wage flier MW-571 (9/26)"
+   },
+   {
+    "from": "2027-01-01",
+    "rate": 6.61,
+    "area": "Cash wage for tipped workers",
+    "note": "Per NJDOL tipped workers page"
+   }
+  ],
+  "smallEmployer": "Seasonal and small employers (fewer than 6 employees): $15.23 in 2026, $16.25 from January 1, 2027.",
+  "tipped": {
+   "cashWage": 6.05,
+   "tipCreditAllowed": true,
+   "note": "2026 cash wage; tips must bring the worker to the full $15.92. Rises to $6.61 on January 1, 2027."
+  },
+  "other": "Separate rates for agricultural employers ($14.20) and long-term care direct care staff ($18.92) in 2026.",
+  "source": {
+   "url": "https://www.nj.gov/labor/wageandhour/assets/PDFs/MW-571_MinWageFlier.pdf",
+   "quote": "January 1, 2026 $15.92 $15.23 $14.20 $6.05 $18.92 January 1, 2027* $16.48 $16.25 $15 $6.61 $19.48",
+   "accessed": "2026-10-11"
+  }
+ },
+ "localMinWages": [],
+ "overtime": {
+  "weeklyHours": 40,
+  "dailyHours": null,
+  "doubleTime": null,
+  "seventhDay": null,
+  "exemptSalaryWeekly": null,
+  "exemptSalaryNote": null,
+  "note": "",
+  "source": {
+   "url": "https://nj.gov/labor/wageandhour/tools-resources/laws/wageandhourlaws.shtml",
+   "quote": "An employer shall also pay each employee not less than 1 1/2 times such employee's regular hourly rate for each hour of working time in excess of 40 hours in any week",
+   "accessed": "2026-10-11"
+  }
+ },
+ "sickLeave": {
+  "mandatory": true,
+  "accrual": "1 hour for every 30 hours worked",
+  "accrualPerHours": 30,
+  "capHours": 40,
+  "capNote": "Employers of all sizes: up to 40 hours per benefit year; up to 40 unused hours carry over, but use can be capped at 40 per year. Employers may front-load 40 hours.",
+  "employerThreshold": "all employers",
+  "effective": "2018-10-29",
+  "note": "Covers full-time, part-time and temporary employees.",
+  "source": {
+   "url": "https://www.nj.gov/labor/myworkrights/leave-benefits/sick-leave/",
+   "quote": "Employers of all sizes must provide full-time, part-time, and temporary employees with up to 40 hours of earned sick leave per year",
+   "accessed": "2026-10-11"
+  }
+ },
+ "familyLeave": {
+  "paidProgram": true,
+  "name": "New Jersey Family Leave Insurance (FLI)",
+  "benefitsStart": "2009-07-01",
+  "maxWeeks": 12,
+  "replacement": "85% of the average weekly wage, up to the annual maximum",
+  "maxWeeklyBenefit2026": 1119,
+  "medicalLeave": "Temporary Disability Insurance (TDI) covers the worker's own illness or injury (same $1,119 maximum in 2026)",
+  "stateUnpaidLaw": "New Jersey Family Leave Act (NJFLA): up to 12 weeks of job-protected leave in a 24-month period, employers with 30+ employees worldwide and all state/local government agencies",
+  "source": {
+   "url": "https://myleavebenefits.nj.gov/worker/fli/",
+   "quote": "Claimants are paid 85% of their average weekly wage, up to the maximum weekly benefit rate ... In 2026, the maximum weekly benefit rate is $1,119 per week.",
+   "accessed": "2026-10-11"
+  }
+ },
+ "finalPay": {
+  "fired": "by the next regular payday for the pay period in which employment ended",
+  "firedDays": null,
+  "quit": "by the next regular payday for the pay period in which employment ended",
+  "quitNotice": null,
+  "ptoPayout": "policy",
+  "ptoNote": "No statute requires vacation payout; it is owed if it is a benefit arising out of the employment contract or policy.",
+  "source": {
+   "url": "https://nj.gov/labor/wageandhour/tools-resources/laws/selectedstatelaborlaws.shtml",
+   "quote": "the employer shall pay the employee all wages due not later than the regular payday for the pay period during which the employee's termination, suspension or cessation of employment ... took place",
+   "accessed": "2026-10-11"
+  },
+  "ptoSource": {
+   "url": "https://nj.gov/labor/wageandhour/tools-resources/laws/selectedstatelaborlaws.shtml",
+   "quote": "\"Wages\" means any moneys due an employee from the employer ... and shall include commissions, bonus, piecework compensation and any other benefits arising out of an employment contract.",
+   "accessed": "2026-10-11"
+  }
+ },
+ "breaks": {
+  "meal": null,
+  "mealMinutes": null,
+  "mealAfterHours": null,
+  "rest": null,
+  "restMinutes": null,
+  "restPerHours": null,
+  "minorsOnly": "Minors (under 18): a half-hour break after 5 consecutive hours",
+  "source": {
+   "url": "https://nj.gov/labor/wageandhour/tools-resources/laws/childlaborlaws.shtml",
+   "quote": "for more than five consecutive hours without a half-hour break",
+   "accessed": "2026-10-11"
+  }
+ },
+ "rightToWork": false,
+ "rightToWorkSource": null,
+ "atWill": "at-will",
+ "notes": [
+  {
+   "text": "Minimum wage rises to $16.48 on January 1, 2027 ($16.25 for seasonal and small employers), per the official notice filed September 23, 2026.",
+   "source": {
+    "url": "https://www.nj.gov/labor/assets/PDFs/Legal%20Notices/Other/Public%20Notice%20Minimum%20Wage%202027_FINAL%202.pdf",
+    "quote": "the State minimum hourly wage rate, effective January 1, 2027, must be changed from $15.92 to $16.48.",
+    "accessed": "2026-10-11"
+   }
+  },
+  {
+   "text": "Family Leave Insurance can be taken as 12 consecutive weeks or up to 56 intermittent days in a 12-month period.",
+   "source": {
+    "url": "https://myleavebenefits.nj.gov/worker/fli/",
+    "quote": "Workers can receive benefits for twelve consecutive weeks (84 days) or up to eight weeks (56 days) of intermittent leave in a 12-month period.",
+    "accessed": "2026-10-11"
+   }
+  },
+  {
+   "text": "Long-term care facility direct care staff have their own, higher minimum wage: $18.92 in 2026, $19.48 in 2027.",
+   "source": {
+    "url": "https://www.nj.gov/labor/wageandhour/assets/PDFs/MW-571_MinWageFlier.pdf",
+    "quote": "Wage for Long-Term Care Facility Direct Care Staff ... January 1, 2026 ... $18.92",
+    "accessed": "2026-10-11"
+   }
+  }
+ ],
+ "uncertain": [
+  "NJFLA details (30+ employees, 12 weeks/24 months) taken from the myleavebenefits.nj.gov 'more protections' page; FLI start date from the official FLI poster PR-2 (2009)."
+ ]
+}

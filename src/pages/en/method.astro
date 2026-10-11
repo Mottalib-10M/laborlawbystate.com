@@ -1,0 +1,35 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+import { route } from '../../i18n/routes';
+import { breadcrumbSchema, webPageSchema } from '../../lib/seo';
+import { STATES, F, FM, ACA, rate$, usd, day, names } from '../../lib/kit';
+import { table, ext, SOURCES } from '../../lib/helpers';
+import { LAST_UPDATED as LAST } from '../../data/site-config';
+const lang = 'en';
+const title = 'Labor Law Calculator Method 2026: Data, Rules, Limits';
+const description = 'How the 2026 minimum wage, overtime, FMLA, sick leave, break and final paycheck calculators apply federal and state rules, where each value comes from and what they leave out.';
+const path = route('method', lang);
+const daily = STATES.filter((s) => s.overtime.dailyHours);
+const unsure = STATES.filter((s) => s.uncertain.length);
+const srcRows = Object.entries(SOURCES).map(([, s]) => [s.label, ext(s.url, new URL(s.url).hostname.replace(/^www\./, ''))]);
+---
+<PageLayout title={title} description={description} lang={lang} jsonLd={[webPageSchema({ name: 'How we check the rules', description, path, lang }), breadcrumbSchema([{ name: 'Home', path: route('home', lang) }, { name: 'How we check the rules', path }])]} breadcrumbs={[{ label: 'How we check the rules' }]}>
+  <header class="mb-6"><h1 class="font-serif text-3xl font-bold text-navy-900 md:text-4xl">How the rules are checked and calculated</h1>
+  <p class="mt-3 text-lg text-navy-700">One data file per state with a quoted, dated official source for each value, one file of federal parameters, small functions that apply the rules in your browser, and tests run before every release.</p></header>
+  <div class="prose prose-slate max-w-none prose-headings:font-serif">
+    <h2>Where the state rules come from</h2>
+    <p>For each of the 50 states and the District of Columbia we read the labor department or wage and hour division, the paid leave agency where there is one, the statute on the legislature's site, and the city or county page for local minimum wages. Each value is stored with the page address, a short quotation and the date read. Payroll vendors, law firm blogs and wage aggregators are never used as sources. When a point could not be confirmed on an official page, it is left out rather than guessed, and the file says so; {unsure.length} state files currently carry such a note, which keeps the related field empty or explained on the page.</p>
+    <h2>Minimum wage</h2>
+    <p>Each state file lists every general rate in force at some point in 2026, with its start date and the workers it covers (statewide, a region, small employers), and any rate already announced for 2027. The rate shown as "now" is the one in force on {day(LAST)}, never below the federal {rate$(F.minWage)} for covered employers. Earnings are straight time: rate times hours, 52 weeks a year, a month being a twelfth of the year. Tips, overtime, youth and training wages and industry rates are not included in that figure.</p>
+    <h2>Overtime</h2>
+    <p>The calculator takes a regular rate, a number of hours per day and days per week. It applies the state's daily threshold where there is one ({names(daily)}), double time where the state requires it, the California seventh-day rule, and the weekly threshold, without counting the same hour twice. It then computes the same week under the federal rule alone ({F.otMultiplier} times the regular rate after {F.otWeeklyHours} hours) and shows the larger result, since a worker covered by both laws receives the more favorable one. Exemptions are not decided by the calculator; the salary test uses the federal {usd(F.exemptWeekly)} a week or the state's higher level.</p>
+    <h2>FMLA, full time and sick leave</h2>
+    <p>The FMLA check applies the tests of 29 CFR 825.110: {FM.months} months of service, {FM.hours.toLocaleString('en-US')} hours in the past 12 months, {FM.worksiteEmployees} employees within {FM.radiusMiles} miles, and a covered employer. Leave left is {FM.weeks} workweeks (or {FM.militaryCaregiverWeeks} for military caregiver leave) minus the weeks entered. The full-time check uses the IRS definition ({ACA.fullTimeWeekly} hours a week or {ACA.fullTimeMonthly} a month). Sick leave accrual multiplies the hours worked by the state rate and stops at the cap that applies to a typical employer; some states set lower caps for small employers, as the state pages explain.</p>
+    <h2>Final paycheck and breaks</h2>
+    <p>Where a state sets a fixed number of days after a dismissal, the calculator adds them to the last day of work; where the deadline is the next regular payday, it states the rule, since only you know your pay schedule. Breaks are counted for adults from the state rule: a meal period once a shift passes the state threshold, and a paid rest break per block of hours, with an extra one for a remaining major fraction.</p>
+    <h2>What the calculators leave out</h2>
+    <ul><li>union contracts and collective agreements, which can set better terms;</li><li>industry wage orders, agricultural, domestic and public-sector rules, unless the state page says otherwise;</li><li>tips, commissions and bonuses in the regular rate (enter your own regular rate);</li><li>the duties test of the overtime exemptions;</li><li>exact benefit amounts of paid family leave programs, which depend on your own wage history.</li></ul>
+    <h2>Federal sources</h2>
+    <Fragment set:html={table(['Document', 'Source'], srcRows, 'Federal parameters of params-2026.json, read on the dates shown in the file.', ['l', 'l'])} />
+  </div>
+</PageLayout>

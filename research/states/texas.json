@@ -1,0 +1,48 @@
+{
+  "slug": "texas", "name": "Texas", "abbr": "TX",
+  "agency": {"name": "Texas Workforce Commission, Labor Law (Wage and Hour)", "url": "https://www.twc.texas.gov/programs/wage-hour"},
+  "minWage": {
+    "rates2026": [
+      {"from": "2026-01-01", "rate": 7.25, "area": "Statewide", "note": "The Texas Minimum Wage Act adopts the federal minimum wage (FLSA section 6)"}
+    ],
+    "headline": 7.25,
+    "headlineArea": "Statewide",
+    "federalApplies": true,
+    "rates2027": [],
+    "smallEmployer": "The state law ties the minimum wage to the federal rate ($7.25); employees covered by the FLSA are excluded from the state act and protected by federal law directly. Employers not liable for state unemployment contributions are exempt (except agriculture).",
+    "tipped": {"cashWage": 2.13, "tipCreditAllowed": true, "note": "Same as FLSA section 3(m): $2.13 cash wage, tips must bring pay to $7.25; tipped employee = more than $20 a month in tips"},
+    "other": "Exempt from the state act: under-18s who are not high school graduates, students under 20 enrolled in school, domestic workers, seasonal amusement establishments, white-collar exempt staff, among others (Labor Code 62.151-62.160).",
+    "source": {"url": "https://tcss.legis.texas.gov/resources/LA/htm/LA.62.htm", "quote": "Sec. 62.051. MINIMUM WAGE. Except as provided by Section 62.057, an employer shall pay to each employee the federal minimum wage under Section 6, Fair Labor Standards Act of 1938", "accessed": "2026-10-11"}
+  },
+  "localMinWages": [],
+  "overtime": {"weeklyHours": null, "dailyHours": null, "doubleTime": null, "seventhDay": null,
+               "exemptSalaryWeekly": null, "exemptSalaryNote": null,
+               "note": "No Texas overtime statute for private employers; the federal FLSA (time and a half after 40 hours a week) applies.",
+               "source": {"url": "https://tcss.legis.texas.gov/resources/LA/htm/LA.62.htm", "quote": "This chapter and a municipal ordinance or charter provision governing wages in private employment ... do not apply to a person covered by the Fair Labor Standards Act", "accessed": "2026-10-11"}},
+  "sickLeave": {"mandatory": false, "accrual": null, "accrualPerHours": null,
+                "capHours": null, "capNote": null,
+                "employerThreshold": null, "effective": null, "note": "No statewide paid sick leave law for private employers.",
+                "source": null},
+  "familyLeave": {"paidProgram": false, "name": null, "benefitsStart": null,
+                  "maxWeeks": null, "replacement": null, "maxWeeklyBenefit2026": null, "medicalLeave": null,
+                  "stateUnpaidLaw": null, "source": null},
+  "finalPay": {"fired": "no later than the sixth day after discharge", "firedDays": 6,
+               "quit": "no later than the next regularly scheduled payday", "quitNotice": null,
+               "ptoPayout": "policy", "ptoNote": "Vacation, holiday, sick or severance pay counts as wages (and must be paid at separation) only when owed under a written agreement or written policy of the employer.",
+               "source": {"url": "https://tcss.legis.texas.gov/resources/LA/htm/LA.61.htm", "quote": "An employer shall pay in full an employee who is discharged from employment not later than the sixth day after the date the employee is discharged.", "accessed": "2026-10-11"},
+               "ptoSource": {"url": "https://tcss.legis.texas.gov/resources/LA/htm/LA.61.htm", "quote": "vacation pay, holiday pay, sick leave pay, parental leave pay, or severance pay owed to an employee under a written agreement with the employer or under a written policy of the employer", "accessed": "2026-10-11"}},
+  "breaks": {"meal": null, "mealMinutes": null, "mealAfterHours": null,
+             "rest": null, "restMinutes": null, "restPerHours": null, "minorsOnly": null, "source": null},
+  "rightToWork": true,
+  "rightToWorkSource": {"url": "https://tcss.legis.texas.gov/resources/LA/htm/LA.101.htm", "quote": "Sec. 101.052. DENIAL OF EMPLOYMENT BASED ON LABOR UNION MEMBERSHIP PROHIBITED. A person may not be denied employment based on membership or nonmembership in a labor union.", "accessed": "2026-10-11"},
+  "atWill": "at-will",
+  "notes": [
+    {"text": "Cities cannot set their own private-sector minimum wage: the state minimum wage supersedes any local ordinance, order or charter provision on private wages (except public contracts).", "source": {"url": "https://tcss.legis.texas.gov/resources/LA/htm/LA.62.htm", "quote": "the minimum wage provided by this chapter supersedes a wage established in an ordinance, order, or charter provision governing wages in private employment, other than wages under a public contract", "accessed": "2026-10-11"}},
+    {"text": "Union dues cannot be withheld from pay without the employee's written consent.", "source": {"url": "https://tcss.legis.texas.gov/resources/LA/htm/LA.101.htm", "quote": "A contract that permits or requires the retention of part of an employee's compensation to pay dues or assessments ... is void unless the employee delivers to the employer the employee's written consent", "accessed": "2026-10-11"}}
+  ],
+  "uncertain": [
+    "twc.texas.gov returns HTTP 403 to curl and WebFetch; all values come from the Texas Labor Code (official file server tcss.legis.texas.gov behind statutes.capitol.texas.gov), cross-checked with the U.S. DOL tipped table (Texas $7.25 / $2.13).",
+    "Paid sick leave: no state law; the absence of local sick-leave ordinances (Austin/Dallas/San Antonio ordinances were blocked by courts and 2023 HB 2127 preemption) was not verified on an official page.",
+    "Breaks: no adult meal/rest break statute found; child-labor break rules not checked, minorsOnly left null."
+  ]
+}

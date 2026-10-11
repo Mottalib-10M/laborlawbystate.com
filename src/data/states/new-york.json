@@ -1,0 +1,163 @@
+{
+ "slug": "new-york",
+ "name": "New York",
+ "abbr": "NY",
+ "agency": {
+  "name": "New York State Department of Labor",
+  "url": "https://dol.ny.gov/"
+ },
+ "minWage": {
+  "rates2026": [
+   {
+    "from": "2026-01-01",
+    "rate": 17.0,
+    "area": "New York City, Long Island and Westchester",
+    "note": ""
+   },
+   {
+    "from": "2026-01-01",
+    "rate": 16.0,
+    "area": "Rest of state",
+    "note": ""
+   }
+  ],
+  "headline": 16.0,
+  "headlineArea": "Rest of state",
+  "federalApplies": false,
+  "rates2027": [
+   {
+    "from": "2027-01-01",
+    "rate": 17.0,
+    "area": "New York City, Long Island and Westchester",
+    "note": "No inflation increase for 2027: NYSDOL says an 'off-ramp' condition was met, so rates stay the same. Home care aides rise to $20.00 (NYC/LI/Westchester) and $19.00 (rest of state). Governor proposes changing the off-ramp."
+   },
+   {
+    "from": "2027-01-01",
+    "rate": 16.0,
+    "area": "Rest of state",
+    "note": "Unchanged from 2026 (off-ramp met), per NYSDOL minimum wage page."
+   }
+  ],
+  "smallEmployer": null,
+  "tipped": {
+   "cashWage": 11.35,
+   "tipCreditAllowed": true,
+   "note": "Tipped food service workers in NYC, Long Island and Westchester ($10.70 rest of state); tipped service employees $14.15 / $13.30. Only hospitality employers may take a tip credit."
+  },
+  "other": "Separate rates for home care aides, fast food workers and farm workers; no general youth/training wage below the minimum in the Miscellaneous Wage Order summary.",
+  "source": {
+   "url": "https://dol.ny.gov/minimum-wage-0",
+   "quote": "On January 1, 2027, New York's minimum wage will stay the same. The minimum wage rates will be: $17.00 per hour in New York City, Long Island, and Westchester County $16.00 per hour in the rest of New York State",
+   "accessed": "2026-10-11"
+  }
+ },
+ "localMinWages": [],
+ "overtime": {
+  "weeklyHours": 40,
+  "dailyHours": null,
+  "doubleTime": null,
+  "seventhDay": null,
+  "exemptSalaryWeekly": 1199.1,
+  "exemptSalaryNote": "Executive/administrative exemption, 2026: $1,199.10/week rest of state; $1,275.00/week in New York City, Long Island and Westchester.",
+  "note": "Overtime after 40 hours (44 for residential/live-in employees). Farm workers: over 52 hours a week from 2026-01-01, stepping down to 40 by 2032.",
+  "source": {
+   "url": "https://forms.labor.ny.gov/WP/Part142.pdf",
+   "quote": "EXECUTIVE AND ADMINISTRATIVE EXEMPTION (per week) ... Long Island & Westchester ... $1,275.00 Remainder of New York State ... $1,199.10 [01/01/26]",
+   "accessed": "2026-10-11"
+  }
+ },
+ "sickLeave": {
+  "mandatory": true,
+  "accrual": "1 hour for every 30 hours worked",
+  "accrualPerHours": 30,
+  "capHours": 56,
+  "capNote": "100+ employees: 56 h paid; 5-99 employees: 40 h paid; 0-4 employees: 40 h unpaid (paid if net income over $1 million)",
+  "employerThreshold": "all employers",
+  "effective": "2020-09-30",
+  "note": "Accrual began September 30, 2020; use from January 1, 2021.",
+  "source": {
+   "url": "https://www.ny.gov/programs/new-york-paid-sick-leave",
+   "quote": "Leave must be accrued at rate not less than one hour for every thirty hours worked.",
+   "accessed": "2026-10-11"
+  }
+ },
+ "familyLeave": {
+  "paidProgram": true,
+  "name": "New York Paid Family Leave",
+  "benefitsStart": "2018-01-01",
+  "maxWeeks": 12,
+  "replacement": "67% of the employee's average weekly wage, capped at 67% of the state average weekly wage",
+  "maxWeeklyBenefit2026": 1228.53,
+  "medicalLeave": "Separate statutory short-term disability benefits (DBL), not part of PFL",
+  "stateUnpaidLaw": null,
+  "source": {
+   "url": "https://paidfamilyleave.ny.gov/2026",
+   "quote": "Employees taking Paid Family Leave receive 67% of their average weekly wage ... The maximum weekly benefit is $1,228.53",
+   "accessed": "2026-10-11"
+  }
+ },
+ "finalPay": {
+  "fired": "by the next regular payday for the pay period in which employment ended",
+  "firedDays": null,
+  "quit": "by the next regular payday for the pay period in which employment ended",
+  "quitNotice": null,
+  "ptoPayout": "policy",
+  "ptoNote": "Accrued vacation must be paid unless the employer told employees in writing of a forfeiture policy.",
+  "source": {
+   "url": "https://www.nysenate.gov/legislation/laws/LAB/191",
+   "quote": "If employment is terminated, the employer shall pay the wages not later than the regular pay day for the pay period during which the termination occurred",
+   "accessed": "2026-10-11"
+  },
+  "ptoSource": {
+   "url": "https://dol.ny.gov/wages-and-hours-frequently-asked-questions",
+   "quote": "An employee has earned vacation time AND... There is no written forfeit policy THEN... The employer must pay the employee for the accrued vacation",
+   "accessed": "2026-10-11"
+  }
+ },
+ "breaks": {
+  "meal": "30 minutes (unpaid) for shifts over 6 hours that span 11 am to 2 pm, taken between 11 am and 2 pm; additional meal periods for early/late shifts",
+  "mealMinutes": 30,
+  "mealAfterHours": 6,
+  "rest": null,
+  "restMinutes": null,
+  "restPerHours": null,
+  "minorsOnly": null,
+  "source": {
+   "url": "https://dol.ny.gov/wages-and-hours-frequently-asked-questions",
+   "quote": "Work a shift of more than six hours starting before 11 AM AND Continue until 2 PM MUST Have an uninterrupted lunch period of AT LEAST Half an hour between 11 AM and 2 PM",
+   "accessed": "2026-10-11"
+  }
+ },
+ "rightToWork": false,
+ "rightToWorkSource": null,
+ "atWill": "at-will",
+ "notes": [
+  {
+   "text": "Since January 1, 2025, every employer must give 20 hours of paid prenatal personal leave per year, separate from sick leave.",
+   "source": {
+    "url": "https://www.nysenate.gov/legislation/laws/LAB/196-B",
+    "quote": "on and after January first, two thousand twenty-five, every employer shall be required to provide to its employees twenty hours of paid prenatal personal leave",
+    "accessed": "2026-10-11"
+   }
+  },
+  {
+   "text": "The minimum wage will NOT rise on January 1, 2027: an inflation 'off-ramp' was triggered, so rates stay at $17.00 / $16.00 (home care aides still rise).",
+   "source": {
+    "url": "https://dol.ny.gov/minimum-wage-0",
+    "quote": "For 2027, the conditions for one of the off-ramps has been met. As a result, the minimum wage will not receive an inflation-based increase on January 1, 2027",
+    "accessed": "2026-10-11"
+   }
+  },
+  {
+   "text": "Farm workers' overtime threshold dropped to 52 hours a week on January 1, 2026, on its way to 40 hours in 2032.",
+   "source": {
+    "url": "https://dol.ny.gov/wages-and-hours-frequently-asked-questions",
+    "quote": "52 in a calendar week on or after 01/01/2026; 48 in a calendar week on or after 01/01/2028",
+    "accessed": "2026-10-11"
+   }
+  }
+ ],
+ "uncertain": [
+  "paidfamilyleave.ny.gov blocks curl; PFL 2026 values read via WebFetch rendering of the official page (not cross-checked against a second official page)."
+ ]
+}

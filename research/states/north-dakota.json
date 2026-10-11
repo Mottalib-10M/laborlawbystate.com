@@ -1,0 +1,40 @@
+{
+  "slug": "north-dakota", "name": "North Dakota", "abbr": "ND",
+  "agency": {"name": "North Dakota Department of Labor and Human Rights, Wage & Hour Division", "url": "https://www.nd.gov/labor/"},
+  "minWage": {
+    "rates2026": [ {"from": "2015-08-01", "rate": 7.25, "area": "Statewide", "note": "Unchanged throughout 2026; same as the federal minimum"} ],
+    "headline": 7.25,
+    "headlineArea": "Statewide",
+    "federalApplies": false,
+    "rates2027": [],
+    "smallEmployer": null,
+    "tipped": {"cashWage": 4.86, "tipCreditAllowed": true, "note": "Tip credit of 33% of the minimum wage; tipped employee = more than $30/month in tips; employer must ensure the full $7.25 with tips"},
+    "other": "Sub-minimum wages only under a Department license (Sub-minimum Wage Licensing).",
+    "source": {"url": "https://www.nd.gov/labor/sites/www/files/documents/Min%20Wage%20Poster%20-%20Be%20Legenday%20Logo.pdf", "quote": "Effective Date: August 1, 2015 MINIMUM WAGE RATE: $7.25", "accessed": "2026-10-11"}
+  },
+  "localMinWages": [],
+  "overtime": {"weeklyHours": 40, "dailyHours": null, "doubleTime": null, "seventhDay": null,
+    "exemptSalaryWeekly": null, "exemptSalaryNote": null,
+    "note": "Compensatory time is not legal for non-exempt private employees.",
+    "source": {"url": "https://www.nd.gov/labor/sites/www/files/documents/Min%20Wage%20Poster%20-%20Be%20Legenday%20Logo.pdf", "quote": "Overtime pay must be paid at one and one-half times the employee's regular rate of pay for hours worked over forty in any work week.", "accessed": "2026-10-11"}},
+  "sickLeave": {"mandatory": false, "accrual": null, "accrualPerHours": null, "capHours": null, "capNote": null,
+    "employerThreshold": null, "effective": null, "note": "No state paid sick leave law for private employers.", "source": null},
+  "familyLeave": {"paidProgram": false, "name": null, "benefitsStart": null, "maxWeeks": null, "replacement": null,
+    "maxWeeklyBenefit2026": null, "medicalLeave": null, "stateUnpaidLaw": null, "source": null},
+  "finalPay": {"fired": "by the next regular payday for the period worked; sent by certified mail (or as agreed)", "firedDays": null,
+    "quit": "by the next regular payday for the period worked", "quitNotice": null,
+    "ptoPayout": "required", "ptoNote": "Paid time off made available for use is wages at separation and cannot be forfeited; exceptions: voluntary quit with under 1 year of service and less than 5 days' notice if the employee was told in writing at hire, and awarded-but-unearned PTO. Use-it-or-lose-it allowed with notice.",
+    "source": {"url": "https://www.nd.gov/labor/sites/www/files/documents/Min%20Wage%20Poster%20-%20Be%20Legenday%20Logo.pdf", "quote": "unpaid wages or compensation become due and payable at the regular payday(s) established in advance by the employer for the period(s) worked by the employee.", "accessed": "2026-10-11"},
+    "ptoSource": {"url": "https://www.nd.gov/labor/sites/www/files/documents/Min%20Wage%20Poster%20-%20Be%20Legenday%20Logo.pdf", "quote": "Once paid time off is made available for an employee's use, any unused portion of such time is considered wages upon separation from employment and must be paid", "accessed": "2026-10-11"}},
+  "breaks": {"meal": "30-minute meal period for shifts over 5 hours when two or more employees are on duty (employee may waive)", "mealMinutes": 30, "mealAfterHours": 5,
+    "rest": null, "restMinutes": null, "restPerHours": null, "minorsOnly": null,
+    "source": {"url": "https://www.nd.gov/labor/sites/www/files/documents/Min%20Wage%20Poster%20-%20Be%20Legenday%20Logo.pdf", "quote": "A minimum 30-minute meal period must be provided in shifts exceeding five hours when there are two or more employees on duty.", "accessed": "2026-10-11"}},
+  "rightToWork": true,
+  "rightToWorkSource": {"url": "https://www.nd.gov/labor/sites/www/files/documents/Min%20Wage%20Poster%20-%20Be%20Legenday%20Logo.pdf", "quote": "RIGHT TO WORK N.D.C.C. § 34-01-14 An individual's right to work may not be denied or abridged due to membership or nonmembership in any labor union", "accessed": "2026-10-11"},
+  "atWill": "at-will",
+  "notes": [
+    {"text": "Unlike most states, North Dakota treats accrued vacation/PTO as wages that must be paid out at separation; a policy cannot make it forfeit (narrow exceptions).", "source": {"url": "https://www.nd.gov/labor/sites/www/files/documents/Min%20Wage%20Poster%20-%20Be%20Legenday%20Logo.pdf", "quote": "No employment contract or policy may provide for forfeiture of earned paid time off upon separation.", "accessed": "2026-10-11"}},
+    {"text": "When an employer fires someone, the final paycheck must be sent by certified mail to an address the employee designates, unless agreed otherwise.", "source": {"url": "https://www.nd.gov/labor/sites/www/files/documents/Min%20Wage%20Poster%20-%20Be%20Legenday%20Logo.pdf", "quote": "When an employer terminates an employee, the employer shall pay those wages to the employee by certified mail at an address designated by the employee", "accessed": "2026-10-11"}}
+  ],
+  "uncertain": ["Rates and rules taken from the official ND Minimum Wage & Work Conditions Summary Poster (minimum wage effective 2015); the nd.gov FAQ page loads by script and could not be read. $7.25 cross-checked on dol.gov state table (updated 2026-07-01)."]
+}

@@ -1,0 +1,21 @@
+---
+/** Renders a calculator with the compact state data (server side) as a hydrated island. `state` preselects (with `lock`, fixes) the state. */
+import RightsTool from './calc/RightsTool';
+import MinWageTool from './calc/MinWageTool';
+import OvertimeTool from './calc/OvertimeTool';
+import FmlaTool from './calc/FmlaTool';
+import FinalPayTool from './calc/FinalPayTool';
+import { clientStates } from '../lib/client-data';
+import { route } from '../i18n/routes';
+import type { ToolKind } from '../lib/page-types';
+interface Props { kind: ToolKind; state?: string; lock?: boolean; idPrefix?: string; methodHref?: string }
+const { kind, state = 'california', lock = false, idPrefix, methodHref = route('method', 'en') } = Astro.props;
+const all = clientStates();
+const list = lock ? all.filter((s) => s.slug === state) : all;
+const pre = idPrefix ?? `${kind.slice(0, 3)}${state.slice(0, 3)}`;
+---
+{kind === 'rights' && <RightsTool client:load states={list} state={state} lockState={lock} methodHref={methodHref} idPrefix={pre} />}
+{kind === 'minwage' && <MinWageTool client:load states={list} state={state} lockState={lock} methodHref={methodHref} idPrefix={pre} />}
+{kind === 'overtime' && <OvertimeTool client:load states={list} state={state} lockState={lock} methodHref={methodHref} idPrefix={pre} />}
+{kind === 'fmla' && <FmlaTool client:load states={list} state={state} lockState={lock} methodHref={methodHref} idPrefix={pre} />}
+{kind === 'finalpay' && <FinalPayTool client:load states={list} state={state} lockState={lock} methodHref={methodHref} idPrefix={pre} />}

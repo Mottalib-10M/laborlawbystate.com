@@ -1,0 +1,134 @@
+{
+ "slug": "louisiana",
+ "name": "Louisiana",
+ "abbr": "LA",
+ "agency": {
+  "name": "Louisiana Workforce Commission",
+  "url": "https://www.laworks.net/"
+ },
+ "minWage": {
+  "rates2026": [
+   {
+    "from": "2026-01-01",
+    "rate": 7.25,
+    "area": "Statewide (federal minimum)",
+    "note": "No state minimum wage law; the federal FLSA rate applies to covered employers"
+   }
+  ],
+  "headline": 7.25,
+  "headlineArea": "Statewide (federal minimum)",
+  "federalApplies": true,
+  "rates2027": [],
+  "smallEmployer": "No state minimum wage law: employers not covered by the FLSA have no minimum wage obligation under state law.",
+  "tipped": {
+   "cashWage": 2.13,
+   "tipCreditAllowed": true,
+   "note": "Federal tipped cash wage (FLSA); tips must bring pay to $7.25"
+  },
+  "other": "Federal minimum wage applies (no state law).",
+  "source": {
+   "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+   "quote": "No state minimum wage law. Employers subject to the Fair Labor Standards Act must pay the current Federal minimum wage of $7.25 per hour.",
+   "accessed": "2026-10-11"
+  }
+ },
+ "localMinWages": [],
+ "overtime": {
+  "weeklyHours": null,
+  "dailyHours": null,
+  "doubleTime": null,
+  "seventhDay": null,
+  "exemptSalaryWeekly": null,
+  "exemptSalaryNote": null,
+  "note": "No state overtime law; federal FLSA overtime (after 40 hours a week) applies to covered employers.",
+  "source": {
+   "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+   "quote": "No state minimum wage law. Employers subject to the Fair Labor Standards Act must pay the current Federal minimum wage of $7.25 per hour.",
+   "accessed": "2026-10-11"
+  }
+ },
+ "sickLeave": {
+  "mandatory": false,
+  "accrual": null,
+  "accrualPerHours": null,
+  "capHours": null,
+  "capNote": null,
+  "employerThreshold": null,
+  "effective": null,
+  "note": "No statewide paid sick leave law for private employers.",
+  "source": null
+ },
+ "familyLeave": {
+  "paidProgram": false,
+  "name": null,
+  "benefitsStart": null,
+  "maxWeeks": null,
+  "replacement": null,
+  "maxWeeklyBenefit2026": null,
+  "medicalLeave": null,
+  "stateUnpaidLaw": null,
+  "source": null
+ },
+ "finalPay": {
+  "fired": "on or before the next regular payday or within 15 days of discharge, whichever comes first",
+  "firedDays": null,
+  "quit": "on or before the next regular payday for the pay cycle worked, or within 15 days of resignation, whichever comes first",
+  "quitNotice": null,
+  "ptoPayout": "required",
+  "ptoNote": "Vacation accrued and unused under the employer's policy is wages due at separation; earned vacation pay cannot be forfeited.",
+  "source": {
+   "url": "https://www.legis.la.gov/legis/Law.aspx?d=83945",
+   "quote": "on or before the next regular payday or no later than fifteen days following the date of discharge, whichever occurs first.",
+   "accessed": "2026-10-11"
+  },
+  "ptoSource": {
+   "url": "https://www.legis.la.gov/legis/Law.aspx?d=83945",
+   "quote": "The provisions of this Subsection shall not be interpreted to allow the forfeiture of any vacation pay actually earned by an employee pursuant to the employer's policy.",
+   "accessed": "2026-10-11"
+  }
+ },
+ "breaks": {
+  "meal": null,
+  "mealMinutes": null,
+  "mealAfterHours": null,
+  "rest": null,
+  "restMinutes": null,
+  "restPerHours": null,
+  "minorsOnly": "Minors under 16: a 30-minute meal interval in any 5-hour work period.",
+  "source": {
+   "url": "https://www.legis.la.gov/legis/Law.aspx?d=83835",
+   "quote": "No minor under sixteen years of age shall be employed, permitted, or suffered to work for any five-hour period without one interval of at least thirty minutes",
+   "accessed": "2026-10-11"
+  }
+ },
+ "rightToWork": true,
+ "rightToWorkSource": {
+  "url": "https://www.legis.la.gov/legis/Law.aspx?d=84031",
+  "quote": "No person shall be required, as a condition of employment, to become or remain a member of any labor organization, or to pay any dues, fees",
+  "accessed": "2026-10-11"
+ },
+ "atWill": "at-will",
+ "notes": [
+  {
+   "text": "Final wages are due by the next regular payday or within 15 days, whichever comes first, whether the worker is fired or quits.",
+   "source": {
+    "url": "https://www.legis.la.gov/legis/Law.aspx?d=83945",
+    "quote": "on or before the next regular payday for the pay cycle during which the employee was working at the time of separation or no later than fifteen days following the date of resignation",
+    "accessed": "2026-10-11"
+   }
+  },
+  {
+   "text": "Earned vacation pay cannot be forfeited at separation under an employer policy (La. R.S. 23:631(D)).",
+   "source": {
+    "url": "https://www.legis.la.gov/legis/Law.aspx?d=83945",
+    "quote": "shall not be interpreted to allow the forfeiture of any vacation pay actually earned by an employee",
+    "accessed": "2026-10-11"
+   }
+  }
+ ],
+ "uncertain": [
+  "laworks.net (Louisiana Workforce Commission) returns HTTP 403; minimum-wage absence sourced from the U.S. DOL state table (used here as the only accessible source, not merely cross-check), final pay / breaks / right-to-work from Louisiana Revised Statutes (legis.la.gov).",
+  "Louisiana's unpaid pregnancy-leave law (La. R.S. 23:341-342) not verified this session, so stateUnpaidLaw left null.",
+  "No state statute read to confirm the absence of a sick-leave or paid family leave law (sources null)."
+ ]
+}

@@ -1,0 +1,30 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+import { LAST_UPDATED, AUTHOR_NAME, CONTACT_EMAIL, AUTHOR_ROLE, SITE_NAMES } from '../../data/site-config';
+import { route } from '../../i18n/routes';
+import { personSchema, organizationSchema, breadcrumbSchema, profilePageSchema } from '../../lib/seo';
+import { displayDate } from '../../lib/format';
+import { STATES, F } from '../../lib/kit';
+const lang = 'en';
+const nLocal = STATES.reduce((a, s) => a + s.localMinWages.length, 0);
+const nSrc = new Set(STATES.flatMap((s) => [s.minWage.source, s.overtime.source, s.sickLeave.source, s.familyLeave.source, s.finalPay.source, s.breaks.source].filter(Boolean).map((x) => x!.url))).size;
+const mid = STATES.filter((s) => s.minWage.rates2026.some((r) => r.from > '2026-01-01')).length;
+---
+<PageLayout title={`Radif Partners and the State Labor Law Guide: Who We Are`} description="Who publishes this state-by-state guide to minimum wage, overtime, leave and final pay, which official pages feed its 2026 data, how it is funded and how to report a mistake." lang={lang} jsonLd={[personSchema(lang), organizationSchema(lang), profilePageSchema({ path: route('about', lang), lang }), breadcrumbSchema([{ name: 'Home', path: route('home', lang) }, { name: 'About', path: route('about', lang) }])]} breadcrumbs={[{ label: 'About' }]}>
+  <header class="mb-6"><h1 class="font-serif text-3xl font-bold text-navy-900 md:text-4xl">About {SITE_NAMES[lang]}</h1></header>
+  <div class="prose prose-slate max-w-none prose-headings:font-serif">
+    <div class="not-prose mb-6"><p class="text-lg font-semibold text-navy-900">{AUTHOR_NAME}</p><p class="text-navy-700">{AUTHOR_ROLE[lang]}</p></div>
+    <p>{SITE_NAMES[lang]} is published by Radif Partners, a small company that builds free reference tools on top of official rules. This one serves people who work for a living in the United States and want a straight answer to questions that usually come at a bad moment: am I being paid the right rate, is this overtime, can I take leave for my mother's surgery, when will my last check arrive?</p>
+    <h2>Why this site does better than the first search result</h2>
+    <p>The pages that rank first for these questions are usually a national table, a payroll vendor's article written for employers, or a federal page that stops at federal law. None of them puts the whole of a worker's rights in one state on one page. Here each state page brings together the minimum wage with every change of the year (in {mid} jurisdictions the rate moved after January 1), the tipped wage, overtime and the salary test, sick and family leave, the final paycheck deadline and breaks, and a calculator applies them to your own pay and schedule. Each rule is quoted from the state's own page and dated: {nSrc} official pages were read for the current data, plus {nLocal} city and county minimum wage ordinances.</p>
+    <h2>What we do not do</h2>
+    <p>We are not lawyers and we do not give advice on individual cases. We do not take wage claims, do not contact employers and do not refer visitors to law firms for a fee. When a rule has exceptions that depend on facts we cannot know (the size of your employer, your industry, a union contract), the page names them instead of pretending they do not exist.</p>
+    <h2>How the data is kept</h2>
+    <p>Each state has one data file. Every value in it carries the address of the official page it came from, a short quotation and the date it was read. Federal values, such as the {F.minWage.toLocaleString('en-US', { style: 'currency', currency: 'USD' })} minimum wage and the FMLA tests, sit in a separate parameter file sourced to the Department of Labor and the Code of Federal Regulations. The calculators read those files and run in your browser; automated tests check them before every release. The <a href={route('method', lang)}>method page</a> describes each calculation and its limits.</p>
+    <h2>Funding</h2>
+    <p>The site is free and needs no account. If advertising is added later, it will never sit above a calculator and will never use what you type, since nothing you type leaves your device.</p>
+    <h2>Reporting a mistake</h2>
+    <p>If your state agency, your pay stub or a new law says something different, write to <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a> with the official link. Confirmed errors are fixed in the data file and dated. See also the <a href={route('editorial', lang)}>editorial policy</a> and the <a href={route('terms', lang)}>legal notice</a>.</p>
+    <p class="text-sm text-navy-600">Rules last checked on <time datetime={LAST_UPDATED}>{displayDate(LAST_UPDATED, 'en-US')}</time>.</p>
+  </div>
+</PageLayout>

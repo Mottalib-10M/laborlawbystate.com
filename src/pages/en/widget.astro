@@ -1,0 +1,25 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+import { SITE_URL } from '../../data/site-config';
+import { route } from '../../i18n/routes';
+import { breadcrumbSchema } from '../../lib/seo';
+const lang = 'en';
+const frames = [
+  { slug: 'worker-rights-calculator', title: 'Worker rights calculator: minimum wage, overtime, sick leave, breaks and final pay by state', h: 1050, who: 'Worker centers, union locals, high school career offices, libraries and job training programs' },
+  { slug: 'overtime-calculator', title: 'Overtime calculator with each state daily and weekly rule', h: 900, who: 'Local newsrooms, trade associations, staffing agencies and HR training courses' },
+];
+const code = (f: (typeof frames)[number]) => `<iframe src="${SITE_URL}/embed/${f.slug}/" title="${f.title}" width="100%" height="${f.h}" style="border:0;max-width:1000px" loading="lazy"></iframe>`;
+---
+<PageLayout title="Embed the worker rights or overtime calculator on your site" description="Embed a free state labor law calculator (minimum wage, overtime, sick leave, breaks, final pay) or a state overtime calculator with one iframe line, updated with each state change." lang={lang} noindex={true} jsonLd={[breadcrumbSchema([{ name: 'Home', path: route('home', lang) }, { name: 'Embed a calculator', path: route('widget', lang) }])]} breadcrumbs={[{ label: 'Embed a calculator' }]} showAuthor={false}>
+  <header class="mb-6">
+    <h1 class="font-serif text-3xl font-bold text-navy-900 md:text-4xl">Embed a calculator</h1>
+    <p class="mt-3 text-lg text-navy-700">One line of code. When a state raises its minimum wage on January 1 or July 1, the embedded calculator follows without any change on your side.</p>
+  </header>
+  <div class="prose prose-slate max-w-none">
+    <p>Terms of use: keep the credit link under the frame visible, do not alter the frame, and present results as general information rather than legal advice. The frame sets no cookie and sends us nothing about the people who use it. Questions: <a href={route('contact', lang)}>contact page</a>.</p>
+    {frames.map((f) => <><h2>{f.title}</h2><p>Used by: {f.who}.</p><pre class="overflow-x-auto rounded-lg bg-navy-900 p-4 text-sm text-white"><code>{code(f)}</code></pre></>)}
+  </div>
+  <div class="mt-8 overflow-hidden rounded-xl border border-navy-200">
+    <iframe src="/embed/worker-rights-calculator/" title="Worker rights calculator" width="100%" height="1050" style="border:0" loading="lazy"></iframe>
+  </div>
+</PageLayout>

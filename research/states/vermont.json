@@ -1,0 +1,49 @@
+{
+  "slug": "vermont", "name": "Vermont", "abbr": "VT",
+  "agency": {"name": "Vermont Department of Labor, Wage and Hour Program", "url": "https://labor.vermont.gov/rights-and-wages"},
+  "minWage": {
+    "rates2026": [
+      {"from": "2026-01-01", "rate": 14.42, "area": "Statewide", "note": "Indexed every January 1 (CPI-U or 5%, whichever is smaller)"}
+    ],
+    "headline": 14.42,
+    "headlineArea": "Statewide",
+    "federalApplies": false,
+    "rates2027": [],
+    "smallEmployer": null,
+    "tipped": {"cashWage": 7.21, "tipCreditAllowed": true, "note": "Service or tipped employees of hotels, motels, tourist places and restaurants who customarily receive more than $120 a month in tips: one-half the minimum wage"},
+    "other": null,
+    "source": {"url": "https://labor.vermont.gov/rights-and-wages", "quote": "Effective 01/01/2026: $14.42 per hour worked/ $7.21 for tipped employees", "accessed": "2026-10-11"}
+  },
+  "localMinWages": [],
+  "overtime": {"weeklyHours": 40, "dailyHours": null, "doubleTime": null, "seventhDay": null,
+               "exemptSalaryWeekly": null, "exemptSalaryNote": null,
+               "note": "Time and a half after 40 hours a week, but the state rule excludes employees of retail or service establishments, hotels, motels and restaurants, seasonal amusement establishments and some others (the federal FLSA may still apply to them).",
+               "source": {"url": "https://legislature.vermont.gov/statutes/section/21/005/00384", "quote": "an employer shall not pay an employee less than one and one-half times the regular wage rate for any work done by the employee in excess of 40 hours during a workweek", "accessed": "2026-10-11"}},
+  "sickLeave": {"mandatory": true, "accrual": "1 hour for every 52 hours worked", "accrualPerHours": 52,
+                "capHours": 40, "capNote": "Employer may cap accrual at 40 hours in a 12-month period; may impose a waiting period of up to one year before use for new hires.",
+                "employerThreshold": "all employers; covers employees working an average of at least 18 hours a week (seasonal jobs of 20 weeks or fewer excluded)", "effective": "2017-01-01", "note": "Paid at the greater of the employee's normal hourly rate or the minimum wage.",
+                "source": {"url": "https://legislature.vermont.gov/statutes/section/21/005/00482", "quote": "An employee shall accrue not less than one hour of earned sick time for every 52 hours worked.", "accessed": "2026-10-11"}},
+  "familyLeave": {"paidProgram": false, "name": null, "benefitsStart": null,
+                  "maxWeeks": null, "replacement": null, "maxWeeklyBenefit2026": null, "medicalLeave": null,
+                  "stateUnpaidLaw": "Vermont Parental and Family Leave Act (expanded by Act 32 of 2025): up to 12 weeks of unpaid job-protected leave in 12 months; parental, bereavement, safe and qualifying exigency leave at employers with 10+ employees, family leave at employers with 15+ employees (employees averaging 30+ hours a week for 12 months).",
+                  "source": {"url": "https://labor.vermont.gov/act-32-2025-vermonts-expanded-unpaid-family-parental-leave", "quote": "Eligible employees can take up to 12 weeks of leave in a 12-month period, except as noted otherwise under bereavement leave.", "accessed": "2026-10-11"}},
+  "finalPay": {"fired": "within 72 hours of discharge", "firedDays": 3,
+               "quit": "on the last regular payday, or the following Friday if there is no regular payday", "quitNotice": null,
+               "ptoPayout": "policy", "ptoNote": "No Vermont statute found requiring payout of accrued vacation; follows employer policy or contract.",
+               "source": {"url": "https://legislature.vermont.gov/statutes/section/21/005/00342", "quote": "(1) voluntarily leaves employment shall be paid on the last regular pay day, or if there is no regular pay day, on the following Friday; (2) is discharged from employment shall be paid within 72 hours of discharge", "accessed": "2026-10-11"},
+               "ptoSource": null},
+  "breaks": {"meal": "reasonable opportunities during work periods to eat (no fixed length or timing)", "mealMinutes": null, "mealAfterHours": null,
+             "rest": "reasonable opportunities to use toilet facilities", "restMinutes": null, "restPerHours": null, "minorsOnly": null,
+             "source": {"url": "https://legislature.vermont.gov/statutes/section/21/005/00304", "quote": "An employer shall provide an employee with reasonable opportunities during work periods to eat and to use toilet facilities", "accessed": "2026-10-11"}},
+  "rightToWork": false, "rightToWorkSource": null,
+  "atWill": "at-will",
+  "notes": [
+    {"text": "Act 32 of 2025 widened unpaid leave: bereavement leave (up to 2 weeks, within one year of the death), safe leave and qualifying exigency leave, and a broader definition of family member.", "source": {"url": "https://labor.vermont.gov/act-32-2025-vermonts-expanded-unpaid-family-parental-leave", "quote": "Leave is limited to 2 weeks (10 workdays), no more than 5 days taken consecutively, and must be taken within 1 year of the death.", "accessed": "2026-10-11"}},
+    {"text": "Hotels, motels, restaurants and retail or service establishments are excluded from Vermont's overtime rule.", "source": {"url": "https://legislature.vermont.gov/statutes/section/21/005/00384", "quote": "(3) Employees of an establishment that is a hotel, motel, or restaurant.", "accessed": "2026-10-11"}}
+  ],
+  "uncertain": [
+    "2027 minimum wage: by statute it is indexed on January 1, 2027 (CPI to Sept 1, 2026, max 5%), but no official 2027 figure was found: labor.vermont.gov/newsroom returns 403 and no 2027 poster/press release URL exists. rates2027 left empty.",
+    "Vermont Family and Medical Leave Insurance (FMLI, voluntary program for private employers and individuals, run with The Hartford) could not be verified: no official page reachable (fmli.vermont.gov does not resolve, web search unavailable). paidProgram set to false because there is no mandatory state program; the voluntary FMLI should be added once verified.",
+    "PTO payout: no statute requiring payout found, but no official page stating 'policy' was read; ptoSource null."
+  ]
+}

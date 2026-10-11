@@ -1,0 +1,158 @@
+{
+ "slug": "alaska",
+ "name": "Alaska",
+ "abbr": "AK",
+ "agency": {
+  "name": "Alaska Department of Labor and Workforce Development, Wage and Hour Section",
+  "url": "https://labor.alaska.gov/lss/whhome.htm"
+ },
+ "minWage": {
+  "rates2026": [
+   {
+    "from": "2025-07-01",
+    "rate": 13.0,
+    "area": "Statewide",
+    "note": "in force January 1 - June 30, 2026"
+   },
+   {
+    "from": "2026-07-01",
+    "rate": 14.0,
+    "area": "Statewide",
+    "note": "Ballot Measure 1 (2024) step increase"
+   }
+  ],
+  "headline": 14.0,
+  "headlineArea": "Statewide",
+  "federalApplies": false,
+  "rates2027": [
+   {
+    "from": "2027-07-01",
+    "rate": 15.0,
+    "area": "Statewide",
+    "note": "set in statute AS 23.10.065(a)(3); annual inflation adjustment thereafter"
+   }
+  ],
+  "smallEmployer": null,
+  "tipped": {
+   "cashWage": 14.0,
+   "tipCreditAllowed": false,
+   "note": "Tips may not be credited toward the minimum wage; tipped employees receive the full $14.00."
+  },
+  "other": "Public school bus drivers must be paid at least two times the minimum wage. Minors under 18 working part-time no more than 30 hours a week are exempt from the state minimum wage.",
+  "source": {
+   "url": "https://labor.alaska.gov/lss/whhome.htm",
+   "quote": "As of July 1, 2026, The Alaska minimum wage is increasing from $13.00 to $14.00 per hour.",
+   "accessed": "2026-10-11"
+  }
+ },
+ "localMinWages": [],
+ "overtime": {
+  "weeklyHours": 40,
+  "dailyHours": 8,
+  "doubleTime": null,
+  "seventhDay": null,
+  "exemptSalaryWeekly": 1120.0,
+  "exemptSalaryNote": "two times the state minimum wage for the first 40 hours each week: $1,120/week from July 1, 2026 ($1,040 from January 1 to June 30, 2026)",
+  "note": "Overtime premium not required for employers with three or fewer employees. Comp time instead of overtime pay is not lawful. Voluntary flexible work plans approved by the Department may allow 10-hour days.",
+  "source": {
+   "url": "https://labor.alaska.gov/lss/whfaq.htm",
+   "quote": "If you work more than 8 hours in a single day and/or more than 40 hours in a single week, you must be paid time-and-one-half (1.5 times)",
+   "accessed": "2026-10-11"
+  }
+ },
+ "sickLeave": {
+  "mandatory": true,
+  "accrual": "1 hour for every 30 hours worked",
+  "accrualPerHours": 30,
+  "capHours": 56,
+  "capNote": "15 or more employees (FTE): accrue and use up to 56 h/year; fewer than 15: 40 h/year. Unused leave carries over unless front-loaded.",
+  "employerThreshold": "all employers",
+  "effective": "2025-07-01",
+  "note": "Created by Ballot Measure 1 (2024). Minors under 18 working less than 30 hours a week are exempt. No payout required at separation.",
+  "source": {
+   "url": "https://labor.alaska.gov/lss/sick-leave-faq.html",
+   "quote": "Employers with fewer than 15 employees (FTE's) must allow workers to accrue and use up to 40 hours of paid sick leave per year. Employers with 15 or more employees (FTE's) must allow up to 56 hours",
+   "accessed": "2026-10-11"
+  }
+ },
+ "familyLeave": {
+  "paidProgram": false,
+  "name": null,
+  "benefitsStart": null,
+  "maxWeeks": null,
+  "replacement": null,
+  "maxWeeklyBenefit2026": null,
+  "medicalLeave": null,
+  "stateUnpaidLaw": null,
+  "source": {
+   "url": "https://www.akleg.gov/basis/statutes.asp?media=print&secStart=39.20.500&secEnd=39.20.550",
+   "quote": "\"employer\" means the state and a political subdivision of the state that employed at least 21 employees in the state",
+   "accessed": "2026-10-11"
+  }
+ },
+ "finalPay": {
+  "fired": "within 3 working days after termination (Monday-Friday, excluding holidays)",
+  "firedDays": null,
+  "quit": "by the next regular payday that is at least 3 days after the employer received notice",
+  "quitNotice": null,
+  "ptoPayout": "policy",
+  "ptoNote": "Vacation pay is owed only if the employer promised it by policy or contract; accrued sick leave need not be paid out.",
+  "source": {
+   "url": "https://labor.alaska.gov/lss/whfaq.htm",
+   "quote": "If you are terminated by your employer, your employer must pay you all monies owed within three working days after the day of termination (not counting weekends and holidays).",
+   "accessed": "2026-10-11"
+  },
+  "ptoSource": {
+   "url": "https://labor.alaska.gov/lss/whfaq.htm",
+   "quote": "an employer only has to pay these benefits if he/she has a policy to pay such benefits, or has made a promise or has a contract with you to pay these benefits",
+   "accessed": "2026-10-11"
+  }
+ },
+ "breaks": {
+  "meal": null,
+  "mealMinutes": null,
+  "mealAfterHours": null,
+  "rest": null,
+  "restMinutes": null,
+  "restPerHours": null,
+  "minorsOnly": "Minors aged 14-17 working 5 or more consecutive hours must get a break of at least 30 minutes. Breaks under 20 minutes that an employer allows must be paid.",
+  "source": {
+   "url": "https://labor.alaska.gov/lss/whfaq.htm",
+   "quote": "Alaskan employers are required to provide break periods of at least 30 minutes for minors ages 14 through 17 who work 5 or more consecutive hours ... Employers are not required to give breaks for employees 18 and over.",
+   "accessed": "2026-10-11"
+  }
+ },
+ "rightToWork": false,
+ "rightToWorkSource": null,
+ "atWill": "at-will",
+ "notes": [
+  {
+   "text": "Alaska is one of the few states with daily overtime: time-and-a-half after 8 hours in a day as well as after 40 in a week (employers with four or more employees).",
+   "source": {
+    "url": "https://labor.alaska.gov/lss/whfaq.htm",
+    "quote": "A grand total of four or more. An employer who has a total of only three (3) employees, or less, can pay his/her employees straight-time for all hours worked.",
+    "accessed": "2026-10-11"
+   }
+  },
+  {
+   "text": "An employer that paid or advanced a worker's transportation to the job must pay the return trip when employment ends, except in listed cases (e.g. firing for fighting or intoxication).",
+   "source": {
+    "url": "https://labor.alaska.gov/lss/whfaq.htm",
+    "quote": "the employer must pay your way back or provide transportation to the place of hire or to a place that you and your employer agree upon after employment ends",
+    "accessed": "2026-10-11"
+   }
+  },
+  {
+   "text": "Salaried white-collar workers are exempt from overtime only if paid at least twice the state minimum wage for 40 hours ($1,120 a week from July 1, 2026), well above the federal $684.",
+   "source": {
+    "url": "https://labor.alaska.gov/lss/forms/pam100.pdf",
+    "quote": "compensated on a salary or fee basis at a rate of not less than two times the state minimum wage for the first 40 hours of employment each week",
+    "accessed": "2026-10-11"
+   }
+  }
+ ],
+ "uncertain": [
+  "The Alaska Family Leave Act (AS 39.20.500) covers only the state and political subdivisions with 21+ employees, so stateUnpaidLaw is null for private employers.",
+  "Employees FAQ (last updated Nov 2025) still says '$13.00'; the Wage and Hour home page (updated May 2026) and statute confirm $14.00 from July 1, 2026."
+ ]
+}

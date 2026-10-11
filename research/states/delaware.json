@@ -1,0 +1,52 @@
+{
+  "slug": "delaware", "name": "Delaware", "abbr": "DE",
+  "agency": {"name": "Delaware Department of Labor, Division of Industrial Affairs (Office of Wage and Hour)", "url": "https://industrialaffairs.delaware.gov/wage-hour"},
+  "minWage": {
+    "rates2026": [ {"from": "2025-01-01", "rate": 15.00, "area": "Statewide", "note": "unchanged throughout 2026; no automatic indexing in the statute"} ],
+    "headline": 15.00,
+    "headlineArea": "Statewide",
+    "federalApplies": false,
+    "rates2027": [],
+    "smallEmployer": null,
+    "tipped": {"cashWage": 2.23, "tipCreditAllowed": true, "note": "tips must bring total earnings to at least $15.00; applies to workers who customarily receive more than $30/month in tips"},
+    "other": null,
+    "source": {"url": "https://industrialaffairs.delaware.gov/wage-hour", "quote": "Current Minimum Wage: $15.00 as of January 1, 2025 Tipped Employees: Minimum cash wage of $2.23/hour", "accessed": "2026-10-11"}
+  },
+  "localMinWages": [],
+  "overtime": {"weeklyHours": null, "dailyHours": null, "doubleTime": null, "seventhDay": null,
+               "exemptSalaryWeekly": null, "exemptSalaryNote": null,
+               "note": "No general state overtime statute found in Title 19; private-sector overtime follows the federal FLSA (time and a half after 40 hours).",
+               "source": {"url": "https://delcode.delaware.gov/title19/c009/index.html", "quote": "§ 902. Minimum wage rate ... every employer shall pay to every employee in any occupation wages of a rate ... Not less than $15.00 per hour effective January 1, 2025.", "accessed": "2026-10-11"}},
+  "sickLeave": {"mandatory": false, "accrual": null, "accrualPerHours": null,
+                "capHours": null, "capNote": null,
+                "employerThreshold": null, "effective": null,
+                "note": "No statewide paid sick leave law for private employers; own serious health condition is covered by Delaware Paid Leave insurance (up to 6 weeks every 24 months) since 2026-01-01.",
+                "source": {"url": "https://labor.delaware.gov/delaware-paid-leave/", "quote": "Address a personal serious health condition or injury (up to six weeks every 24 months).", "accessed": "2026-10-11"}},
+  "familyLeave": {"paidProgram": true, "name": "Delaware Paid Leave (Healthy Delaware Families Act)", "benefitsStart": "2026-01-01",
+                  "maxWeeks": 12, "replacement": "80% of average weekly wages over the prior 12 months, minimum $100/week, maximum $900/week",
+                  "maxWeeklyBenefit2026": 900, "medicalLeave": "own serious health condition: up to 6 weeks every 24 months; family care and military exigency: 6 weeks every 24 months; parental: 12 weeks per year; 12 weeks combined per year",
+                  "stateUnpaidLaw": null,
+                  "source": {"url": "https://labor.delaware.gov/delaware-paid-leave/", "quote": "Delaware Paid Leave went into full effect on Jan. 1, 2026 ... an employee will get up to 80% of their wages (up to $900 per week)", "accessed": "2026-10-11"}},
+  "finalPay": {"fired": "the later of the next regular payday or 3 business days after the last day worked", "firedDays": null, "quit": "the later of the next regular payday or 3 business days after the last day worked", "quitNotice": null,
+               "ptoPayout": "policy", "ptoNote": "vacation and other wage supplements are owed only as provided by the employer's agreement or policy (19 Del. C. § 1109)",
+               "source": {"url": "https://delcode.delaware.gov/title19/c011/index.html", "quote": "Whenever an employee quits, resigns, is discharged, suspended, or laid off, the wages ... become due ... on the later of ... The next date the wages would be paid ... Three business days after the last day worked.", "accessed": "2026-10-11"},
+               "ptoSource": {"url": "https://delcode.delaware.gov/title19/c011/index.html", "quote": "Any employer who is party to an agreement to pay or provide benefits or wage supplements to any employee shall pay the amount or amounts necessary to provide such benefits", "accessed": "2026-10-11"}},
+  "breaks": {"meal": "unpaid 30 consecutive minutes for 7.5 or more consecutive hours, after the first 2 hours and before the last 2 hours", "mealMinutes": 30, "mealAfterHours": 7.5,
+             "rest": null, "restMinutes": null, "restPerHours": null, "minorsOnly": null,
+             "source": {"url": "https://delcode.delaware.gov/title19/c007/sc01/index.html", "quote": "An employer must allow an employee an unpaid meal break of at least 30 consecutive minutes, if the employee works 7 1/2 or more consecutive hours.", "accessed": "2026-10-11"}},
+  "rightToWork": false, "rightToWorkSource": null,
+  "atWill": "at-will",
+  "notes": [
+    {"text": "Delaware Paid Leave claims opened on January 1, 2026: eligible workers (12 months and 1,250 hours with the same employer) get 80% of wages up to $900 a week.", "source": {"url": "https://labor.delaware.gov/delaware-paid-leave/", "quote": "Delaware Paid Leave offers paid leave to employees who have been employed for at least one year and have worked at least 1,250 hours with a single employer.", "accessed": "2026-10-11"}},
+    {"text": "The $900 maximum weekly paid-leave benefit is fixed for 2026 and 2027, then indexed to the Philadelphia-area CPI.", "source": {"url": "https://delcode.delaware.gov/title19/c037/index.html", "quote": "The maximum weekly benefit in 2026 and 2027 must be $900. In each year after 2027, the maximum weekly benefit must increase in proportion to the annual average increase", "accessed": "2026-10-11"}},
+    {"text": "Final wages are due on the later of the next regular payday or three business days after the last day worked, whether the worker quits or is fired.", "source": {"url": "https://delcode.delaware.gov/title19/c011/index.html", "quote": "b. Three business days after the last day worked.", "accessed": "2026-10-11"}}
+  ],
+  "uncertain": [
+    "rates2027: no 2027 increase found in 19 Del. C. § 902 (last step $15.00 on 2025-01-01) or on the DOL wage-hour page; left empty.",
+    "overtime: no state overtime provision found in Title 19 chapter 9; weeklyHours set to null (FLSA only). Source shown is the minimum-wage chapter itself.",
+    "sickLeave: absence of a statewide paid sick leave law inferred from Title 19 and DOL pages; no official page states it explicitly.",
+    "familyLeave: employers with 10-24 employees must cover parental leave only; 25+ cover all reasons (from statute context 'fewer than 25 employees'; exact threshold text not quoted).",
+    "rightToWork: Delaware has no right-to-work statute; no official page states this explicitly, so source left null.",
+    "Meal break: exemptions exist for collective/written agreements, certified school staff, public safety, single-employee positions and fewer than 5 employees on a shift."
+  ]
+}

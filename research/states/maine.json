@@ -1,0 +1,166 @@
+{
+  "slug": "maine",
+  "name": "Maine",
+  "abbr": "ME",
+  "agency": {
+    "name": "Maine Department of Labor, Bureau of Labor Standards",
+    "url": "https://www.maine.gov/labor/labor_laws/"
+  },
+  "minWage": {
+    "rates2026": [
+      {
+        "from": "2026-01-01",
+        "rate": 15.1,
+        "area": "Statewide",
+        "note": "Indexed each January 1 to the cost of living"
+      }
+    ],
+    "headline": 15.1,
+    "headlineArea": "Statewide",
+    "federalApplies": false,
+    "rates2027": [
+      {
+        "from": "2027-01-01",
+        "rate": 15.7,
+        "area": "Statewide",
+        "note": "Published by the Maine Department of Labor; service-employee direct wage $7.85"
+      }
+    ],
+    "smallEmployer": null,
+    "tipped": {
+      "cashWage": 7.55,
+      "tipCreditAllowed": true,
+      "note": "Minimum direct wage for service employees (DOL table: employees receiving more than $191/month in tips); maximum tip credit $7.55; overtime computed on the full minimum wage"
+    },
+    "other": null,
+    "source": {
+      "url": "https://www.maine.gov/labor/labor_laws/minimumwagefaq/",
+      "quote": "Effective Date State Minimum Wage Minimum Direct Service Wage Maximum Tip Credit 1/1/2027 $15.70 $7.85 $7.85 1/1/2026 $15.10 $7.55 $7.55",
+      "accessed": "2026-10-11"
+    }
+  },
+  "localMinWages": [
+    {
+      "name": "Portland",
+      "rate": 16.75,
+      "from": "2026-01-01",
+      "note": "Service employees: direct wage of at least $8.38 per hour.",
+      "source": {
+        "url": "https://www.portlandmaine.gov/minimum-wage",
+        "quote": "Starting January 1, 2026, the minimum wage in the City of Portland will be $16.75 per hour for hourly employees, or $8.38 for service employees.",
+        "accessed": "2026-10-11"
+      }
+    }
+  ],
+  "overtime": {
+    "weeklyHours": 40,
+    "dailyHours": null,
+    "doubleTime": null,
+    "seventhDay": null,
+    "exemptSalaryWeekly": 845.21,
+    "exemptSalaryNote": "Executive, administrative, professional exemption, 2026 ($43,951/year); $905.79/week ($47,101/year) from January 1, 2027. The federal salary level and highly-compensated exemption do not apply under Maine law.",
+    "note": "Time and a half after 40 hours a week; no daily overtime.",
+    "source": {
+      "url": "https://www.maine.gov/labor/labor_laws/overtime/",
+      "quote": "In Maine, As of January 1, 2026, the threshold will be $43,951 per year or $845.21 per week . As of January 1, 2027, the threshold will be $47,101 per year or $905.79 per week .",
+      "accessed": "2026-10-11"
+    }
+  },
+  "sickLeave": {
+    "mandatory": true,
+    "accrual": "1 hour of Earned Paid Leave for every 40 hours worked",
+    "accrualPerHours": 40,
+    "capHours": 40,
+    "capNote": "Up to 40 hours accrued per year (or the employer's higher policy limit); all unused leave carries over; usable for any reason.",
+    "employerThreshold": "employers with more than 10 employees in Maine for more than 120 days in a calendar year",
+    "effective": "2021-01-01",
+    "note": "Maine's Earned Paid Leave is general-purpose paid time off, not limited to sickness; up to 4 weeks' notice may be required for planned use.",
+    "source": {
+      "url": "https://www.maine.gov/labor/labor_laws/earnedpaidleave/",
+      "quote": "Employees accrue 1 hour of Earned Paid Leave for every 40 hours worked, up to 40 hours in a defined year",
+      "accessed": "2026-10-11"
+    }
+  },
+  "familyLeave": {
+    "paidProgram": true,
+    "name": "Maine Paid Family and Medical Leave (PFML)",
+    "benefitsStart": "2026-05-01",
+    "maxWeeks": 12,
+    "replacement": "90% of the part of average weekly wage up to 50% of the state average weekly wage, plus 66% of the part above, up to the maximum (state average weekly wage)",
+    "maxWeeklyBenefit2026": 1250.0,
+    "medicalLeave": "Included: medical, parental, family care, military family and safe leave, up to 12 weeks combined per benefit year",
+    "stateUnpaidLaw": null,
+    "source": {
+      "url": "https://www.maine.gov/paidleave/docs/2026/employees/pfmlpremiumbenefitchart.pdf",
+      "quote": "The weekly benefit amount is capped at the State Average Weekly Wage. The current average of $1,250.00 (rounded) is used above.",
+      "accessed": "2026-10-11"
+    }
+  },
+  "finalPay": {
+    "fired": "no later than the next established payday",
+    "firedDays": null,
+    "quit": "no later than the next established payday",
+    "quitNotice": null,
+    "ptoPayout": "required",
+    "ptoNote": "Unused paid vacation accrued on or after January 1, 2023 must be paid at separation (employers with 11+ employees; not public employers; a CBA may override).",
+    "source": {
+      "url": "https://legislature.maine.gov/statutes/26/title26sec626.html",
+      "quote": "An employee leaving employment must be paid in full no later than the employee's next established payday.",
+      "accessed": "2026-10-11"
+    },
+    "ptoSource": {
+      "url": "https://legislature.maine.gov/statutes/26/title26sec626.html",
+      "quote": "All unused paid vacation accrued ... on and after January 1, 2023 must be paid to the employee on cessation of employment unless the employee is employed by an employer with 10 or fewer employees",
+      "accessed": "2026-10-11"
+    }
+  },
+  "breaks": {
+    "meal": "Opportunity for at least 30 consecutive minutes of rest after 6 consecutive hours (may be unpaid mealtime if fully relieved of duty)",
+    "mealMinutes": 30,
+    "mealAfterHours": 6,
+    "rest": null,
+    "restMinutes": null,
+    "restPerHours": null,
+    "minorsOnly": null,
+    "source": {
+      "url": "https://legislature.maine.gov/statutes/26/title26sec601.html",
+      "quote": "may be employed or permitted to work for no more than 6 consecutive hours at one time unless the employee is given the opportunity to take at least 30 consecutive minutes of rest time",
+      "accessed": "2026-10-11"
+    }
+  },
+  "rightToWork": false,
+  "rightToWorkSource": null,
+  "atWill": "at-will",
+  "notes": [
+    {
+      "text": "Maine Paid Family and Medical Leave began paying benefits in May 2026: up to 12 weeks, financed by a 0.5% premium on wages (up to half may be deducted from the employee).",
+      "source": {
+        "url": "https://www.maine.gov/paidleave/workers/",
+        "quote": "Paid Family and Medical Leave Benefits will start May 1st, 2026",
+        "accessed": "2026-10-11"
+      }
+    },
+    {
+      "text": "Earned Paid Leave can be used for any reason, including a planned vacation, not only illness.",
+      "source": {
+        "url": "https://www.maine.gov/labor/labor_laws/earnedpaidleave/",
+        "quote": "Employees can use their accrued Earned Paid Leave for any reason such as an emergency, illness, sudden necessity, planned vacation, etc.",
+        "accessed": "2026-10-11"
+      }
+    },
+    {
+      "text": "Maine sets its own salary floor for overtime exemption, higher than the federal level ($845.21/week in 2026).",
+      "source": {
+        "url": "https://www.maine.gov/labor/labor_laws/overtime/",
+        "quote": "Please note that the federal salary level and the federal exemption for highly compensated employees are not applicable under Maine law.",
+        "accessed": "2026-10-11"
+      }
+    }
+  ],
+  "uncertain": [
+    "Portland: the official page portlandmaine.gov/minimum-wage renders without text for curl and Chrome, and the 2026 notice (CivicPlus asset) is behind a Cloudflare challenge; the quoted sentence is the official page's text as indexed by Google (also in the city's 2026 Minimum Wage Notice snippet: service employees $8.38).",
+    "PFML maximum weekly benefit $1,250 is the rounded state average weekly wage used in the official estimate chart; the exact SAWW figure may differ by cents.",
+    "Tipped-employee threshold ($191/month) taken from the U.S. DOL tipped table (effective July 1, 2026), not from a Maine page.",
+    "rightToWork false (Maine has no right-to-work law); no statute page read to source the absence."
+  ]
+}

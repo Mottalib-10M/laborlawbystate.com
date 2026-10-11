@@ -1,0 +1,87 @@
+---
+/**
+ * Home, in its own order for this subject (RECETTE §6.6, rule 2): the answer first, then a grid of the
+ * 51 jurisdictions with today's minimum wage (the way people arrive: by state), the worker calculator, the
+ * comparison table of the seven rules, the federal floor, the topic index by group, then the long text in
+ * accordions and the FAQ. Text: src/content/home.ts.
+ */
+import PageLayout from '../layouts/PageLayout.astro';
+import Clamp from './Clamp.astro';
+import Tool from './Tool.astro';
+import { HOME } from '../content/home';
+import { route, ROUTES } from '../i18n/routes';
+import { helpers, SOURCES } from '../lib/helpers';
+import { stateId, GROUPS } from '../lib/topics';
+import { PAGES } from '../lib/pages';
+import { STATES, F, FM, ACA, mwNow, mw2027, rate$, usd, day } from '../lib/kit';
+import { faqSchema, organizationSchema, websiteSchema, webPageSchema, webApplicationSchema } from '../lib/seo';
+import { LAST_UPDATED } from '../data/site-config';
+const lang = 'en';
+const x = HOME;
+const path = route('home', lang);
+const h = helpers();
+const sources = x.sources.map((k) => ({ name: SOURCES[k].label, url: SOURCES[k].url }));
+const jsonLd = [websiteSchema(lang), organizationSchema(lang), webPageSchema({ name: x.h1, description: x.description, path, lang }), webApplicationSchema({ name: x.h1, description: x.description, path, lang }), faqSchema(x.faqs, lang)];
+const sections = x.sections(h);
+const has = (id: string) => ROUTES.some((r) => r.id === id);
+const sLink = (slug: string, name: string) => (has(stateId(slug)) ? `<a href="${route(stateId(slug), lang)}"><strong>${name}</strong></a>` : `<strong>${name}</strong>`);
+const rows = STATES.map((s) => {
+  const r = mw2027(s.slug);
+  return [
+    sLink(s.slug, s.name),
+    rate$(mwNow(s.slug)),
+    r ? rate$(r.rate) : '–',
+    s.minWage.tipped.tipCreditAllowed && s.minWage.tipped.cashWage != null ? rate$(s.minWage.tipped.cashWage) : s.minWage.tipped.cashWage == null ? rate$(F.tippedCash) : 'full',
+    s.overtime.dailyHours ? `${s.overtime.dailyHours} h/day, ${s.overtime.weeklyHours ?? F.otWeeklyHours} h/wk` : `${s.overtime.weeklyHours ?? F.otWeeklyHours} h/wk`,
+    s.sickLeave.mandatory ? 'yes' : 'no',
+    s.familyLeave.paidProgram ? 'yes' : 'no',
+    s.finalPay.firedDays === 0 ? 'immediately' : s.finalPay.firedDays != null ? `${s.finalPay.firedDays} days` : 'payday rule',
+  ];
+});
+const fed: Array<[string, string, string]> = [
+  ['Federal minimum wage', `${rate$(F.minWage)}/h`, `since ${day(F.minWageSince)}`],
+  ['Tipped cash wage', `${rate$(F.tippedCash)}/h`, `tip credit up to ${rate$(F.tipCredit)}`],
+  ['Overtime', `${F.otMultiplier}x`, `after ${F.otWeeklyHours} hours a week`],
+  ['Exempt salary level', `${usd(F.exemptWeekly)}/wk`, `${usd(F.exemptWeekly * 52)} a year`],
+  ['FMLA leave', `${FM.weeks} weeks`, `${FM.hours.toLocaleString('en-US')} hours, ${FM.months} months`],
+  ['ACA full time', `${ACA.fullTimeWeekly} h/wk`, `or ${ACA.fullTimeMonthly} h a month`],
+];
+---
+<PageLayout title={x.title} description={x.description} lang={lang} jsonLd={jsonLd} faqs={x.faqs} sources={sources}>
+  <header class="mb-4">
+    <h1 class="font-serif text-3xl font-bold text-navy-900 md:text-4xl">{x.h1}</h1>
+    <p class="mt-3 text-lg text-navy-700">{x.intro}</p>
+    <p class="mt-2 text-sm text-navy-600">State and federal rules updated <time datetime={LAST_UPDATED}>{day(LAST_UPDATED)}</time> from the 51 state labor agencies and the <a href={SOURCES.dolStateMw.url} target="_blank" rel="nofollow noopener noreferrer" class="underline">U.S. Department of Labor</a> · <a href={route('method', lang)} class="underline">How we check the rules</a> · <a href={route('about', lang)} class="underline">About this site</a></p>
+  </header>
+  <Clamp text={x.resume} lang={lang} id="clamp-home" sentences={2} class="mb-6" />
+  <nav aria-label="Choose your state" data-chrome class="mb-8">
+    <p class="mb-2 text-sm font-semibold uppercase tracking-wide text-accent-700">Pick your state: minimum wage in force today</p>
+    <ul class="grid grid-cols-2 gap-px overflow-hidden rounded-lg border border-navy-200 bg-navy-200 sm:grid-cols-3 lg:grid-cols-6">
+      {STATES.map((s) => <li class="bg-white"><a href={has(stateId(s.slug)) ? route(stateId(s.slug), lang) : '#'} class="flex items-baseline justify-between gap-2 px-3 py-2 hover:bg-accent-50"><span class="font-medium text-navy-900">{s.name}</span><span class="tabular-nums text-sm text-accent-700">{rate$(mwNow(s.slug))}</span></a></li>)}
+    </ul>
+  </nav>
+  <section class="mb-10">
+    <h2 class="mb-3 font-serif text-2xl font-bold text-navy-900">{x.toolTitle}</h2>
+    <div data-outil><Tool kind="rights" state="texas" idPrefix="home" /></div>
+  </section>
+  <div class="prose prose-slate max-w-none prose-headings:font-serif">
+    <h2>{x.tableTitle}</h2>
+    <Fragment set:html={x.tableIntro(h)} />
+    <Fragment set:html={h.table(['State', 'Minimum wage now', 'Announced next', 'Tipped cash wage', 'Overtime after', 'Paid sick leave', 'Paid family leave', 'Final pay if fired'], rows, `Rules in force on ${day(LAST_UPDATED)}. "Full": tipped workers get the full minimum wage. "Payday rule": due on the next regular payday or within a set number of days tied to it; the state page gives the exact rule.`, ['l', 'r', 'r', 'r', 'l', 'l', 'l', 'l'])} />
+    <h2>{x.federalTitle}</h2>
+    <Fragment set:html={x.federalIntro(h)} />
+  </div>
+  <dl data-chrome class="mb-10 mt-4 grid grid-cols-2 border-y border-navy-200 sm:grid-cols-3 lg:grid-cols-6">
+    {fed.map(([k, v, n]) => <div class="border-b border-navy-100 px-2 py-3 sm:border-b-0"><dt class="text-xs font-medium uppercase tracking-wide text-navy-600">{k}</dt><dd class="tabular-nums font-serif text-2xl font-bold text-navy-900">{v}</dd><dd class="text-xs text-navy-600">{n}</dd></div>)}
+  </dl>
+  <section class="mb-10">
+    <h2 class="font-serif text-2xl font-bold text-navy-900">{x.topicsTitle}</h2>
+    <div data-chrome class="mt-4 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+      {GROUPS.map((g) => <div><h3 class="border-b border-navy-200 pb-1 font-serif text-lg font-semibold text-navy-900">{g.label}</h3><ul class="mt-2 space-y-2">{PAGES.filter((p) => p.group === g.id).map((p) => <li><a href={route(p.id, lang)} class="font-medium text-accent-700 hover:underline">{p.nav}</a><span class="block text-sm text-navy-700">{p.card}</span></li>)}</ul></div>)}
+    </div>
+  </section>
+  <section class="prose prose-slate max-w-none prose-headings:font-serif">
+    <h2>{x.foldTitle}</h2>
+    {sections.map((s) => <details class="fold not-prose"><summary><h3 class="fold-h">{s.title}</h3></summary><div class="prose prose-slate max-w-none pb-4"><Fragment set:html={s.html} /></div></details>)}
+  </section>
+</PageLayout>

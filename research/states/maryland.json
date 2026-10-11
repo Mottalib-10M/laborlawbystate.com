@@ -1,0 +1,55 @@
+{
+  "slug": "maryland", "name": "Maryland", "abbr": "MD",
+  "agency": {"name": "Maryland Department of Labor, Division of Labor and Industry (Employment Standards Service)", "url": "https://labor.maryland.gov/labor/wages/"},
+  "minWage": {
+    "rates2026": [
+      {"from": "2026-01-01", "rate": 15.00, "area": "Statewide", "note": "Unchanged since January 1, 2024; no automatic indexing"}
+    ],
+    "headline": 15.00,
+    "headlineArea": "Statewide",
+    "federalApplies": false,
+    "rates2027": [],
+    "smallEmployer": null,
+    "tipped": {"cashWage": 3.63, "tipCreditAllowed": true, "note": "Employees earning more than $30/month in tips; cash wage plus tips must reach $15.00; restaurants must issue a Tip Credit Wage Statement"},
+    "other": "Employees under 18 may be paid 85% of the state minimum wage ($12.75).",
+    "source": {"url": "https://labor.maryland.gov/labor/wages/wagehrfacts.shtml", "quote": "Most employees must be paid at least the Maryland State Minimum Wage Rate of $15 per hour, but there are some exemptions. Employees under 18 years of age must earn at least 85%", "accessed": "2026-10-11"}
+  },
+  "localMinWages": [
+    {"name": "Montgomery County (51+ employees)", "rate": 18.00, "from": "2026-07-01", "note": "Mid-size (11-50): $16.50; small (10 or fewer): $15.95. Was $17.65 / $16.00 / $15.50 from July 1, 2025. Tipped cash wage $4.00. Indexed each July 1 to CPI-W (Washington region).", "source": {"url": "https://www.montgomerycountymd.gov/office-human-rights/minimum-wage-increase", "quote": "Large employers (51 or more employees): $18.00 per hour Mid‑size employers (11–50 employees): $16.50 per hour Small employers (10 or fewer employees): $15.95 per hour", "accessed": "2026-10-11"}},
+    {"name": "Howard County", "rate": 16.00, "from": "2026-07-01", "note": "Large employers $16.00 since January 1, 2025; small employers (14 or fewer employees, or 501(c)(3)) $15.50 from January 1, 2026 and $16.00 from July 1, 2026. CPI-U increases start January 2027.", "source": {"url": "https://www.howardcountymd.gov/finance/minimum-wage", "quote": "This bill calls for the minimum wage in Howard County to gradually rise to $16.00 per hour by January 1, 2026, with increases set after that by the Consumer Price Index", "accessed": "2026-10-11"}},
+    {"name": "Prince George's County", "rate": 15.30, "from": "2026-07-01", "note": "All employers regardless of size (source: Maryland Department of Labor page; county page not reached).", "source": {"url": "https://labor.maryland.gov/labor/wages/wagehrfacts.shtml", "quote": "Prince George’s County Minimum Wage As of July 1, 2026, all employers (regardless of size) must pay at least $15.30 per hour.", "accessed": "2026-10-11"}}
+  ],
+  "overtime": {"weeklyHours": 40, "dailyHours": null, "doubleTime": null, "seventhDay": null,
+               "exemptSalaryWeekly": null, "exemptSalaryNote": null,
+               "note": "Bowling alleys and non-hospital residential care institutions: overtime after 48 hours under state law (FLSA may still require 40).",
+               "source": {"url": "https://labor.maryland.gov/labor/wages/wagehrfacts.shtml", "quote": "Most employees must be paid 1.5 times their usual hourly rate for all hours worked over 40 per week.", "accessed": "2026-10-11"}},
+  "sickLeave": {"mandatory": true, "accrual": "1 hour for every 30 hours worked", "accrualPerHours": 30,
+                "capHours": 40, "capNote": "Accrue/use up to 40 hours a year; carry over up to 40 hours; total accrued balance capped at 64 hours. 15+ employees: paid; 14 or fewer: unpaid (job-protected).",
+                "employerThreshold": "all employers (paid if 15 or more employees)", "effective": "2018-02-11",
+                "note": "Maryland Healthy Working Families Act. Law dated January 1, 2018 but effective February 11, 2018 after the veto override.",
+                "source": {"url": "https://labor.maryland.gov/paidleave/", "quote": "Employers who employ 15 or more employees are required to provide paid earned safe and sick leave. ... Leave accrues at the rate of one hour for every thirty hours", "accessed": "2026-10-11"}},
+  "familyLeave": {"paidProgram": true, "name": "Maryland Family and Medical Leave Insurance (FAMLI)", "benefitsStart": "2028-01-01",
+                  "maxWeeks": 12, "replacement": "90% of average weekly wage up to 65% of the state average weekly wage, plus 50% of wages above that threshold; capped at $1,000/week",
+                  "maxWeeklyBenefit2026": null, "medicalLeave": "Included (own serious health condition); up to 24 weeks in a benefit year if both own health and new child",
+                  "stateUnpaidLaw": "Maryland Parental Leave Act: 6 workweeks of unpaid parental leave (birth, adoption, foster) for employers with 15-49 employees",
+                  "source": {"url": "https://paidleave.maryland.gov/employees/", "quote": "Starting in January 2028, FAMLI will make it possible to take up to 12 weeks of paid leave per year—with benefits of up to $1,000 per week", "accessed": "2026-10-11"}},
+  "finalPay": {"fired": "on or before the next regular payday", "firedDays": null, "quit": "on or before the next regular payday", "quitNotice": null,
+               "ptoPayout": "policy", "ptoNote": "Accrued vacation must be paid unless a written policy, communicated at hiring, says it is forfeited. Sick leave is not payable unless a contract or policy says so.",
+               "source": {"url": "https://labor.maryland.gov/labor/wagepay/wppayonterm.shtml", "quote": "all wages due ... on or before the day on which the employee would have been paid the wages if the employment had not terminated.", "accessed": "2026-10-11"},
+               "ptoSource": {"url": "https://labor.maryland.gov/labor/wagepay/wppayonterm.shtml", "quote": "where the employer does not have a written policy that limits the compensation for accrued leave to a terminated employee, that employee is entitled to the cash value", "accessed": "2026-10-11"}},
+  "breaks": {"meal": "Only retail establishments with 50+ retail employees (Healthy Retail Employee Act): 15 minutes for 4-6 consecutive hours, 30 minutes for more than 6 hours, plus 15 minutes per additional 4 hours after 8 hours", "mealMinutes": 30, "mealAfterHours": 6,
+             "rest": "Retail (50+ employees): 15-minute shift break for 4 to 6 consecutive hours", "restMinutes": 15, "restPerHours": 4,
+             "minorsOnly": "Outside large retail, no break law for adults; workers under 18 get breaks under child-labor rules", 
+             "source": {"url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gle&section=3-710&enactments=false", "quote": "an employer may not employ an employee at a retail establishment for more than 6 consecutive hours without providing a nonworking shift break of at least 30 minutes.", "accessed": "2026-10-11"}},
+  "rightToWork": false, "rightToWorkSource": null,
+  "atWill": "at-will",
+  "notes": [
+    {"text": "FAMLI was delayed: payroll contributions (0.9% of wages, split 0.45% employer / 0.45% employee; small employers under 15 pay only the employee half) start January 1, 2027 and benefits January 2028.", "source": {"url": "https://paidleave.maryland.gov/employers/make-contributions/", "quote": "MD Labor set the initial contribution rate at 0.9% of wages up to the Social Security wage cap. ... This rate will apply to wages paid from January 1, 2027 through December 31, 2027.", "accessed": "2026-10-11"}},
+    {"text": "Three counties set their own minimum wage; Montgomery County's rises every July 1 with inflation and has three tiers by employer size.", "source": {"url": "https://labor.maryland.gov/labor/wages/wagehrfacts.shtml", "quote": "Future rates are increased each July 1 by the Consumer Price Index for Urban Wage Earners and Clerical Workers (CPI-W) for Washington-Baltimore", "accessed": "2026-10-11"}}
+  ],
+  "uncertain": [
+    "Prince George's County rate ($15.30 from July 1, 2026) taken from the Maryland Department of Labor page; the county's own page could not be located.",
+    "Breaks: mealMinutes/restMinutes describe the Healthy Retail Employee Act only (retail employers with 50+ retail employees); other adults have no break law.",
+    "rightToWork false (Maryland has no right-to-work law); no statute page read to source the absence."
+  ]
+}

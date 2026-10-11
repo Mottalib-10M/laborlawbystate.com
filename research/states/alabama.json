@@ -1,0 +1,141 @@
+{
+  "slug": "alabama",
+  "name": "Alabama",
+  "abbr": "AL",
+  "agency": {
+    "name": "Alabama Department of Workforce (formerly Alabama Department of Labor)",
+    "url": "https://workforce.alabama.gov/"
+  },
+  "minWage": {
+    "rates2026": [
+      {
+        "from": "2009-07-24",
+        "rate": 7.25,
+        "area": "Statewide (federal minimum wage)",
+        "note": "Alabama has no state minimum wage law; the federal FLSA minimum applies to covered employers."
+      }
+    ],
+    "headline": 7.25,
+    "headlineArea": "Statewide (federal minimum wage)",
+    "federalApplies": true,
+    "rates2027": [],
+    "smallEmployer": "No state minimum wage law: employers not covered by the federal FLSA have no wage floor under state law.",
+    "tipped": {
+      "cashWage": 2.13,
+      "tipCreditAllowed": true,
+      "note": "Federal FLSA rule: $2.13 cash wage + up to $5.12 tip credit for employees receiving more than $30/month in tips."
+    },
+    "other": "No state youth or training wage; federal rules (e.g. $4.25 youth opportunity wage for first 90 days under age 20) apply. State law preempts local minimum wage ordinances (Ala. Code 25-7-45).",
+    "source": {
+      "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+      "quote": "Alabama: No state minimum wage law. Employers covered by federal law must pay $7.25/hour. (USDOL state table, updated July 1, 2026)",
+      "accessed": "2026-10-11"
+    }
+  },
+  "localMinWages": [],
+  "overtime": {
+    "weeklyHours": null,
+    "dailyHours": null,
+    "doubleTime": null,
+    "seventhDay": null,
+    "exemptSalaryWeekly": null,
+    "exemptSalaryNote": "No state overtime law; federal FLSA (40 h/week, $684/week exemption threshold) applies.",
+    "note": "Alabama Department of Workforce refers hours-worked and federal wage-hour questions to the U.S. Department of Labor Wage and Hour Division.",
+    "source": {
+      "url": "https://workforce.alabama.gov/faqs/i-have-questions-about-pay-unpaid-wages-breaks-vacation-pay-fmla-etc/",
+      "quote": "I have questions about pay, unpaid wages, breaks, vacation pay, FMLA, etc. Contact the US Department of Labor's Wage and Hour Division at (866) 487-9243",
+      "accessed": "2026-10-11"
+    }
+  },
+  "sickLeave": {
+    "mandatory": false,
+    "accrual": null,
+    "accrualPerHours": null,
+    "capHours": null,
+    "capNote": null,
+    "employerThreshold": null,
+    "effective": null,
+    "note": "No state paid sick leave law; local paid-leave mandates are preempted by Ala. Code 25-7-45.",
+    "source": {
+      "url": "https://alison.legislature.state.al.us/code-of-alabama?section=25-7-45",
+      "quote": "the Legislature hereby occupies and preempts the entire field of regulation in this state touching in any way upon ... the wages, leave, or other employment benefits provided by an employer",
+      "accessed": "2026-10-11"
+    }
+  },
+  "familyLeave": {
+    "paidProgram": false,
+    "name": null,
+    "benefitsStart": null,
+    "maxWeeks": null,
+    "replacement": null,
+    "maxWeeklyBenefit2026": null,
+    "medicalLeave": null,
+    "stateUnpaidLaw": null,
+    "source": {
+      "url": "https://workforce.alabama.gov/faqs/i-have-questions-about-pay-unpaid-wages-breaks-vacation-pay-fmla-etc/",
+      "quote": "I have questions about pay, unpaid wages, breaks, vacation pay, FMLA, etc. Contact the US Department of Labor's Wage and Hour Division",
+      "accessed": "2026-10-11"
+    }
+  },
+  "finalPay": {
+    "fired": "no state law; by the next regular payday is customary (federal FLSA sets no deadline)",
+    "firedDays": null,
+    "quit": "no state law",
+    "quitNotice": null,
+    "ptoPayout": "no-law",
+    "ptoNote": "No state law requires payout of accrued vacation; follows employer policy or contract.",
+    "source": {
+      "url": "https://workforce.alabama.gov/faqs/i-have-questions-about-pay-unpaid-wages-breaks-vacation-pay-fmla-etc/",
+      "quote": "I have questions about pay, unpaid wages, breaks, vacation pay, FMLA, etc. Contact the US Department of Labor's Wage and Hour Division at (866) 487-9243",
+      "accessed": "2026-10-11"
+    },
+    "ptoSource": {
+      "url": "https://workforce.alabama.gov/faqs/i-have-questions-about-pay-unpaid-wages-breaks-vacation-pay-fmla-etc/",
+      "quote": "I have questions about pay, unpaid wages, breaks, vacation pay, FMLA, etc. Contact the US Department of Labor's Wage and Hour Division",
+      "accessed": "2026-10-11"
+    }
+  },
+  "breaks": {
+    "meal": null,
+    "mealMinutes": null,
+    "mealAfterHours": null,
+    "rest": null,
+    "restMinutes": null,
+    "restPerHours": null,
+    "minorsOnly": "14- and 15-year-olds: a documented 30-minute meal or rest period after more than 5 continuous hours (Ala. Code 25-8-38(e)).",
+    "source": {
+      "url": "https://alison.legislature.state.al.us/code-of-alabama?section=25-8-38",
+      "quote": "No person 14 or 15 years of age shall be employed for more than five hours continuously without a documented interval of at least 30 minutes for a meal or rest period.",
+      "accessed": "2026-10-11"
+    }
+  },
+  "rightToWork": true,
+  "rightToWorkSource": {
+    "url": "https://alison.legislature.state.al.us/constitution?section=36.05",
+    "quote": "Section 36.05 Right to Work. (a) It is hereby declared to be the public policy of Alabama that the right of persons to work may not be denied or abridged on account of membership or nonmembership in a labor union",
+    "accessed": "2026-10-11"
+  },
+  "atWill": "at-will",
+  "notes": [
+    {
+      "text": "Alabama's Clarke-Figures Equal Pay Act (2019) bans pay gaps based on sex or race for equal work and bars employers from refusing to interview or hire an applicant who declines to give wage history.",
+      "source": {
+        "url": "https://alison.legislature.state.al.us/code-of-alabama?section=25-1-30",
+        "quote": "An employer shall not refuse to interview, hire, promote, or employ an applicant for employment, or retaliate against an applicant for employment because the applicant does not provide wage history.",
+        "accessed": "2026-10-11"
+      }
+    },
+    {
+      "text": "Cities and counties cannot set their own minimum wage or paid leave rules: state law reserves all regulation of wages, leave and employment benefits to the Legislature and voids contrary local ordinances.",
+      "source": {
+        "url": "https://alison.legislature.state.al.us/code-of-alabama?section=25-7-45",
+        "quote": "Any existing policies, ordinances, rules, or other mandates promulgated or enforced contrary to the terms of this section are null and void",
+        "accessed": "2026-10-11"
+      }
+    }
+  ],
+  "uncertain": [
+    "Minimum wage source is the USDOL state table (Alabama has no statute or agency page stating a wage floor); value $7.25 is the federal rate.",
+    "Code of Alabama pages (alison.legislature.state.al.us) render via JavaScript; quotes were read from the Legislature's own GraphQL data feed behind those pages."
+  ]
+}

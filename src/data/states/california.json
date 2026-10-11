@@ -1,0 +1,354 @@
+{
+ "slug": "california",
+ "name": "California",
+ "abbr": "CA",
+ "agency": {
+  "name": "California Department of Industrial Relations - Labor Commissioner's Office (DLSE)",
+  "url": "https://www.dir.ca.gov/dlse/"
+ },
+ "minWage": {
+  "rates2026": [
+   {
+    "from": "2026-01-01",
+    "rate": 16.9,
+    "area": "Statewide (all employers)",
+    "note": "Higher local rates apply in many cities/counties; separate $20 fast-food and tiered health-care minimum wages"
+   }
+  ],
+  "headline": 16.9,
+  "headlineArea": "Statewide (all employers)",
+  "federalApplies": false,
+  "rates2027": [
+   {
+    "from": "2027-01-01",
+    "rate": 17.4,
+    "area": "Statewide (all employers)",
+    "note": "Certified by the Department of Finance on July 31, 2026; DIR news release 2026-66 dated August 13, 2026"
+   }
+  ],
+  "smallEmployer": null,
+  "tipped": {
+   "cashWage": 16.9,
+   "tipCreditAllowed": false,
+   "note": "Tips cannot be credited toward the minimum wage; tipped workers get the full state (or higher local) minimum wage"
+  },
+  "other": "Learners (any age) may be paid not less than 85% of the minimum wage, rounded to the nearest nickel, during their first 160 hours of employment in an occupation in which they have no previous similar experience. No separate youth wage: minors get the same minimum wage as adults.",
+  "source": {
+   "url": "https://www.dir.ca.gov/dlse/faq_minimumwage.htm",
+   "quote": "Effective January 1, 2026, the minimum wage is $16.90 per hour for all employers, not otherwise covered by a higher minimum wage specific to an industry or a locality.",
+   "accessed": "2026-10-11"
+  },
+  "rates2027Source": {
+   "url": "https://www.dir.ca.gov/DIRNews/2026/2026-66.html",
+   "quote": "Beginning January 1, 2027, California's statewide minimum wage will increase to $17.40 per hour",
+   "accessed": "2026-10-11"
+  },
+  "tippedSource": {
+   "url": "https://www.dir.ca.gov/dlse/faq_minimumwage.htm",
+   "quote": "No. An employer may not use an employee's tips as a credit toward its obligation to pay the minimum wage per hour.",
+   "accessed": "2026-10-11"
+  }
+ },
+ "localMinWages": [
+  {
+   "name": "Los Angeles (city)",
+   "rate": 18.42,
+   "from": "2026-07-01",
+   "note": "Adjusted every July 1 (was $17.87 from 2025-07-01). Separate, higher Citywide Hotel Worker Minimum Wage.",
+   "source": {
+    "url": "https://wagesla.lacity.org/",
+    "quote": "Effective Date All Employers ... 7/1/2025 $17.87 7/1/2026 $18.42",
+    "accessed": "2026-10-11"
+   }
+  },
+  {
+   "name": "Los Angeles County (unincorporated areas)",
+   "rate": 18.47,
+   "from": "2026-07-01",
+   "note": "Applies only in unincorporated areas of LA County (was $17.81 from 2025-07-01)",
+   "source": {
+    "url": "https://dcba.lacounty.gov/minimum-wage/",
+    "quote": "a minimum wage increase from $17.81 to $18.47, within the unincorporated areas of the County, is required effective July 1, 2026",
+    "accessed": "2026-10-11"
+   }
+  },
+  {
+   "name": "San Francisco",
+   "rate": 19.61,
+   "from": "2026-07-01",
+   "note": "Adjusted every July 1 by CPI. Government Supported Employees: $17.35 from 2026-07-01.",
+   "source": {
+    "url": "https://www.sf.gov/information--minimum-wage-ordinance",
+    "quote": "must be paid no less than the San Francisco minimum wage, currently $19.61 as of July 1, 2026",
+    "accessed": "2026-10-11"
+   }
+  },
+  {
+   "name": "San Jose",
+   "rate": 18.45,
+   "from": "2026-01-01",
+   "note": "Adjusted every January 1 (was $17.95 in 2025)",
+   "source": {
+    "url": "https://www.sanjoseca.gov/home/showpublisheddocument/125072/639252317260730000",
+    "quote": "Effective January 1, 2026 the San Jose minimum wage rate is $18.45 per hour",
+    "accessed": "2026-10-11"
+   }
+  },
+  {
+   "name": "Oakland",
+   "rate": 17.34,
+   "from": "2026-01-01",
+   "note": "Measure FF; separate hotel minimum wage (Measure Z) of $18.85 with health benefits",
+   "source": {
+    "url": "https://www.oaklandca.gov/Government/Departments/Workplace-Employment-Standards/Download-Minimum-Wage-and-Hotel-Wage-Posters",
+    "quote": "Measure FF: Effective January 1, 2026, the Oakland Minimum Wage Rate goes up to $17.34 per hour.",
+    "accessed": "2026-10-11"
+   }
+  },
+  {
+   "name": "San Diego (city)",
+   "rate": 17.75,
+   "from": "2026-01-01",
+   "note": "Schedule already lists $18.35 from 2027-01-01",
+   "source": {
+    "url": "https://www.sandiego.gov/labor-and-wage/minimum-wage/earned-sick-leave",
+    "quote": "Effective Date Minimum Wage Rate ... January 1, 2026 $17.75 January 1, 2027 $18.35",
+    "accessed": "2026-10-11"
+   }
+  },
+  {
+   "name": "Berkeley",
+   "rate": 19.61,
+   "from": "2026-07-01",
+   "note": "Adjusted every July 1 (was $19.18 from 2025-07-01)",
+   "source": {
+    "url": "https://berkeleyca.gov/doing-business/operating-berkeley/workforce-standards-and-enforcement",
+    "quote": "$19.61/hour: Effective July 1, 2026",
+    "accessed": "2026-10-11"
+   }
+  },
+  {
+   "name": "Mountain View",
+   "rate": 19.7,
+   "from": "2026-01-01",
+   "note": "Applies to employees working 2+ hours per week in the city; adjusted every January 1",
+   "source": {
+    "url": "https://econdev.mountainview.gov/resources/city-minimum-wage?locale=en",
+    "quote": "Beginning January 1, 2026, employers ... must pay to each employee ... minimum wages not less than $19.70 per hour.",
+    "accessed": "2026-10-11"
+   }
+  },
+  {
+   "name": "Sunnyvale",
+   "rate": 19.5,
+   "from": "2026-01-01",
+   "note": "Adjusted every January 1 by regional CPI",
+   "source": {
+    "url": "https://www.sunnyvale.ca.gov/business-and-development/your-business-center/minimum-wage",
+    "quote": "Effective Date: Jan. 1, 2026 Minimum Wage Rate: $19.50 per hour",
+    "accessed": "2026-10-11"
+   }
+  },
+  {
+   "name": "Santa Monica",
+   "rate": 18.47,
+   "from": "2026-07-01",
+   "note": "Was $17.81 before July 1, 2026. Hotels and businesses on hotel property: $25.00 from 2026-07-01.",
+   "source": {
+    "url": "https://www.santamonica.gov/minimum-wage",
+    "quote": "The minimum wage is $17.81 per hour and will increase to $18.47 per hour effective July 1, 2026.",
+    "accessed": "2026-10-11"
+   }
+  },
+  {
+   "name": "West Hollywood",
+   "rate": 20.25,
+   "from": "2026-01-01",
+   "note": "Non-hotel employees; rises to $20.94 on 2027-01-01. Hotel employees: $20.87 from 2026-07-01.",
+   "source": {
+    "url": "https://www.weho.org/business/operate-your-business/minimum-wage",
+    "quote": "Beginning January 1, 2026, the citywide minimum wage for non-hotel employees is $20.25.",
+    "accessed": "2026-10-11"
+   }
+  },
+  {
+   "name": "Emeryville",
+   "rate": 20.34,
+   "from": "2026-07-01",
+   "note": "All businesses; adjusted every July 1 (was $19.90 from 2025-07-01)",
+   "source": {
+    "url": "https://www.emeryville.org/Services/Business/Permits-Regulations/Minimum-Wage-Ordinance",
+    "quote": "July 1, 2025 $19.90 (CPI) (all businesses) July 1, 2026 $20.34 (CPI) (all businesses)",
+    "accessed": "2026-10-11"
+   }
+  },
+  {
+   "name": "Pasadena",
+   "rate": 18.57,
+   "from": "2026-07-01",
+   "note": "Applies to employees working 2+ hours per week in Pasadena",
+   "source": {
+    "url": "https://www.cityofpasadena.net/planning/wp-content/uploads/sites/30/OFFICIAL-NOTICE-EFFECTIVE-JULY-1-2026-ENGLISH.pdf",
+    "quote": "Beginning July 1, 2026, employers must pay employees wages of not less than $18.57 per hour",
+    "accessed": "2026-10-11"
+   }
+  }
+ ],
+ "overtime": {
+  "weeklyHours": 40,
+  "dailyHours": 8,
+  "doubleTime": "2x the regular rate for hours over 12 in a workday and for hours over 8 on the seventh consecutive day of work in a workweek",
+  "seventhDay": "1.5x for the first 8 hours worked on the seventh consecutive day of work in a workweek; 2x after 8 hours that day",
+  "exemptSalaryWeekly": 1352.0,
+  "exemptSalaryNote": "2026: twice the state minimum wage for full-time work = $16.90 x 2 x 40 = $1,352/week ($70,304/year), white-collar exemptions. Rises to $72,384/year ($1,392/week) on 2027-01-01.",
+  "note": "1.5x the regular rate for hours over 8 (up to 12) in a workday and over 40 in a workweek.",
+  "source": {
+   "url": "https://www.dir.ca.gov/dlse/faq_overtime.htm",
+   "quote": "Double the employee's regular rate of pay for all hours worked in excess of 12 hours in any workday and for all hours worked in excess of eight on the seventh consecutive day",
+   "accessed": "2026-10-11"
+  },
+  "exemptSalarySource": {
+   "url": "https://www.dir.ca.gov/DIRNews/2025/2025-118.html",
+   "quote": "As of January 1, 2026, employees in California must earn an annual salary of at least $70,304 to meet this threshold.",
+   "accessed": "2026-10-11"
+  }
+ },
+ "sickLeave": {
+  "mandatory": true,
+  "accrual": "1 hour for every 30 hours worked (or an up-front grant / alternative accrual)",
+  "accrualPerHours": 30,
+  "capHours": 40,
+  "capNote": "Employers may limit use to 40 hours or 5 days per year (whichever is more) and total accrual to 80 hours or 10 days. Up-front policies: 24 hours/3 days by day 120 of employment. Before 2024 the limits were 24 h use / 48 h accrual. Some cities (e.g. Los Angeles, San Francisco, San Diego, Emeryville) have more generous local sick-leave rules.",
+  "employerThreshold": "all employers; covers employees who work 30+ days for the same employer within a year in California",
+  "effective": "2015-07-01",
+  "note": "Use may be restricted until the 90th day of employment.",
+  "source": {
+   "url": "https://www.dir.ca.gov/dlse/paid_sick_leave.htm",
+   "quote": "the law allows employers to limit an employee's use of paid sick leave to 40 hours or five days during a year ... total accrued paid sick leave to no more than 80 hours or ten days",
+   "accessed": "2026-10-11"
+  },
+  "effectiveSource": {
+   "url": "https://www.dir.ca.gov/dlse/ab1522.html",
+   "quote": "An employee who, on or after July 1, 2015, works in California for 30 or more days within a year from the beginning of employment, is entitled to paid sick leave.",
+   "accessed": "2026-10-11"
+  }
+ },
+ "familyLeave": {
+  "paidProgram": true,
+  "name": "California Paid Family Leave (PFL), part of State Disability Insurance (SDI), run by the EDD",
+  "benefitsStart": "2004-07-01",
+  "maxWeeks": 8,
+  "replacement": "About 70-90% of wages (depending on income), based on the highest quarter of the base period, up to the maximum weekly benefit; minimum $50/week",
+  "maxWeeklyBenefit2026": 1765,
+  "medicalLeave": "State Disability Insurance (DI): up to 52 weeks for the worker's own non-work-related illness, injury or pregnancy, same 70-90% formula and $1,765 maximum",
+  "stateUnpaidLaw": "California Family Rights Act (CFRA): up to 12 workweeks of job-protected leave in a 12-month period; employers with 5 or more employees; employee needs more than 12 months of service and 1,250 hours in the prior 12 months. PFL itself gives no job protection.",
+  "source": {
+   "url": "https://edd.ca.gov/en/disability/paid-family-leave/",
+   "quote": "you may receive benefit payments for up to 8 weeks in a 12-month period. The minimum weekly benefit amount is $50, and the maximum is $1,765 per week.",
+   "accessed": "2026-10-11"
+  },
+  "replacementSource": {
+   "url": "https://edd.ca.gov/en/disability/Calculating_PFL_Benefit_Payment_Amounts/",
+   "quote": "Your weekly benefit amount (WBA) is about 70-90% (depending on income) of wages you earned 5 to 18 months before your claim start date",
+   "accessed": "2026-10-11"
+  },
+  "benefitsStartSource": {
+   "url": "https://edd.ca.gov/siteassets/files/pdf_pub_ctr/de2530.pdf",
+   "quote": "Although the legislation was enacted in 2002, PFL benefits officially became available to covered workers on July 1, 2004.",
+   "accessed": "2026-10-11"
+  },
+  "medicalLeaveSource": {
+   "url": "https://edd.ca.gov/en/disability/Calculating_DI_Benefit_Payment_Amounts/",
+   "quote": "The most you can receive is 52 weeks of DI benefits, for your own non-work-related illness, injury, or pregnancy.",
+   "accessed": "2026-10-11"
+  },
+  "stateUnpaidLawSource": {
+   "url": "https://calcivilrights.ca.gov/wp-content/uploads/sites/32/2023/01/CFRA-and-Pregnancy-Leave_ENG.pdf",
+   "quote": "an employee must have more than 12 months of service with their employer, have worked at least 1,250 hours ... and their employer must have five or more employees",
+   "accessed": "2026-10-11"
+  }
+ },
+ "finalPay": {
+  "fired": "immediately at the time of termination, including accrued vacation",
+  "firedDays": 0,
+  "quit": "within 72 hours of quitting; immediately at the time of quitting if the employee gave at least 72 hours' notice",
+  "quitNotice": "72 hours' notice makes final pay due on the last day",
+  "ptoPayout": "required",
+  "ptoNote": "Earned vacation vests and cannot be forfeited (no use-it-or-lose-it); all earned, unused vacation must be paid at the final rate of pay at separation. Employers may cap further accrual.",
+  "source": {
+   "url": "https://www.dir.ca.gov/dlse/faq_paydays.htm",
+   "quote": "An employee who is discharged must be paid all of his or her wages, including accrued vacation, immediately at the time of termination.",
+   "accessed": "2026-10-11"
+  },
+  "ptoSource": {
+   "url": "https://www.dir.ca.gov/dlse/faq_vacation.htm",
+   "quote": "upon termination of employment all earned and unused vacation must be paid to the employee at his or her final rate of pay. Labor Code Section 227.3",
+   "accessed": "2026-10-11"
+  }
+ },
+ "breaks": {
+  "meal": "30-minute meal period for work periods over 5 hours (waivable by mutual consent if the day is no more than 6 hours); a second 30-minute meal period for over 10 hours (waivable if no more than 12 hours and the first was not waived)",
+  "mealMinutes": 30,
+  "mealAfterHours": 5,
+  "rest": "Net 10-minute paid rest period for every 4 hours worked or major fraction thereof (more than 2 hours); not required if the day is under 3.5 hours. Missed meal or rest period = one extra hour of pay per day.",
+  "restMinutes": 10,
+  "restPerHours": 4,
+  "minorsOnly": null,
+  "source": {
+   "url": "https://www.dir.ca.gov/dlse/faq_mealperiods.htm",
+   "quote": "an employer may not employ an employee for a work period of more than five hours per day without providing the employee with a meal period of not less than thirty minutes",
+   "accessed": "2026-10-11"
+  },
+  "restSource": {
+   "url": "https://www.dir.ca.gov/dlse/faq_restperiods.htm",
+   "quote": "must authorize and permit a net 10-minute paid rest period for every four hours worked or major fraction thereof",
+   "accessed": "2026-10-11"
+  }
+ },
+ "rightToWork": false,
+ "rightToWorkSource": null,
+ "atWill": "at-will",
+ "notes": [
+  {
+   "text": "Fast-food restaurant employees covered by AB 1228 must be paid at least $20.00 per hour since April 1, 2024 (set by the state Fast Food Council).",
+   "source": {
+    "url": "https://www.dir.ca.gov/dlse/Fast-Food-Minimum-Wage-FAQ.htm",
+    "quote": "Starting April 1, 2024, all \"fast food restaurant employees\" who are covered by the new law must be paid at least $20.00 per hour.",
+    "accessed": "2026-10-11"
+   }
+  },
+  {
+   "text": "Health-care workers at covered facilities have a separate, tiered minimum wage (SB 525) since October 16, 2024. From July 1, 2026: $25 at large health systems (10,000+ FTE), dialysis clinics and large-county facilities; $23 at most other covered facilities; $22 at community/rural clinics; $19.28 at safety-net hospitals and small-county facilities.",
+   "source": {
+    "url": "https://www.dir.ca.gov/dlse/Health-Care-Worker-Minimum-Wage-FAQ.htm",
+    "quote": "Hospital or integrated health system with 10,000 or more full-time employees ... 7/1/26 to 12/31/27: $25",
+    "accessed": "2026-10-11"
+   }
+  },
+  {
+   "text": "The statewide minimum wage rises to $17.40 on January 1, 2027, which lifts the exempt-employee salary floor to $72,384 a year.",
+   "source": {
+    "url": "https://www.dir.ca.gov/DIRNews/2026/2026-66.html",
+    "quote": "Beginning January 1, 2027, an employee must earn an annual salary of at least $72,384 to meet the salary threshold for exemption.",
+    "accessed": "2026-10-11"
+   }
+  },
+  {
+   "text": "California has daily overtime: time and a half after 8 hours in a day and double time after 12, plus special seventh-consecutive-day rules.",
+   "source": {
+    "url": "https://www.dir.ca.gov/dlse/faq_overtime.htm",
+    "quote": "Eight hours of labor constitutes a day's work, and employment beyond eight hours in any workday or more than six days in any workweek requires the employee to be compensated for the overtime",
+    "accessed": "2026-10-11"
+   }
+  }
+ ],
+ "uncertain": [
+  "Long Beach has NO general citywide minimum wage (the state $16.90 applies); it was left out of localMinWages. Only hotel workers have a local rate: $26.50 from 2026-07-01 (longbeach.gov/finance/business-info/compliance/minimum-wage/, which also says the LA County unincorporated rate does not apply in Long Beach).",
+  "PFL/DI maximum weekly benefit $1,765: the EDD pages read today show it next to 2026 base-period examples but do not literally say '2026 maximum'. Treated as the 2026 value.",
+  "Health-care tiers: the DIR FAQ table read today was last updated June 2025. The July 1, 2026 steps come from that schedule, not from a 2026 notice.",
+  "atWill = 'at-will' (Labor Code 2922) and rightToWork = false were not checked against leginfo.legislature.ca.gov because the site returns 403 to automated requests. California has never passed a right-to-work law.",
+  "overtime.exemptSalaryWeekly 1352.00 is worked out from DIR's annual figure ($70,304 / 52) and DIR's formula ($16.90 x 2 x 40).",
+  "Shape note: extra '*Source' keys (rates2027Source, tippedSource, exemptSalarySource, effectiveSource, replacementSource, benefitsStartSource, medicalLeaveSource, stateUnpaidLawSource, restSource) were added next to the brief's fields so each value has its own official citation, following the brief's ptoSource pattern.",
+  "Local entries for San Jose, Mountain View, Sunnyvale, West Hollywood, San Francisco and Emeryville were read in a real browser because those city sites block scripted requests (403/202). Oakland's quote is from its official poster page, reached via redirect."
+ ]
+}

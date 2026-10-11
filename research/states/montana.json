@@ -1,0 +1,42 @@
+{
+  "slug": "montana", "name": "Montana", "abbr": "MT",
+  "agency": {"name": "Montana Department of Labor & Industry, Employment Standards Division", "url": "https://erd.dli.mt.gov/labor-standards/"},
+  "minWage": {
+    "rates2026": [
+      {"from": "2026-01-01", "rate": 10.85, "area": "Statewide", "note": "CPI-adjusted from $10.55"},
+      {"from": "2026-01-01", "rate": 4.00, "area": "Businesses not covered by the FLSA with gross annual sales of $110,000 or less", "note": "Employees individually covered by the FLSA must get the higher federal/state rate"}
+    ],
+    "headline": 10.85,
+    "headlineArea": "Statewide",
+    "federalApplies": false,
+    "rates2027": [ {"from": "2027-01-01", "rate": 11.20, "area": "Statewide", "note": "Announced in the DLI determination letter dated October 7, 2026 (CPI +3.40%)"} ],
+    "smallEmployer": "$4.00/hour for businesses not covered by the FLSA with gross annual sales of $110,000 or less (employees covered by the FLSA must receive at least the federal minimum, $7.25).",
+    "tipped": {"cashWage": 10.85, "tipCreditAllowed": false, "note": "No tip credit, meal credit or training wage allowed"},
+    "other": null,
+    "source": {"url": "https://erd.dli.mt.gov/_docs/labor-standards/MW-Determination-Letter.2026.pdf", "quote": "Pursuant to §39-3-409 MCA, Montana's Minimum Wage will increase to $10.85 per hour effective January 1, 2026.", "accessed": "2026-10-11"}
+  },
+  "localMinWages": [],
+  "overtime": {"weeklyHours": 40, "dailyHours": null, "doubleTime": null, "seventhDay": null,
+    "exemptSalaryWeekly": null, "exemptSalaryNote": null,
+    "note": "Holiday, sick and vacation hours do not count toward the 40 hours.",
+    "source": {"url": "https://erd.dli.mt.gov/labor-standards/wage-and-hour-payment-act/overtime", "quote": "an employee must be paid at a rate of one and one-half their regular (hourly) rate for all hours worked over 40 per week", "accessed": "2026-10-11"}},
+  "sickLeave": {"mandatory": false, "accrual": null, "accrualPerHours": null, "capHours": null, "capNote": null,
+    "employerThreshold": null, "effective": null, "note": "No state paid sick leave law for private employers.", "source": null},
+  "familyLeave": {"paidProgram": false, "name": null, "benefitsStart": null, "maxWeeks": null, "replacement": null,
+    "maxWeeklyBenefit2026": null, "medicalLeave": null, "stateUnpaidLaw": null, "source": null},
+  "finalPay": {"fired": "immediately, unless a pre-existing written policy extends it, and no later than the next payday or 15 days, whichever comes first", "firedDays": 0,
+    "quit": "next regular payday for the period or 15 days, whichever comes first", "quitNotice": null,
+    "ptoPayout": "required", "ptoNote": "Earned vacation pay is treated as wages and is collectible like any other wages.",
+    "source": {"url": "https://erd.dli.mt.gov/labor-standards/wage-and-hour-payment-act/wage-payment-act", "quote": "If an employee is laid off, or discharged, all wages are due immediately unless the employer has a pre-existing, written personnel policy that extends the time for payment.", "accessed": "2026-10-11"},
+    "ptoSource": {"url": "https://erd.dli.mt.gov/_docs/labor-standards/1949-AG-Opinion-56.pdf", "quote": "Vacation pay which has been earned and is now owing is considered to be wages and is collectable in the same manner and under the same statutes as any other kind of wages.", "accessed": "2026-10-11"}},
+  "breaks": {"meal": null, "mealMinutes": null, "mealAfterHours": null, "rest": null, "restMinutes": null, "restPerHours": null, "minorsOnly": null,
+    "source": {"url": "https://erd.dli.mt.gov/labor-standards/wage-and-hour-payment-act/hours-worked", "quote": "There is not a federal or Montana state law that requires an employer furnish a meal break", "accessed": "2026-10-11"}},
+  "rightToWork": false, "rightToWorkSource": null,
+  "atWill": "Not at-will after probation: under the Wrongful Discharge from Employment Act (MCA 39-2-901 et seq.), once the employer's probationary period is completed a discharge is wrongful if it is not for good cause, is retaliation for refusing to violate or reporting a violation of public policy, materially breaches the employer's written personnel policy, or is based solely on the employee's legal free speech (including social media). During probation either party may end employment for any reason; employers have the broadest discretion for managers and supervisors.",
+  "notes": [
+    {"text": "Montana is the only state where most private employees cannot be fired without good cause once their probationary period ends (Wrongful Discharge from Employment Act).", "source": {"url": "https://archive.legmt.gov/bills/mca/title_0390/chapter_0020/part_0090/section_0040/0390-0020-0090-0040.html", "quote": "(b) the discharge was not for good cause and the employee had completed the employer's probationary period of employment", "accessed": "2026-10-11"}},
+    {"text": "Since the 2023 amendment, firing someone solely for legal free speech, including social-media posts, is a wrongful discharge.", "source": {"url": "https://archive.legmt.gov/bills/mca/title_0390/chapter_0020/part_0090/section_0040/0390-0020-0090-0040.html", "quote": "(d) the employer terminated the employee solely based on the employee's legal expression of free speech, including but not limited to statements made on social media.", "accessed": "2026-10-11"}},
+    {"text": "The minimum wage is indexed to inflation every year: $10.85 in 2026, rising to $11.20 on January 1, 2027.", "source": {"url": "https://erd.dli.mt.gov/labor-standards/wage-and-hour-payment-act/MW-Determination-Letter1.pdf", "quote": "Montana's Minimum Wage will increase to $11.20 per hour effective January 1, 2027.", "accessed": "2026-10-11"}}
+  ],
+  "uncertain": ["MCA 2025 shows 39-2-904 last amended in 2023 (Ch. 361); no 2025 amendment to the Wrongful Discharge Act elements was found, but the full 2025 session laws were not reviewed.", "Vacation payout rule sourced from a 1949 Attorney General opinion linked by DLI; forfeiture limits come from case law not read here."]
+}
