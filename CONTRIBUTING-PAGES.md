@@ -1,4 +1,4 @@
-# Écrire ou étoffer une page du « State Labor Law Guide »
+# Écrire ou étoffer une page du « Labor Law by State »
 
 Notice pour les agents qui écrivent une page. À lire en entier avant d'écrire, avec
 `~/Documents/GitHub/RECETTE-SITE.md` (§0, §6, §6.5, §7, §9, §9.3, §11, §17.4, §21, §26).
@@ -109,7 +109,7 @@ minutes », « every 4 hours ») peut s'écrire s'il figure dans le texte du fic
 ## Contrôles (à lancer avant de rendre la main)
 
 ```bash
-cd ~/Documents/GitHub/a-publier/Mottalib-10M/us-labor-law
+cd ~/Documents/GitHub/a-publier/Mottalib-10M/laborlawbystate.com
 python3 scripts/sync-states.py
 ALLOW_PLANNED=1 PAGE_FILES=fmla,state:ohio npx vitest run tests/pages.test.ts   # vos pages
 ```

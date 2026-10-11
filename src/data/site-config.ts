@@ -1,6 +1,6 @@
 /** Configuration centrale du site (générée par new-site.py). */
-export const SITE_URL = "https://us-labor-law.example";
-export const SITE_NAMES: Record<string, string> = {"en": "State Labor Law Guide"};
+export const SITE_URL = "https://laborlawbystate.com";
+export const SITE_NAMES: Record<string, string> = {"en": "Labor Law by State"};
 export const LANG_TAGS: Record<string, string> = {"en": "en-US"};
 export const OG_LOCALES: Record<string, string> = {"en": "en_US"};
 export const LOCALE_TAG = 'en-US';
@@ -16,7 +16,7 @@ export const AUTHOR_DESC: Record<string, string> = {"en": "Radif Partners reads 
  *  themes reellement traites par le site, pas une liste de mots-cles : un sujet
  *  declare ici sans page qui le couvre est une declaration fausse. */
 export const KNOWS_ABOUT: Record<string, string[]> = {"en": ["State minimum wage laws", "FLSA overtime rules", "Family and Medical Leave Act", "Paid sick leave laws", "Final paycheck laws", "Meal and rest break laws"]};
-export const CONTACT_EMAIL = "contact@us-labor-law.example";
+export const CONTACT_EMAIL = "contact@laborlawbystate.com";
 export const THEME_COLOR = '#A31F34';
 export const LOGO_SYMBOL = 'LAW';
 export const BING_VERIFY_CODE = '';
