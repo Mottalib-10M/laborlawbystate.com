@@ -28,8 +28,8 @@ ${h.mini('ptoPayout', stateArg('North Dakota'))}
 <p>When the employer ends the job, the last wages are due on the regular payday for the period worked, and they must be sent by certified mail to an address the employee designates, unless the two sides agree on another method. A worker who quits is also paid on the next regular payday. Giving the employer a mailing address in writing on the way out avoids delay. The Wage and Hour Division of the Department of Labor and Human Rights takes claims for unpaid wages.</p>
 <h2>Tip credit and overtime</h2>
 <p>North Dakota allows a tip credit equal to 33 percent of the minimum wage, ${rate$(credit)} an hour, for employees who receive more than $30 a month in tips. Take a server working ${hrs} hours who collects ${usd(tips)} in tips that week. The cash wage pays ${usdx(cash)}, and with tips the total must reach ${usdx(owed)}; the employer owes ${usdx(topUp)} more to close the gap. Sub-minimum wages for other workers require a license from the department.</p>
-${h.mini('tipTopUp', stateArg('North Dakota'))}
 <p>Hours past ${S.overtime.weeklyHours} in a workweek are paid at one and a half times the regular rate, and a private employer cannot offer comp time instead. The salary test for exempt staff is the federal ${usd(F.exemptWeekly)} a week.</p>
+${h.mini('tipTopUp', stateArg('North Dakota'))}
 <h2>Meal periods, unions and leave</h2>
 <p>The meal period rule is conditional: a shift exceeding ${br.mealAfterHours} hours brings a ${br.mealMinutes}-minute break only when at least two employees are on duty, and the employee may waive it. North Dakota is a right-to-work state, so union membership or nonmembership cannot cost anyone a job. There is no state paid sick leave or paid family leave program; the federal FMLA covers eligible workers for up to ${FM.weeks} unpaid weeks. ${h.a('right-to-work-states', 'Right-to-work states')} are compared in a separate guide.</p>`,
   faqs: [

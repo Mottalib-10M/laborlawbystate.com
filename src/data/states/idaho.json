@@ -1,0 +1,133 @@
+{
+ "slug": "idaho",
+ "name": "Idaho",
+ "abbr": "ID",
+ "agency": {
+  "name": "Idaho Department of Labor",
+  "url": "https://www.labor.idaho.gov/"
+ },
+ "minWage": {
+  "rates2026": [
+   {
+    "from": "2026-01-01",
+    "rate": 7.25,
+    "area": "Statewide",
+    "note": "state rate set at $7.25 and tracks the federal minimum wage"
+   }
+  ],
+  "headline": 7.25,
+  "headlineArea": "Statewide",
+  "federalApplies": false,
+  "rates2027": [],
+  "smallEmployer": null,
+  "tipped": {
+   "cashWage": 3.35,
+   "tipCreditAllowed": true,
+   "note": "employer must make up the difference if tips plus cash wage fall below $7.25"
+  },
+  "other": "Employees under 20: $4.25 per hour during the first 90 consecutive calendar days of employment",
+  "source": {
+   "url": "https://web.archive.org/web/20260831055833/https://legislature.idaho.gov/statutesrules/idstat/title44/t44ch15/sect44-1502/",
+   "quote": "no employer shall pay to any of his employees any wages computed at a rate of less than seven dollars and twenty-five cents ($7.25) per hour",
+   "accessed": "2026-10-11"
+  }
+ },
+ "localMinWages": [],
+ "overtime": {
+  "weeklyHours": null,
+  "dailyHours": null,
+  "doubleTime": null,
+  "seventhDay": null,
+  "exemptSalaryWeekly": null,
+  "exemptSalaryNote": null,
+  "note": "No state overtime law; federal FLSA overtime (over 40 hours a week) applies to covered employers.",
+  "source": null
+ },
+ "sickLeave": {
+  "mandatory": false,
+  "accrual": null,
+  "accrualPerHours": null,
+  "capHours": null,
+  "capNote": null,
+  "employerThreshold": null,
+  "effective": null,
+  "note": "No statewide paid sick leave requirement for private employers.",
+  "source": null
+ },
+ "familyLeave": {
+  "paidProgram": false,
+  "name": null,
+  "benefitsStart": null,
+  "maxWeeks": null,
+  "replacement": null,
+  "maxWeeklyBenefit2026": null,
+  "medicalLeave": null,
+  "stateUnpaidLaw": null,
+  "source": null
+ },
+ "finalPay": {
+  "fired": "by the earlier of the next regularly scheduled payday or 10 days (weekends and holidays excluded); within 48 hours of a written request",
+  "firedDays": null,
+  "quit": "by the earlier of the next regularly scheduled payday or 10 days (weekends and holidays excluded); within 48 hours of a written request",
+  "quitNotice": null,
+  "ptoPayout": "policy",
+  "ptoNote": "no Idaho statute requires payout of accrued vacation; follows employer policy or agreement",
+  "source": {
+   "url": "https://web.archive.org/web/20260831052422/https://legislature.idaho.gov/statutesrules/idstat/title45/t45ch6/sect45-606/",
+   "quote": "all wages then due the employee by the earlier of the next regularly scheduled payday or within ten (10) days of such layoff or termination, weekends and holidays excluded.",
+   "accessed": "2026-10-11"
+  },
+  "ptoSource": null
+ },
+ "breaks": {
+  "meal": null,
+  "mealMinutes": null,
+  "mealAfterHours": null,
+  "rest": null,
+  "restMinutes": null,
+  "restPerHours": null,
+  "minorsOnly": null,
+  "source": {
+   "url": "https://www.dol.gov/agencies/whd/state/meal-breaks",
+   "quote": "Idaho is not listed in the U.S. DOL table of state meal period requirements (cross-check)",
+   "accessed": "2026-10-11"
+  }
+ },
+ "rightToWork": true,
+ "rightToWorkSource": {
+  "url": "https://web.archive.org/web/20251225183625/https://legislature.idaho.gov/statutesrules/idstat/Title44/T44CH20/SECT44-2003/",
+  "quote": "No person shall be required, as a condition of employment or continuation of employment, ... (2) to become or remain a member of a labor organization",
+  "accessed": "2026-10-11"
+ },
+ "atWill": "at-will",
+ "notes": [
+  {
+   "text": "Cities and counties in Idaho may not set a minimum wage higher than the state rate.",
+   "source": {
+    "url": "https://web.archive.org/web/20260831055833/https://legislature.idaho.gov/statutesrules/idstat/title44/t44ch15/sect44-1502/",
+    "quote": "No political subdivision of this state ... shall establish by ordinance or other action minimum wages higher than the minimum wages provided in this section.",
+    "accessed": "2026-10-11"
+   }
+  },
+  {
+   "text": "A departing employee can get final wages within 48 hours (weekends and holidays excluded) by making a written request to the employer.",
+   "source": {
+    "url": "https://web.archive.org/web/20260831052422/https://legislature.idaho.gov/statutesrules/idstat/title45/t45ch6/sect45-606/",
+    "quote": "if the employee makes written request upon the employer for earlier payment of wages, all wages then due the employee shall be paid within forty-eight (48) hours",
+    "accessed": "2026-10-11"
+   }
+  },
+  {
+   "text": "Employers may pay workers under 20 a training wage of $4.25 an hour for their first 90 days, but may not displace other employees to do so.",
+   "source": {
+    "url": "https://web.archive.org/web/20260831055833/https://legislature.idaho.gov/statutesrules/idstat/title44/t44ch15/sect44-1502/",
+    "quote": "an employee who has not attained twenty (20) years of age a wage which is not less than four dollars and twenty-five cents ($4.25) an hour during the first ninety (90) consecutive calendar days",
+    "accessed": "2026-10-11"
+   }
+  }
+ ],
+ "uncertain": [
+  "Idaho state sites (labor.idaho.gov, legislature.idaho.gov) were unreachable today (connection timeout); statute text was read from Internet Archive copies of legislature.idaho.gov (snapshots of 2026-08-31 for 44-1502 and 45-606, 2025-12-25 for 44-2003). The Idaho DOL wage-and-hour page had no archived 2026 copy.",
+  "Absence of state overtime, paid sick leave, meal/rest break and vacation-payout rules is based on the absence of such provisions in the statutes read plus the U.S. DOL meal-break table; not confirmed on an Idaho DOL page today."
+ ]
+}

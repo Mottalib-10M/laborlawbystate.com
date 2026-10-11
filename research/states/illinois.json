@@ -1,0 +1,165 @@
+{
+  "slug": "illinois",
+  "name": "Illinois",
+  "abbr": "IL",
+  "agency": {
+    "name": "Illinois Department of Labor",
+    "url": "https://labor.illinois.gov/"
+  },
+  "minWage": {
+    "rates2026": [
+      {
+        "from": "2026-01-01",
+        "rate": 15.0,
+        "area": "Statewide (workers 18 and older)",
+        "note": "$15.00 since January 1, 2025; unchanged in 2026"
+      }
+    ],
+    "headline": 15.0,
+    "headlineArea": "Statewide",
+    "federalApplies": false,
+    "rates2027": [],
+    "smallEmployer": null,
+    "tipped": {
+      "cashWage": 9.0,
+      "tipCreditAllowed": true,
+      "note": "employers may pay 60% of the minimum wage to tipped employees"
+    },
+    "other": "Youth under 18 working fewer than 650 hours per calendar year: $13.00",
+    "source": {
+      "url": "https://labor.illinois.gov/laws-rules/fls/minimum-wage-law.html",
+      "quote": "Guarantees a minimum wage of $15.00 per hour for workers 18 years of age and older. An employer where gratuities are paid to employee, may pay 60% of the minimum wage",
+      "accessed": "2026-10-11"
+    }
+  },
+  "localMinWages": [
+    {
+      "name": "Chicago",
+      "rate": 17.05,
+      "from": "2026-07-01",
+      "note": "employers with 4 or more employees; tipped workers $12.96; adjusted every July 1 by CPI or 2.5%, whichever is lower",
+      "source": {
+        "url": "https://www.chicago.gov/city/en/depts/bacp/supp_info/minimumwageinformation.html",
+        "quote": "As of July 1, 2026, the minimum wage in Chicago is $17.05 per hour for employers with 4 or more employees.",
+        "accessed": "2026-10-11"
+      }
+    },
+    {
+      "name": "Cook County",
+      "rate": 15.4,
+      "from": "2026-07-01",
+      "note": "tipped employees $9.25; applies where municipalities have not opted out",
+      "source": {
+        "url": "https://www.cookcountyil.gov/service/minimum-wage-ordinance-and-regulations",
+        "quote": "As of July 1, 2026, the minimum wage in Cook County is $15.40 per hour for non-tipped employees and $9.25 per hour for tipped employees.",
+        "accessed": "2026-10-11"
+      }
+    }
+  ],
+  "overtime": {
+    "weeklyHours": 40,
+    "dailyHours": null,
+    "doubleTime": null,
+    "seventhDay": null,
+    "exemptSalaryWeekly": null,
+    "exemptSalaryNote": "Illinois follows the federal white-collar salary threshold",
+    "note": "",
+    "source": {
+      "url": "https://labor.illinois.gov/laws-rules/fls/minimum-wage-law.html",
+      "quote": "Overtime must be paid after 40 hour of work per week at time and one-half the regular rate.",
+      "accessed": "2026-10-11"
+    }
+  },
+  "sickLeave": {
+    "mandatory": true,
+    "accrual": "1 hour of paid leave for every 40 hours worked, usable for any reason (Paid Leave for All Workers Act)",
+    "accrualPerHours": 40,
+    "capHours": 40,
+    "capNote": "up to 40 hours per 12-month period (or frontloaded); usable after 90 days of employment. Chicago and Cook County have their own ordinances instead (Chicago: 1 h paid leave + 1 h paid sick leave per 35 h worked)",
+    "employerThreshold": "all employers, including non-profits",
+    "effective": "2024-01-01",
+    "note": "Leave can be taken for any reason; no reason may be required. Not paid out at separation unless it is part of a vacation/PTO bank.",
+    "source": {
+      "url": "https://labor.illinois.gov/faqs/paidleavefaq.html",
+      "quote": "PLAWA went into effect on January 1, 2024. Accrual of paid leave begins upon the start of employment or January 1, 2024, whichever is later.",
+      "accessed": "2026-10-11"
+    }
+  },
+  "familyLeave": {
+    "paidProgram": false,
+    "name": null,
+    "benefitsStart": null,
+    "maxWeeks": null,
+    "replacement": null,
+    "maxWeeklyBenefit2026": null,
+    "medicalLeave": null,
+    "stateUnpaidLaw": null,
+    "source": null
+  },
+  "finalPay": {
+    "fired": "by the next regularly scheduled payday",
+    "firedDays": null,
+    "quit": "by the next regularly scheduled payday",
+    "quitNotice": null,
+    "ptoPayout": "required",
+    "ptoNote": "earned vacation under a contract, agreement or policy must be paid at separation (Section 300.520); PLAWA paid leave is not, unless it is part of a vacation/PTO bank",
+    "source": {
+      "url": "https://labor.illinois.gov/faqs/wage-payment-faq.html",
+      "quote": "All final compensation, including bonus payments, vacation pay, wages and commissions must be paid on your next regularly scheduled payday.",
+      "accessed": "2026-10-11"
+    },
+    "ptoSource": {
+      "url": "https://labor.illinois.gov/faqs/vacation-faq.html",
+      "quote": "Yes. A former employee has a claim under the Act for the collection of the monetary equivalent of his/her vacation time earned in accordance with an employment contract, agreement or policy.",
+      "accessed": "2026-10-11"
+    }
+  },
+  "breaks": {
+    "meal": "20-minute meal break for every 7.5 hours worked, no later than 5 hours after the start of the shift; an additional 20 minutes for shifts of 12 hours or longer",
+    "mealMinutes": 20,
+    "mealAfterHours": 7.5,
+    "rest": null,
+    "restMinutes": null,
+    "restPerHours": null,
+    "minorsOnly": null,
+    "source": {
+      "url": "https://labor.illinois.gov/faqs/odrisa-faq.html",
+      "quote": "employees must be permitted to take a meal break for every 7.5 hours worked no later than 5 hours after the start of the shift. An additional 20-minute meal break must be permitted if working a 12-hour shift or longer.",
+      "accessed": "2026-10-11"
+    }
+  },
+  "rightToWork": false,
+  "rightToWorkSource": null,
+  "atWill": "at-will",
+  "notes": [
+    {
+      "text": "The Paid Leave for All Workers Act (in force since January 1, 2024) gives up to 40 hours of paid leave a year that can be used for any reason, not only illness; employers cannot require a reason.",
+      "source": {
+        "url": "https://labor.illinois.gov/laws-rules/paidleave.html",
+        "quote": "can use paid leave for any reason and employers may not require workers to provide a basis for their time off request. Workers earn one (1) hour of paid leave for every 40 hours they work.",
+        "accessed": "2026-10-11"
+      }
+    },
+    {
+      "text": "Workers in Chicago and Cook County are covered by local paid leave ordinances instead of the state act; Chicago grants 1 hour of paid leave plus 1 hour of paid sick leave per 35 hours worked.",
+      "source": {
+        "url": "https://www.chicago.gov/city/en/depts/bacp/supp_info/paidsickleaveinfo.html",
+        "quote": "For every 35 hours worked, employees accrue one hour of paid leave and one hour of paid sick leave.",
+        "accessed": "2026-10-11"
+      }
+    },
+    {
+      "text": "Illinois will stop recognizing licenses to pay workers with disabilities less than the minimum wage on December 31, 2029.",
+      "source": {
+        "url": "https://labor.illinois.gov/laws-rules/fls/minimum-wage-law.html",
+        "quote": "On December 31, 2029, the Illinois Department of Labor will stop issuing and recognizing licenses to pay disabled workers less than the full minimum wage rate",
+        "accessed": "2026-10-11"
+      }
+    }
+  ],
+  "uncertain": [
+    "ilga.gov (statute text: 820 ILCS 115/5, 820 ILCS 140/3) refused connections today; final pay and meal break taken from the Illinois Department of Labor FAQ pages instead.",
+    "Chicago and Cook County rates in force from January 1 to June 30, 2026 (before the July 1, 2026 increase) were not verified on an official page; only the July 1, 2026 rates are listed.",
+    "Cook County paid leave ordinance details (accrual/cap) not read; Cook County page lists '/service/paid-leave-ordinance-and-regulations'. Right-to-work false is from general knowledge of Illinois law (no RTW statute; Workers' Rights Amendment 2022) and was not re-read on an official page today."
+  ]
+}

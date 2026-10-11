@@ -129,3 +129,18 @@ Puis l'orchestrateur : `npm run build`, `check-unique`, `check-seo`, `check-tram
 
 - Ne pas toucher au cœur (`src/lib/*.ts` hors `src/lib/minis/`, `src/components`, `src/data`, `scripts`) sans le dire au compte rendu.
 - Ne pas toucher à `_trame`, à la RECETTE, ni à un autre site. Pas de dépôt GitHub, pas de push, pas de DNS, pas de Chrome.
+
+## Limites connues (2026-10-11)
+
+- **`check-sources.mjs`** lit aussi `research/` (≈ 410 URL). Une quarantaine de sites d'État répondent 403 aux
+  robots (Rhode Island, Tennessee, Nouveau-Mexique, Colorado, Missouri, Texas, legislatures de NY et NC…) et une
+  dizaine coupent la connexion (Nebraska, codes.ohio.gov, oscn.net) : les agents les ont lus par WebFetch, par
+  copie de l'Internet Archive ou par proxy texte, ce qui est noté dans `uncertain` du fichier d'État. Revérifier
+  à la main avant de conclure qu'un lien est mort.
+- **Right-to-work non confirmé** : `rightToWork: null` dans le relevé devient `rightToWorkUnknown: true` ; la page
+  et les minis n'affirment rien (Arkansas, Wisconsin au 2026-10-11).
+- **Délais en jours ouvrés** : une règle de dernier salaire dont le texte dit « business day » ou « working day »
+  est comptée en jours ouvrés (`countsBusinessDays`), jours fériés non modélisés.
+- **Seuils hebdomadaires d'État au-dessus de 40 h** (Minnesota 48, Kansas 46) : affichés comme règle fédérale de
+  40 h, le seuil d'État ne vaut que pour les emplois hors FLSA.
+- **Minis entre deux paragraphes** : `check-layout` signale un « trou » ; toujours placer un mini juste avant un `<h2>`.

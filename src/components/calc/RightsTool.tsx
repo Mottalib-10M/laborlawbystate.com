@@ -33,7 +33,7 @@ export default function RightsTool({ states, state, lockState = false, methodHre
     ['Your rate against it', below ? `${usd2(S.mw - rate)} an hour short` : 'At or above the minimum'],
     [`Overtime: ${ot.otHours + ot.doubleHours > 0 ? `${ot.otHours} h at 1.5x${ot.doubleHours ? `, ${ot.doubleHours} h at 2x` : ''}` : 'none this week'}`, usd(ot.otPay + ot.doublePay)],
     ['Paid sick leave earned in a year', S.sick.mandatory && S.sick.perHours ? `${Math.floor(sick.accrued)} hours${sick.capped ? ' (cap reached)' : ''}` : 'No statewide paid sick leave law'],
-    [`Breaks owed in a ${hpd}-hour shift`, br.meals || br.rests ? [br.meals ? `${br.mealMinutes} min meal` : '', br.rests ? `${br.rests} x ${br.restMinutes / br.rests} min paid rest` : ''].filter(Boolean).join(', ') : S.breaks.minorsOnly ? 'None for adults (minors only)' : 'None required for adults'],
+    [`Breaks owed in a ${hpd}-hour shift`, br.meals || br.rests ? [br.meals ? `${br.mealMinutes} min meal` : '', br.rests ? `${br.rests} x ${br.restMinutes / br.rests} min paid rest` : ''].filter(Boolean).join(', ') : S.breaks.meal || S.breaks.rest ? 'State rule without a set length: see the state page' : S.breaks.minorsOnly ? 'None for adults (minors only)' : 'None required for adults'],
     ['Final paycheck if fired', S.final.fired],
     ['Unused vacation at the end', ptoText(S.final.pto)],
     ['Paid family leave', S.pfl ? `${S.pfl.name}${S.pfl.from ? ` (benefits from ${S.pfl.from})` : ''}${S.pfl.weeks ? `, up to ${S.pfl.weeks} weeks` : ''}` : 'No state program'],
