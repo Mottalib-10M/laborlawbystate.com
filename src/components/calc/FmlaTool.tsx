@@ -42,7 +42,7 @@ export default function FmlaTool({ states, state, lockState = false, methodHref 
   return (
     <div className="rechner rounded-xl border border-navy-200 bg-white p-4 sm:p-6">
       <div className="grid gap-6 lg:grid-cols-2 lg:items-start">
-      <form className="grid gap-x-5 gap-y-4 sm:grid-cols-2" onSubmit={(e) => e.preventDefault()}>
+      <form className="grid content-start gap-x-5 gap-y-4 sm:grid-cols-2" onSubmit={(e) => e.preventDefault()}>
         {lockState ? <LockedField label="State" value={S.name} /> : <SelectField id={`${p}-st`} label="State where you work" value={slug} onChange={setSlug} options={stateOptions(states)} />}
         <Toggle id={`${p}-pub`} label="Public agency or school?" value={pub} onChange={(v) => setPub(v as '0' | '1')} options={[{ value: '0', label: 'No' }, { value: '1', label: 'Yes' }]} />
         <NumberField id={`${p}-e`} label={`Employees within ${F.radiusMiles} miles`} value={site} onChange={setSite} max={1000000} help="Of your employer, counted around your worksite." />

@@ -35,7 +35,7 @@ export default function MinWageTool({ states, state, lockState = false, methodHr
   return (
     <div className="rechner rounded-xl border border-navy-200 bg-white p-4 sm:p-6">
       <div className="grid gap-6 lg:grid-cols-2 lg:items-start">
-      <form className="grid gap-x-5 gap-y-4 sm:grid-cols-2" onSubmit={(e) => e.preventDefault()}>
+      <form className="grid content-start gap-x-5 gap-y-4 sm:grid-cols-2" onSubmit={(e) => e.preventDefault()}>
         {lockState ? <LockedField label="State" value={S.name} /> : <SelectField id={`${p}-st`} label="State" value={slug} onChange={(v) => { setSlug(v); setArea(0); }} options={stateOptions(states)} />}
         {opts.length > 1 ? <SelectField id={`${p}-a`} label="Area or city" value={String(area)} onChange={(v) => setArea(Number(v))} options={opts} /> : <LockedField label="Area or city" value={opts[0]?.label ?? 'Statewide'} />}
         <NumberField id={`${p}-h`} label="Hours per week" value={hours} onChange={setHours} unit="h" max={100} decimals={1} />
