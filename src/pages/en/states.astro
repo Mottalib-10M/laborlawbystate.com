@@ -21,7 +21,6 @@ const has = (id: string) => ROUTES.some((r) => r.id === id);
   <header class="mb-6">
     <h1 class="font-serif text-3xl font-bold text-navy-900 md:text-4xl">{X.h1}</h1>
     <p class="mt-3 text-lg text-navy-700">{X.intro}</p>
-    <p class="mt-3 text-sm text-navy-600">{t(lang).updatedOn} <time datetime={LAST_UPDATED}>{displayDate(LAST_UPDATED, __LT[lang])}</time></p>
   </header>
   <MiniSim client:load kind="stateCompare" arg={JSON.stringify(stateArg())} href={route('home', lang)} lead />
   <p class="mb-6 text-navy-800">{X.resume}</p>
